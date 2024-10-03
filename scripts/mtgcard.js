@@ -156,7 +156,7 @@ hexo.extend.filter.register("after_post_render", (data) => {
  * MtG card tag
  * @example
  * // "cardname" can be English or printed name.
- * {% mtgcard "cardname" [edition] [language=string] [tooltip=true|false] %}
+ * {% mtgcard "cardname" [edition] [language=string] [tooltip=true|false] [alt=string] %}
  */
 hexo.extend.tag.register(
   "mtgcard",
@@ -283,7 +283,7 @@ hexo.extend.tag.register(
 /**
  * MtG pick card tag
  * @example
- * {% mtgpick "expansion" "collection number" [language=string] [tooltip=true|false] %}
+ * {% mtgpick "expansion" "collection number" [language=string] [tooltip=true|false] [alt=string] %}
  */
 hexo.extend.tag.register(
   "mtgpick",
