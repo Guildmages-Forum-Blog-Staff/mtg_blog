@@ -197,6 +197,26 @@ hexo.extend.tag.register(
       return argument;
     })(args);
 
+    // First, get bulk data from here.
+    let bulk_data;
+    try {
+      bulk_data = JSON.parse(
+        await fs.readFile("./scripts/bulk_data/oracle-cards.json", {
+          encoding: "utf8",
+        })
+      );
+    } catch (err) {
+      // console.log(err);
+    }
+    let bulk_data_result = bulk_data.filter((c) => {
+      return (
+        c.name.toLowerCase() === argv.name.toLowerCase() &&
+        (argv.edition === "" ||
+          c.set.toLowerCase() === argv.edition.toLowerCase())
+      );
+    });
+
+    let data;
     let scryfallAPIPath = `/cards/search?q=!%22${argv.search}%22`;
     if (argv.edition !== "") {
       scryfallAPIPath += `+set:${argv.edition}`;
@@ -205,47 +225,57 @@ hexo.extend.tag.register(
       scryfallAPIPath += `+lang:${argv.language}`;
       scryfallAPIPath += "&include_multilingual=1";
     }
-    try {
-      const data = await httpRequest({
-        host: "api.scryfall.com",
-        method: "GET",
-        headers: {
-          "User-Agent": userAgentString,
-        },
-        path: scryfallAPIPath,
-      });
-      await sleep(500);
-      let card = data.data[0];
-      if (undefined === card) {
-        argv.tooltip = false;
-        card["image_uris"]["large"] = "#";
-        card["scryfall_uri"] = "#";
-      }
-
-      let html, cardImageUrl;
-      if (card.image_uris !== undefined) {
-        cardImageUrl = card.image_uris.large;
-      } else {
-        cardImageUrl = card.card_faces[0].image_uris.large;
-      }
-      if (argv.tooltip) {
-        html = render(tpl.tooltip, {
-          URL: card.scryfall_uri,
-          NAME: argv.name,
-          IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
+    if (bulk_data_result.length === 1) {
+      // Hit. No scryfall API.
+      data = bulk_data_result[0];
+      hexo.log.info(`Request bulk data: ${scryfallAPIPath}`);
+    } else {
+      // Call Scryfall API.
+      try {
+        const response = await httpRequest({
+          host: "api.scryfall.com",
+          method: "GET",
+          headers: {
+            "User-Agent": userAgentString,
+          },
+          path: scryfallAPIPath,
         });
-      } else {
-        html = render(tpl.image, { IMG: cardImageUrl });
+        data = response.data[0];
+        hexo.log.info(`Request Scryfall API: ${scryfallAPIPath}`);
+        await sleep(500);
+      } catch (err) {
+        return (
+          "<p><em>Error getting card data: <br />" +
+          `Arguments: ${args}<br />` +
+          `Query: ${JSON.stringify(argv)}<br />` +
+          `API Path: ${scryfallAPIPath}</em></p>`
+        );
       }
-      return html;
-    } catch (err) {
-      return (
-        "<p><em>Error getting card data: <br />" +
-        `Arguments: ${args}<br />` +
-        `Query: ${JSON.stringify(argv)}<br />` +
-        `API Path: ${scryfallAPIPath}</em></p>`
-      );
     }
+
+    let card = data;
+    let html, cardImageUrl;
+    if (undefined === card) {
+      argv.tooltip = false;
+      card["image_uris"]["large"] = "#";
+      card["scryfall_uri"] = "#";
+    }
+
+    if (card.image_uris !== undefined) {
+      cardImageUrl = card.image_uris.large;
+    } else {
+      cardImageUrl = card.card_faces[0].image_uris.large;
+    }
+    if (argv.tooltip) {
+      html = render(tpl.tooltip, {
+        URL: card.scryfall_uri,
+        NAME: argv.name,
+        IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
+      });
+    } else {
+      html = render(tpl.image, { IMG: cardImageUrl });
+    }
+    return html;
   },
   { async: true },
 );
