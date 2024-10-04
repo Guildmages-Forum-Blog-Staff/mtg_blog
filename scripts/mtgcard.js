@@ -294,10 +294,10 @@ hexo.extend.tag.register(
       argArray.forEach((entry, index) => {
         if (index === 0) {
           // Expansion
-          argument["edition"] = entry;
+          argument["edition"] = encodeURIComponent(entry);
         } else if (index === 1) {
           // Collection number.
-          argument["collectionNumber"] = entry;
+          argument["collectionNumber"] = encodeURIComponent(entry);
         } else {
           // Options. Style: `key:value` or `key=value`.
           if (entry.includes(":")) {
@@ -305,13 +305,13 @@ hexo.extend.tag.register(
             argument[tmp[0]] =
               tmp[1] === "true" || tmp[1] === "false"
                 ? tmp[1] === "true"
-                : tmp[1];
+                : encodeURIComponent(tmp[1]);
           } else if (entry.includes("=")) {
             let tmp = entry.split("=");
             argument[tmp[0]] =
               tmp[1] === "true" || tmp[1] === "false"
                 ? tmp[1] === "true"
-                : tmp[1];
+                : encodeURIComponent(tmp[1]);
           }
         }
       });
