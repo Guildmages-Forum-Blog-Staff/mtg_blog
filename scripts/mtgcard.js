@@ -334,7 +334,7 @@ hexo.extend.tag.register(
     }
     let bulk_data_result = bulk_data.filter((c) => {
       return (
-        c.set === argv.edition &&
+        c.set.toLowerCase() === argv.edition.toLowerCase() &&
         parseInt(c.collector_number) === parseInt(argv.collectionNumber)
       );
     });
