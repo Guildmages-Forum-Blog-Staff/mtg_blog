@@ -113,3 +113,8 @@ a.k.a [特別亂打](https://www.facebook.com/egavasmtg)，努力不要亂打的
 沒有aka，本名[王靖](https://www.facebook.com/loudsidewang/)。
 臺北征服EDH愛好團無薪長工；時報出版、鏡文學授權作者。
 娛樂向指揮官玩家，擁有一群享受Conquest賽制的低調好友，期待未來在限制賽領域更加精進。臨老入牌叢，一堆看攏無。
+
+## [ZHAN](/tags/zhan/)
+
+阿詹，休閒指揮官玩家，最喜歡的指揮官是[Awaken the Blood Avatar](https://scryfall.com/card/stx/149/extus-oriq-overlord-awaken-the-blood-avatar?back)。
+打牌無條理，右手型玩家，最喜歡雙方資源交換完後的牌庫比拼。
