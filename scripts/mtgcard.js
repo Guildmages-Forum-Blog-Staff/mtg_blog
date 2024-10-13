@@ -1,3 +1,5 @@
+"use strict";
+
 const http = require("node:https");
 const fs = require("node:fs/promises");
 
