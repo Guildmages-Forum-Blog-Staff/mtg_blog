@@ -1,4 +1,4 @@
-const http = require("https");
+const http = require("node:https");
 const fs = require("node:fs/promises");
 
 let tpl = {
