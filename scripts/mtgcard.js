@@ -6,33 +6,37 @@ const fs = require("node:fs/promises");
 let tpl = {
   image: `<img class="mtgcard w-full" src="##IMG##">`,
   tooltip_image: `<img class="mtgcard" src="##IMG##">`,
-  tooltip: `<a class="tooltip" href="##URL##">##NAME##
-  <span>##IMG##</span>
-</a>`,
-  style: `<style>
-  .tooltip span { display: none; color: black; }
-  .mtgcard { max-width: 300px !important; }
-  .tooltip span img { float: left; margin: 0px 0px 0px 0px; }
-  .tooltip:hover span {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    margin-top: 12px;
-    margin-left: 32px;
-    /* width: 100%; */
-    overflow: hidden;
-    padding: 8px;
-  }
-  .tooltip {
-    text-decoration: none;
-    position: relative;
-    display: inline;
-    opacity: 1;
-    z-index: unset;
-  }
-</style>`,
+  tooltip: `
+  <a class="tooltip" href="##URL##">##NAME##
+    <span>##IMG##</span>
+  </a>
+  `.replace(/(\r\n|\n|\r)/gm, ""),
+  style: `
+    <style>
+      .tooltip span { display: none; color: black; }
+      .mtgcard { max-width: 300px !important; }
+      .tooltip span img { float: left; margin: 0px 0px 0px 0px; }
+      .tooltip:hover span {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        margin-top: 12px;
+        margin-left: 32px;
+        /* width: 100%; */
+        overflow: hidden;
+        padding: 8px;
+      }
+      .tooltip {
+        text-decoration: none;
+        position: relative;
+        display: inline;
+        opacity: 1;
+        z-index: unset;
+      }
+    </style>
+  `,
 };
 
 let userAgentString = "curl/8.5.0"; // Ubuntu 24.04.
