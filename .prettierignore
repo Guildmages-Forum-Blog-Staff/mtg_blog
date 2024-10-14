@@ -1,0 +1,5 @@
+# Exclude everything except specific files in specific directories.
+/*
+!/scripts/
+/scripts/*
+!/scripts/*.js
