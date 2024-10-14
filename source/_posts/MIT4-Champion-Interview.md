@@ -1,7 +1,7 @@
 ---
 
 title: "世界賽選手訪談－MIT第四輪冠軍 陳柏宏 (蹦蹦)"
-date: "2024-10-14 10:48:45"
+date: "2024-10-14 11:20:57"
 tags:
   - "faintmama"
 authors:
@@ -10,7 +10,7 @@ categories:
   - "Others"
   - "Interview"
 cover: "https://i.meee.com.tw/Twp8tYv.jpg"
-thumbnail: "https://i.meee.com.tw/Twp8tYv.jpg"
+thumbnail: "https://i.meee.com.tw/sniS8mY.jpg"
 excerpt: "在和蹦蹦正式碰面以前，其實筆者就已是他的潛水粉絲了。[勇德大叔的日常](https://www.facebook.com/UncleJund)粉專充斥著大叔式的日常笑點，有趣之餘也流洩著選手的價值觀及魅力。且看大叔與大叔的交流會迸出什麼火花吧！"
 ---
 
