@@ -75,6 +75,43 @@ function httpRequest(params, postData) {
   });
 }
 
+function parseSearchTagArgs(argArray) {
+  let argument = {};
+  argArray.forEach((entry, index) => {
+    if (index === 0) {
+      // Name.
+      argument["search"] = encodeURIComponent(entry);
+      argument["name"] = entry;
+    } else {
+      if (index === 1 && entry.length === 3) {
+        // Expansion.
+        // TODO: Use `mathiasbynens/he` when possible.
+        argument["edition"] = encodeURIComponent(entry);
+      } else {
+        // Options. Style: `key:value` or `key=value`.
+        if (entry.includes(":")) {
+          let tmp = entry.split(":");
+          argument[tmp[0]] =
+            tmp[1] === "true" || tmp[1] === "false"
+              ? tmp[1] === "true"
+              : encodeURIComponent(tmp[1]);
+        } else if (entry.includes("=")) {
+          let tmp = entry.split("=");
+          argument[tmp[0]] =
+            tmp[1] === "true" || tmp[1] === "false"
+              ? tmp[1] === "true"
+              : encodeURIComponent(tmp[1]);
+        }
+      }
+    }
+  });
+  if (undefined === argument.tooltip) argument.tooltip = false;
+  if (undefined === argument.edition) argument.edition = "";
+  if (undefined === argument.language) argument.language = "en";
+
+  return argument;
+}
+
 hexo.extend.filter.register("after_post_render", (data) => {
   data.content += tpl.style;
   return data;
@@ -89,42 +126,7 @@ hexo.extend.filter.register("after_post_render", (data) => {
 hexo.extend.tag.register(
   "mtgcard",
   async (args) => {
-    let argv = ((argArray) => {
-      let argument = {};
-      argArray.forEach((entry, index) => {
-        if (index === 0) {
-          // Name.
-          argument["search"] = encodeURIComponent(entry);
-          argument["name"] = entry;
-        } else {
-          if (index === 1 && entry.length === 3) {
-            // Expansion.
-            // TODO: Use `mathiasbynens/he` when possible.
-            argument["edition"] = encodeURIComponent(entry);
-          } else {
-            // Options. Style: `key:value` or `key=value`.
-            if (entry.includes(":")) {
-              let tmp = entry.split(":");
-              argument[tmp[0]] =
-                tmp[1] === "true" || tmp[1] === "false"
-                  ? tmp[1] === "true"
-                  : encodeURIComponent(tmp[1]);
-            } else if (entry.includes("=")) {
-              let tmp = entry.split("=");
-              argument[tmp[0]] =
-                tmp[1] === "true" || tmp[1] === "false"
-                  ? tmp[1] === "true"
-                  : encodeURIComponent(tmp[1]);
-            }
-          }
-        }
-      });
-      if (undefined === argument.tooltip) argument.tooltip = false;
-      if (undefined === argument.edition) argument.edition = "";
-      if (undefined === argument.language) argument.language = "en";
-
-      return argument;
-    })(args);
+    let argv = parseSearchTagArgs(args);
 
     // First, get bulk data from here.
     let bulk_data;
@@ -218,40 +220,7 @@ hexo.extend.tag.register(
 hexo.extend.tag.register(
   "mtglink",
   async (args) => {
-    let argv = ((argArray) => {
-      let argument = {};
-      argArray.forEach((entry, index) => {
-        if (index === 0) {
-          // Name.
-          argument["search"] = encodeURIComponent(entry);
-          argument["name"] = entry;
-        } else {
-          if (index === 1 && entry.length === 3) {
-            // Expansion.
-            argument["edition"] = encodeURIComponent(entry);
-          } else {
-            // Options. Style: `key:value` or `key=value`.
-            if (entry.includes(":")) {
-              let tmp = entry.split(":");
-              argument[tmp[0]] =
-                tmp[1] === "true" || tmp[1] === "false"
-                  ? tmp[1] === "true"
-                  : encodeURIComponent(tmp[1]);
-            } else if (entry.includes("=")) {
-              let tmp = entry.split("=");
-              argument[tmp[0]] =
-                tmp[1] === "true" || tmp[1] === "false"
-                  ? tmp[1] === "true"
-                  : encodeURIComponent(tmp[1]);
-            }
-          }
-        }
-      });
-      if (undefined === argument.edition) argument.edition = "";
-      if (undefined === argument.language) argument.language = "en";
-
-      return argument;
-    })(args);
+    let argv = parseSearchTagArgs(args);
 
     // First, get bulk data from here.
     let bulk_data;
