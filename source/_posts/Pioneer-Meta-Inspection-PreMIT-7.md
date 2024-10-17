@@ -1,6 +1,6 @@
 ---
 title: "Pioneer 環境考察 preMIT #7"
-date: "2024-10-17 12:58:54"
+date: "2024-10-17 14:15:21"
 tags:
   - "MiohitoKiri5474"
 cover: "https://guildmagesforum.tw/images/RB-Mice.png"
@@ -136,7 +136,7 @@ Dimir Rouges 拿到八強了。
 ⋯⋯Dimir Rouges 拿到八強了？！
 都 4202 年了怎麼還有人在打 Dimir Rogues？！
 
-基本上構築就是很標準的浪客大集合，另外選則正編兩張 {% mtgcard "Archfiend of the Dross" tooltip=true %}、備牌兩張 {% mtgcard "The Meathook Massacre"%} 打犧牲。
+基本上構築就是很標準的浪客大集合，另外選則正編兩張 {% mtgcard "Archfiend of the Dross" tooltip=true %}、備牌兩張 {% mtgcard "The Meathook Massacre" tooltip=true %} 打犧牲。
 另外這套牌算是打控制的好選擇，生物幾乎都有閃現的同時也有掉手也有康，都是控制會感覺不舒服的東西。
 但打一些對局（例如 Phoenix 還有 Phoenix 或是 Phoenix 以及 Phoenix，外加一個 Greasefang）蠻不舒服的，幫對手堆墳不一定是一件好事。
 
