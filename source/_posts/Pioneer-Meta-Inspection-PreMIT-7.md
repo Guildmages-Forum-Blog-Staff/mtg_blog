@@ -1,6 +1,6 @@
 ---
 title: "Pioneer 環境考察 preMIT #7"
-date: "2024-10-17 09:42:23"
+date: "2024-10-17 09:45:15"
 tags:
   - "MiohitoKiri5474"
 cover: "https://guildmagesforum.tw/images/RB-Mice.png"
@@ -61,16 +61,16 @@ categories:
 現在的 UWx Control 可以說是版本解答，左打 Phoenix 右踢 Rakdos Aggro，構築基本上和之前的結構差不多，不過冠軍牌表比起抽濾放了更多的解牌，打前面提到兩套牌時比較不用花前兩三個回合找解答，畢竟現在 Rakdos Aggro 三回就能斬人了，二回還在做 {% mtgcard "Deduce" tooltip=true %} 有那麼億點爛⋯⋯
 但這樣的代價是，預期在打 Control mirror 和 5C Enigmatic Incarnation 的時候不太舒服，像是 {% mtgcard "Portable Hole" tooltip=true %} 在這個對局中根本是辣雞⋯⋯
 
-{% mtgcard "High Moon" %}
+{% mtgcard "High Noon" %}
 
-另外值得注意的是，現在不管是在正編或是備牌，幾乎都可以看到 {% mtgcard "High Moon" tooltip=true %}，一回合只能做一個咒語非常適合控制和當前的 meta，雖然這樣在對手的回合只能做一張咒語，不過控制最期望的節奏就是一換一將對局拖到大後期，同時也能阻止 Phoenix 和 Rakdos Aggro 前三回合的超絕展開。
+另外值得注意的是，現在不管是在正編或是備牌，幾乎都可以看到 {% mtgcard "High Noon" tooltip=true %}，一回合只能做一個咒語非常適合控制和當前的 meta，雖然這樣在對手的回合只能做一張咒語，不過控制最期望的節奏就是一換一將對局拖到大後期，同時也能阻止 Phoenix 和 Rakdos Aggro 前三回合的超絕展開。
 
 ### 5C Enigmatic Incarnation
 
 ![](https://cdn.melee.gg/decklists/579e462b-0af4-403a-8462-dcb16fb9dbe2.jpg?v=1)
 
 雖然 list 上面還是寫作 Enigmatic Fires，不過現在其實都不會帶 {% mtgcard "Fires of Invention" tooltip=true %} 了。
-主要理由和前面講 Azorius Control 時一樣，作為慢速套牌 {% mtgcard "High Moon" tooltip=true %} 相當適合，同樣的可以阻止 Phoenix 和 Rakdos Aggro 的超絕展開，並且需要的時候也能給 {% mtgcard "Enigmatic Incarnation" tooltip=true %} 吃掉找三費的生物工具箱。
+主要理由和前面講 Azorius Control 時一樣，作為慢速套牌 {% mtgcard "High Noon" tooltip=true %} 相當適合，同樣的可以阻止 Phoenix 和 Rakdos Aggro 的超絕展開，並且需要的時候也能給 {% mtgcard "Enigmatic Incarnation" tooltip=true %} 吃掉找三費的生物工具箱。
 
 另外紅霸主 {% mtgcard "Overlord of the Boilerbilges" tooltip=true %} 和綠霸主 {% mtgcard "Overlord of the Hauntwoods" tooltip=true %} 都非常適合這套牌，一來是節奏上適合，同時也能搭配 {% mtgcard "Up the Beanstalk" tooltip=true %} 做到解場 + 抽牌，同時可以被 {% mtgcard "Enigmatic Incarnation" tooltip=true %} 找也能當其肥料、又能搭配 {% mtgcard "Fable of the Mirror-Breaker" tooltip=true %} 做展開/斬殺，可說是一卡多用。
 
@@ -85,7 +85,7 @@ Rakdos Aggro 也算是現在的環境新寵兒，基本上可以將其看作是�
 雖然如同標準搭配新的地脈 {% mtgcard "Leyline of Resonance" tooltip=true %} 可以打到更高的上限，不過有鑒於先驅比起標準有更多的低費去除（{% mtgcard "Fatal Push" tooltip=true %}、{% mtgcard "March of Otherworldly Light" tooltip=true %}、{% mtgcard "Play with Fire" tooltip=true %}），拼這個上限的回報太低。
 
 這兩套構築都大同小異，都是正編拼上限、備牌才在防守，不過可能是考慮到會有不少內戰所以都在正編帶了兩張 {% mtgcard "Fatal Push" tooltip=true %} 和兩張 {% mtgcard "Reckless Rage" tooltip=true %}。
-另外為了對應 {% mtgcard "High Moon" tooltip=true %}，都選擇在備牌帶 {% mtgcard "Feed the Swarm" tooltip=true %}。
+另外為了對應 {% mtgcard "High Noon" tooltip=true %}，都選擇在備牌帶 {% mtgcard "Feed the Swarm" tooltip=true %}。
 對應中速和控制等套牌則是選用 {% mtgcard "Ob Nixilis, the Adversary" tooltip=true %}，拉長戰局時歐尼醬壓縮對手血量的同時 clock 對手，真的很舒服。
 
 ### Rakdos Transmogrify
@@ -201,7 +201,7 @@ Cauldron 因為卡地只能硬著頭皮抽一棄一把 {% mtgcard "Tree of Perdi
 ![](https://cdn.melee.gg/decklists/f36e8c35-5c14-4a9e-9ff5-6618e93f6c8a.jpg?v=1)
 
 這兩套 Phoenix 長得基本上差不多，只是細節上的差異。
-另外現在的 Phoenix 正編局基本上都會帶回手或是拆了，沒辦法 {% mtgcard "High Moon" tooltip=true %} 太多了解不完。
+另外現在的 Phoenix 正編局基本上都會帶回手或是拆了，沒辦法 {% mtgcard "High Noon" tooltip=true %} 太多了解不完。
 
 剩下就是備牌選擇了，按照不同的想法有不同的備牌策略。
 
@@ -378,7 +378,7 @@ Day 2 我們則可以看到 Mono-Black Demons 的轉換率最高，再次證明�
 
 ![](https://cdn.melee.gg/decklists/51c3cc59-6804-4017-b44d-cb07e55f8762.jpg?v=1)
 
-基本上就是標準的 Boros Token Control，然後加上 {% mtgcard "Fable of the Mirror-Breaker" tooltip=true %} 和 {% mtgcard "March of the Otherworldly Light" tooltip=true %}，有些人會放 {% mtgcard "Wedding Announcement" tooltip=true %}。
+基本上就是標準的 Boros Token Control，然後加上 {% mtgcard "Fable of the Mirror-Breaker" tooltip=true %} 和 {% mtgcard "March of Otherworldly Light" tooltip=true %}，有些人會放 {% mtgcard "Wedding Announcement" tooltip=true %}。
 打 UW Control 或是中速對局很舒服，資源很難斷。
 
 ### Sultai Landfall Combo
