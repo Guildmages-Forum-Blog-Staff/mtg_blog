@@ -108,7 +108,7 @@ deploy:
   branch: gp_deploy
 
 # Neat
-all_minifier: True
+all_minifier: False
 
 # nofollow
 nofollow:

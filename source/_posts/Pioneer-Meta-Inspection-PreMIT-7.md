@@ -1,10 +1,10 @@
 ---
 title: "Pioneer 環境考察 preMIT #7"
-date: "2024-10-17 09:22:28"
+date: "2024-10-17 09:42:23"
 tags:
   - "MiohitoKiri5474"
-cover: "https://guildmagesforum.tw/images/RB-Mice.jpg"
-thumbnail: "https://guildmagesforum.tw/images/RB-Mice.jpg"
+cover: "https://guildmagesforum.tw/images/RB-Mice.png"
+thumbnail: "https://guildmagesforum.tw/images/RB-Mice.png"
 excerpt: "老鼠準備稱霸環境⋯⋯嗎？"
 authors:
   - "MiohitoKiri5474"
