@@ -1,6 +1,6 @@
 ---
 title: "Pioneer 環境考察 preMIT #7"
-date: "2024-10-17 09:45:15"
+date: "2024-10-17 09:46:06"
 tags:
   - "MiohitoKiri5474"
 cover: "https://guildmagesforum.tw/images/RB-Mice.png"
@@ -385,7 +385,7 @@ Day 2 我們則可以看到 Mono-Black Demons 的轉換率最高，再次證明�
 
 ![](https://cdn.melee.gg/decklists/438ccaaf-3077-45a2-8b00-e51ebe683a1f.jpg?v=1)
 
-前面各種 ramp，後面用 {% mtgcard "Port of Karfell" tooltip=true %} 複製 {% mtgcard "Lumra, Bellow of the Woods" tooltip=true %} 將整套牌都磨進墳場後將所有地挖回來，其中就包括 {% mtgcard "Festering Gluch" tooltip=true %} 這張進場會打對手一點的地並用 {% mtgcard "Lotus Field" tooltip=true %} 將他們吃掉，然後挖回來做無限循環。
+前面各種 ramp，後面用 {% mtgcard "Port of Karfell" tooltip=true %} 複製 {% mtgcard "Lumra, Bellow of the Woods" tooltip=true %} 將整套牌都磨進墳場後將所有地挖回來，其中就包括 {% mtgcard "Festering Gulch" tooltip=true %} 這張進場會打對手一點的地並用 {% mtgcard "Lotus Field" tooltip=true %} 將他們吃掉，然後挖回來做無限循環。
 
 ## 八強數量統計
 
