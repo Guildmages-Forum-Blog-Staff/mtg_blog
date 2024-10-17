@@ -1,6 +1,6 @@
 ---
 title: "Pioneer 環境考察 preMIT #7"
-date: "2024-10-17 09:46:06"
+date: "2024-10-17 12:58:54"
 tags:
   - "MiohitoKiri5474"
 cover: "https://guildmagesforum.tw/images/RB-Mice.png"
@@ -120,7 +120,7 @@ Rakdos Transmogrify 是利用 {% mtgcard "Transmogrify" tooltip=true %} 低費�
 
 其餘的部分我覺得就是很 solid 的構築，不過我個人不太喜歡五張 4 drop 的組法，少了 {% mtgcard "Sheoldred, the Apocalypse" tooltip=true %} 補血源好像不太夠。
 
-另外備牌的兩張 {% mtgcard "Hidetsugu Consumes All" tooltip=true %} 和一張 {% mtgcard "The Meathook Massacre"%}，算是對上 Sacrifice 的大殺器。
+另外備牌的兩張 {% mtgcard "Hidetsugu Consumes All" tooltip=true %} 和一張 {% mtgcard "The Meathook Massacre" tooltip=true %}，算是對上 Sacrifice 的大殺器。
 
 ### Jund Sacrifice
 
@@ -385,7 +385,10 @@ Day 2 我們則可以看到 Mono-Black Demons 的轉換率最高，再次證明�
 
 ![](https://cdn.melee.gg/decklists/438ccaaf-3077-45a2-8b00-e51ebe683a1f.jpg?v=1)
 
-前面各種 ramp，後面用 {% mtgcard "Port of Karfell" tooltip=true %} 複製 {% mtgcard "Lumra, Bellow of the Woods" tooltip=true %} 將整套牌都磨進墳場後將所有地挖回來，其中就包括 {% mtgcard "Festering Gulch" tooltip=true %} 這張進場會打對手一點的地並用 {% mtgcard "Lotus Field" tooltip=true %} 將他們吃掉，然後挖回來做無限循環。
+前面各種 ramp，後面用 {% mtgcard "Port of Karfell" tooltip=true %} 將 {% mtgcard "Lumra, Bellow of the Woods" tooltip=true %} 挖回場上，這時 {% mtgcard "Lumra, Bellow of the Woods" tooltip=true %} 的進場效果會將 {% mtgcard "Port of Karfell" tooltip=true %} 也挖回場上。
+如果墳場有第二隻 {% mtgcard "Lumra, Bellow of the Woods" tooltip=true %} 的話，可以重複此動作將整套牌都磨進墳場，並且將所有地挖回來，其中就包括 {% mtgcard "Festering Gulch" tooltip=true %} 這張進場會打對手一點的地，並用 {% mtgcard "Lotus Field" tooltip=true %} 將他和 {% mtgcard "Lotus Field" tooltip=true %} 自己吃掉，然後挖回來做無限循環。
+不過這個組合技有那麼億點脆弱，如果 {% mtgcard "Festering Gulch" tooltip=true %} 被殺就只能用正攻打死對手，雖然 {% mtgcard "Lumra, Bellow of the Woods" tooltip=true %} 很大隻但他自己沒有踐踏，除了會被殺以外還會被小生物 chump，另外套牌貌似也沒有洗墳手段，如果很不巧的在最後才磨到 {% mtgcard "Festering Gulch" tooltip=true %} 而且被回應放逐，整套牌好像就 GG 了。
+個人建議可以考慮放一張 {% mtgcard "Turn the Earth" tooltip=true %}，以防萬一對手正編就有放墳。
 
 ## 八強數量統計
 
