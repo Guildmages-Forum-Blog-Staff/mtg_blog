@@ -226,63 +226,7 @@ hexo.extend.tag.register(
   async (args) => {
     let argv = parseSearchTagArgs(args);
 
-    // First, get bulk data from here.
-    let bulk_data;
-    try {
-      bulk_data = JSON.parse(
-        await fs.readFile("./scripts/bulk_data/oracle-cards.json", {
-          encoding: "utf8",
-        })
-      );
-    } catch (err) {
-      // console.log(err);
-    }
-    let bulk_data_result = bulk_data.filter((c) => {
-      return (
-        c.name.toLowerCase() === argv.name.toLowerCase() &&
-        (argv.edition === "" ||
-          c.set.toLowerCase() === argv.edition.toLowerCase())
-      );
-    });
-
-    let data;
-    let scryfallAPIPath = `/cards/search?q=!%22${argv.search}%22`;
-    if (argv.edition !== "") {
-      scryfallAPIPath += `+set:${argv.edition}`;
-    }
-    if (argv.language !== "en") {
-      scryfallAPIPath += `+lang:${argv.language}`;
-      scryfallAPIPath += "&include_multilingual=1";
-    }
-    if (bulk_data_result.length === 1) {
-      // Hit. No scryfall API.
-      data = bulk_data_result[0];
-      hexo.log.info(`Request bulk data: ${scryfallAPIPath}`);
-    } else {
-      // Call Scryfall API.
-      try {
-        const response = await httpRequest({
-          host: "api.scryfall.com",
-          method: "GET",
-          headers: {
-            "User-Agent": userAgentString,
-          },
-          path: scryfallAPIPath,
-        });
-        data = response.data[0];
-        hexo.log.info(`Request Scryfall API: ${scryfallAPIPath}`);
-        await sleep(500);
-      } catch (err) {
-        return (
-          "<p><em>Error getting card data: <br />" +
-          `Arguments: ${args}<br />` +
-          `Query: ${JSON.stringify(argv)}<br />` +
-          `API Path: ${scryfallAPIPath}</em></p>`
-        );
-      }
-    }
-
-    let card = data;
+    let card = await fetchCardDataMeta(argv);
     let html, cardImageUrl;
     if (undefined === card) {
       argv.tooltip = false;
