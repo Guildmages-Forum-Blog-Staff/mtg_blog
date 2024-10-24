@@ -109,6 +109,7 @@ function parseSearchTagArgs(argArray) {
   if (undefined === argument.tooltip) argument.tooltip = false;
   if (undefined === argument.edition) argument.edition = "";
   if (undefined === argument.language) argument.language = "en";
+  if (undefined === argument.alt) argument.alt = null;
 
   return argument;
 }
@@ -212,11 +213,19 @@ hexo.extend.tag.register(
       cardImageUrl = card.card_faces[0].image_uris.large;
     }
     if (argv.tooltip) {
-      html = render(tpl.tooltip, {
-        URL: card.scryfall_uri,
-        NAME: argv.name,
-        IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
-      });
+      if (argv.alt) {
+        html = render(tpl.tooltip, {
+          URL: card.scryfall_uri,
+          NAME: decodeURI(argv.alt),
+          IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
+        });
+      } else {
+        html = render(tpl.tooltip, {
+          URL: card.scryfall_uri,
+          NAME: argv.name,
+          IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
+        });
+      }
     } else {
       html = render(tpl.image, { IMG: cardImageUrl });
     }
@@ -250,11 +259,19 @@ hexo.extend.tag.register(
       cardImageUrl = card.card_faces[0].image_uris.large;
     }
 
-    html = render(tpl.tooltip, {
-      URL: card.scryfall_uri,
-      NAME: argv.name,
-      IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
-    });
+    if (argv.alt) {
+      html = render(tpl.tooltip, {
+        URL: card.scryfall_uri,
+        NAME: decodeURI(argv.alt),
+        IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
+      });
+    } else {
+      html = render(tpl.tooltip, {
+        URL: card.scryfall_uri,
+        NAME: argv.name,
+        IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
+      });
+    }
 
     return html;
   },
@@ -297,6 +314,7 @@ hexo.extend.tag.register(
       });
       if (undefined === argument.tooltip) argument.tooltip = false;
       if (undefined === argument.language) argument.language = "en";
+      if (undefined === argument.alt) argument.alt = null;
 
       return argument;
     })(args);
@@ -359,11 +377,19 @@ hexo.extend.tag.register(
       cardImageUrl = card.card_faces[0].image_uris.large;
     }
     if (argv.tooltip) {
-      html = render(tpl.tooltip, {
-        URL: card.scryfall_uri,
-        NAME: card.name,
-        IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
-      });
+      if (argv.alt) {
+        html = render(tpl.tooltip, {
+          URL: card.scryfall_uri,
+          NAME: decodeURI(argv.alt),
+          IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
+        });
+      } else {
+        html = render(tpl.tooltip, {
+          URL: card.scryfall_uri,
+          NAME: card.name,
+          IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
+        });
+      }
     } else {
       html = render(tpl.image, { IMG: cardImageUrl });
     }
