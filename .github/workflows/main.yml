@@ -31,9 +31,13 @@ jobs:
 
       - name: Node.js Package install
         run: |
+          sudo npm i -g hexo-cli
           npm i
           rm -rf node_modules
-          npm install --force
+          npm i --force
 
       - name: Deploy
-        run: hexo clean && hexo g && hexo d
+        run: |
+          npm run clean
+          npm run build
+          npm run depoly
