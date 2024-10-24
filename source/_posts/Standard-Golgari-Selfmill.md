@@ -1,7 +1,7 @@
 ---
 
 title: "無盡資源：標準黑綠自磨"
-date: "2024-10-24 11:24:38"
+date: "2024-10-24 11:31:52"
 tags:
   - "JruMTG"
 authors:
@@ -106,7 +106,7 @@ excerpt: "手牌怎麼越打越多"
 {% mtgcard "Demolition Field" %}
 [頹垣廢址](https://scryfall.com/card/otc/283/demolition-field)（2）：現在各種功能地實在太多了，想打長盤戰帶個2做為功能地對策是基本，條件允許的話我甚至想帶3，只是同樣是有調色上的顧慮。
 
-{% mtgcard "Fable Passage" %}
+{% mtgcard "Fabled Passage" %}
 [神奇小徑](https://scryfall.com/card/blb/252/fabled-passage)（2）：額外的調色，主動往墳場堆地牌也能讓[直呼其名](https://scryfall.com/card/dsk/197/say-its-name)、[三呼現身阿納克](https://scryfall.com/card/dsk/166/altanak-the-thrice-called)、[泰坦尼亞](https://scryfall.com/card/bro/193/titania-voice-of-gaea)運作得更穩定。
 
 {% mtgcard "Restless Cottage" %}
