@@ -77,6 +77,7 @@ function httpRequest(params, postData) {
 
 function parseSearchTagArgs(argArray) {
   let argument = {};
+
   argArray.forEach((entry, index) => {
     if (index === 0) {
       // Name.
@@ -112,7 +113,16 @@ function parseSearchTagArgs(argArray) {
   return argument;
 }
 
+// TODO: Set flags when called by different plugins.
 async function fetchCardDataMeta(argv) {
+  // let _mtgPluginFuncFlags = {
+  //   url: {
+  //     mtglink: ``,
+  //     mtgcard: ``,
+  //     mtgpick: ``,
+  //   },
+  // };
+
   // First, get bulk data from here.
   let bulk_data;
   try {
