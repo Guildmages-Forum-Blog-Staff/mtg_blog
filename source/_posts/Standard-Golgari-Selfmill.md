@@ -1,7 +1,7 @@
 ---
 
 title: "無盡資源：標準黑綠自磨"
-date: "2024-10-24 10:09:59"
+date: "2024-10-24 10:27:41"
 tags:
   - "JruMTG"
 authors:
@@ -65,7 +65,7 @@ excerpt: "手牌怎麼越打越多"
 {% mtgpick "bro" 193 %}
 [蓋亞之聲泰坦尼亞](https://scryfall.com/card/bro/193/titania-voice-of-gaea)（1）：算是有點玩具性質的自由卡位，至於它的下半身[自然聖所亞格斯](https://scryfall.com/card/bro/256a/argoth-sanctum-of-nature)自然也是帶了，不過它們的融合不是這副牌的主題，只是小外掛的小搭配，不用過於執著。因為頻繁自磨的關係，泰坦尼亞在場時可以奶到不少血，對於一個拚長盤套牌來說生命是很重要的本錢，3費3/4延勢也是很合格的身材了，可以攔截[花槍幫炫耀師](https://scryfall.com/card/otj/146/slickshot-show-off)、[仙靈才俊](https://scryfall.com/card/mom/58/faerie-mastermind)、[深窟蝙蝠](https://scryfall.com/card/lci/102/deep-cavern-bat)、[星宇喚師佐拉琳](https://scryfall.com/card/blb/242/zoraline-cosmos-caller)等一眾飛兵。
 
-{% mtgpick "LCI" 211 %}
+{% mtgcard "Sentinel of the Nameless City" %}
 [無名城哨衛](https://scryfall.com/card/lci/211/sentinel-of-the-nameless-city)（2）：扎實的3費曲線，警戒打手在面對重視血量交換的對局時表現亮眼，自己是個不容易被換掉的身材，地圖Token也是個用處多多的好東西。
 
 {% mtgpick "mat" 24 %}
@@ -97,7 +97,7 @@ excerpt: "手牌怎麼越打越多"
 
 ### 地牌
 
-{% mtgpick "bro" 256 %}
+{% mtgcard "Argoth, Sanctum of Nature" %}
 [自然聖所亞格斯](https://scryfall.com/card/bro/256a/argoth-sanctum-of-nature)（1）：[蓋亞之聲泰坦尼亞](https://scryfall.com/card/bro/193/titania-voice-of-gaea)配套專武，本身持續自磨產Token也算跟套牌相性良好，不過因為這麼做的費用笨重，加上我們很難把手牌打乾，實際上會需要啟動這異能的時機很少，如果選擇換掉泰坦尼亞時，這地也不用留了。
 
 {% mtgpick "blb" 253 %}
@@ -126,7 +126,7 @@ excerpt: "手牌怎麼越打越多"
 [基克斯暴行錄](https://scryfall.com/card/dmu/87/the-cruelty-of-gix)（1）：資源戰的賺牌差神卡，三章節各個在賺資源。
 >目標：中速資源戰對局、Ramp或挖墳出大生物套牌。
 
-{% mtgpick "LCI" 111 %}
+{% mtgcard "Malicious Eclipse" %}
 [惡意蔽日](https://scryfall.com/card/lci/111/malicious-eclipse)（2）：抗小生物鋪場套牌用，我們還是比較需要抗前期威脅的去除。
 >目標：快攻或橫向鋪小生物套牌。
 
