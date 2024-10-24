@@ -1,7 +1,7 @@
 ---
 
 title: "無盡資源：標準黑綠自磨"
-date: "2024-10-24 09:30:12"
+date: "2024-10-24 10:09:59"
 tags:
   - "JruMTG"
 authors:
@@ -65,7 +65,7 @@ excerpt: "手牌怎麼越打越多"
 {% mtgpick "bro" 193 %}
 [蓋亞之聲泰坦尼亞](https://scryfall.com/card/bro/193/titania-voice-of-gaea)（1）：算是有點玩具性質的自由卡位，至於它的下半身[自然聖所亞格斯](https://scryfall.com/card/bro/256a/argoth-sanctum-of-nature)自然也是帶了，不過它們的融合不是這副牌的主題，只是小外掛的小搭配，不用過於執著。因為頻繁自磨的關係，泰坦尼亞在場時可以奶到不少血，對於一個拚長盤套牌來說生命是很重要的本錢，3費3/4延勢也是很合格的身材了，可以攔截[花槍幫炫耀師](https://scryfall.com/card/otj/146/slickshot-show-off)、[仙靈才俊](https://scryfall.com/card/mom/58/faerie-mastermind)、[深窟蝙蝠](https://scryfall.com/card/lci/102/deep-cavern-bat)、[星宇喚師佐拉琳](https://scryfall.com/card/blb/242/zoraline-cosmos-caller)等一眾飛兵。
 
-{% mtgpick "lic" 211 %}
+{% mtgpick "LCI" 211 %}
 [無名城哨衛](https://scryfall.com/card/lci/211/sentinel-of-the-nameless-city)（2）：扎實的3費曲線，警戒打手在面對重視血量交換的對局時表現亮眼，自己是個不容易被換掉的身材，地圖Token也是個用處多多的好東西。
 
 {% mtgpick "mat" 24 %}
@@ -103,7 +103,7 @@ excerpt: "手牌怎麼越打越多"
 {% mtgpick "blb" 253 %}
 [噴泉港](https://scryfall.com/card/blb/253/fountainport)（1）：只要不怕卡色就是萬搭的資源引擎，而且這套產出Token的能力還是挺豐富的，很多時候不需要噴泉港自產自銷，只要吃其他人提供的Token就能持續賺牌了。其實要放到2也是可以，但這套實際操作時的指定色需求其實比表現上看上去還重很多，放到2的卡色風險會有點高。
 
-{% mtgpick "bro" 283 %}
+{% mtgpick "bro" 260 %}
 [頹垣廢址](https://scryfall.com/card/otc/283/demolition-field)（2）：現在各種功能地實在太多了，想打長盤戰帶個2做為功能地對策是基本，條件允許的話我甚至想帶3，只是同樣是有調色上的顧慮。
 
 {% mtgpick "blb" 252 %}
@@ -126,7 +126,7 @@ excerpt: "手牌怎麼越打越多"
 [基克斯暴行錄](https://scryfall.com/card/dmu/87/the-cruelty-of-gix)（1）：資源戰的賺牌差神卡，三章節各個在賺資源。
 >目標：中速資源戰對局、Ramp或挖墳出大生物套牌。
 
-{% mtgpick "lic" 111 %}
+{% mtgpick "LCI" 111 %}
 [惡意蔽日](https://scryfall.com/card/lci/111/malicious-eclipse)（2）：抗小生物鋪場套牌用，我們還是比較需要抗前期威脅的去除。
 >目標：快攻或橫向鋪小生物套牌。
 
