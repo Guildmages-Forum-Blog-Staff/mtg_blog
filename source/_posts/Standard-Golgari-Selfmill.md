@@ -1,7 +1,7 @@
 ---
 
 title: "無盡資源：標準黑綠自磨"
-date: "2024-10-24 11:31:52"
+date: "2024-10-24 14:37:41"
 tags:
   - "JruMTG"
 authors:
@@ -138,7 +138,7 @@ excerpt: "手牌怎麼越打越多"
 [逼從](https://scryfall.com/card/one/92/duress)（3）：黑色標竿備牌。
 >目標：控制、任何非生物咒語佔比高的對手。
 
-{% mtgcard "Nissa, Ascended Animist" 175 %}
+{% mtgcard "Nissa, Ascended Animist" %}
 [昇華物靈師妮莎](https://scryfall.com/card/one/175/nissa-ascended-animist)（1）：在中速內戰或是對決控制時，都是能單卡拿下對局的大殺器。
 >目標：中速、控制。
 
