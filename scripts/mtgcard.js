@@ -6,11 +6,7 @@ const fs = require("node:fs/promises");
 let tpl = {
   image: `<img class="mtgcard w-full" src="##IMG##">`,
   tooltip_image: `<img class="mtgcard" src="##IMG##">`,
-  tooltip: `
-  <a class="tooltip" href="##URL##">##NAME##
-    <span>##IMG##</span>
-  </a>
-  `.replace(/(\r\n|\n|\r)/gm, ""),
+  tooltip: `<a class="tooltip" href="##URL##">##NAME##<span>##IMG##</span></a>`,
   style: `
     <style>
       .tooltip span { display: none; color: black; }
