@@ -30,7 +30,7 @@ jobs:
           git config --global user.email "lltzpp@gmail.com"
 
       - name: Node.js Package install
-        run: npm i -g hexo-cli && npm i
+        run: npm i
 
       - name: Deploy
         run: |
