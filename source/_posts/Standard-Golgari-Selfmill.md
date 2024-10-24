@@ -1,7 +1,7 @@
 ---
 
 title: "無盡資源：標準黑綠自磨"
-date: "2024-10-24 10:27:41"
+date: "2024-10-24 11:08:18"
 tags:
   - "JruMTG"
 authors:
@@ -45,53 +45,53 @@ excerpt: "手牌怎麼越打越多"
 
 ### 資源引擎
 
-{% mtgpick "dsk" 113 %}
+{% mtgpick "DSK" 113 %}
 [災沼霸主](https://scryfall.com/card/dsk/113/overlord-of-the-balemurk)（3）：黑霸主的堆墳效率與賺牌能力應該不用多加介紹了，進場就是賺怎樣都不虧，只要讓他活到攻擊再賺一次，通常這把就拿下了，對手大概永遠追不上你的資源量。
 
-{% mtgpick "otj" 207 %}
+{% mtgpick "OTJ" 207 %}
 [誠實的魯斯登](https://scryfall.com/card/otj/207/honest-rutstein)（2）：套牌真MVP，經常和黑霸主或另一個魯斯登互相無限回收對方，體驗過的對手幾乎都給出了超絕煩躁的評價。另外這套生物牌數量不少，減費效應也經常能讓你瞬間超展開鋪場，別忘了霸主使用隱現施放時依舊是個生物咒語，是能吃到減費效應的。
 
-{% mtgpick "big" 17 %}
+{% mtgpick "BIG" 17 %}
 [棘芽農夫](https://scryfall.com/card/big/17/bristlebud-farmer)（3）：強力打點兼資源引擎，同樣也是個幾乎不能讓他活到攻擊的傢伙，一旦攻擊成功容易滾起資源鏈。要注意這傢伙的回收牌張描述與黑霸主、三呼現身都不同，是從磨的那三張裡面選一張永久物牌回手，也因為棘芽農夫的存在，所以去除咒語中選了一些類別是永久物的牌張。
 
 ### 其他生物
 
-{% mtgpick "woe" 231 %}
+{% mtgpick "WOE" 231 %}
 [蘚木林恐懼騎士](https://scryfall.com/card/woe/231/mosswood-dreadknight-dread-whispers)（4）：黑綠頂級2費曲線，不管怎麼組大概都少不了它。使用它時不要過度執著於歷險後從放逐區施放的SOP，適時的直接正拍有時反而能掌握遊戲節奏。
 
-{% mtgpick "one" 202 %}
+{% mtgpick "ONE" 202 %}
 [戮日者格莉莎](https://scryfall.com/card/one/202/glissa-sunslayer)（2）：標配的黑綠3費王者。
 
-{% mtgpick "bro" 193 %}
+{% mtgpick "BRO" 193 %}
 [蓋亞之聲泰坦尼亞](https://scryfall.com/card/bro/193/titania-voice-of-gaea)（1）：算是有點玩具性質的自由卡位，至於它的下半身[自然聖所亞格斯](https://scryfall.com/card/bro/256a/argoth-sanctum-of-nature)自然也是帶了，不過它們的融合不是這副牌的主題，只是小外掛的小搭配，不用過於執著。因為頻繁自磨的關係，泰坦尼亞在場時可以奶到不少血，對於一個拚長盤套牌來說生命是很重要的本錢，3費3/4延勢也是很合格的身材了，可以攔截[花槍幫炫耀師](https://scryfall.com/card/otj/146/slickshot-show-off)、[仙靈才俊](https://scryfall.com/card/mom/58/faerie-mastermind)、[深窟蝙蝠](https://scryfall.com/card/lci/102/deep-cavern-bat)、[星宇喚師佐拉琳](https://scryfall.com/card/blb/242/zoraline-cosmos-caller)等一眾飛兵。
 
 {% mtgcard "Sentinel of the Nameless City" %}
 [無名城哨衛](https://scryfall.com/card/lci/211/sentinel-of-the-nameless-city)（2）：扎實的3費曲線，警戒打手在面對重視血量交換的對局時表現亮眼，自己是個不容易被換掉的身材，地圖Token也是個用處多多的好東西。
 
-{% mtgpick "mat" 24 %}
+{% mtgpick "MAT" 24 %}
 [安詳鰭背龍](https://scryfall.com/card/mat/24/tranquil-frillback)（1）：在這個環境中，安詳鰭背龍不太怕沒工作，也是少數能一卡把[永續無瑕體](https://scryfall.com/card/dsk/6/enduring-innocence)解乾淨的生物，加上我們是個墳場套牌，非常不樂見吃到墳場針對，這些針對大多是神器結界（如[吸魂器](https://scryfall.com/card/dsk/248/ghost-vacuum)、[得享安息](https://scryfall.com/card/big/4/rest-in-peace)），其中[吸魂器](https://scryfall.com/card/dsk/248/ghost-vacuum)在某些套牌的正編就可看到，把神器結界都交給備牌有點太危險了，正編也要有些應對能力才行。如果當下環境中神器結界較多的話，可以考慮把[泰坦尼亞](https://scryfall.com/card/bro/193/titania-voice-of-gaea)換成一張[廢料射手](https://scryfall.com/card/blb/191/scrapshooter)，之所以不放第二張安詳鰭背龍，是基於套牌曲線考量，安詳鰭背龍雖然是3費生物，但不是實質的3費曲線，你不會希望準時拍一個白板下來，再加上你有時會需要把它扣到想針對的目標出現後再來解場，更何況我們還有[誠實的魯斯登](https://scryfall.com/card/otj/207/honest-rutstein)，這傢伙在2回沒往墳場堆生物的情況下，也不會是個主動的3回曲線，所以若我們繼續增加正編安詳鰭背龍的數量，反而對套牌的運作節奏是會有不良影響的，就這點來說廢料射手的主動性好很多，起碼是個3費4/4延勢的強力曲線，就算空拍，對場面的攻防也能起積極作用。
 
-{% mtgpick "mom" 125 %}
+{% mtgpick "MOM" 125 %}
 [希歐蕊](https://scryfall.com/card/mom/125/sheoldred-the-true-scriptures)（1）：這應該是整副牌最脫離構築常軌的傢伙了吧，這個卡位最常見的選項應該是[啟示天災希歐蕊](https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse)或[敵對調查員](https://scryfall.com/card/big/10/hostile-investigator)，我一開始也是這麼組的，但在實測後發現我其實不缺致勝點，反倒是因為高頻率的自磨，很容易把去除都磨掉還回收不了，還是會希望有個帶去除能力的生物能用。最開始是先改用[念世卓柏卡布拉](https://scryfall.com/card/lci/97/chupacabra-echo)，說實話它就是個下位的[貪食卓柏卡布拉](https://scryfall.com/card/mkc/136/ravenous-chupacabra)沒錯，雖然我是自磨套牌，但在遊戲前期墳場也不見得有足夠的永久物來提供去除射程，如果在條件不對的情況下摸到它確實是很想死，但也不能否認只要墳場的永久物數量堆到足夠數量後（一個黑霸主ETB可能就達標了），它就是個超強的資源交換神器，而且精準選定想去除的目標這點還是很厲害，不過被一個沒機會自磨的開局卡4費節奏幾次後，決定還是改成運作比較穩定的單卡[希歐蕊](https://scryfall.com/card/mom/125/sheoldred-the-true-scriptures)，起碼也是個對手不能無視的強力威脅，還能解決一下我不易處理旅法的問題。
 
 ### 去除
 
-{% mtgpick "bro" 91 %}
+{% mtgpick "BRO" 91 %}
 [毀容](https://scryfall.com/card/bro/91/disfigure)（2）：為何選用毀容而不是[斬落](https://scryfall.com/card/dmu/89/cut-down)可以參考這篇文章：[從斬落與毀容來分析標準威脅結構的變遷](https://guildmagesforum.tw/Standard-Structure-Evolution/)。
 
-{% mtgpick "dsk" 111 %}
+{% mtgpick "DSK" 111 %}
 [進退無路](https://scryfall.com/card/dsk/111/nowhere-to-run)（1）：永久物類別的去除咒語，對上帶綠、白色保護咒語的快攻時效果絕佳，也能讓[心火勇士](https://scryfall.com/card/blb/138/heartfire-hero)的死亡異能啞火。
 
-{% mtgpick "bro" 102 %}
+{% mtgpick "BRO" 102 %}
 [直刺咽喉](https://scryfall.com/card/bro/102/go-for-the-throat)（4）：標準黑色去除標竿。
 
-{% mtgpick "dmu" 183 %}
+{% mtgpick "DMU" 183 %}
 [撕成碎片](https://scryfall.com/card/dmu/183/tear-asunder)（1）：在現在神器結界滿街跑的環境裡，正編帶個一張肯定不會錯，最爛也是4費的放逐萬解，不至於變死牌。
 
-{% mtgpick "mom" 115 %}
+{% mtgpick "MOM" 115 %}
 [進軍依尼翠](https://scryfall.com/card/mom/115/invasion-of-innistrad-deluge-of-the-dead)（1）：久物類別的去除咒語再+1，雖然費用笨重了點但效果也很強力，只要轉化成功有一卡鎮壓場面的能力，對於我們這種資源向套牌來說，有時對手血量壓力也不大，比起直接打對手，打戰役還能給對手更大的防守壓力。如果嫌這張太笨重，可以改成其他常規的2費去除。
 
-{% mtgpick "bro" 97 %}
+{% mtgpick "BRO" 97 %}
 [基克斯的指命](https://scryfall.com/card/bro/97/gixs-command)（1）：黑色萬金油卡，幾乎打甚麼對手都有用。
 <font color="#AAAAAA">（如果解完場後再回收誠實的魯斯登+黑霸主，對手通常會臉部扭曲，我以受害者們的表情包掛保證。）</font>
 
@@ -100,16 +100,16 @@ excerpt: "手牌怎麼越打越多"
 {% mtgcard "Argoth, Sanctum of Nature" %}
 [自然聖所亞格斯](https://scryfall.com/card/bro/256a/argoth-sanctum-of-nature)（1）：[蓋亞之聲泰坦尼亞](https://scryfall.com/card/bro/193/titania-voice-of-gaea)配套專武，本身持續自磨產Token也算跟套牌相性良好，不過因為這麼做的費用笨重，加上我們很難把手牌打乾，實際上會需要啟動這異能的時機很少，如果選擇換掉泰坦尼亞時，這地也不用留了。
 
-{% mtgpick "blb" 253 %}
+{% mtgpick "BLB" 253 %}
 [噴泉港](https://scryfall.com/card/blb/253/fountainport)（1）：只要不怕卡色就是萬搭的資源引擎，而且這套產出Token的能力還是挺豐富的，很多時候不需要噴泉港自產自銷，只要吃其他人提供的Token就能持續賺牌了。其實要放到2也是可以，但這套實際操作時的指定色需求其實比表現上看上去還重很多，放到2的卡色風險會有點高。
 
-{% mtgpick "bro" 260 %}
+{% mtgpick "BRO" 260 %}
 [頹垣廢址](https://scryfall.com/card/otc/283/demolition-field)（2）：現在各種功能地實在太多了，想打長盤戰帶個2做為功能地對策是基本，條件允許的話我甚至想帶3，只是同樣是有調色上的顧慮。
 
-{% mtgpick "blb" 252 %}
+{% mtgpick "BLB" 252 %}
 [神奇小徑](https://scryfall.com/card/blb/252/fabled-passage)（2）：額外的調色，主動往墳場堆地牌也能讓[直呼其名](https://scryfall.com/card/dsk/197/say-its-name)、[三呼現身阿納克](https://scryfall.com/card/dsk/166/altanak-the-thrice-called)、[泰坦尼亞](https://scryfall.com/card/bro/193/titania-voice-of-gaea)運作得更穩定。
 
-{% mtgpick "woe" 258 %}
+{% mtgpick "WOE" 258 %}
 [不息小屋](https://scryfall.com/card/woe/258/restless-cottage)（4）：變身地與[刺探地](https://scryfall.com/card/mkm/271/underground-mortuary)到底該怎麼取捨就看個人理解了，就筆者而言還是比較喜歡提升變身地數量，反正目前還沒有對色[邊陲地](https://i.imgur.com/9tyawQY.jpeg)，不用考慮類別地配率的問題。
 
 [快地](https://scryfall.com/card/otj/266/blooming-marsh)（4）、[痛地](https://scryfall.com/card/blc/315/llanowar-wastes)（4）、樹林（4）、沼澤（4）：其餘比較標準的配地。
@@ -118,11 +118,11 @@ excerpt: "手牌怎麼越打越多"
 
 ## 備牌解析
 
-{% mtgpick "dsk" 248 %}
+{% mtgpick "DSK" 248 %}
 [吸魂器](https://scryfall.com/card/dsk/248/ghost-vacuum)（1）：像我們這種持續堆墳後又以無目標的方式利用墳場的套牌終究是少數，現環境大多會利用墳場的套牌用吸魂器就足夠剋制了。規則上[永續無瑕體](https://scryfall.com/card/dsk/6/enduring-innocence)、[深邃叛神阿洛佐茲](https://scryfall.com/card/lci/88/aclazotz-deepest-betrayal-temple-of-the-dead)、[難阻刀客](https://scryfall.com/card/dsk/119/unstoppable-slasher)這種死亡後觸發回場異能的生物，也能用吸魂器回應觸發式異能把它給放逐了（當然，面對有這些牌的牌型時到底該不該上吸魂器其實很難說）。
 >目標：墳場資源利用套牌、剋制上述死亡後回場異能單卡。
 
-{% mtgpick "dmu" 87 %}
+{% mtgpick "DMU" 87 %}
 [基克斯暴行錄](https://scryfall.com/card/dmu/87/the-cruelty-of-gix)（1）：資源戰的賺牌差神卡，三章節各個在賺資源。
 >目標：中速資源戰對局、Ramp或挖墳出大生物套牌。
 
@@ -130,27 +130,27 @@ excerpt: "手牌怎麼越打越多"
 [惡意蔽日](https://scryfall.com/card/lci/111/malicious-eclipse)（2）：抗小生物鋪場套牌用，我們還是比較需要抗前期威脅的去除。
 >目標：快攻或橫向鋪小生物套牌。
 
-{% mtgpick "bro" 91 %}
+{% mtgpick "BRO" 91 %}
 [毀容](https://scryfall.com/card/bro/91/disfigure)（2）：更多的1費去除，這樣才有跟快攻抗衡的本錢。
 >目標：快攻或小生物佔比高的中速／節奏套牌。
 
-{% mtgpick "one" 92 %}
+{% mtgpick "ONE" 92 %}
 [逼從](https://scryfall.com/card/one/92/duress)（3）：黑色標竿備牌。
 >目標：控制、任何非生物咒語佔比高的對手。
 
-{% mtgpick "one" 175 %}
+{% mtgpick "ONE" 175 %}
 [昇華物靈師妮莎](https://scryfall.com/card/one/175/nissa-ascended-animist)（1）：在中速內戰或是對決控制時，都是能單卡拿下對局的大殺器。
 >目標：中速、控制。
 
-{% mtgpick "mat" 24 %}
+{% mtgpick "MAT" 24 %}
 [安詳鰭背龍](https://scryfall.com/card/mat/24/tranquil-frillback)（2）：不管要拆神器結界還是剋墳它都能勝任，因為我們自己也很怕那些神器結界類別的墳場仇恨，所以對應的去除佔比會比常規套牌還高。對上部分快攻時因補血與關鍵單卡針對能力也會使用。
 >目標：神器、結界、墳場套牌，特定類型快攻套牌。
 
-{% mtgpick "blb" 191 %}
+{% mtgpick "BLB" 191 %}
 [廢料射手](https://scryfall.com/card/blb/191/scrapshooter)（2）：類似安詳鰭背龍的額外補充，主要假想敵還是神器、結界套牌，不過兩者定位與節奏還是略有差別。在部分中速對局時，作為對方墳場剋制的對策，可能會把它作為純粹的威脅使用，替換掉被盯死的墳場利用單卡。
 >目標：神器、結界套牌，對手墳場對策的對策。
 
-{% mtgpick "bro" 177 %}
+{% mtgpick "BRO" 177 %}
 [淡出歷史](https://scryfall.com/card/bro/177/fade-from-history)（1）：現在環境的神器結界實在太多了，帶個一張能處理不少對局，即使自己場上也有黑霸主，該掃時還是要掃，千萬別心軟。要記住這張牌的寫法是：玩家只要有被拆到東西就會生一個2/2熊Token，它就只有True／False的條件判斷而已，至於你被拆了1個還10個永久物結果都一樣。<font color="#AAAAAA">（我爆一個食物Token，你爆四個霸主，我們都獲得一隻2/2熊Token，應該沒什麼差對吧？）</font>
 >目標：大量神器、結界套牌。
 
