@@ -121,7 +121,13 @@ function extendData(card, data) {
     return card.name === cardScry.name.replace(/\s\/\/\s.+$/i, "");
   });
   card.url = cardDetail.scryfall_uri;
-  card.image = cardDetail.image_uris.large;
+  let cardImageUrl;
+  if (cardDetail.image_uris !== undefined) {
+    cardImageUrl = cardDetail.image_uris.large;
+  } else {
+    cardImageUrl = cardDetail.card_faces[0].image_uris.large;
+  }
+  card.image = cardDetail.cardImageUrl;
   card.cost = cardDetail.mana_cost;
   card.symbols = '<div style="display: inline-flex;">';
   let syms = card.cost.match(/\{[^{}]*\}/g);
