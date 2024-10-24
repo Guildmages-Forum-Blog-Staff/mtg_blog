@@ -40,4 +40,4 @@ jobs:
         run: |
           npm run clean
           npm run build
-          npm run depoly
+          npm run deploy
