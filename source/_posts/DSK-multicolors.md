@@ -5,6 +5,9 @@ tags:
   - "T1BloodMoon"
 authors:
   - "T1BloodMoon"
+categories:
+  - "Limited"
+  - "DSK"
 cover: "https://media.wizards.com/2024/images/daily/MYthLBTfx9QQ.png"
 thumbnail: "https://media.wizards.com/2024/images/daily/MYthLBTfx9QQ.png"
 excerpt: "多色牌通常都和其特定主題息息相關，這次恐怖鬼屋是主打哪十種主題呢？總歸一句：我怕"
