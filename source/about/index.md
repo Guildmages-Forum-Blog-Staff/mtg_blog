@@ -46,11 +46,11 @@ aka [豬鼻子的mtg世界](https://www.facebook.com/Pignosemtgworld)，為網�
 
 ## [T1BloodMoon](/tags/t1bloodmoon/)
 
-aka.[炸地·血月·組合技](https://www.facebook.com/T1BloodMoon)、夸寶終曲，喜歡打構築賽的~~賽場~~休閒玩家，從標準一路到薪傳都有套牌，指揮官休閒及C的都有組，構築上最愛玩組合技套牌及有血月的套牌，曾經被嗆不玩組合技就不會打魔風。
+aka [炸地·血月·組合技](https://www.facebook.com/T1BloodMoon)、夸寶終曲，喜歡打構築賽的~~賽場~~休閒玩家，從標準一路到薪傳都有套牌，指揮官休閒及C的都有組，構築上最愛玩組合技套牌及有血月的套牌，曾經被嗆不玩組合技就不會打魔風。
 
 ## [Kappa](/tags/kappa/)
 
-aka.[Kappa The Gathering](https://www.facebook.com/profile.php?id=61558862427620)，拉麵型玩家（？），比賽可以輸，但打完一定要去吃拉麵（謎）。
+aka [Kappa The Gathering](https://www.facebook.com/profile.php?id=61558862427620)，拉麵型玩家（？），比賽可以輸，但打完一定要去吃拉麵（謎）。
 標準、先驅、近代、娛樂向的指揮官以及認真向的指揮官、到薪傳、papuer 也有卡組（雖然後兩者問題是找不到人），不過最擅長還是限制賽，可以選一定優先打輪抽。
 只要那個卡組可以抽牌就懂得打魔風了，還有偏愛墳場卡組，最愛的卡是掠魂魔及殘酷統領。
 

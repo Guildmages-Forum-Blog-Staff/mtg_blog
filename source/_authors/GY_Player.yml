@@ -2,3 +2,9 @@ username: GY_Player
 name: "GY_Player"
 avatar: "/images/logo.jpg"
 url: "/tags/gy-player/"
+intro: [
+  "標準、先驅、近代、PAUPER、指揮官（官禁多人、法禁、破誓者、CEDH、PEDH）都有接觸。",
+  "樣樣通樣樣鬆型玩家。",
+  "永遠喜歡墳場套牌，但實際上最常打的則是節奏套牌。",
+  "最近在做CUBE。"
+]
