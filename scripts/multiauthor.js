@@ -134,3 +134,35 @@ hexo.extend.helper.register("author_avatar", function (post_obj) {
     return;
   }
 });
+
+hexo.extend.helper.register("author_intro", function (post_obj) {
+  const post = post_obj;
+  const post_authors = post.authors;
+  if (!post_authors) {
+    return;
+  }
+
+  const authorDir = hexo.source_dir + "_authors/";
+  const authorFiles = fs.readdirSync(authorDir);
+  const authorData = [];
+  for (const element of authorFiles) {
+    const authorFile = element;
+    const authorFileData = fs.readFileSync(authorDir + authorFile, "utf8");
+    const authorFileJson = jsyml.load(authorFileData);
+    authorData.push(authorFileJson);
+  }
+
+  const res = [];
+  for (const p_author of post_authors) {
+    const author = authorData.find((a) => a.username === p_author);
+    if (author) {
+      res.push(author.intro);
+    }
+  }
+
+  if (res.length > 0) {
+    return res;
+  } else {
+    return;
+  }
+});
