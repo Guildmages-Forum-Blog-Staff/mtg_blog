@@ -5,13 +5,13 @@
             <% if (page.cover || page.banner || (page.thumbnail && page.thumbnail !== false)) { %>
                 <% let articleCover = "";
                 if (page.cover && page.cover.includes("/")) {
-                articleCover = page.cover;
+                    articleCover = page.cover;
                 } else if (page.banner && page.banner.includes("/")) {
-                articleCover = page.banner;
+                    articleCover = page.banner;
                 } else if (page.thumbnail && page.thumbnail !== null) {
-                articleCover = page.thumbnail;
+                    articleCover = page.thumbnail;
                 } else if (config.marked.postAsset && config.marked.postAsset == true) {
-                articleCover = [page.path, page.cover || page.banner].join("/");
+                    articleCover = [page.path, page.cover || page.banner].join("/");
                 }
                 %>
                 <% if (articleCover) { %>
