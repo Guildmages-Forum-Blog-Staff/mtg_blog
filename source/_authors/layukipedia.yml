@@ -2,3 +2,7 @@ username: layukipedia
 name: "Peter"
 avatar: "/images/peter.jpg"
 url: "/tags/peter/"
+intro: [
+  "Spark Double的主持人之一。", 
+  "近幾年不斷以業餘選手之身努力挑戰專業競賽的領域。所涉獵賽制包含標準、先驅、近代、薪傳以及限制賽。擅長純快攻與純控制套牌，其次則是節奏套牌。近期正在磨練中速價值交換體系。目前認為限制賽才是在魔風中獲得快樂的真理。"
+]
