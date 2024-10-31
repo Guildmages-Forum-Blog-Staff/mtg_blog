@@ -7,7 +7,7 @@ cover: "https://i.postimg.cc/BZFs1QT9/Master-of-Waves-Mt-G-Art.jpg"
 thumbnail: "https://i.postimg.cc/BZFs1QT9/Master-of-Waves-Mt-G-Art.jpg"
 excerpt: "如何嘗試在控制與快攻夾殺的環境中，以自組的蘇勒台中速殺出重圍？"
 categories:
-  - "Others"
+  - "Tournaments"
   - "MIT"
 authors:
   - "cephille"
