@@ -1,7 +1,7 @@
 ---
 
 title: "約力昂大叔的世冠賽 30 賽報"
-date: "2024-10-31 22:04:00"
+date: "2024-10-31 23:34:09"
 tags:
   - "David Yeh"
 cover: "https://i.imgur.com/GkMbNzU.jpeg"
@@ -172,8 +172,6 @@ Hareruya的大大，去年世界杯第九名，非常的威~
 
 這種小失誤在專業級別是不容許發生的~ 要以此為鑑~
 
-![](https://i.imgur.com/1gHVXTA.jpeg)
-
 ![](https://i.imgur.com/C3FmB8Z.jpeg)
 
 DAY 1 戰績 4-3
@@ -209,7 +207,7 @@ Day 2 輪抽備牌
 
 ![](https://i.imgur.com/jDBf0fT.jpeg)
 
-#### Mauro Sasso R9 
+#### R9 Mauro Sasso OO 
 
 又對上了昨天 R1 的 Messi 哥，這次他打紅白玩具。
 第一盤先開路一次，[迫任榜樣](https://scryfall.com/card/dsk/26/reluctant-role-model)接著飛行繫命打到底。第二盤上兩隻[教派治療師](https://scryfall.com/card/dsk/2/cult-healer)跟他RACE血量獲勝。
