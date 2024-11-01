@@ -1,7 +1,6 @@
 ---
-
 title: "陰慘實現：標準米斯拉躁狂"
-date: "2024-11-01 15:55:18"
+date: "2024-11-01 16:03:39"
 tags:
   - "JerobaMTG"
 authors:
@@ -9,8 +8,8 @@ authors:
 categories:
   - "Construct"
   - "Standard"
-cover: "https://imgur.com/Io3mpSJ"
-thumbnail: "https://imgur.com/Io3mpSJ"
+cover: "https://i.imgur.com/Io3mpSJ.png"
+thumbnail: "https://i.imgur.com/Io3mpSJ.png"
 excerpt: "和非瑞克西亞簽訂契約，成為惡魔鋼彈吧！"
 ---
 
