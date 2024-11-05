@@ -1,7 +1,7 @@
 ---
 
 title: "約力昂大叔的世冠賽 30 賽報"
-date: "2024-10-31 23:34:09"
+date: "2024-11-01 10:18:07"
 tags:
   - "David Yeh"
 cover: "https://i.imgur.com/GkMbNzU.jpeg"
@@ -29,7 +29,13 @@ categories:
 
 ### 構築賽套牌選擇 — 黑白惡魔
 
-蹦蹦從黑綠出發找靈感，而我從藍黑先開始練，小石好像一開始是美國控。 BLB 之後標準的光譜拉得非常開，有超快的紅白召集與紅綠靈技，也有很慢的純白與DOMAIN。DSK加入後，[共振地脈](https://scryfall.com/card/dsk/143/leyline-of-resonance)與[內外翻轉](https://scryfall.com/card/dsk/160/turn-inside-out)讓紅鼠系快攻更加肆虐。 DSK 的[凶林霸主](https://scryfall.com/card/dsk/194/overlord-of-the-hauntwoods)也讓 DOMAIN 如獲至寶，同時獲得加速與致勝生物，還能觸發[爬上豆莖](https://scryfall.com/card/woe/195/up-the-beanstalk)非常離譜。十月第一周我們就決定要打有[難阻刀客](https://scryfall.com/card/dsk/119/unstoppable-slasher)的套牌，一來是跟[阿洛佐茲放血魔](https://scryfall.com/card/lci/92/bloodletter-of-aclazotz)的組合大家都會怕，二來他不太怕常見的[直刺咽喉](https://scryfall.com/card/moc/250/go-for-the-throat)與[斬落](https://scryfall.com/card/dmu/89/cut-down)（[折磨賜聖](https://scryfall.com/card/one/81/anoint-with-affliction)是後期大家發現殺阻止[刀客](https://scryfall.com/card/dsk/119/unstoppable-slasher)與[心火勇士](https://scryfall.com/card/blb/138/heartfire-hero)很好用），當然他也不怕[面紗莉莉](https://scryfall.com/card/dmu/97/liliana-of-the-veil)的跳樓。偶然在日本的先驅大賽發現純黑用[不潔別館//儀式會廳](https://scryfall.com/card/dsk/118/unholy-annex-ritual-chamber)，搭配先驅的[易形地窖](https://scryfall.com/card/m14/228/mutavault)等非常厲害，於是乎我們從純黑出發，組了個下位版本惡魔套牌。沒過幾天便開始覺得純黑的備牌不夠全面，[凋萎折磨](https://scryfall.com/card/dsk/124/withering-torment)只能解兩種，標準雖然結界多神器少，但[窪巴司的鍛冶爐](https://scryfall.com/card/one/153/urabrasks-forge)放著不管很容易死，就覺得應該還是要回歸拉綠色或白色。綠色的問題就是強牌太多（咦？），其他綠色牌不說，打黑綠勢必會放[蘚木林恐懼騎士](https://scryfall.com/card/woe/231/mosswood-dreadknight-dread-whispers)與[戮日者格莉莎](https://scryfall.com/card/one/202/glissa-sunslayer)，整個套牌結構都會變。最後選擇拉白色，備牌[短時封鎖](https://scryfall.com/card/dmu/36/temporary-lockdown)、[得享安息](https://scryfall.com/card/big/4/rest-in-peace)、與[躍動新春貝薩](https://scryfall.com/card/blb/2/beza-the-bounding-spring)來對應各種不利對局。新的藍黑雖然又打又抽很拉風，但不會回血容錯率太低，前兩回中紅鼠系一拳大的便無力回天，而且也解不掉神器與結界，只能用康棄彈，我們手短得要命沒老外 PRO 們手長要認命。
+蹦蹦從黑綠出發找靈感，而我從藍黑先開始練，小石好像一開始是美國控。 BLB 之後標準的光譜拉得非常開，有超快的紅白召集與紅綠靈技，也有很慢的純白與DOMAIN。DSK加入後，[共振地脈](https://scryfall.com/card/dsk/143/leyline-of-resonance)與[內外翻轉](https://scryfall.com/card/dsk/160/turn-inside-out)讓紅鼠系快攻更加肆虐。 DSK 的[凶林霸主](https://scryfall.com/card/dsk/194/overlord-of-the-hauntwoods)也讓 DOMAIN 如獲至寶，同時獲得加速與致勝生物，還能觸發[爬上豆莖](https://scryfall.com/card/woe/195/up-the-beanstalk)非常離譜。
+
+十月第一周我們就決定要打有[難阻刀客](https://scryfall.com/card/dsk/119/unstoppable-slasher)的套牌，一來是跟[阿洛佐茲放血魔](https://scryfall.com/card/lci/92/bloodletter-of-aclazotz)的組合大家都會怕，二來他不太怕常見的[直刺咽喉](https://scryfall.com/card/moc/250/go-for-the-throat)與[斬落](https://scryfall.com/card/dmu/89/cut-down)（[折磨賜聖](https://scryfall.com/card/one/81/anoint-with-affliction)是後期大家發現殺[難阻刀客](https://scryfall.com/card/dsk/119/unstoppable-slasher)與[心火勇士](https://scryfall.com/card/blb/138/heartfire-hero)很好用），當然他也不怕[面紗莉莉](https://scryfall.com/card/dmu/97/liliana-of-the-veil)的跳樓。偶然在日本的先驅大賽發現純黑用[不潔別館//儀式會廳](https://scryfall.com/card/dsk/118/unholy-annex-ritual-chamber)，搭配先驅的[易形地窖](https://scryfall.com/card/m14/228/mutavault)等非常厲害，於是乎我們從純黑出發，組了個下位版本惡魔套牌。
+
+沒過幾天便開始覺得純黑的備牌不夠全面，[凋萎折磨](https://scryfall.com/card/dsk/124/withering-torment)只能解兩種，標準雖然結界多神器少，但[窪巴司的鍛冶爐](https://scryfall.com/card/one/153/urabrasks-forge)放著不管很容易死，就覺得應該還是要回歸拉綠色或白色。綠色的問題就是強牌太多（咦？），其他綠色牌不說，打黑綠勢必會放[蘚木林恐懼騎士](https://scryfall.com/card/woe/231/mosswood-dreadknight-dread-whispers)與[戮日者格莉莎](https://scryfall.com/card/one/202/glissa-sunslayer)，整個套牌結構都會變。
+
+最後選擇拉白色，備牌[短時封鎖](https://scryfall.com/card/dmu/36/temporary-lockdown)、[得享安息](https://scryfall.com/card/big/4/rest-in-peace)、與[躍動新春貝薩](https://scryfall.com/card/blb/2/beza-the-bounding-spring)來對應各種不利對局。新的藍黑雖然又打又抽很拉風，但不會回血容錯率太低，前兩回中紅鼠系一拳大的便無力回天，而且也解不掉神器與結界，只能用康棄彈，我們手短得要命沒老外 PRO 們手長要認命。
 
 ### 套牌介紹
 
@@ -69,9 +75,7 @@ categories:
 
 最後放個個人吉祥物
 
-![](https://i.imgur.com/okfEFRk.jpeg)
-
-<!---照片需重新請David提供--->
+![](https://i.imgur.com/Q7LtOKd.jpeg)
 
 必勝祈願（阿耶尼）去年用到現在真的很神，快去收～
 卡地狗與海地鼠則是特級咒靈，開打時務必朝著對手，日本玩家看了還笑嘻嘻，傻傻的被咒殺了都不知道～
@@ -225,10 +229,10 @@ Day 2 輪抽備牌
 #### R11 [Alan Andrzejewski](https://melee.gg/Profile/Index/Asmodeius) OXO 紅白結界
 
 整場唯一的紅白結界，像是紅綠靈技與白藍結界所生的畸形兒，看他放滿[碎片法師救援](https://scryfall.com/card/dsk/29/shardmages-rescue)與[鬼魂庇護](https://scryfall.com/card/dsk/30/sheltered-by-ghosts)想噁心對手。
-第一盤起手打開四張看到三塊地與[進退無路](https://scryfall.com/card/dsk/111/nowhere-to-run)，其他都無所謂了（燦笑）~
-對手的[叛逃蟲械斯勒夫](https://scryfall.com/card/one/33/skrelv-defector-mite)看到進退無路都傻了~殺爆！
+第一盤起手打開四張看到三塊地與[進退無路](https://scryfall.com/card/dsk/111/nowhere-to-run)，其他都無所謂了（燦笑）
+對手的[叛逃蟲械斯勒夫](https://scryfall.com/card/one/33/skrelv-defector-mite)看到進退無路都傻了XD 殺爆！
 第二盤威脅抽太少，唯一的翼邪鬼快自爆了只能 RACE ，錯算血量被撞死。
-第三盤一樣是進退無路與各種殺牌壓制，兩個軍勢散盡都適時對到[鍛冶爐](https://scryfall.com/card/one/153/urabrasks-forge)，靠翼邪鬼與貝薩擊倒~
+第三盤一樣是進退無路與各種殺牌壓制，兩個軍勢散盡都適時對到[鍛冶爐](https://scryfall.com/card/one/153/urabrasks-forge)，靠翼邪鬼與貝薩擊倒。
 
 
 #### R12 [Rei Hirayama](https://melee.gg/Profile/Index/rerere) XOX 鐵木爾水獺
@@ -260,7 +264,7 @@ Day 2 輪抽備牌
 第二盤第三盤就跟其他對局差不多，他後手時會下地脈也被我猜到，就順順拿下，結束這次世界盃。
 
 DAY 2 戰績 8-5-1 第 23 名  
-Brian Boss老哥自己 24 名（真的有夠會算），要是沒約合的話 9-5 ，最好可能 11 名，最爛可能 20 名，就這樣吧~ 已經比西雅圖 PT 好很多了~
+Brian Boss老哥自己 24 名（真的有夠會算），要是沒約和的話 9-5 ，最好可能 11 名，最爛可能 20 名，就這樣吧~ 已經比西雅圖 PT 好很多了~
 
 晚上帶蹦蹦小石逛賭場吃大餐囉~
 
@@ -276,7 +280,6 @@ Brian Boss老哥自己 24 名（真的有夠會算），要是沒約合的話 9-
 
 ![](https://i.imgur.com/p6Fr3E6.jpeg)
 ![](https://i.imgur.com/HhLgbsV.jpeg) 
-![](https://i.imgur.com/cIaUAg5.jpeg)
 ![](https://i.imgur.com/Ej6E9jS.jpeg)
 ![](https://i.imgur.com/O8h70mm.jpeg)
 ![](https://i.imgur.com/6lQ9mHm.jpeg)
@@ -287,6 +290,4 @@ Brian Boss老哥自己 24 名（真的有夠會算），要是沒約合的話 9-
 
 這是第二次出國打大比賽，如果西雅圖第二天的PTQ也算的話就是第三場，從九月底開始準備到出國實戰，在有限的時間內（輪班/顧三寶），而且只用 ARENA 去練習而已，運氣好沒遇到太多不利隊局，而有利對局也都有拿下來，很滿意這次比賽的成績。
 
-對於套牌上下備的方針， META 掌握也相差不遠，輪抽限制賽的感覺也回來
-了；明年第一場芝加哥 PT 是二月底，台灣玩家們應該有五、六人，希望能夠
-再創佳績。
+對於套牌上下備的方針， META 掌握也相差不遠，輪抽限制賽的感覺也回來了；明年第一場芝加哥 PT 是二月底，台灣玩家們應該有五、六人，希望能夠再創佳績。

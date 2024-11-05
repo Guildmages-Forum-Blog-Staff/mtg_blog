@@ -13,7 +13,7 @@ date: 2023-09-05 15:18:20
 
 aka [台南猴王的耍猴日常](http://facebook.com/TainanMonkeyKin)，為網站共同創辦人之一、網站技術人員。
 ~~前 cEDH 老害，~~ 現為認份的構築賽玩家，最喜歡的賽制是近代和純普。
-然後無論如何永遠打不好快攻和組合技，要湊組合的套牌永遠缺一個組件。
+永遠打不好快攻和組合技，要湊組合的套牌無論如何總是缺一個組件。
 
 ## [cephille](/tags/cephille/)
 
@@ -50,7 +50,7 @@ aka [Kappa The Gathering](https://www.facebook.com/profile.php?id=61558862427620
 
 ## [ClarkShih](/tags/clarkshih/)
 
-aka荒野騎士，專攻構築賽的賽場玩家，最近主要都在先驅和近代賽制中打滾，擅長的是中速以及強攻類型的套牌。前陣子創立了「[夢續工作室DreamOn Studio](https://www.facebook.com/DreamOnStudio1560)」並開始錄製 Podcast「[龍尊與荒野騎士的玄境之談](https://podcasts.apple.com/us/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807)」分享魔風每週發生的大小事以及閒聊，歡迎大家追蹤我們 I G以及 [FB 粉絲團](https://www.facebook.com/DreamOnStudio1560)，以及去聽聽我們的 Podcast 喔～～
+aka荒野騎士，專攻構築賽的賽場玩家，最近主要都在先驅和近代賽制中打滾，擅長的是中速以及強攻類型的套牌。前陣子創立了「[夢續工作室DreamOn Studio](https://www.facebook.com/DreamOnStudio1560)」並開始錄製 Podcast「[龍尊與荒野騎士的玄境之談](https://podcasts.apple.com/us/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807)」分享魔風每週發生的大小事以及閒聊，歡迎大家追蹤我們 IG 以及 [FB 粉絲團](https://www.facebook.com/DreamOnStudio1560)，以及去聽聽我們的 Podcast 喔～～
 
 ## [jeffchen](/tags/jeffchen/)
 
