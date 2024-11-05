@@ -7,4 +7,3 @@ node_modules
 .deploy*/
 _multiconfig.yml
 .env
-_config.yml
