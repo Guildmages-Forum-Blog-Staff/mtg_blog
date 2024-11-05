@@ -144,7 +144,9 @@
                                         <% const intro_length = intro[i].length; %>
                                         <div>
                                             <% for (let j = 0; j < intro_length; j++ ) { %>
-                                                <%- intro[i][j] %>
+                                                <div class="page-template-content markdown-body">
+                                                    <%- intro[i][j] %>
+                                                </div>
                                             <% } %>
                                         </div>
                                     </div>
