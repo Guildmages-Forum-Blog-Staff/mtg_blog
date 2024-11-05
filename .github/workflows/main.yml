@@ -13,8 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # - name: Set Time Zone
-      #   run: sudo timedatectl set-timezone 'Asia/Taipei'
+      - name: Set Time Zone
+        run: sudo timedatectl set-timezone 'Asia/Taipei'
 
       - name: Configuration environment
         env:
