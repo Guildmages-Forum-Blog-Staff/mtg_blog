@@ -249,12 +249,15 @@ home:
       # Archives:
       #  path: /archives
       #  icon: fa-regular fa-archive # can be empty
-      Tags:
-        path: /tags
-        icon: fa-regular fa-tags # can be empty
+      # Tags:
+      #   path: /tags
+      #   icon: fa-regular fa-tags # can be empty
       # Categories:
       #   path: /categories
       #   icon: fa-regular fa-folder # can be empty
+      Categories:
+        path: /categories
+        icon: fa-regular fa-folder
       About Us:
         path: /about
         icon: fa-regular fa-user
