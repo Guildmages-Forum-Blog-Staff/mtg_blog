@@ -21,41 +21,17 @@
         height: auto;
     }
 
-    .article-footer .author-container .item .author-intro-left {
-        width: 80%;
-        margin-right: 20px;
-        justify-content: end;
-    }
-
-    .article-footer .author-container .item .author-intro-left .author-name {
-        margin-top: 10px;
-        font-size: 2em;
-        display: grid;
-        justify-content: end;
-    }
-
-    .article-footer .author-container .item .author-intro-left .intro-left {
-        margin-top: 10px;
-        display: grid;
-        justify-content: end;
-    }
-
-    .article-footer .author-container .item .author-intro-left .intro-left .intro-content-left {
-        display: grid;
-        justify-content: end;
-    }
-
-    .article-footer .author-container .item .author-intro-right {
+    .article-footer .author-container .item .author-intro {
         width: 80%;
         margin-left: 20px;
     }
 
-    .article-footer .author-container .item .author-intro-right .author-name {
+    .article-footer .author-container .item .author-intro .author-name {
         margin-top: 10px;
         font-size: 2em;
     }
 
-    .article-footer .author-container .item .author-intro-right .intro-right {
+    .article-footer .author-container .item .author-intro .intro {
         margin-top: 10px;
     }
 </style>
@@ -73,68 +49,35 @@
         <% const avatar = author_info.avatar; %>
         <% const intro = author_info.intro; %>
         <% const author_url_result = author_info.url; %>
-        <% if (idx % 2 === 0 ) { %>
-            <div class="article-footer flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
-                <div class="info flex flex-col justify-between">
-                    <div class="author-container">
-                        <div class="item">
-                            <div class="avatar-column">
-                                <a href="<%- author_url_result %>" class="author flex items-center name text-default-text-color text-lg font-semibold flex">
-                                    <div class="avatar flex-shrink-0p-[1px]">
-                                        <%- image_tag(avatar) %>
-                                    </div>
+        <div class="article-footer flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+            <div class="info flex flex-col justify-between">
+                <div class="author-container">
+                    <div class="item">
+                        <div class="avatar-column">
+                            <a href="<%- author_url_result %>" class="author flex items-center name text-default-text-color text-lg font-semibold flex">
+                                <div class="avatar flex-shrink-0p-[1px]">
+                                    <%- image_tag(avatar) %>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="author-intro items-center">
+                            <div class="author-name">
+                                <a href="<%- author_url_result %>" class="text-default-text-color font-semibold p-10px">
+                                    <%= author_name %>
                                 </a>
                             </div>
-                            <div class="author-intro-right items-center">
-                                <div class="author-name">
-                                    <a href="<%- author_url_result %>" class="text-default-text-color font-semibold p-10px">
-                                        <%= author_name %>
-                                    </a>
-                                </div>
-                                <% const intro_length = intro.length; %>
-                                <div class="intro-right">
-                                    <% for (let j = 0; j < intro_length; j++ ) { %>
-                                        <p>
-                                            <%= intro[j] %>
-                                        </p>
-                                    <% } %>
-                                </div>
+                            <% const intro_length = intro.length; %>
+                            <div class="intro">
+                                <% for (let j = 0; j < intro_length; j++ ) { %>
+                                    <p>
+                                        <%= intro[j] %>
+                                    </p>
+                                <% } %>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        <% } else { %>
-            <div class="article-footer flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
-                <div class="info flex flex-col justify-between">
-                    <div class="author-container">
-                        <div class="item">
-                            <div class="author-intro-left items-center">
-                                <div class="author-name">
-                                    <a href="<%- author_url_result %>" class="text-default-text-color font-semibold p-10px">
-                                        <%= author_name %>
-                                    </a>
-                                </div>
-                                <% const intro_length = intro.length; %>
-                                <div class="intro-left">
-                                    <% for (let j = 0; j < intro_length; j++ ) { %>
-                                        <p class="intro-content-left">
-                                            <%= intro[j] %>
-                                        </p>
-                                    <% } %>
-                                </div>
-                            </div>
-                            <div class="avatar-column">
-                                <a href="<%- author_url_result %>" class="author flex items-center name text-default-text-color text-lg font-semibold flex">
-                                    <div class="avatar flex-shrink-0p-[1px]">
-                                        <%- image_tag(avatar) %>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <% } %>
+        </div>
     <% } %>
 </div>
