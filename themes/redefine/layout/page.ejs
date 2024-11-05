@@ -49,6 +49,9 @@
                 <% } else if (page.title === 'Page Not Found' || page.title === '404') { %>
                     <%- partial('_partials/404-template') %>
 
+                <% } else if (page.title === 'authors' ) { %>
+                    <%- partial('_partials/authors') %>
+
                 <% } else { %>
                     <%- partial('_partials/page-template') %>
 
