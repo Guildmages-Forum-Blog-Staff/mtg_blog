@@ -39,7 +39,7 @@ authors:
 ## Legacy European Championship Ghent
 
 這次歐洲的 RC 是在比利時根特 Ghent 舉辦，一如往常的很多人參加，加上前一天的 LCQ 一共有 948 人參賽。
-一樣夜 15 輪瑞士輪後取八強單淘汰，也是一樣分兩天，只有 day 1 6-3 或以上（總分 18）的玩家才能進入 day 2。
+一樣也是 15 輪瑞士輪後取八強單淘汰，也是一樣分兩天，只有 day 1 6-3 或以上（總分 18）的玩家才能進入 day 2。
 
 [Melee 連結](https://melee.gg/Tournament/View/28412)
 
