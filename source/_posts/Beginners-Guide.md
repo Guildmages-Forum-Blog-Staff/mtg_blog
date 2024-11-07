@@ -2,6 +2,7 @@
 
 title: "MTG新手入坑指南"
 date: "2024-09-10 14:00:00"
+updated: "2024-11-07 11:23:28"
 tags:
   - "JruMTG"
 authors:
@@ -9,8 +10,8 @@ authors:
 categories:
   - "Others"
   - "Beginner"
-cover: "https://guildmagesforum.tw/images/Beginners-Guide/Urzas-Tome.jpg"
-thumbnail: "https://guildmagesforum.tw/images/Beginners-Guide/Urzas-Tome.jpg"
+cover: "https://i.meee.com.tw/jMNOt22.jpg"
+thumbnail: "https://i.meee.com.tw/jMNOt22.jpg"
 excerpt: "從零開始的新手入坑指引"
 ---
 
@@ -18,7 +19,7 @@ excerpt: "從零開始的新手入坑指引"
 
 本文是面向剛入坑的零經驗新手，幫助新手理解MTG的基本規則、以及提供查詢資料時所需的資源。歡迎大家分享這篇文章、陪伴新手參與遊戲，希望這篇文章能因此成為新人的萬用百科。
 
-![](/images/Beginners-Guide/Tome-of-the-Guildpact-Ravnica-Allegiance.jpg)
+![](https://i.meee.com.tw/FK5GAFj.jpg)
 
 ---
 
@@ -343,9 +344,9 @@ MTG的牌張共有五種顏色，分別為[白](https://magic.wizards.com/en/new
     - **宣告攻擊者步驟（Declare Attackers Step）**
     只有未橫置的生物才能宣告攻擊，選擇任意數量你想宣告攻擊的生物，並宣告這些生物各自攻擊哪位玩家或鵬洛客，這些生物會一同進行攻擊，生物宣告攻擊後會被橫置。
     - **宣告阻擋者步驟（Declare Blockers Step）**
-    只有未橫置的生物才能宣告阻擋，防禦玩家為每個宣告阻擋的生物選擇一個要阻擋的攻擊中生物，可以讓多個阻擋生物同時阻擋一隻攻擊中生物，這被稱為「聯合阻擋」，若是防禦玩家宣告了聯合阻擋，那麼攻擊玩家為每個被聯合阻擋的攻擊生物宣告「傷害分配順序」。
+    只有未橫置的生物才能宣告阻擋，防禦玩家為每個宣告阻擋的生物選擇一個要阻擋的攻擊中生物，可以讓多個阻擋生物同時阻擋一隻攻擊中生物，這被稱為「聯合阻擋」。
     - **傷害結算步驟（Combat Damage Step）**
-    所有攻擊或阻擋中的生物同時造成傷害，傷害量等同該生力量，未被阻擋的生物對他所攻擊的對象（玩家、鵬洛客、戰役等）造成傷害，被阻擋的生物與阻擋生物互相造成傷害，如果是聯合阻擋的情況，按照你在上一步驟中決定的傷害分配順序來分配傷害，必須要先給第一隻分配到足夠消滅它的傷害（也稱致命傷害），才可以將傷害往下一隻生物分配，以此類推。
+    所有攻擊或阻擋中的生物同時造成傷害，傷害量等同該生力量，未被阻擋的生物對他所攻擊的對象（玩家、鵬洛客、戰役等）造成傷害，被阻擋的生物與阻擋生物互相造成傷害。如果是聯合阻擋的情況，則將戰鬥傷害任意分配給那些阻擋生物。
     - **戰鬥結束步驟（End of Combat Step）**
     此步驟無指定的回合動作。
     
@@ -478,7 +479,7 @@ MTG的牌張共有五種顏色，分別為[白](https://magic.wizards.com/en/new
 
 ## 賽制介紹
 
-![](/images/Beginners-Guide/Strixhaven-Stadium-Strixhaven.jpg)
+![](https://i.meee.com.tw/x2KWVux.jpg)
 
  MTG 的賽制可以分為構築賽 ＆ 限制賽兩大類。構築賽使用的是玩家自行構築的套牌，並且依照可用牌池的大小與其他構築規則，又再分為數種賽制。限制賽玩家無須準備自己的套牌，遊戲方式為玩家現場打開補充包，並使用這些補充包組出一副套牌對戰，限制賽依照規則可再分為現開＆輪抽兩種。
 
@@ -563,7 +564,7 @@ MTG的牌張共有五種顏色，分別為[白](https://magic.wizards.com/en/new
 ---
 
 ## 資源連結
-![](/images/Beginners-Guide/Frantic-Search.jpg)
+![](https://i.meee.com.tw/8NAvAzb.jpg)
 
 本章節會介紹幾個常用的 MTG 相關資源網站，以下各網站標題同時為網站超連結。
 
