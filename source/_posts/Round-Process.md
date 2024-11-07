@@ -9,8 +9,8 @@ authors:
   - "JruMTG"
 categories:
   - "MTG Rule"
-cover: "https://www.artofmtg.com/wp-content/uploads/2020/11/Sphinx-of-the-Second-Sun-Commander-Legends-MtG-Art.jpg"
-thumbnail: "https://www.artofmtg.com/wp-content/uploads/2020/11/Sphinx-of-the-Second-Sun-Commander-Legends-MtG-Art.jpg"
+cover: "https://i.meee.com.tw/vpjZjS4.png"
+thumbnail: "https://i.meee.com.tw/vpjZjS4.png"
 excerpt: "回合結構大部分解開始！"
 ---
 
