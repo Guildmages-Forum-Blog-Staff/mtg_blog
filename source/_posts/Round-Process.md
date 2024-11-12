@@ -8,7 +8,7 @@ tags:
 authors:
   - "JruMTG"
 categories:
-  - "MTG Rule"
+  - "MTG Rules"
 cover: "https://i.meee.com.tw/vpjZjS4.png"
 thumbnail: "https://i.meee.com.tw/vpjZjS4.png"
 excerpt: "回合結構大部分解開始！"
