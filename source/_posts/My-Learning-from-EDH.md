@@ -7,7 +7,6 @@ cover: "https://i.imgur.com/HFPq96G.jpeg"
 thumbnail: "https://i.imgur.com/HFPq96G.jpeg"
 excerpt: "休閒又競爭的指揮官戰起來！這其實像極了非瑞克西亞發起的大戰役，爾虞我詐且充滿深度。說到底，「玩家」才是左右勝負的關鍵。"
 categories:
-  - "Others"
   - "Beginner"
 authors:
   - "faintmama"

@@ -8,7 +8,6 @@ tags:
 authors:
   - "JruMTG"
 categories:
-  - "Others"
   - "Beginner"
 cover: "https://i.meee.com.tw/jMNOt22.jpg"
 thumbnail: "https://i.meee.com.tw/jMNOt22.jpg"

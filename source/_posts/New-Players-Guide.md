@@ -7,7 +7,6 @@ cover: "https://i.imgur.com/Puc6gJz.png"
 thumbnail: "https://i.imgur.com/ISsvq5u.png"
 excerpt: "關於筆者近年來在帶領新人上的經驗總結"
 categories:
-  - "Others"
   - "Beginner"
 authors:
   - "JruMTG"

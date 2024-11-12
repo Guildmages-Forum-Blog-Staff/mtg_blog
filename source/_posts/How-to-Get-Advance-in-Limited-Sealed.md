@@ -8,7 +8,6 @@ thumbnail: "https://i.postimg.cc/W3PwqTFT/Spike-Tournament-Grinder-by-Zoltan-Bor
 mathjax: "true"
 excerpt: "聽店家說限制賽很好玩，售前時店裡老手們也很用心地指導我，但我打完我還是不知道我是誰我在哪我在做什麼..."
 categories:
-  - "Others"
   - "Beginner"
 authors:
   - "cephille"

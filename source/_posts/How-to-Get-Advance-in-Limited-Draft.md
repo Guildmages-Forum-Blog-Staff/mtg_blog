@@ -7,7 +7,6 @@ cover: "https://i.imgur.com/SlBNO1P.jpeg"
 thumbnail: "https://i.imgur.com/SlBNO1P.jpeg"
 excerpt: "看完了前一篇現開賽的介紹後，接下來讓我們進入輪抽賽吧！"
 categories:
-  - "Others"
   - "Beginner"
 authors:
   - "cephille"
