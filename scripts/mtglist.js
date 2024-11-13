@@ -238,7 +238,7 @@ hexo.extend.tag.register(
             "Content-Length": Buffer.byteLength(data),
           },
         },
-        data
+        data,
       );
 
       let main = render(tpl.mainblock, { TITLE: `套牌 (${cards.count.main})` });
@@ -341,5 +341,5 @@ hexo.extend.tag.register(
   {
     ends: true,
     async: true,
-  }
+  },
 );
