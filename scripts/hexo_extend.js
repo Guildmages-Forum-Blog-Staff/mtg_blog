@@ -3,15 +3,8 @@
 const jsyml = require("js-yaml");
 const fs = require("fs");
 
-hexo.extend.helper.register("post_author", function (post_obj) {
-  const post = post_obj;
-  const post_authors = post.authors;
-  if (!post_authors) {
-    return;
-  }
-
+function get_authors() {
   const authorDir = hexo.source_dir + "_authors/";
-
   const authorFiles = fs.readdirSync(authorDir);
   const authorData = [];
   for (const element of authorFiles) {
@@ -20,6 +13,17 @@ hexo.extend.helper.register("post_author", function (post_obj) {
     const authorFileJson = jsyml.load(authorFileData);
     authorData.push(authorFileJson);
   }
+  return authorData;
+}
+
+hexo.extend.helper.register("post_author", function (post_obj) {
+  const post = post_obj;
+  const post_authors = post.authors;
+  if (!post_authors) {
+    return;
+  }
+
+  const authorData = get_authors();
 
   post.author = "";
   post.avatar = "";
@@ -50,15 +54,7 @@ hexo.extend.helper.register("author_url", function (post_obj) {
     return;
   }
 
-  const authorDir = hexo.source_dir + "_authors/";
-  const authorFiles = fs.readdirSync(authorDir);
-  const authorData = [];
-  for (const element of authorFiles) {
-    const authorFile = element;
-    const authorFileData = fs.readFileSync(authorDir + authorFile, "utf8");
-    const authorFileJson = jsyml.load(authorFileData);
-    authorData.push(authorFileJson);
-  }
+  const authorData = get_authors();
 
   const res = [];
   for (const p_author of post_authors) {
@@ -78,15 +74,7 @@ hexo.extend.helper.register("author_name", function (post_obj) {
     return;
   }
 
-  const authorDir = hexo.source_dir + "_authors/";
-  const authorFiles = fs.readdirSync(authorDir);
-  const authorData = [];
-  for (const element of authorFiles) {
-    const authorFile = element;
-    const authorFileData = fs.readFileSync(authorDir + authorFile, "utf8");
-    const authorFileJson = jsyml.load(authorFileData);
-    authorData.push(authorFileJson);
-  }
+  const authorData = get_authors();
 
   const res = [];
   for (const p_author of post_authors) {
@@ -110,15 +98,7 @@ hexo.extend.helper.register("author_avatar", function (post_obj) {
     return;
   }
 
-  const authorDir = hexo.source_dir + "_authors/";
-  const authorFiles = fs.readdirSync(authorDir);
-  const authorData = [];
-  for (const element of authorFiles) {
-    const authorFile = element;
-    const authorFileData = fs.readFileSync(authorDir + authorFile, "utf8");
-    const authorFileJson = jsyml.load(authorFileData);
-    authorData.push(authorFileJson);
-  }
+  const authorData = get_authors();
 
   const res = [];
   for (const p_author of post_authors) {
@@ -142,15 +122,7 @@ hexo.extend.helper.register("author_intro", function (post_obj) {
     return;
   }
 
-  const authorDir = hexo.source_dir + "_authors/";
-  const authorFiles = fs.readdirSync(authorDir);
-  const authorData = [];
-  for (const element of authorFiles) {
-    const authorFile = element;
-    const authorFileData = fs.readFileSync(authorDir + authorFile, "utf8");
-    const authorFileJson = jsyml.load(authorFileData);
-    authorData.push(authorFileJson);
-  }
+  const authorData = get_authors();
 
   const res = [];
   for (const p_author of post_authors) {
@@ -168,17 +140,7 @@ hexo.extend.helper.register("author_intro", function (post_obj) {
 });
 
 hexo.extend.helper.register("author_info_str", function (author_name) {
-  const authorDir = hexo.source_dir + "_authors/";
-  const authorFiles = fs.readdirSync(authorDir);
-  const authorData = [];
-  for (const element of authorFiles) {
-    const authorFile = element;
-    const authorFileData = fs.readFileSync(authorDir + authorFile, "utf8");
-    const authorFileJson = jsyml.load(authorFileData);
-    authorData.push(authorFileJson);
-  }
-
-  const author = authorData.find((a) => a.username === author_name);
+  const author = get_authors().find((a) => a.username === author_name);
   if (author) {
     return author;
   }
