@@ -15,7 +15,7 @@ categories:
   - "Standard"
 cover: "https://i.meee.com.tw/tERb5Gd.png"
 thumbnail: "https://i.meee.com.tw/tERb5Gd.png"
-excerpt: "FDN 是收錄牌張數也是最多的一個系列，並且會在標準待五年，本系列對環境的長期影響估計是史上最大了"
+excerpt: "FDN 是收錄牌張數最多的一個系列，並且會在標準待五年，本系列對環境的長期影響估計是史上最大了"
 ---
 
 ## 前言
