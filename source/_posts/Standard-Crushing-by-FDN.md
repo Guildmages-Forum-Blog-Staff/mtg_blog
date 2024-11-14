@@ -153,7 +153,7 @@ Foundation 雖然沒有指揮官預組，但還是有出編號 001 ～ 133 的�
 是說，[Starter Collection](https://mtg.fandom.com/wiki/Magic:_The_Gathering_Foundations/Starter_Collection) 裡面也有這三張指揮官常用牌啦……有想要收集特定的系列符號的玩家可以再留意一下。
 
 - {% mtgpick "fdc" 1 tooltip=true %}
-- {% mtgpick "fd2" 2 tooltip=true %}
+- {% mtgpick "fdc" 2 tooltip=true %}
 - {% mtgpick "fdc" 3 tooltip=true %}
 
 ### 近代以上構築賽制的玩家
