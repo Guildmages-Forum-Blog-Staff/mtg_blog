@@ -26,10 +26,10 @@ Foundation 基石構築到底有哪些牌？跟以往一般的核心系列有什
 
 - **常規補充包**：可以開到 FDN 編號 001 ～ 291 的牌，其中編號 272 ～ 281 是基本地牌；而編號 282 ～ 291 則是全圖基本地牌。非基本地牌的 **271** 張牌中，編號 001 ～ 133 為在 FDN 首次登場的新牌；而 134 ～ 271 則是之前系列曾出現過的重印牌。此外，也有一定的機率可以開到特別來賓（SPG）編號 74 ～ 83 的牌喔！
 - **聚珍補充包**：除了常規補充包可以開得到的牌，還可以開到 FDN 編號 292 ～ 487 的牌，其中包括日繪異畫（showcase）、無框（borderless）、擴畫（extend）卡，另外還有收藏取向的特殊閃卡，分類過於複雜就不特別介紹，熱中於收藏的朋友可以至 [scryfall](https://scryfall.com/sets/fdn) 看看卡圖。
-- **[Beginner Box](https://mtg.fandom.com/wiki/Magic:_The_Gathering_Foundations/Beginner_Box)**：除了使用到部分常規補充包能開到牌的以外，還新增了編號 488 ～ 564 這 77 張重印牌、以及編號 730 的新牌 {% mtgpick "fdn" 730 tooltip=true %} ，總計 **78** 張標準生力軍。
-- **[Starter Collection](https://mtg.fandom.com/wiki/Magic:_The_Gathering_Foundations/Starter_Collection)**：這個產品是真正意義的標準大禮包！除了使用到部分常規補充包能開到的牌以外，還加入了編號 565 ～ 727 這 **163** 張，曾經在過去 5 ～ 15 年的標準賽制中雄霸一方的強者、實用的去除、或優質備牌。
+- [**Beginner Box**](https://mtg.fandom.com/wiki/Magic:_The_Gathering_Foundations/Beginner_Box)：除了使用到部分常規補充包能開到牌的以外，還新增了編號 488 ～ 564 這 77 張重印牌、以及編號 730 的新牌 {% mtgpick "fdn" 730 tooltip=true %} ，總計 **78** 張標準生力軍。
+- [**Starter Collection**](https://mtg.fandom.com/wiki/Magic:_The_Gathering_Foundations/Starter_Collection)：這個產品是真正意義的標準大禮包！除了使用到部分常規補充包能開到的牌以外，還加入了編號 565 ～ 727 這 **163** 張，曾經在過去 5 ～ 15 年的標準賽制中雄霸一方的強者、實用的去除、或優質備牌。
 
-光**一個 FDN ，就加入了總計 512 張牌！** 基本上一個系列就等於兩個系列的份量，而遠遠不止的是，透過重點補強的 Starter Collection ，就大幅增加了構築可用牌的密度！而即使是較偏新手推廣取向的 Beginner Box ，內含的一些牌也仍具構築潛力！以往一個標準系列，必定會有至少 1/3 左右的牌是為了限制賽所設計，在構築強度上會有所削弱；然而，瀏覽過這次 Foundation 的 512 張新標準可用牌後，我相信至少包含了以往 2 至 3 個一般標準系列，才能提供的構築賽強度牌張數量。
+光**一個 FDN ，就加入了總計 512 張牌！** 基本上一個系列就等於兩個系列的份量，而遠遠不止的是，透過重點補強的 [Starter Collection](https://mtg.fandom.com/wiki/Magic:_The_Gathering_Foundations/Starter_Collection) ，就大幅增加了構築可用牌的密度！而即使是較偏新手推廣取向的 [Beginner Box](https://mtg.fandom.com/wiki/Magic:_The_Gathering_Foundations/Beginner_Box) ，內含的一些牌也仍具構築潛力！以往一個標準系列，必定會有至少 1/3 左右的牌是為了限制賽所設計，在構築強度上會有所削弱；然而，瀏覽過這次 Foundation 的 512 張新標準可用牌後，我相信至少包含了以往 2 至 3 個一般標準系列，才能提供的構築賽強度牌張數量。
 
 **簡而言之，超過 300 張具標準賽構築強度的牌，在這次 Foundation 一次給足，如果這不叫大禮包，那什麼才是呢？更棒的是，這些牌還可以在接下來的標準賽制使用 5 年，一直到 2029 年才會被輪替掉。**
 
@@ -49,37 +49,37 @@ Foundation 基石構築到底有哪些牌？跟以往一般的核心系列有什
 
 #### 1. 執政官威權 Authority of the Consuls
 
-{% mtgpick "fdn" 137 tooltip=true %}
+{% mtgpick "fdn" 137 %}
 
 這張結界只要及早登場，一張牌就能為白色中速或控制套牌帶來珍貴的喘息時間與血量的回復；此外，它一張牌就能按死最近紅底備牌常用的 {% mtgpick "one" 153 tooltip=true %} 、對手的破墳（unearth）異能、或削弱如 {% mtgpick "woe" 229 tooltip=true %} 這類限定一回合的攻擊增傷效果。如果它出現在沾白快攻的備牌中，我也不會太意外。
 
 #### 2. 審判末日 Day of Judgment
 
-{% mtgpick "fdn" 140 tooltip=true %}
+{% mtgpick "fdn" 140 %}
 
 四費無副作用的掃場，距離上次登場已經是距今 13 年前的 M12 了，在這之後除了雙色掃場 {% mtgpick "rtr" 201 tooltip=true %} 以外，就再也沒有四費掃場了，或至少有一些不太可控的副作用，像是 {% mtgpick "snc" 10 tooltip=true %} 。取而代之，這之後的標準環境印了很多五費帶一些正向異能的掃場如 {% mtgpick "kld" 15 tooltip=true %} 、 {% mtgpick "mom" 40 tooltip=true %} 等。但使用時機上，毫無副作用的四費正掃仍是白底控制套牌需要的，這次重印正補上了這個空缺。
 
 #### 3. 閃電迸發 Burst Lightning
 
-{% mtgpick "fdn" 192 tooltip=true %}
+{% mtgpick "fdn" 192 %}
 
 作為一張可以增幅（kicker）打 4 點傷害的 {% mtgpick "mkm" 144 tooltip=true %} ，在使用上多了許多的彈性；當然，絕大多數仍是當電震使用，但中後期上手多了一個增幅增傷的效果，將帶給紅色快攻套牌隱形的中速致勝優勢。
 
 #### 4. 羅堰妖精 Llanowar Elves
 
-{% mtgpick "fdn" 227 tooltip=true %}
+{% mtgpick "fdn" 227 %}
 
-我們有多久沒有在標準賽制中看到一費 mana 頭了呢？從 DOM 的 {% mtgpick "dom" 168 tooltip=true %} 離開了我們後，整整 6 個年頭！而這是 Foundation 喜迎 {% mtgpick "fdn" 227 tooltip=true %} 回歸，綠色生物/中速套牌非常有機會因此重新回歸標準 meta 前沿！而新的標準套牌設計，也必須對一回 mana 頭找出應對方式，或一些破壞手段干擾其加速拍出中高費的威脅！
+我們多久沒有在標準賽制中看到一費 mana 頭了呢？從 DOM 的 {% mtgpick "dom" 168 tooltip=true %} 離開了我們後，整整 6 個年頭！而這是 Foundation 喜迎 {% mtgpick "fdn" 227 tooltip=true %} 回歸，綠色生物/中速套牌非常有機會因此重新回歸標準 meta 前沿！而新的標準套牌設計，也必須對一回 mana 頭找出應對方式，或一些破壞手段干擾其加速拍出中高費的威脅！
 
 #### 5. 抉擇 Opt
 
-{% mtgpick "fdn" 512 tooltip=true %}
+{% mtgpick "fdn" 512 %}
 
 一費瞬間抽濾在需要快速過牌或累積墳場的藍底套牌極為重要，顯而易見地既有的白藍 tempo 將獲得補強。而其他曲線偏低的藍底閃現或 tempo 套牌，也將因為 Opt 重印而運作更加穩定。
 
 #### 6. 反召喚 Unsummon
 
-{% mtgpick "fdn" 599 tooltip=true %}
+{% mtgpick "fdn" 599 %}
 
 反召喚？一費回手列在十大基石牌不會太普通嗎？而且上次不是在 M20 才印過，距今也不過五年啊！
 
@@ -89,7 +89,7 @@ Foundation 基石構築到底有哪些牌？跟以往一般的核心系列有什
 
 #### 7. 渦心鼓動 Maelstrom Pulse
 
-{% mtgpick "fdn" 661 tooltip=true %}
+{% mtgpick "fdn" 661 %}
 
 標準內雖然也有 {% mtgpick "bro" 215 tooltip=true %} 這樣類似效果的牌，但渦心鼓動就強在除了殺同名 token 生物的附加效果外，他可是可以連拆兩張以上的同名牌的！兩張 {% mtgpick "one" 82 tooltip=true %} ？燒毀！三張 {% mtgpick "one" 153 tooltip=true %} ？燒毀！！！
 
@@ -99,7 +99,7 @@ Foundation 基石構築到底有哪些牌？跟以往一般的核心系列有什
 
 #### 8. 波洛斯護符 Boros Charm
 
-{% mtgpick "fdn" 721 tooltip=true %}
+{% mtgpick "fdn" 721 %}
 
 近代紅白燒中的超級強者，如今也進入標準賽制，搭配一眾優質燒牌，標準賽制是否能承受接近完全體的紅白燒的衝擊，這是值得觀察的重點。
 
@@ -142,7 +142,7 @@ Foundation 裡重印的這些剋色牌來自不同的核心系列：
 
 ## 我個人對 Foundation 投入的看法
 
-講完了新牌對環境的衝擊後，來談談經濟層面的事。直觀的，就是關於新系列的投入。對於不同的玩家族群的建議，就寫在這供各位讀者參考，大家選擇最適合自己的方式去玩這個遊戲即可：
+講完了新牌對環境的衝擊後，來談談經濟層面的事。直觀的部分，就是關於新系列的投入。對於不同的玩家族群的建議，就寫在這供各位讀者參考，大家選擇最適合自己的方式去玩這個遊戲即可：
 
 ### 指揮官賽制的玩家
 
