@@ -1,6 +1,6 @@
 ---
 title: "標準 Domain Ramp Feat. 祖神獸"
-date: "2024-11-19 20:12:00"
+date: "2024-11-19 20:35:22"
 tags:
   - "Enki"
 authors:
@@ -34,8 +34,7 @@ R5 ID
 
 在賽季正式開打之前，我本來是想要打世界冠軍 Javier Dominguez 的藍黑惡魔，但經過我們的｢內耗 Playtest Team」 討論之後，雖然 Deck 選擇上有不同的看法，但對於環境上會出現的套牌看法都很接近，那就是藍黑底的中速和帶紅色的快攻會是最多數。而體感上，我也認為藍黑惡魔打這兩種套牌都是有點劣勢，唯一的優勢是只有遇上慢速 Deck ，因為 {% mtglink "Doomsday Excruciator" %} 跟 {% mtglink "Jace, The Perfected Mind" %} 的 Combo 可以直接取下勝利，經過前幾天對上鐵木爾水獺 Combo 的慘敗之後，藍黑惡魔正式被我淘汰。
 
-而就在最後我把目光投向了一直有在考慮的領土 Ramp ，但網路上大多數都是走
-{% mtglink "Zur, Eternal Schemer" %}的流派，但個人比較喜歡走控制一點的流派，於是就有了上面的 List 。
+而就在最後我把目光投向了一直有在考慮的領土 Ramp ，但網路上大多數都是走 {% mtglink "Zur, Eternal Schemer" %} 的流派，但個人比較喜歡走控制一點的流派，於是就有了上面的 List 。
 
 那領土 Ramp 在這個環境是一個好的選擇嗎?對上藍黑跟紅底快攻有什麼優勢？
 我的看法是：沒有到很優勢、但也不會劣到哪去的一個選擇。
