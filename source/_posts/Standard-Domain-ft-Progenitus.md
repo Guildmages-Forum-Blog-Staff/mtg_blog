@@ -1,7 +1,6 @@
 ---
-
 title: "標準 Domain Ramp Feat. 祖神獸"
-date: "2024-11-19 19:17:54"
+date: "2024-11-19 20:12:00"
 tags:
   - "Enki"
 authors:
@@ -23,13 +22,13 @@ excerpt: "FDN 終於在這周正式發售啦！快來看看在賽季第一周就
 ![](https://i.imgur.com/s4y8X2i.png)
 
 順便附上本次戰績作參考:
-R1 2-0 黑綠中速(先) :heavy_check_mark: :heavy_check_mark:     
-R2 2-1 紅綠快攻(後) :heavy_check_mark::x: :heavy_check_mark: 
-R3 2-0 紅白燒(先) :heavy_check_mark: :heavy_check_mark:
-R4 :handshake: 
-R5 :handshake: 
+R1 2-0 黑綠中速(先) OO
+R2 2-1 紅綠快攻(後) OXO 
+R3 2-0 紅白燒(先) OO
+R4 ID
+R5 ID
 
-八強 2-1 藍黑中速(後) :heavy_check_mark::x: :heavy_check_mark: 
+八強 2-1 藍黑中速(後) OXO
 
 ## 為何選擇 Domain
 
@@ -137,7 +136,7 @@ R5 :handshake:
 | | -1 {% mtglink "Progenitus" %} |
 
 
-這個對局沒有到很好打，換上 {% mtglink "elspeth's smite" %} 會舒服一點，這張牌基本上可以處理掉所有對手生物(除了變身地)，關鍵是會放逐，所以不管是 {% mtglink "Unstoppable slasher" %} 或是 {% mtglink "enduring curiosity" %} 都可以無痛處理掉。
+這個對局沒有到很好打，換上 {% mtglink "elspeth's smite" %} 會舒服一點，這張牌基本上可以處理掉所有對手生物（除了變身地），關鍵是會放逐，所以不管是 {% mtglink "Unstoppable slasher" %} 或是 {% mtglink "enduring curiosity" %} 都可以無痛處理掉。
 
 下掉 Beza 是因為它沒辦法幫助我們擋住對面的飛行生物、對付 tempo 上有點苦手。
 下掉 {% mtglink "Pawpatch Formation" %} 則是我覺得它跟 {% mtglink "Elspeth's Smite" %} 定位重複，而且通常只會用到第一條。
