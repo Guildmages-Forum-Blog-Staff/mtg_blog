@@ -1,29 +1,26 @@
 ---
-title: '近代瑪爾督能量：當豹貓群遇上魔戒'
-date: 2024-11-25 10:10:21
 
+title: "近代瑪爾督能量：當豹貓群遇上魔戒"
+date: "2024-11-25 11:48:29"
 tags:
- - Kappa
-
+  - "Kappa"
 authors:
- - Kappa
-
+  - "Kappa"
 categories:
- - "Construct"
- - "Modern"
-
+  - "Construct"
+  - "Modern"
 cover: "https://i.meee.com.tw/iByjZQR.png"
 thumbnail: "https://i.meee.com.tw/iByjZQR.png"
 excerpt: "正編不計地牌，只有 5 張牌不是來自魔戒或者 MH3！享受用 1,000 美金打對方臉的金錢暴力快感！"
-
 ---
+
 ## 牌組構成
 
 [牌表連結](https://www.mtggoldfish.com/deck/6666286#paper)
 
 ![牌組圖片](https://i.postimg.cc/wMJz89bT/MTG-d2.png)
 
-## Q：這究竟是什麼卡組？
+### Q：這究竟是什麼卡組？
 
 A：用錢所堆砌出的暴力、毆打對方的卡組。
 ![](https://i.postimg.cc/k4qKt5KL/61df923ef6d84c8c185da7dc52f34bbc.png)
@@ -35,9 +32,9 @@ A：用錢所堆砌出的暴力、毆打對方的卡組。
 順帶一提，現在看到卡組的造價是 1,000 美金，但我打到資格的時候是 1,300 美金的。
 ~~還是我們的近代特級咒物[至尊魔戒](https://scryfall.com/card/ltr/246/the-one-ring)一手造成的浮動值。~~
 
-## Q：雖然已經是主流卡組了，但這個卡組是怎樣操作的？
+### Q：雖然已經是主流卡組了，但這個卡組是怎樣操作的？
 
-卡 Power 壓倒對方。(真的  
+卡 Power 壓倒對方。(真的 
 MH3 的新卡實在太強了。
 
 例如單純靠能量體系各張卡，早期用[能量速龍](https://scryfall.com/card/mh3/114/amped-raptor)或[豹貓群](https://scryfall.com/card/mh3/38/ocelot-pride)製作場面差，用[獸人弓箭手](https://scryfall.com/card/ltr/103/orcish-bowmasters)懲罰對手抽卡，用[攫取思緒](https://scryfall.com/card/tsr/334/thoughtseize)攻略對手手牌，趁對手什麼都做不了的時候用各種解牌開路然後直接壓死對手，普通的節奏 Beat Down 路線。
@@ -52,7 +49,7 @@ MH3 的新卡實在太強了。
 
 瑪爾督色組的能量主題看似普通的中速卡組，實質內含多方面的攻略路線，根據手牌以及對手的卡組靈活調整攻略方針。
 
-## Q：但是看各大戰績網，紅白顏色組的能量勝率比瑪爾督色組高，為何還要玩瑪爾督呢？
+### Q：但是看各大戰績網，紅白顏色組的能量勝率比瑪爾督色組高，為何還要玩瑪爾督呢？
 
 先說結論，紅白額外提供了[腥紅之月](https://scryfall.com/card/2xm/118/blood-moon)懲罰對方多色的額外攻略路線，單純是採用魔戒的話那邊還比較合理（沒那麼多電震地不用擔心痛太多血），也不用擔心調色的問題。雖然少了電流惡夢相關的組合技路線，也不能卡對手手牌，或者用[獸人弓箭手](https://scryfall.com/card/ltr/103/orcish-bowmasters)懲罰對方抽卡，但是提供的下限保證很高。
 
@@ -60,7 +57,7 @@ MH3 的新卡實在太強了。
 
 那為何還是要玩瑪爾督色組？還是上述提到的多角攻略性，弓箭手的懲罰，思緒提供的手牌資訊，電流惡夢提供的可能性，魔頭歐尼希茲 PW 戰，全部都很有採用的價值。我會寧願提升上限降低下限，都會進瑪爾督色組。
 
-## Q：可以講解一下不用魔戒的話會換上怎樣的卡嗎？
+### Q：可以講解一下不用魔戒的話會換上怎樣的卡嗎？
 
 A：[破鏡奇譚](https://scryfall.com/card/neo/141/fable-of-the-mirror-breaker-reflection-of-kiki-jiki)吧，本來的參考 list 的話我是換走了一張[鬼怪轟炸](https://scryfall.com/card/mh2/279/goblin-bombardment)、一張[電流惡夢](https://scryfall.com/card/mh3/83/chthonian-nightmare)、以及兩張[魔頭歐尼希茲](https://scryfall.com/card/snc/206/ob-nixilis-the-adversary)，也可以將[電牢](https://scryfall.com/card/mh3/44/static-prison)的數量增量，[紅白泰坦](https://scryfall.com/card/mh3/197/phlage-titan-of-fires-fury)放滿四張，反正是自由位，基本上發揮自己的創意就好。
 
@@ -70,11 +67,11 @@ A：[破鏡奇譚](https://scryfall.com/card/neo/141/fable-of-the-mirror-breaker
 
 [破鏡奇譚](https://scryfall.com/card/neo/141/fable-of-the-mirror-breaker-reflection-of-kiki-jiki)是最近似功能的卡，不過我都笑魔戒可以抽 10 多張卡，破鏡只可以抽 2 棄 2 怎麼比得上呢？魔戒的痛血？我們有靈魂嚮導紅白泰坦豹貓群奶回來啦！
 
-## Q：為何不是玩 Fun Deck ？近代版的[掠魂魔](https://scryfall.com/card/c20/138/soulflayer)呢？
+### Q：為何不是玩 Fun Deck ？近代版的[掠魂魔](https://scryfall.com/card/c20/138/soulflayer)呢？
 
 A：伊尼翠重製版出了[棘澤邊](https://scryfall.com/card/avr/106/griselbrand)之後再叫我回來，還有[至尊魔戒](https://scryfall.com/card/ltr/246/the-one-ring)被 ban 了之後再叫醒我。（逃去標準及先驅兩個月已久）
 
-## Q：這比賽都打完兩個月以上了，為何現在才寫這篇文章？
+### Q：這比賽都打完兩個月以上了，為何現在才寫這篇文章？
 
 因為再不寫的話， 12 月 ban 卡日子一到，這個卡組有機會可以整個丢垃圾桶。[至尊魔戒](https://scryfall.com/card/ltr/246/the-one-ring)被禁基本上是鐵定的事實，但是[靈魂嚮導](https://scryfall.com/card/mh3/29/guide-of-souls)也被禁的話，整個卡組會受到致命性的毀滅打擊…… （詳細後述）
 
@@ -85,7 +82,7 @@ A：伊尼翠重製版出了[棘澤邊](https://scryfall.com/card/avr/106/grisel
 還有她真的很可愛建議大家都去聽她唱歌，雖然推的宣傳不會在 MTG 專頁以及這邊做就是了，我已經夾帶私貨，懂的人可以自己找～
 ~~我覺得全世界都應該要去聽一下[新曲](https://www.youtube.com/watch?v=oRO9C3YxJO4)~~
 
-## イカれたメンバーを紹介するぜ！（來介紹一下瘋狂的成員們！）
+### イカれたメンバーを紹介するぜ！（來介紹一下瘋狂的成員們！）
 
 ![](https://i.postimg.cc/T1nQgPPb/Outlaws-in-MH3.png)
 
@@ -143,7 +140,7 @@ A：伊尼翠重製版出了[棘澤邊](https://scryfall.com/card/avr/106/grisel
 翻面後特筆的當然是 [+0] 能力，無痛生 1 隻貓之外，場上只要有其他紅色永久物就能發射場上生物數量一樣的傷害到任意目標上，解場收頭兩相宜。
 > [+0] 能力太強的緣故，我基本上都沒用過其他 2 個能力，好吧按一下 [+2] 之後牽制對手不快點打掉阿耶尼的話就有被 [-4] 的風險也是一種戰術。
 
-但這就輪到瑪爾督顏色組的弱點了，正編可以留場的紅色永久物只有[能量速龍](https://scryfall.com/card/mh3/114/amped-raptor)、[紅白泰坦](https://scryfall.com/card/mh3/197/phlage-titan-of-fires-fury)、[鬼怪轟炸](https://scryfall.com/card/mh2/279/goblin-bombardment)、以及行侶[傑甘沙](https://scryfall.com/card/iko/222/jegantha-the-wellspring)。一般紅白泰坦能留場的時候都已經可逸脫決定勝負了，要正拍傑甘沙的話應該手牌情況很糟糕，所以一般只看其他兩種，速龍是生物容易被回應解，鬼怪轟炸單卡性能太弱，這就是瑪爾督色組其中一個弱點，就是阿耶尼翻面難度雖然變低了，但是要活用到全 [+0] 能力的情況卻變少了，雖每回生 1 隻 2/1 貓已經很強，但果然還是每回合能噴射出[閃電擊](https://scryfall.com/card/clu/141/lightning-bolt)以上級數的火力會更實用吧？  
+但這就輪到瑪爾督顏色組的弱點了，正編可以留場的紅色永久物只有[能量速龍](https://scryfall.com/card/mh3/114/amped-raptor)、[紅白泰坦](https://scryfall.com/card/mh3/197/phlage-titan-of-fires-fury)、[鬼怪轟炸](https://scryfall.com/card/mh2/279/goblin-bombardment)、以及行侶[傑甘沙](https://scryfall.com/card/iko/222/jegantha-the-wellspring)。一般紅白泰坦能留場的時候都已經可逸脫決定勝負了，要正拍傑甘沙的話應該手牌情況很糟糕，所以一般只看其他兩種，速龍是生物容易被回應解，鬼怪轟炸單卡性能太弱，這就是瑪爾督色組其中一個弱點，就是阿耶尼翻面難度雖然變低了，但是要活用到全 [+0] 能力的情況卻變少了，雖每回生 1 隻 2/1 貓已經很強，但果然還是每回合能噴射出[閃電擊](https://scryfall.com/card/clu/141/lightning-bolt)以上級數的火力會更實用吧？ 
 Sideboard 之後有可能的紅色永久物會增加[黑曜石焰喉龍](https://scryfall.com/card/mh2/137/obsidian-charmaw)以及魔頭歐尼希茲，特別後者可以主動犧牲貓同時提供紅色永久物，可以說是阿耶尼的最佳拍檔。（和鬼怪轟炸一樣都是為了阿耶尼的卡，魔頭更是瑪爾督色組的專利）
 
 ### [能量速龍](https://scryfall.com/card/mh3/114/amped-raptor)
@@ -198,7 +195,7 @@ Sideboard 之後有可能的紅色永久物會增加[黑曜石焰喉龍](https:/
 2024 年的 [Recurring Nightmare](https://scryfall.com/card/exo/72/recurring-nightmare)，便宜了 1 費不過加上能量的限制。瑪爾督色組的外掛魔術，例如[那卡地賤民阿耶尼](https://scryfall.com/card/mh3/237/ajani-nacatl-pariah-ajani-nacatl-avenger)本體被殺掉之後，剩下 2/1 貓孤零零在這裏，拍惡夢然後把貓吃掉叫回阿耶尼。不可思議！阿耶尼再生一隻貓，只花了兩費， 2/1 貓還在但阿耶尼復活了！（還賺了 1 能量！）
 其他還有把過剩的[豹貓群](https://scryfall.com/card/mh3/38/ocelot-pride) Token 換回豹貓群本體，未能逸脫前緊急把[紅白泰坦](https://scryfall.com/card/mh3/197/phlage-titan-of-fires-fury)拉回來射一發閃電螺旋，把阿耶尼的貓吃掉，能動地逼瘋阿耶尼， sideboard 後能量充足的話重複把[黑曜石焰喉龍](https://scryfall.com/card/mh2/137/obsidian-charmaw)拉上來炸地也可以，對手也總不會為了一張變魔術的卡而 side in 墳場對策卡吧？有的話就賺了！
 
-注意拉[能量速龍](https://scryfall.com/card/mh3/114/amped-raptor)上來也不能觸發 1 帶 2 的效果。（能量速龍的效果問題  
+注意拉[能量速龍](https://scryfall.com/card/mh3/114/amped-raptor)上來也不能觸發 1 帶 2 的效果。（能量速龍的效果問題 
 注意不能把費用吃掉的生物直接拉上來。（指定不了
 黑色地越多，一回合就能拍越多次惡夢，試過最極端一回合拉回三隻豹貓群回來，使用前要注意轉顏色的細節。
 由於能力是巫術時機限定的緣故，進來生能量的 trigger 被回應拆惡夢的話也不能演魔術。
@@ -320,7 +317,7 @@ Sideboard 之後有可能的紅色永久物會增加[黑曜石焰喉龍](https:/
 對[龍侯](https://scryfall.com/card/mh2/52/murktide-regent)( & [大眼](https://scryfall.com/card/dsk/42/abhorrent-oculus))、潔思凱控制、伊捷巫師等卡組用，假想敵是比較多康或者節奏比較慢的控制卡組。
 催命效果本來就適合用來迴避康，若果預期對手會拖慢來打的對局就可以用。注意組合技對局上來的話跟[紅白泰坦](https://scryfall.com/card/mh3/197/phlage-titan-of-fires-fury)一樣比較尷尬，會吃自己生物會小幅度拖慢自己的節奏，還有就是對手會棄牌的卡組（例如[怨靈復仇](https://scryfall.com/card/uma/99/goryos-vengeance)）的話可能會幫對手棄到想要掘的東西，完成幫對手掘墳的友情 combo 。（變相花式舉手投降
 
-察覺到對手卡組一定程度上偏重墳場的時候就應該避免 side in 這張。（因此對龍候或者大眼的時候都要注意一下這點）
+察覺到對手卡組一定程度上偏重墳場的時候就應該避免 side in 這張。（因此對龍侯或者大眼的時候都要注意一下這點）
 
 ### [黑曜石焰喉龍](https://scryfall.com/card/mh2/137/obsidian-charmaw)
 
@@ -337,7 +334,7 @@ Sideboard 之後有可能的紅色永久物會增加[黑曜石焰喉龍](https:/
 <!---![](https://cards.scryfall.io/large/front/d/1/d108c2b1-236e-4b8d-8445-d9749ccc4fea.jpg?1712352711)--->
 {% mtgpick "big" 4 %}
 
-對[龍候](https://scryfall.com/card/mh2/52/murktide-regent)( & [大眼](https://scryfall.com/card/dsk/42/abhorrent-oculus))，[碾碎工段](https://scryfall.com/card/5dn/127/grinding-station)，沒有 side out [過往成焰](https://scryfall.com/card/mm3/105/past-in-flames)的純紅風暴，最新形態的泰坦（比較多用[事後分析師](https://scryfall.com/card/mkm/148/aftermath-analyst)利用墳場 combo 的版本），當然還有[走骨行屍](https://scryfall.com/card/tsr/121/living-end)以及[約格莫夫](https://scryfall.com/card/dmr/110/yawgmoth-thran-physician)等等的偏墳場卡組。
+對[龍侯](https://scryfall.com/card/mh2/52/murktide-regent)( & [大眼](https://scryfall.com/card/dsk/42/abhorrent-oculus))，[碾碎工段](https://scryfall.com/card/5dn/127/grinding-station)，沒有 side out [過往成焰](https://scryfall.com/card/mm3/105/past-in-flames)的純紅風暴，最新形態的泰坦（比較多用[事後分析師](https://scryfall.com/card/mkm/148/aftermath-analyst)利用墳場 combo 的版本），當然還有[走骨行屍](https://scryfall.com/card/tsr/121/living-end)以及[約格莫夫](https://scryfall.com/card/dmr/110/yawgmoth-thran-physician)等等的偏墳場卡組。
 雖然這次卡表沒放進去，但事後想想可以用，再讓我重寫一次的話，應該會把淨化僧數量減少，調整一下滯阻法球以及得享安息的數量。
 
 可能還有很多沒提到可以用的 Sideboard 卡，不過根據我個人的手癖會優先採用這些。（不喜歡用一些太難用的 Sideboard 卡，例如 [Magebane Lizard](https://scryfall.com/card/otj/134/magebane-lizard) ）
