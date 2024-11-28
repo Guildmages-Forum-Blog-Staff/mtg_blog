@@ -1,7 +1,7 @@
 ---
 
 title: "Deep Dive — 跟著 Reid Duke 學習藍黑中速"
-date: "2024-11-28 17:18:53"
+date: "2024-11-28 20:05:27"
 tags:
   - "cephille"
 cover: "https://i.imgur.com/U55B0QF.jpeg"
@@ -67,37 +67,37 @@ Rebell 認為他不會這個時間走 Option 2 出蝙蝠，因為這個時候他
 
 ![](https://i.imgur.com/OPXNLwN.jpeg)
 
-看完手牌後， Rebell 與 RD 都意識到了這將會是一場長期對局（對手有很多去除、但沒有顯著的威脅），而他們手中的 {% mtglink "Anoint with Affliction" %} ，則有可能得交在自己被 {% mtglink "Locthwain Scorn" %} 指定的生物上了。
+看完手牌後， Rebell 與 RD 都意識到了這將會是一場長期對局（對手有很多去除、但沒有顯著的威脅），而他們手中的 {% mtglink "Anoint with Affliction" %} ，則有可能得交在自己被  {% mtglink "Virtue of Persistence // Locthwain Scorn" %} 指定的生物上了。
 
 ### Turn 3 — [8 分 17 秒](https://youtu.be/rlzvCiNIWWI?si=Vp_ZJ2oMXRpcif3z&t=513)
 
 對手下了沼澤後繼續讓過。Rebell 則抽到了第二張 {% mtglink "Anoint with Affliction" %} 。
 
-這邊 Rebell 下地後拍下 Siren #2 後就讓過，如上一回合的計畫，手中的去除瞄準了對手的 {% mtglink "Locthwain Scorn" %} ；同時，手中的 Fountainport 先留著，避免對手反手用炸地地拆掉。
+這邊 Rebell 下地後拍下 Siren #2 後就讓過，如上一回合的計畫，手中的去除瞄準了對手的  {% mtglink "Virtue of Persistence // Locthwain Scorn" %} ；同時，手中的 Fountainport 先留著，避免對手反手用炸地地拆掉。
 
 ### Turn 4 — [10 分 52 秒](https://youtu.be/rlzvCiNIWWI?si=FSggPa7xnkMc86gw&t=652)
 
 對手下海島後拍出了他的黑魔判，**對局迎來了第一個轉捩點**。Rebell 抽了一塊地，血量降至 18 。
 
 > 1. 至此，如果 Rebell 沒辦法在接下來至多 9 張牌內抽到應對黑魔判的牌，那這個對局基本上就涼了；尤有甚者，黑魔判本身的進攻也會讓這個情境雪上加霜。
-> 2. 對手四回正拍黑魔判這個行動，同時也讓 Rebell 上回合留著兩費防堵對手生物、或 {% mtglink "Locthwain Scorn" %} 的策略失效。
+> 2. 對手四回正拍黑魔判這個行動，同時也讓 Rebell 上回合留著兩費防堵對手生物、或  {% mtglink "Virtue of Persistence // Locthwain Scorn" %} 的策略失效。
 > 3. 當然，如果 Rebell 空兩費時捏著的是 {% mtglink "Go for the Throat" alt="GFTT" %} 或  {% mtglink "Phantom Interference" %} 的話，那情況就完全不同了。只能說 MTG 中，「機率」的估算、與「運氣」成分雖然佔了一部分，但很多時候還是看人的膽識與直覺，去創造出獲勝的機會。
 
 這邊必須盡快找出應對黑魔判的牌。因此 Map token 可以繞過黑魔判副作用的效果就非常重要，但關鍵是：要怎麼用？
 
-在 RD 的看法，他認為第一個 Map token 至關重要，他可以協助你找到更好的 topdeck ；而第二個 Map token 要不要用，則是一個開放性的選項。我們可以兩個都使用掉，或留著其中一個給 fountainport 抽一張牌。
+在 RD 的看法，他認為第一個 Map token 至關重要，他可以協助你找到更好的 topdeck ；而第二個 Map token 要不要用，則是一個開放性的選項。我們可以兩個都使用掉，或留著其中一個給 Fountainport 抽一張牌。
 
 **討論結果**：在其中一個 Siren 上使用 Map token，並用 Fountainport 吃掉另一個 Map token 抽一張牌。
 **實際行動**：在兩隻 Sirens 上個別用掉 1 個 Map tokens。
 
 而在實際行動中，第一、與第二個 Map token 的勘查效果分別看到了 {% mtglink "Kaito, Bane of Nightmares" %} 、以及 {% mtglink "Enduring Curiosity" %} ，都放進了墳場，並讓兩隻 Sirens 成長到 2/2。雙 Sirens 進攻，對手的血量降到 14 。
 
-> 實際行動中，Rebell 直接橫置了 Fountainport 來支付第一個 Map token 的起動費用。這個行動擋住了後續使用 fountainport 的抽牌的這個選項。
+> 實際行動中，Rebell 直接橫置了 Fountainport 來支付第一個 Map token 的起動費用。這個行動擋住了後續使用 Fountainport 的抽牌的這個選項。
 > 賽末檢討時，RD 也有提到他還是傾向走 Option 1，而從 Map token 放到墳場的牌，雖然目標都是找到 GFTT 解掉黑魔判，但如果吃掉第二個 Map token 抽上 {% mtglink "Enduring Curiosity" alt="藍貓" %} ，也還是可以達到找到 GFTT 的目標。
 
 ### Turn 5 — [13 分 36 秒](https://youtu.be/rlzvCiNIWWI?si=he2qAIHxblj3-uVQ&t=816)
 
-對手抽牌，因為黑魔判的被動效果回 2 血到 16 。拍下 {% mtglink "Demolition Field" %} ，並使用 {% mtglink "Locthwain Scorn" %} 指定其中一隻 Siren ，被 Rebell 如計畫地用 {% mtglink "Anoint with Affliction" %} 規則反擊掉。
+對手抽牌，因為黑魔判的被動效果回 2 血到 16 。拍下 {% mtglink "Demolition Field" %} ，並使用  {% mtglink "Virtue of Persistence // Locthwain Scorn" %} 指定其中一隻 Siren ，被 Rebell 如計畫地用 {% mtglink "Anoint with Affliction" %} 規則反擊掉。
 
 > 對手這邊有兩個操作處理得不好：
 > 1. 橫置了 {% mtglink "Demolition Field" %} 來支付 Locthwain Scorn 的費用，堵住自己三費開放炸地的選項。
@@ -107,7 +107,7 @@ Rebell 認為他不會這個時間走 Option 2 出蝙蝠，因為這個時候他
 
 ### Turn 6 — [16 分 4 秒](https://youtu.be/rlzvCiNIWWI?si=sh5GKIHqsdtvFCvq&t=964)
 
-對手抽牌回血到 16 。 Demolition Field 炸掉藍黑變身地，並拍下 {% mtglink "Unholy Annex" %} 。黑魔判進攻，這邊選擇直接扣 4 ， Rebell 血量降至 12 。回合末回應惡魔房間抽牌的效果起動 Fountainport 派出了一個 Treasure token 。關於要用 Fountainport 生一隻 1/1 Fish token 、 或一個 Treasure token 上，Rebell 與 RD 有一些討論：
+對手抽牌回血到 16 。 Demolition Field 炸掉藍黑變身地，並拍下 {% mtglink "Unholy Annex // Ritual Chamber" %} 。黑魔判進攻，這邊選擇直接扣 4 ， Rebell 血量降至 12 。回合末回應惡魔房間抽牌的效果起動 Fountainport 派出了一個 Treasure token 。關於要用 Fountainport 生一隻 1/1 Fish token 、 或一個 Treasure token 上，Rebell 與 RD 有一些討論：
 
 - 生 1/1 Fish：可以下回合阻擋黑魔判（變相的補 3 血）、或下下回合再阻擋 + Fountainport 吃掉抽一張牌 （變相的補 1 血 + 抽一張牌）
 - 生 Treasure：抽牌、或有助於後面的中大型咒語的施放。
