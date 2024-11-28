@@ -1,7 +1,7 @@
 ---
 
 title: "Deep Dive — 跟著 Reid Duke 學習藍黑中速"
-date: "2024-11-28 20:05:27"
+date: "2024-11-28 20:43:35"
 tags:
   - "cephille"
 cover: "https://i.imgur.com/U55B0QF.jpeg"
@@ -36,7 +36,7 @@ Rebell 後手，起手如下：
 
 對手是打藍黑帶[惡魔房間](https://scryfall.com/card/dsk/118/unholy-annex-ritual-chamber)的類型，跟 Rebell Spike 所使用偏節奏的藍黑中速相比，兩者的打法是相差很大的。
 
-這個起手雖然沒有中後期的威脅如 {% mtglink "Sheoldred, the Apocalypse" %} 或 {% mtglink "Enduring Curiosity" %} ，但它保證了套牌前期節奏的運行，四塊可以產出雙藍雙黑的地牌，也避免掉卡地卡色的危機，其中更有 {% mtglink "Fountainport" %} 這塊高價值的無色功能地。而 {% mtglink "Siren Spyglass" %} 派出的 Map token 的勘查異能也有助於向前推進，找到所需要的威脅。此外， RD 與 Rebell 都認為 {% mtglink "Deep-Cavern Bat" %} 面對藍黑內戰茫茫多的去除，基本上無法在場上存活太久XD
+這個起手雖然沒有中後期的威脅如 {% mtglink "Sheoldred, the Apocalypse" %} 或 {% mtglink "Enduring Curiosity" %} ，但它保證了套牌前期節奏的運行，四塊可以產出雙藍雙黑的地牌，也避免掉卡地卡色的危機，其中更有 {% mtglink "Fountainport" %} 這塊高價值的無色功能地。而 {% mtglink "Spyglass Siren" %} 派出的 Map token 的勘查異能也有助於向前推進，找到所需要的威脅。此外， RD 與 Rebell 都認為 {% mtglink "Deep-Cavern Bat" %} 面對藍黑內戰茫茫多的去除，基本上無法在場上存活太久XD
 
 **討論結果**：接這個起手。
 
@@ -44,7 +44,7 @@ Rebell 後手，起手如下：
 
 > RD 從 MO 介面顯示的對手牌庫/手牌數量，注意到對手是一副 61 張的套牌。但這件事沒辦法給出太多資訊，頂多可以猜測對手可能很貪心？實際對局沒有 MO 的提示，應該是看不出對手到底是 60 還是 61 張的XD
 
-對手下了一塊沼澤就換人。Rebell 則抽上第二張 {% mtglink "Siren Spyglass" alt="siren" %} 。
+對手下了一塊沼澤就換人。Rebell 則抽上第二張 {% mtglink "Spyglass Siren" alt="siren" %} 。
 
 這邊就可以用兩隻 Sirens 去展開前期的進攻，同時派出兩個 Map tokens 搭配 {% mtglink "Fountainport" %} 去抽額外的牌、或單純讓生物體質變強去走一個快攻的路線。而這邊對手如果將去除交在 Siren 上，那你後面登場的 {% mtglink "Deep-Cavern Bat" alt="蝙蝠" %} 、{% mtglink "Sheoldred, the Apocalypse" alt="黑魔判" %} 或 {% mtglink "Enduring Curiosity" alt="藍貓" %} 的存活率就會跟著提高。
 
@@ -67,20 +67,20 @@ Rebell 認為他不會這個時間走 Option 2 出蝙蝠，因為這個時候他
 
 ![](https://i.imgur.com/OPXNLwN.jpeg)
 
-看完手牌後， Rebell 與 RD 都意識到了這將會是一場長期對局（對手有很多去除、但沒有顯著的威脅），而他們手中的 {% mtglink "Anoint with Affliction" %} ，則有可能得交在自己被  {% mtglink "Virtue of Persistence // Locthwain Scorn" %} 指定的生物上了。
+看完手牌後， Rebell 與 RD 都意識到了這將會是一場長期對局（對手有很多去除、但沒有顯著的威脅），而他們手中的 {% mtglink "Anoint with Affliction" %} ，則有可能得交在自己被 {% mtglink "Virtue of Persistence // Locthwain Scorn" %} 指定的生物上了。
 
 ### Turn 3 — [8 分 17 秒](https://youtu.be/rlzvCiNIWWI?si=Vp_ZJ2oMXRpcif3z&t=513)
 
 對手下了沼澤後繼續讓過。Rebell 則抽到了第二張 {% mtglink "Anoint with Affliction" %} 。
 
-這邊 Rebell 下地後拍下 Siren #2 後就讓過，如上一回合的計畫，手中的去除瞄準了對手的  {% mtglink "Virtue of Persistence // Locthwain Scorn" %} ；同時，手中的 Fountainport 先留著，避免對手反手用炸地地拆掉。
+這邊 Rebell 下地後拍下 Siren #2 後就讓過，如上一回合的計畫，手中的去除瞄準了對手的 {% mtglink "Virtue of Persistence // Locthwain Scorn" %} ；同時，手中的 Fountainport 先留著，避免對手反手用炸地地拆掉。
 
 ### Turn 4 — [10 分 52 秒](https://youtu.be/rlzvCiNIWWI?si=FSggPa7xnkMc86gw&t=652)
 
 對手下海島後拍出了他的黑魔判，**對局迎來了第一個轉捩點**。Rebell 抽了一塊地，血量降至 18 。
 
 > 1. 至此，如果 Rebell 沒辦法在接下來至多 9 張牌內抽到應對黑魔判的牌，那這個對局基本上就涼了；尤有甚者，黑魔判本身的進攻也會讓這個情境雪上加霜。
-> 2. 對手四回正拍黑魔判這個行動，同時也讓 Rebell 上回合留著兩費防堵對手生物、或  {% mtglink "Virtue of Persistence // Locthwain Scorn" %} 的策略失效。
+> 2. 對手四回正拍黑魔判這個行動，同時也讓 Rebell 上回合留著兩費防堵對手生物、或 {% mtglink "Virtue of Persistence // Locthwain Scorn" %} 的策略失效。
 > 3. 當然，如果 Rebell 空兩費時捏著的是 {% mtglink "Go for the Throat" alt="GFTT" %} 或  {% mtglink "Phantom Interference" %} 的話，那情況就完全不同了。只能說 MTG 中，「機率」的估算、與「運氣」成分雖然佔了一部分，但很多時候還是看人的膽識與直覺，去創造出獲勝的機會。
 
 這邊必須盡快找出應對黑魔判的牌。因此 Map token 可以繞過黑魔判副作用的效果就非常重要，但關鍵是：要怎麼用？
@@ -97,7 +97,7 @@ Rebell 認為他不會這個時間走 Option 2 出蝙蝠，因為這個時候他
 
 ### Turn 5 — [13 分 36 秒](https://youtu.be/rlzvCiNIWWI?si=he2qAIHxblj3-uVQ&t=816)
 
-對手抽牌，因為黑魔判的被動效果回 2 血到 16 。拍下 {% mtglink "Demolition Field" %} ，並使用  {% mtglink "Virtue of Persistence // Locthwain Scorn" %} 指定其中一隻 Siren ，被 Rebell 如計畫地用 {% mtglink "Anoint with Affliction" %} 規則反擊掉。
+對手抽牌，因為黑魔判的被動效果回 2 血到 16 。拍下 {% mtglink "Demolition Field" %} ，並使用 {% mtglink "Virtue of Persistence // Locthwain Scorn" %} 指定其中一隻 Siren ，被 Rebell 如計畫地用 {% mtglink "Anoint with Affliction" %} 規則反擊掉。
 
 > 對手這邊有兩個操作處理得不好：
 > 1. 橫置了 {% mtglink "Demolition Field" %} 來支付 Locthwain Scorn 的費用，堵住自己三費開放炸地的選項。
