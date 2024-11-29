@@ -1,7 +1,7 @@
 ---
 
 title: "Deep Dive — 跟著 Reid Duke 學習藍黑中速"
-date: "2024-11-28 20:43:35"
+date: "2024-11-29 10:29:09"
 tags:
   - "cephille"
 cover: "https://i.imgur.com/U55B0QF.jpeg"
@@ -44,7 +44,7 @@ Rebell 後手，起手如下：
 
 > RD 從 MO 介面顯示的對手牌庫/手牌數量，注意到對手是一副 61 張的套牌。但這件事沒辦法給出太多資訊，頂多可以猜測對手可能很貪心？實際對局沒有 MO 的提示，應該是看不出對手到底是 60 還是 61 張的XD
 
-對手下了一塊沼澤就換人。Rebell 則抽上第二張 {% mtglink "Spyglass Siren" alt="siren" %} 。
+對手下了一塊沼澤就換人。Rebell 則抽上第二張 {% mtglink "Spyglass Siren" alt="Siren" %} 。
 
 這邊就可以用兩隻 Sirens 去展開前期的進攻，同時派出兩個 Map tokens 搭配 {% mtglink "Fountainport" %} 去抽額外的牌、或單純讓生物體質變強去走一個快攻的路線。而這邊對手如果將去除交在 Siren 上，那你後面登場的 {% mtglink "Deep-Cavern Bat" alt="蝙蝠" %} 、{% mtglink "Sheoldred, the Apocalypse" alt="黑魔判" %} 或 {% mtglink "Enduring Curiosity" alt="藍貓" %} 的存活率就會跟著提高。
 
@@ -58,7 +58,7 @@ Rebell 後手，起手如下：
 
 1. 戰階前使用 Map token 給 Siren #1 ，試圖釣出對手的去除；戰階後拍出 Siren #2 。
 2. 出蝙蝠確認對手的手牌 （基本上會換到一張去除）。
-3. 直接用 Siren #1 進攻後，兩費開放讓過。捏著手中的去除給對手可能有的 {% mtglink "Faerie Mastermind" %}
+3. 直接用 Siren #1 進攻後，兩費開放讓過。捏著手中的去除給對手可能有的 {% mtglink "Faerie Mastermind" %} 。
 
 Rebell 認為他不會這個時間走 Option 2 出蝙蝠，因為這個時候他並沒有很在意對手的手牌長怎樣，但基本上會猜對手手中有去除。他更 prefer 走 Option 1 ，RD 也表示同意。
 
@@ -67,20 +67,20 @@ Rebell 認為他不會這個時間走 Option 2 出蝙蝠，因為這個時候他
 
 ![](https://i.imgur.com/OPXNLwN.jpeg)
 
-看完手牌後， Rebell 與 RD 都意識到了這將會是一場長期對局（對手有很多去除、但沒有顯著的威脅），而他們手中的 {% mtglink "Anoint with Affliction" %} ，則有可能得交在自己被 {% mtglink "Virtue of Persistence // Locthwain Scorn" %} 指定的生物上了。
+看完手牌後， Rebell 與 RD 都意識到了這將會是一場長期對局（對手有很多去除、但沒有顯著的威脅），而他們手中的 {% mtglink "Anoint with Affliction" %} ，則有可能得交在自己被 {% mtglink "Virtue of Persistence // Locthwain Scorn" alt="Locthwain Scorn" %} 指定的生物上了。
 
 ### Turn 3 — [8 分 17 秒](https://youtu.be/rlzvCiNIWWI?si=Vp_ZJ2oMXRpcif3z&t=513)
 
 對手下了沼澤後繼續讓過。Rebell 則抽到了第二張 {% mtglink "Anoint with Affliction" %} 。
 
-這邊 Rebell 下地後拍下 Siren #2 後就讓過，如上一回合的計畫，手中的去除瞄準了對手的 {% mtglink "Virtue of Persistence // Locthwain Scorn" %} ；同時，手中的 Fountainport 先留著，避免對手反手用炸地地拆掉。
+這邊 Rebell 下地後拍下 Siren #2 後就讓過，如上一回合的計畫，手中的去除瞄準了對手的 {% mtglink "Virtue of Persistence // Locthwain Scorn" alt="Locthwain Scorn" %} ；同時，手中的 Fountainport 先留著，避免對手反手用炸地地拆掉。
 
 ### Turn 4 — [10 分 52 秒](https://youtu.be/rlzvCiNIWWI?si=FSggPa7xnkMc86gw&t=652)
 
 對手下海島後拍出了他的黑魔判，**對局迎來了第一個轉捩點**。Rebell 抽了一塊地，血量降至 18 。
 
 > 1. 至此，如果 Rebell 沒辦法在接下來至多 9 張牌內抽到應對黑魔判的牌，那這個對局基本上就涼了；尤有甚者，黑魔判本身的進攻也會讓這個情境雪上加霜。
-> 2. 對手四回正拍黑魔判這個行動，同時也讓 Rebell 上回合留著兩費防堵對手生物、或 {% mtglink "Virtue of Persistence // Locthwain Scorn" %} 的策略失效。
+> 2. 對手四回正拍黑魔判這個行動，同時也讓 Rebell 上回合留著兩費防堵對手生物、或 {% mtglink "Virtue of Persistence // Locthwain Scorn" alt="Locthwain Scorn" %} 的策略失效。
 > 3. 當然，如果 Rebell 空兩費時捏著的是 {% mtglink "Go for the Throat" alt="GFTT" %} 或  {% mtglink "Phantom Interference" %} 的話，那情況就完全不同了。只能說 MTG 中，「機率」的估算、與「運氣」成分雖然佔了一部分，但很多時候還是看人的膽識與直覺，去創造出獲勝的機會。
 
 這邊必須盡快找出應對黑魔判的牌。因此 Map token 可以繞過黑魔判副作用的效果就非常重要，但關鍵是：要怎麼用？
@@ -90,14 +90,14 @@ Rebell 認為他不會這個時間走 Option 2 出蝙蝠，因為這個時候他
 **討論結果**：在其中一個 Siren 上使用 Map token，並用 Fountainport 吃掉另一個 Map token 抽一張牌。
 **實際行動**：在兩隻 Sirens 上個別用掉 1 個 Map tokens。
 
-而在實際行動中，第一、與第二個 Map token 的勘查效果分別看到了 {% mtglink "Kaito, Bane of Nightmares" %} 、以及 {% mtglink "Enduring Curiosity" %} ，都放進了墳場，並讓兩隻 Sirens 成長到 2/2。雙 Sirens 進攻，對手的血量降到 14 。
+而在實際行動中，第一、與第二個 Map token 的勘查效果分別看到了 {% mtglink "Kaito, Bane of Nightmares" %} 、以及 {% mtglink "Enduring Curiosity" alt="藍貓" %} ，都放進了墳場，並讓兩隻 Sirens 成長到 2/2。雙 Sirens 進攻，對手的血量降到 14 。
 
 > 實際行動中，Rebell 直接橫置了 Fountainport 來支付第一個 Map token 的起動費用。這個行動擋住了後續使用 Fountainport 的抽牌的這個選項。
 > 賽末檢討時，RD 也有提到他還是傾向走 Option 1，而從 Map token 放到墳場的牌，雖然目標都是找到 GFTT 解掉黑魔判，但如果吃掉第二個 Map token 抽上 {% mtglink "Enduring Curiosity" alt="藍貓" %} ，也還是可以達到找到 GFTT 的目標。
 
 ### Turn 5 — [13 分 36 秒](https://youtu.be/rlzvCiNIWWI?si=he2qAIHxblj3-uVQ&t=816)
 
-對手抽牌，因為黑魔判的被動效果回 2 血到 16 。拍下 {% mtglink "Demolition Field" %} ，並使用 {% mtglink "Virtue of Persistence // Locthwain Scorn" %} 指定其中一隻 Siren ，被 Rebell 如計畫地用 {% mtglink "Anoint with Affliction" %} 規則反擊掉。
+對手抽牌，因為黑魔判的被動效果回 2 血到 16 。拍下 {% mtglink "Demolition Field" %} ，並使用 {% mtglink "Virtue of Persistence // Locthwain Scorn" alt="Locthwain Scorn" %} 指定其中一隻 Siren ，被 Rebell 如計畫地用 {% mtglink "Anoint with Affliction" %} 規則反擊掉。
 
 > 對手這邊有兩個操作處理得不好：
 > 1. 橫置了 {% mtglink "Demolition Field" %} 來支付 Locthwain Scorn 的費用，堵住自己三費開放炸地的選項。
@@ -107,16 +107,17 @@ Rebell 認為他不會這個時間走 Option 2 出蝙蝠，因為這個時候他
 
 ### Turn 6 — [16 分 4 秒](https://youtu.be/rlzvCiNIWWI?si=sh5GKIHqsdtvFCvq&t=964)
 
-對手抽牌回血到 16 。 Demolition Field 炸掉藍黑變身地，並拍下 {% mtglink "Unholy Annex // Ritual Chamber" %} 。黑魔判進攻，這邊選擇直接扣 4 ， Rebell 血量降至 12 。回合末回應惡魔房間抽牌的效果起動 Fountainport 派出了一個 Treasure token 。關於要用 Fountainport 生一隻 1/1 Fish token 、 或一個 Treasure token 上，Rebell 與 RD 有一些討論：
+對手抽牌回血到 16 。 Demolition Field 炸掉藍黑變身地，並拍下 {% mtglink "Unholy Annex // Ritual Chamber" alt="Unholy Annex" %} 。黑魔判進攻，這邊選擇直接扣 4 ， Rebell 血量降至 12 。回合末回應 Unholy Annex 抽牌的效果起動 Fountainport 派出了一個 Treasure token 。關於要用 Fountainport 生一隻 1/1 Fish token 、 或一個 Treasure token 上，Rebell 與 RD 有一些討論：
 
 - 生 1/1 Fish：可以下回合阻擋黑魔判（變相的補 3 血）、或下下回合再阻擋 + Fountainport 吃掉抽一張牌 （變相的補 1 血 + 抽一張牌）
 - 生 Treasure：抽牌、或有助於後面的中大型咒語的施放。
 
 這邊 RD 最後給出的建議是：他覺得這兩個選擇相當接近，但如果是他面對這個情境，他傾向選生魚。但是，這並不代表生珍寶是錯的，像他說的，這兩個抉擇相當接近。而這邊也帶到 RD 的對局哲學：
 
-**在對局中，很多小的決定可能會帶來重要的影響，而當下我們並不知道；如果時間足夠的話，我們當然希望把每一個小決定都當成重要決定去謹慎看待。然而，我們一場比賽中有成千上萬個抉擇要做，我們不可能、也沒有時間在當下窮盡各種可能性，去做論文式的調查。在這個前提下，我們只要不疾不徐地去做出當下能做出的，最好的選擇。***（筆者概要性翻譯影片中 RD 的分享，非全文引述）*
+**在對局中，很多小的決定可能會帶來重要的影響，而當下我們並不知道；如果時間足夠的話，我們當然希望把每一個小決定都當成重要決定去謹慎看待。然而，我們一場比賽中有成千上萬個抉擇要做，我們不可能、也沒有時間在當下窮盡各種可能性，去做論文式的調查。在這個前提下，我們只要不疾不徐地去做出當下能做出的，最好的選擇。**
+*（筆者概要性翻譯影片中 RD 的分享，非全文引述）*
 
-> 這邊惡魔房間抽牌扣 2 血的副作用，會被黑魔判的被動效果抵銷掉，對手生命值停留在 16 。
+> 這邊 Unholy Annex 抽牌扣 2 血的副作用，會被黑魔判的被動效果抵銷掉，對手生命值停留在 16 。
 
 輪到 Rebell ，抽牌， {% mtglink "Go for the Throat" alt="GFTT" %} ！！！不過血量也跟著降到 10 。主回合直接解掉黑魔判，並保留四費開放的 Fountainport 作生魚的準備。2/2 Siren 攻擊，對手血量再度降至 14 ，但這次他可補不回來了。
 
@@ -125,13 +126,13 @@ Rebell 認為他不會這個時間走 Option 2 出蝙蝠，因為這個時候他
 
 ### Turn 7 — [21 分 33 秒](https://youtu.be/rlzvCiNIWWI?si=5UOVv_KyGROzjNBl&t=1293)
 
-對手抽牌後下了第七塊地後讓過，惡魔房間抽 1 扣 2 血量降至 12 ；Rebell 回應扣 1 血生魚，血量降至 9。
+對手抽牌後下了第七塊地後讓過， Unholy Annex 抽 1 扣 2 血量降至 12 ；Rebell 回應扣 1 血生魚，血量降至 9。
 
 輪到 Rebell 後抽上了 {% mtglink "Faerie Mastermind" alt="高橋優太" %} ，2/2 Siren 與 1/1 Fish token 攻擊，對手血量降至 9 。
 
 這個時候 RD 問了一個超棒的問題：
 
-「對面可以五費開房間生 6/6 Demon token ，為什麼他不這麼做？」
+「對面可以五費開 {% mtglink "Unholy Annex // Ritual Chamber" alt="Ritual Chamber" %} 生 6/6 Demon token ，為什麼他不這麼做？」
 
 這邊 Rebell 給出的回答總結下來是：
 1. 對手可能扣著 {% mtglink "The End" %} 想要交給我們這邊高價值的 {% mtglink "Sheoldred, the Apocalypse" alt="黑魔判" %} 或 {% mtglink "Enduring Curiosity" alt="藍貓" %} 。
@@ -141,7 +142,7 @@ Rebell 認為他不會這個時間走 Option 2 出蝙蝠，因為這個時候他
 
 ### Turn 8 — [23 分 51 秒](https://youtu.be/rlzvCiNIWWI?si=kWVhzWPO1AaLAVoI&t=1431)
 
-這邊對手終於開了房間派出 6/6 Demon token ，兩費開放讓過。
+這邊對手終於開了 Ritual Chamber 派出 6/6 Demon token ，兩費開放讓過。
 
 這邊 Rebell 選擇回應 Unholy Annex 的異能閃現高橋優太，結算，雙方各抽一張，對手血拉回 11 ，Rebell 則降至 7 ，因應高橋優太的效果抽上了一張地。之後再用 Fountainport 吃掉了自己的魚抽牌，還是一張地。
 
@@ -151,7 +152,7 @@ Rebell 認為他不會這個時間走 Option 2 出蝙蝠，因為這個時候他
 
 ### Turn 9 — [26 分 9 秒](https://youtu.be/rlzvCiNIWWI?si=-9PYRd6frSyQ3-6W&t=1569)
 
-對手使用 {% mtglink "Duress" %} 看到三張地，變出藍黑變身地攻擊，Rebell 則生出 1/1 Fish 阻擋，血量降至 6 。惡魔房間抽牌扣 2 ，對手血剩 7 。
+對手使用 {% mtglink "Duress" %} 看到三張地，變出藍黑變身地攻擊，Rebell 則生出 1/1 Fish 阻擋，血量降至 6 。 Unholy Annex 抽牌扣 2 ，對手血剩 7 。
 
 輪到 Rebell ，抽上  {% mtglink "Enduring Curiosity" alt="藍貓" %} 。 2/2 Siren 攻擊後跳藍貓，對手血剩 5 ，抽上  {% mtglink "Unstoppable Slasher" %} 並拍下。
 
@@ -211,7 +212,7 @@ Rebell 認為他不會這個時間走 Option 2 出蝙蝠，因為這個時候他
 
 對手第二回合拍下第二張沼澤，再用 {% mtglink "Cruelclaw's Heist" %} 拔掉了高橋優太（沒有 gift a card）。
 
-輪到 Rebell ，他抽到第三張高橋優太， 使用 Map token 勘查看到牌庫頂的 GFTT ，並讓 Siren #1 變成 2/2 ，攻擊後對手剩 18 。戰階後拍下 Siren #2 。
+輪到 Rebell ，他抽到第三張高橋優太， 使用 Map token 勘查看到牌庫頂的 {% mtglink "Go for the Throat" alt="GFTT" %} ，並讓 Siren #1 變成 2/2 ，攻擊後對手剩 18 。戰階後拍下 Siren #2 。
 
 ### Turn 3 — [35 分 44 秒](https://youtu.be/rlzvCiNIWWI?si=Jn8fQSIbJhhKQoPj&t=2144)
 
@@ -221,9 +222,9 @@ Rebell 認為他不會這個時間走 Option 2 出蝙蝠，因為這個時候他
 
 ### Turn 4 — [36 分 20 秒](https://youtu.be/rlzvCiNIWWI?si=Vw119n8JyJmfCQ5R&t=2181)
 
-對手用神奇小徑找了塊海島， Duress 掉 GFTT 後拍下 Unholy Annex，抽 1 扣 2 ，血剩 13 ；Rebell 這邊跳下了等待許久的高橋優太，抽起藍貓。
+對手用{% mtglink "Fabled Passage" alt="神奇小徑" %} 找了塊海島， Duress 掉 GFTT 後拍下 Unholy Annex 抽 1 扣 2 ，血剩 13 ；Rebell 這邊跳下了等待許久的高橋優太，抽起藍貓。
 
-輪到 Rebell ，一抽抽上第四塊站進地，三隻飛兵攻擊後跳藍貓，對手血勝 8 ，藍貓的異能抽三張牌，至此大局已定。
+輪到 Rebell ，一抽抽上第四塊站進地，三隻飛兵攻擊後跳藍貓，對手血剩 8 ，藍貓的異能抽三張牌，至此大局已定。
 
 ### Turn 5 — [36 分 50 秒](https://youtu.be/rlzvCiNIWWI?si=fnYIl1mOMD0PH10z&t=2210)
 
