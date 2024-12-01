@@ -1,7 +1,7 @@
 ---
 
 title: "Layer：持續性效應的互動"
-date: "2024-12-01 19:47:29"
+date: "2024-12-01 21:17:41"
 tags:
   - "JruMTG"
 authors:
@@ -208,7 +208,6 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 ### 小試身手
 
-{% notel red 範例1 %}
 ![範例1](https://i.imgur.com/a0CJpci.jpg)
 >[莊嚴獨角兔](https://scryfall.com/card/woe/25/regal-bunnicorn)：莊嚴獨角兔的力量和防禦力各等同於由你操控的非地永久物數量。
 >[倒楣鬼角色（靈氣）衍生物](https://scryfall.com/card/twoe/17/wicked-cursed)：所結附的生物是1/1。
@@ -222,9 +221,7 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 可以看到兩者定義攻防的效應處在不同層，莊嚴獨角兔的是7a層的[特徵定義異能（CDA）](https://guildmagesforum.tw/Characteristic-Defining-Ability/)，倒楣鬼角色則是在7b層，按層依序處理下來，最後生效的會是倒楣鬼角色，因此無論當下★為多少，最後莊嚴獨角兔都是個1/1生物。
 
-{% endnotel %}
 
-{% notel red 範例2 %}
 ![範例2](https://i.meee.com.tw/jgSYPUQ.png)
 >[攻城乳齒象](https://scryfall.com/card/m20/312/siege-mastodon)：3/5生物。
 >[扭曲影像](https://scryfall.com/card/a25/75/twisted-image)：將目標生物之力量與防禦力互換直到回合結束。
@@ -243,7 +240,7 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 - 7c層經過+4/-4變為7/1。
 - 7d層處理力量/防禦力交換，變為1/7。
 
-{% endnotel %}
+
 
 這兩題的答案乍看之下可能有點反直覺，因為這些都是影響力量/防禦力的效應，如果對於Layer系統沒有概念時，大多人會直覺性的對當下數字做運算，進而得出錯誤結果，或是對兩個效應間的關係毫無頭緒（如莊嚴獨角兔這題一樣）。但只要把這些效應分層排好再按順序處理，相信也很好理解為甚麼答案會變成這樣。處理Layer問題時最重要的就是釐清每個效應屬於哪層，只要把這些效應分類好了，再按順序依次執行，大多問題就能解開了。
 
@@ -253,7 +250,8 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 ## Layer規則範例
 
-{% notel red 鏡身影＋載具 %}
+### <font color="#FF0000">鏡身影 + 載具</font>
+
 ![載具](https://i.meee.com.tw/Po0EH21.png)
 >[鏡身影](https://scryfall.com/card/j22/62/mirror-image)：你可以使鏡身影當成任一由你操控之生物的複製品來進入戰場。
 >[地底縱帆船](https://scryfall.com/card/lci/80/subterranean-schooner)：一個載具。
@@ -271,13 +269,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 可以看到搭載只是作用在第4層，讓他額外獲得生物類別，防禦全開在更後面的層，然而複製效應只會看到第1層的[可複製特徵](https://guildmagesforum.tw/What-is-Copiable-Value/)，因此那怕原版的地底縱帆船是個生物，鏡身影複製後依然是非生物狀態，想要讓它變成生物還要重新起動一次搭載異能。防禦全開的影響也是完全複製不到。
 （這題的情境把鏡身影換成派出複製品Token、把載具換成變身地，也會得到一樣的結果）
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 鏡身影＋竊冠甌柯 %}
+### <font color="#FF0000">鏡身影 + 竊冠甌柯</font>
+
 ![魔戒OKO](https://i.imgur.com/YMt9pv0.jpeg)
 >[竊冠甌柯](https://scryfall.com/card/eld/197/oko-thief-of-crowns)[+1]：目標神器或生物失去所有異能，且成為基礎力量與防禦力為3/3的綠色麋鹿生物。
 >[至尊魔戒](https://scryfall.com/card/ltr/246/the-one-ring)：一個非生物傳奇神器。
@@ -295,13 +293,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 從上一案例就可以得知，雖然OKO的[+1]做了很多事，但沒有一個是修改到可複製特徵的，因此鏡身影進場後會是原版的至尊魔戒。但我們要注意，至尊魔戒是個傳奇永久物，而OKO的[+1]並不會動到卡名與超類別（傳奇），因此這時你操控著兩個同名的傳奇永久物，必須依照傳奇規則，選擇一個留在場上並將另一個送入墳場。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 鏡身影＋永續無瑕體 %}
+### <font color="#FF0000">鏡身影 + 永續無瑕體</font>
+
 ![永續體](https://i.meee.com.tw/3dDzve0.png)
 >[鏡身影](https://scryfall.com/card/j22/62/mirror-image)：你可以使鏡身影當成任一由你操控之生物的複製品來進入戰場。
 >[永續無瑕體](https://scryfall.com/card/dsk/6/enduring-innocence)：當永續無瑕體死去時，若它是生物，則將它在其擁有者的操控下移回戰場。它是結界。（移回後它便不再是生物。）
@@ -318,13 +316,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 這題還有個有趣的延伸，假設鏡身影回場時，你沒有其他生物可以複製了，那鏡身影會不會因為自己是0/0生物而死去？ 答案是不會，確實鏡身影沒複製到其他生物的話，就是個0/0沒錯，但隨後在第4層它失去的生物類別，既然不是生物，那就不會因為防禦力為0而死去，它會變成一個毫無功能的結界站在場上<font color="#AAAAAA">（好啦，硬要說的話姑且是個犧牲肥料）</font>。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 進軍阿芒凱＋永續無瑕體 %}
+### <font color="#FF0000">進軍阿芒凱 + 永續無瑕體</font>
+
 ![阿芒凱永續體](https://i.meee.com.tw/OqoVvcm.png)
 >[進軍阿芒凱](https://scryfall.com/card/mom/231/invasion-of-amonkhet-lazotep-convert)：一個戰役，背面為拉佐特變節者。
 >[拉佐特變節者](https://scryfall.com/card/mom/231/invasion-of-amonkhet-lazotep-convert)：你可以讓拉佐特變節者當成墳場中任一生物牌的複製品來進入戰場，但它是4/4黑色殭屍，且仍具有原本類別。
@@ -340,13 +338,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 因為永續無瑕體死亡異能的關係，進軍阿芒凱會成為結界並失去原本類別，也就是說「戰役～圍攻」這些類別都不見了，戰役進場時自帶布防指示物是戰役類別給予的效應，如果失去戰役類別自然也沒了這項能力，因此這個進軍阿芒凱進場時不會帶有任何布防指示物。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 拉佐特變節者＋鏡身影 %}
+### <font color="#FF0000">拉佐特變節者 + 鏡身影</font>
+
 ![1a修改](https://i.meee.com.tw/1WmLZnn.png)
 >[拉佐特變節者](https://scryfall.com/card/mom/231/invasion-of-amonkhet-lazotep-convert)：你可以讓拉佐特變節者當成墳場中任一生物牌的複製品來進入戰場，但它是4/4黑色殭屍，且仍具有原本類別。
 >[勵志監管使](https://scryfall.com/card/fdn/496/inspiring-overseer)：拉佐特變節者複製的對象生物。
@@ -362,10 +360,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 所以，鏡身影會做為一個名為勵志監管使，4/4黑色殭屍/天使/僧侶的生物，具飛行異能，且進場仍會觸發抽一張牌、補一點血的效果。
 
-{% endnotel %}
 
 
-{% notel red 複製＋面朝下 %}
+
+
+
+### <font color="#FF0000">複製 + 面朝下</font>
+
 ![面朝下](https://i.meee.com.tw/i1DRAaB.png)
 >[煙火表演者](https://scryfall.com/card/mkm/140/pyrotechnic-performer)：[偽裝](https://guildmagesforum.tw/MKM-mechanism/#%E5%81%BD%E8%A3%9D%EF%BC%88Disguise%EF%BC%89){R}（你可以牌面朝下地施放此牌並支付{3}，將其當成2/2、具守護{2}的生物。可隨時支付其偽裝費用使其翻回正面。）
 >[擬形變幻](https://scryfall.com/card/m19/60/metamorphic-alteration)：於擬形變幻進戰場時，選擇一個生物。所結附的生物是所選生物的複製品。
@@ -382,13 +383,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 這個生物目前的實際狀況為「面朝下的深沼翼邪鬼」，因為它已經成為了深沼翼邪鬼的複製品，所以失去了煙火表演者原有的偽裝費用，沒辦法用偽裝的能力翻為面朝上，不過如果你用[暴露罪犯](https://scryfall.com/card/mkm/124/expose-the-culprit)之類的牌強行把這個永久物翻為面朝上，那麼它就會是個深沼翼邪鬼，因為1b層的偽裝效應已經終止了，但1a層的複製效應還在運作中。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 操控權轉移 %}
+### <font color="#FF0000">操控權轉移</font>
+
 ![NTR](https://i.meee.com.tw/svrRGfg.png)
 >[全面操弄](https://scryfall.com/card/rna/42/mass-manipulation)：獲得X個目標生物和／或鵬洛客的操控權。
 >[叛行](https://scryfall.com/card/rvr/99/act-of-treason)：獲得目標生物的操控權直到回合結束。重置該生物。它獲得敏捷異能直到回合結束。
@@ -402,14 +403,14 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 在玩家C使用叛行把生物搶走後，玩家B全面操弄的效應其實並未終止，兩者都在第2層持續作用中，只是因為玩家C的叛行有更新的時間印記，因此蓋過了玩家B的全面操弄。等到叛行效應終止後，第2層上就只剩下全面操弄還在作用了，因此生物的操控權會轉到玩家B手上。
 
-{% endnotel %}
 
 
 
 
 
 
-{% notel red 敘述文字改變 %}
+### <font color="#FF0000">敘述文字改變</font>
+
 ![曲解心意](https://i.meee.com.tw/kZhnPG7.png)
 >[曲解心意](https://scryfall.com/card/10e/93/mind-bend)：更改目標永久物的規則敘述文字；將其中一種顏色文字全部更改為另一種，或是將一種基本地類別文字全部更改為另一種。
 >[堅毅女王琳登](https://scryfall.com/card/lci/80/subterranean-schooner)：每當一個由你操控的白色生物攻擊時，你獲得1點生命。
@@ -424,13 +425,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 其實這題就算沒有Layer觀念多半也沒什麼影響，只是因為修改規則敘述文字的效應太罕見了，所以還是介紹一下它在Layer中運作的方式。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 十會盟地脈＋虛色 %}
+### <font color="#FF0000">十會盟地脈 + 虛色</font>
+
 ![虛色](https://i.imgur.com/mhDYkob.jpeg)
 >[十會盟地脈](https://scryfall.com/card/mkm/217/leyline-of-the-guildpact)：每個由你操控的非地永久物均是五色。
 >[竊生惡體](https://scryfall.com/card/mh3/174/thief-of-existence)：虛色（此牌沒有顏色）。
@@ -445,13 +446,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 > - 613.3 在層2~6中，特徵定義異能所產生的效應首先生效，然後所有其他順序按照時間印記順序生效。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 關鍵字指示物＋失去異能 %}
+### <font color="#FF0000">關鍵字指示物 + 失去異能</font>
+
 ![Layer6](https://i.meee.com.tw/xaPpz1N.png)
 >[曲枝飛鼠](https://scryfall.com/card/iko/15/helica-glider)：曲枝飛鼠進戰場時上面依你的選擇有一個飛行指示物或一個先攻指示物。
 >[神秘破壞](https://scryfall.com/card/iko/57/mystic-subdual)：所結附的生物得-2/-0且失去所有異能。（合變無法讓此生物獲得新異能。它可以藉由其他方式獲得異能。）
@@ -467,13 +468,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 但假設這之後你用了其他效應給曲枝飛鼠放上一個先攻指示物，那麼它就會有先攻異能，因為這個先攻指示物的時間印記要晚於神秘破壞，神秘破壞沒辦法洗掉這個效應。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 腥紅之月＋約格莫夫之墓烏爾博格 %}
+### <font color="#FF0000">腥紅之月 + 約格莫夫之墓烏爾博格</font>
+
 ![薑餅](https://i.meee.com.tw/9Qy4REK.png)
 >[腥紅之月](https://scryfall.com/card/2xm/118/blood-moon)：非基本地都是山脈。
 >[約格莫夫之墓烏爾博格](https://scryfall.com/card/tsr/287/urborg-tomb-of-yawgmoth)：每個地均額外具有沼澤此地類別。以下簡稱「約墓」。
@@ -489,13 +490,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 > - 613.8a 如果一個效應（a）與另一個效應在同一層（或副層）中生效；（b）生效的順序將改變第一個效應的敘述或存在、改變它將生效的對象、或改變它將生效的內容；以及（c）這兩個效應都是或都不是特徵定義異能，則第一個效應「從屬於」第二個效應。否則，這兩個效應不從屬於彼此。
 
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 薑餅怪人＋化蛙術 %}
+### <font color="#FF0000">薑餅怪人 + 化蛙術</font>
+
 ![薑餅](https://i.meee.com.tw/AM3ACHe.png)
 >[薑餅怪人](https://scryfall.com/card/woe/246/gingerbrute)：{1}：薑餅怪人本回合只能被具敏捷異能的生物阻擋。
 >[化蛙術](https://scryfall.com/card/clu/103/turn-to-frog)：直到回合結束，目標生物失去所有異能，且成為基礎力量與防禦力為1/1的藍色蛙。
@@ -518,13 +519,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 > - 113.1a 異能可以是物體上令其影響遊戲的特徵。一個物件的異能由其規則敘述或創造它的效應所定義。規則或效應也可以賦予物體異能。異能產生效應。 
 （賦予異能的效果通常使用字詞：「has、have、gains、gain」，中文則是用「具有、獲得」）
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 鋼樑鎮毆擊棍＋化蛙術 %}
+### <font color="#FF0000">鋼樑鎮毆擊棍 + 化蛙術</font>
+
 ![武具](https://i.meee.com.tw/vUOmsGX.png)
 >[幼熊](https://scryfall.com/card/fdn/552/bear-cub)：無異能2/2生物。
 >[鋼樑鎮毆擊棍](https://scryfall.com/card/mom/131/beamtown-beatstick)：佩帶此武具的生物得+1/+0且具有威懾異能。 
@@ -557,13 +558,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 > 其實本來舉例時想用[熾寒劍](https://scryfall.com/card/2xm/297/sword-of-fire-and-ice)這種大家都比較熟的反雙色保護劍，但這傢伙的規則文本字有夠多，表格怎麼調排版都會爆掉。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 永世陰謀家祖爾＋提莎娜的縛潮師 %}
+### <font color="#FF0000">永世陰謀家祖爾 + 提莎娜的縛潮師</font>
+
 ![祖爾](https://i.meee.com.tw/I8jzeAQ.png)
 >[永世陰謀家祖爾](https://scryfall.com/card/dmu/228/zur-eternal-schemer)：
 >由你操控的結界生物具有死觸、繫命與辟邪異能。
@@ -597,15 +598,34 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 祖爾的能力會賦予凶林霸主死觸、繫命、辟邪，縛潮師則是令凶林霸主失去異能，這兩者都作用於第6層，所以這時要比時間印記，而祖爾這效應的來源是他的靜止式異能，其時間印記等同祖爾的進場時間，因此結論是縛潮師擁有較新的時間印記，凶林霸主將失去所有異能，變成5/5的無異能生物。
 
-![霸主](https://i.meee.com.tw/jPDz3pv.png)
-
-{% endnotel %}
+> ![霸主](https://i.meee.com.tw/jPDz3pv.png)
 
 
 
 
 
-{% notel red 飲咒蛇＋褪除武裝 %}
+
+### <font color="#FF0000">莊嚴獨角兔 + 褪除武裝</font>
+
+![CDA](https://i.meee.com.tw/ctoYXWd.png)
+>[莊嚴獨角兔](https://scryfall.com/card/woe/25/regal-bunnicorn)：莊嚴獨角兔的力量和防禦力各等同於由你操控的非地永久物數量。
+>[褪除武裝](https://scryfall.com/card/mh2/39/dress-down)：生物均失去所有異能。
+
+來看看莊嚴獨角兔這類定義力量/防禦力為★的[特徵定義異能（CDA）](https://guildmagesforum.tw/Characteristic-Defining-Ability/)，碰上失去異能的效應時會發生甚麼？
+
+| Layer | 莊嚴獨角兔 | 褪除武裝 |
+| :-: | :-: | :-: |
+| 6 |  | 失去所有異能 |
+| 7a | ★為非地永久物數量 |  |
+
+CDA是一種異能，會受失去異能的效應影響，無論莊嚴獨角兔當前★數值為多少，只要褪除武裝在場，莊嚴獨角兔會因為失去CDA而成為0/0，然後直接死去。
+
+- 208.2a 有些牌具有特徵定義異能，其根據一些狀態設定它的力量和/或防禦力。 此類異能在所有地方均生效，即使在遊戲外。如果該異能需要使用的數字不能確定，則以0來代替。
+
+
+
+### <font color="#FF0000">飲咒蛇 + 褪除武裝</font>
+
 ![飲咒蛇](https://i.imgur.com/3OV0uDC.jpeg)
 >[飲咒蛇](https://scryfall.com/card/mh1/168/hexdrinker)：等級8+：6/6、反一切保護。
 >[褪除武裝](https://scryfall.com/card/mh2/39/dress-down)：生物均失去所有異能。
@@ -621,13 +641,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 在第6層有兩種添加、移除異能的效應要作用於飲咒蛇，且這兩者會產生[從屬關係](https://guildmagesforum.tw/What-is-Dependency/)，結論而言是褪除武裝的「失去所有異能」效應會勝出，無論這兩個效應的時間印記為何，最後飲咒蛇都會失去所有異能，這也包含了之後將在7b層生效的設定攻防異能，因此只要褪除武裝進場後，飲咒蛇就注定是個沒有異能的2/1生物。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 巧手竊猴勒格文＋褪除武裝 %}
+### <font color="#FF0000">巧手竊猴勒格文 + 褪除武裝</font>
+
 ![Dash](https://i.imgur.com/siUFh3o.jpeg)
 >[巧手竊猴勒格文](https://scryfall.com/card/mh2/138/ragavan-nimble-pilferer)：掩襲{1}{R}（你可以支付此咒語的掩襲費用來施放它。如果你如此作，則它獲得敏捷異能，且在下個結束步驟開始時便需從戰場移回其擁有者手上。）
 >[褪除武裝](https://scryfall.com/card/mh2/39/dress-down)：生物均失去所有異能。
@@ -653,13 +673,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 結論是，如果你在有褪除武裝的情況下掩襲勒格文，它將沒有敏捷與原本的異能，但結束步驟開始時還是要回手。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 紅月賢者＋竊冠甌柯 %}
+### <font color="#FF0000">紅月賢者 + 竊冠甌柯</font>
+
 ![紅月OKO](https://i.imgur.com/QNgC2M3.jpeg)
 >[紅月賢者](https://scryfall.com/card/tsr/175/magus-of-the-moon)：非基本地都是山脈。
 >[竊冠甌柯](https://scryfall.com/card/eld/197/oko-thief-of-crowns)[+1]：目標神器或生物失去所有異能，且成為基礎力量與防禦力為3/3的綠色麋鹿生物。
@@ -677,13 +697,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 看完表格相信你已經發現了，紅月賢者的能力作用在第4層，而失去所有異能則是在第6層，因此第4層的效應會先生效，將非基本地變成山脈，接著才是6層的失去所有異能生效，然而這時已經來不及阻止紅月賢者了。這題將OKO換成其他讓生物失去異能的牌也不影響結果（如[化蛙術](https://scryfall.com/card/clu/103/turn-to-frog)、[褪除武裝](https://scryfall.com/card/mh2/39/dress-down)等）。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 腥紅之月＋荒野之魂艾莎婭 %}
+### <font color="#FF0000">腥紅之月 + 荒野之魂艾莎婭</font>
+
 ![艾莎婭](https://i.imgur.com/yRrrdsD.jpeg)
 >[腥紅之月](https://scryfall.com/card/2xm/118/blood-moon)：非基本地都是山脈。
 >[荒野之魂艾莎婭](https://scryfall.com/card/znr/179/ashaya-soul-of-the-wild)：荒野之魂艾莎婭的力量和防禦力各等同於由你操控的地數量。
@@ -716,13 +736,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 正常來說這題因為艾莎婭的死去就到此結束了，艾莎婭的效應消失，場面回到只有腥紅之月時的狀態。但好玩的來了，那麼如果艾莎婭上有個+1/+1指示物之類的，讓她把前面的Layer解完後不會因此死去呢？ 那麼前面第4層的效應就將持續適用，你的所有生物（包含之後進場的）都會成為地生物，副類別為原有的生物類別+山脈，失去所有異能並獲得山脈的產紅色法力異能。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 腥紅之月＋艾莎婭＋根徑滌淨師 %}
+### <font color="#FF0000">腥紅之月 + 艾莎婭 + 根徑滌淨師</font>
+
 ![根徑滌淨師](https://i.imgur.com/vescdhV.jpeg)
 >[腥紅之月](https://scryfall.com/card/2xm/118/blood-moon)：非基本地都是山脈。
 >[荒野之魂艾莎婭](https://scryfall.com/card/znr/179/ashaya-soul-of-the-wild)：荒野之魂艾莎婭的力量和防禦力各等同於由你操控的地數量。
@@ -745,13 +765,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 因此最後你的非Token生物就是額外獲得基本地-樹林類別，並獲得了樹林的橫置產綠色法力異能，而腥紅之月則因為你的根徑滌淨師，對你產生不了甚麼影響了。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 百勝戰車格拉茲＋背叛毒刺瓦絲卡 %}
+### <font color="#FF0000">百勝戰車格拉茲 + 背叛毒刺瓦絲卡</font>
+
 ![戰車](https://i.imgur.com/k9TR77g.jpeg)
 >[百勝戰車格拉茲](https://scryfall.com/card/one/229/graaz-unstoppable-juggernaut)：
 由你操控的攻城巨車每次戰鬥若能攻擊，則必須攻擊。
@@ -778,13 +798,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 簡單的說，百勝戰車格拉茲的「由你操控的其他生物之基礎力量與防禦力為5/3，且額外具有攻城巨車此生物類別。」雖然動了複數層，但整段話是一個完整個效應，而根據規則613.6，一個效應只要在某一層開始生效，這個效應對其他層的影響也會適用，在這題中最先適用的會是戰車的第4層效應（瓦絲卡的[-2]雖然也作用於第4層，但這個作用於戰車的忠誠異能的時間印記，肯定是晚於戰車進場的時間印記的），戰車第4層效應生效的瞬間，就把其他層的事情一起做完了，因此即使後面有「失去所有異能」的效應也來不及阻止它。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 合變＋失去異能 %}
+### <font color="#FF0000">合變 + 失去異能</font>
+
 ![合變1](https://i.meee.com.tw/QIqbojg.png)
 >[夢翎蒼鷺](https://scryfall.com/card/iko/47/dreamtail-heron)：合變{3}{U}。每當此生物合變時，抽一張牌。
 >[神秘破壞](https://scryfall.com/card/iko/57/mystic-subdual)：所結附的生物得-2/-0且失去所有異能。（合無法讓此生物獲得新異能。它可以藉由其他方式獲得異能。）
@@ -806,13 +826,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 > 從[神秘破壞](https://scryfall.com/card/iko/57/mystic-subdual)後面括號內的提示文字就可以看出，這張卡的設計用意就是在提醒玩家合變的運作原理。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 撼世妮莎＋碎晶狂獸 %}
+### <font color="#FF0000">撼世妮莎 + 碎晶狂獸</font>
+
 ![合變2](https://i.meee.com.tw/Ci3bLel.png)
 >[撼世妮莎](https://scryfall.com/card/war/169/nissa-who-shakes-the-world)[+1]：在至多一個目標由你操控且非生物的地上放置三個+1/+1指示物。將之重置。它成為0/0，具警戒與敏捷異能的元素生物，且仍然是地。
 >[樹林](https://scryfall.com/card/fdn/291/forest)：基本地 ～樹林
@@ -861,13 +881,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 當碎晶狂獸在上時，會因為失去樹林類別而同時失去樹林的魔法力異能。而撼世妮莎[+1]的那句「且仍然是地」，只是代表說會在不改變現有類別的情況下追加類別，但在1a層合變修改特徵後它就已經不是地了，因此撼世妮莎[+1]並不會讓它保有地類別。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 同謀＋氣蘊四體１ %}
+### <font color="#FF0000">同謀 + 氣蘊四體１</font>
+
 ![氣蘊四體1](https://i.meee.com.tw/2QnhONt.png)
 >[同謀](https://scryfall.com/card/acr/88/conspiracy)：於同謀進場時，選擇一種生物類別。
 由你擁有且不在場的生物，由你操控的生物咒語，以及由你操控的生物都是這個類別。
@@ -886,13 +906,14 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 目前經過第4層後草原雄獅是：地生物～腐生物/樹林。並隨後在第5層改為綠色，在第7b層變為1/1。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 同謀＋氣蘊四體２ %}
+
+### <font color="#FF0000">同謀 + 氣蘊四體２</font>
+
 ![氣蘊四體2](https://i.meee.com.tw/vFx0Ois.png)
 >[同謀](https://scryfall.com/card/acr/88/conspiracy)：於同謀進場時，選擇一種生物類別。
 由你擁有且不在場的生物，由你操控的生物咒語，以及由你操控的生物都是這個類別。
@@ -944,13 +965,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 氣蘊四體是在一個效應內修改三個Layer，因此當這個效應其中一層開始運作後，它對其他層的影響也將適用，由於此時草原雄獅並不是個樹林或腐生物，還在氣蘊四體的作用對象外，因此氣蘊四體的效應完全不適用於草原雄獅。等到輪到同謀的效果生效時，氣蘊四體的影響對象已經確定了，同謀此時才修改草原雄獅類別也來不及了。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 獻力神＋蛋白石光輝 %}
+### <font color="#FF0000">獻力神 + 蛋白石光輝</font>
+
 ![結界神](https://i.imgur.com/6qfdzRc.jpeg)
 >[日冠赫利歐德](https://scryfall.com/card/cmm/29/heliod-sun-crowned)：只要你的白色獻力小於五，赫利歐德便不是生物。（以下簡稱白神）
 >[蛋白石光輝](https://scryfall.com/card/uds/13/opalescence)：所有其他非靈氣結界額外具有生物類別，且基礎力量與防禦力等同於其總魔法力值。
@@ -970,13 +991,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 但無論白神&蛋白石光輝的進場順序為何，蛋白石光輝的設定攻防能力都會生效，因此白神的攻防一律變成其魔法力值的數值。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 獻力神＋謙卑 %}
+### <font color="#FF0000">獻力神 + 謙卑</font>
+
 ![結界神2](https://i.meee.com.tw/qEg2xTr.png)
 >[日冠赫利歐德](https://scryfall.com/card/cmm/29/heliod-sun-crowned)：只要你的白色獻力小於五，赫利歐德便不是生物。
 >[謙卑](https://scryfall.com/card/tpr/16/humility)：所有生物均失去所有異能，且基礎力量與防禦力為1/1。
@@ -1002,13 +1023,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 這才是獻力神這題經典的部分，因為此時的白神已經因為謙卑失去所有異能了，所以會讓人疑惑是不是連檢查獻力的能力都失去了？
 其實把Layer表格填完後答案就已經出來了，檢查獻力的能力是第4層的改變類別效應，早在第6層的失去異能之前就已經生效了。所以這題的答案，就是很單純的隨時檢查獻力來決定白神是不是生物，如果是生物就會受謙卑影響，跟謙卑甚麼時候、在白神是不是生物時進場都沒有關係。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 謙卑＋祀煉基定 %}
+### <font color="#FF0000">謙卑 + 祀煉基定</font>
+
 ![基定](https://i.meee.com.tw/xmkkV40.png)
 >[謙卑](https://scryfall.com/card/tpr/16/humility)：所有生物均失去所有異能，且基礎力量與防禦力為1/1。
 >[祀煉基定](https://scryfall.com/card/akh/14/gideon-of-the-trials)[0]：直到回合結束，祀煉基定成為4/4，具不滅異能的人類／士兵生物，且仍然是鵬洛客。防止本回合中將對他造成的所有傷害。
@@ -1028,13 +1049,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 至於「防止本回合中將對他造成的所有傷害」這個效應，它並非修改祀煉基定的特徵，就只是產生一個作用於基定身上的效應而已，這並不屬於Layer的範圍之內，因此即使基定失去的異能，這個效應也會持續保護著基定。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 謙卑＋蛋白石光輝 %}
+### <font color="#FF0000">謙卑 + 蛋白石光輝</font>
+
 ![謙卑](https://i.imgur.com/LvErY6U.jpeg)
 >[謙卑](https://scryfall.com/card/tpr/16/humility)：所有生物均失去所有異能，且基礎力量與防禦力為1/1。
 >[蛋白石光輝](https://scryfall.com/card/uds/13/opalescence)：所有其他非靈氣結界額外具有生物類別，且基礎力量與防禦力等同於其總魔法力值。
@@ -1059,13 +1080,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 
 可以看到不管是謙卑還蛋白石光輝，都是在同一條效應中同時動到複數層，一旦效應開始生效了，對其他層的改動就確定生效，即使中間經過異能移除也不影響。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 謙卑＋蛋白石光輝X2 %}
+### <font color="#FF0000">謙卑 + 蛋白石光輝X2</font>
+
 ![謙卑2](https://i.meee.com.tw/gu1l5fw.png)
 >[謙卑](https://scryfall.com/card/tpr/16/humility)：所有生物均失去所有異能，且基礎力量與防禦力為1/1。
 >[蛋白石光輝](https://scryfall.com/card/uds/13/opalescence)×2：所有其他非靈氣結界額外具有生物類別，且基礎力量與防禦力等同於其總魔法力值。
@@ -1086,13 +1107,13 @@ Layer總共有七層（以1~7表示），其中某些層還可以細分成子層
 - 如果謙卑擁有最舊的時間印記，那麼所有生物都是N/N。
 - 如果時間印記是 蛋白石光輝A → 謙卑 → 蛋白石光輝B，這時好玩的來了，按照時間印記順序來適用效果，首先蛋白石光輝A生效，這裡不重要；接著謙卑生效，所有生物都成為1/1，最後蛋白石光輝B生效，將 **它以外** 的生物設定為N/N，然而蛋白石光輝B不會設定它自己的力量/防禦力，因此它最後被設定的數值為謙卑的1/1。
 
-{% endnotel %}
 
 
 
 
 
-{% notel red 謙卑＋蛋白石光輝＋迷醉傍晚 %}
+### <font color="#FF0000">謙卑 + 蛋白石光輝 + 迷醉傍晚</font>
+
 ![迷醉傍晚](https://i.imgur.com/mKryyV4.jpeg)
 >[謙卑](https://scryfall.com/card/tpr/16/humility)：所有生物均失去所有異能，且基礎力量與防禦力為1/1。
 >[蛋白石光輝](https://scryfall.com/card/uds/13/opalescence)：所有其他非靈氣結界額外具有生物類別，且基礎力量與防禦力等同於其總魔法力值。
