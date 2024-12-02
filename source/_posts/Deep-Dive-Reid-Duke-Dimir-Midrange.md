@@ -10,7 +10,7 @@ excerpt: "終於有這樣的機會可以跟 RD 大大學習了，來看看這一
 authors:
   - "cephille"
 categories:
-  - "Deep-dive"
+  - "Deep dive"
 ---
 
 
