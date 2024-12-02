@@ -1,13 +1,13 @@
 ---
 
 title: "Layer：持續性效應的互動"
-date: "2024-12-01 21:17:41"
+date: "2024-12-02 10:57:43"
 tags:
   - "JruMTG"
 authors:
   - "JruMTG"
 categories:
-  - "MTG Rule"
+  - "MTG Rules"
 cover: "https://i.imgur.com/jaxkDzr.png"
 thumbnail: "https://i.imgur.com/jaxkDzr.png"
 excerpt: "謙卑+蛋白石光輝該如何處理？（可能是處理規則，也可能是處理玩這個的人）"
