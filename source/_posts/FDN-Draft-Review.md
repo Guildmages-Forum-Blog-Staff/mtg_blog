@@ -47,7 +47,7 @@ excerpt: "現在抽塊地就行了…幹怎麼是地脈斧？永遠不會起手�
 * GIH WR (Game In Hand Win Rate)：為人熟悉，在一場遊戲中卡牌出現在手牌中時的個別勝率
 * OH WR (Open Hand Win Rate)：起手就在手牌時的卡牌個別勝率
 
-今次我們將會著目於這兩者的相差，**Δ(OH WR - GIH WR)**。
+今次我們將會著目於這兩者的相差， **Δ(OH WR  GIH WR)** 。
 
 Δ容易明白又明顯的例子就是[羅堰妖精](https://scryfall.com/card/fdn/227/llanowar-elves)。
 
