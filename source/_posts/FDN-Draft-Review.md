@@ -1,7 +1,7 @@
 ---
 
 title: "文章翻譯 — FDN輪抽體驗：日本限制賽強豪玩家的看法"
-date: "2024-12-05 19:51:01"
+date: "2024-12-06 09:52:25"
 tags:
   - "Kappa"
 authors:
@@ -16,8 +16,8 @@ excerpt: "現在抽塊地就行了…幹怎麼是地脈斧？永遠不會起手�
 
 ## 原文資訊
 
-原文名稱：【MTG】FDNリミテはクソだと叫びたい
-名稱翻譯：【MTG】想大叫FDN限制賽真是爛
+原文名稱：【MTG】 FDNリミテはクソだと叫びたい
+名稱翻譯：【MTG】 想大叫FDN限制賽真是爛
 
 >譯者注：[君が好きだと叫びたい](https://www.youtube.com/watch?v=ufDlhed1iJQ)？
 
@@ -47,7 +47,7 @@ excerpt: "現在抽塊地就行了…幹怎麼是地脈斧？永遠不會起手�
 * GIH WR (Game In Hand Win Rate)：為人熟悉，在一場遊戲中卡牌出現在手牌中時的個別勝率
 * OH WR (Open Hand Win Rate)：起手就在手牌時的卡牌個別勝率
 
-今次我們將會著目於這兩者的相差， **Δ(OH WR  GIH WR)** 。
+今次我們將會著目於這兩者的相差， **Δ(OH WR － GIH WR)** 。
 
 Δ容易明白又明顯的例子就是[羅堰妖精](https://scryfall.com/card/fdn/227/llanowar-elves)。
 
@@ -62,7 +62,7 @@ excerpt: "現在抽塊地就行了…幹怎麼是地脈斧？永遠不會起手�
 
 GIH WR=56.6%雖然在合格點上，但OH WR=52.2%相當低，因此在初手時在手牌的話，實質上和手牌少了一張一樣，容易不利。
 
-今次，筆者的假設是，**FDN中有許多Δ(OH WR - GIH WR)很大或很小的牌**。
+今次，筆者的假設是， **FDN中有許多Δ(OH WR － GIH WR)很大或很小的牌** 。
 簡單而言，就是因為抽牌的波動性大所以引起不穩定。
 接下來將對此進行驗證。
 
@@ -74,11 +74,11 @@ GIH WR=56.6%雖然在合格點上，但OH WR=52.2%相當低，因此在初手時
 
 ![箱形圖](https://i.meee.com.tw/8xAeXiO.png)
 
-- Q0：**最小值（minimum）**
-- Q1：**第一[四分位數](https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%88%86%E4%BD%8D%E6%95%B0)（lower quartile）**
-- Q2：**[中位數](https://zh.wikipedia.org/wiki/%E4%B8%AD%E4%BD%8D%E6%95%B8)（第二[四分位數](https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%88%86%E4%BD%8D%E6%95%B0)、median）**
-- Q3：**第三[四分位數](https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%88%86%E4%BD%8D%E6%95%B0)（upper quartile）**
-- Q4：**最大值（maximum）**
+- Q0： **最小值（minimum）**
+- Q1： **第一[四分位數](https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%88%86%E4%BD%8D%E6%95%B0)（lower quartile）**
+- Q2： **[中位數](https://zh.wikipedia.org/wiki/%E4%B8%AD%E4%BD%8D%E6%95%B8)（第二[四分位數](https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%88%86%E4%BD%8D%E6%95%B0)、median）**
+- Q3： **第三[四分位數](https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%88%86%E4%BD%8D%E6%95%B0)（upper quartile）**
+- Q4： **最大值（maximum）**
 
 其中Q1與Q3的差值也叫**IQR（[四分位距](https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%88%86%E4%BD%8D%E8%B7%9D)）**，IQR是得出箱形圖最大、最小值的重要參數：
 - 最小值 Q0 = Q1 - 1.5×IQR
@@ -90,7 +90,7 @@ GIH WR=56.6%雖然在合格點上，但OH WR=52.2%相當低，因此在初手時
 
 將FDN的所有卡的Δ(OH WR - GIH WR)，與最近的2彈卡包（DSK、BLB）進行比較。比較後的圖表如下：
 
-![](https://i.postimg.cc/3wszQ4Cc/MTG-write-a2.png)
+![1](https://i.meee.com.tw/J9HLPeM.png)
 
 箱形圖中顯示FDN的範圍最寬，FDN似乎可以說在Δ的變異性上，至少比DSK・BLB更大。
 
@@ -104,14 +104,14 @@ BLB的[受雇利爪](https://scryfall.com/card/blb/140/hired-claw)有著凌駕�
 
 在這裡將以良好環境而見稱的MH3也加入圖表。
 
-![](https://i.postimg.cc/xd2Kr9NP/MTG-write-a3.png)
+![2](https://i.meee.com.tw/BbjX6lv.png)
 
 MH3展示出比哪個環境都更小的變異性，從這項驗證中可以說明這是一個「抽牌波動較小」的環境。
 事實上，由於「[背面為地的模式雙面牌](https://scryfall.com/card/mh3/260/suppression-ray-orderly-plaza)」和「[帶循環的找地地](https://scryfall.com/card/mh3/217/bountiful-landscape)」的幫助，令手牌事故不易發生，所以被稱為良好環境的原因之一。
 
 接下來，將Play Booster發行後的其餘環境，MKM、OTJ加至圖表中。
 
-![](https://i.postimg.cc/D0rJFMJb/MTG-write-a4.png)
+![3](https://i.meee.com.tw/POQSM0j.png)
 
 根據筆者個人的意見，OTJ也是相當爛的環境，能在這裡看到共同點真的有趣。
 
@@ -126,7 +126,7 @@ MH3展示出比哪個環境都更小的變異性，從這項驗證中可以說�
 
 追加非瑞克西亞：萬界歸一（ONE）至圖表中。
 
-![](https://i.postimg.cc/DfkSy7vV/MTG-write-a5.png)
+![4](https://i.meee.com.tw/J1wesNK.png)
 
 這邊得出遠比預期好得多的結果。
 ONE之所以惡名昭彰是因為環境異常地高速和先手優勢，但這種驗證方法是觀察抽牌的波動性，因此這一點大致上會被無視。
@@ -141,7 +141,7 @@ ONE之所以惡名昭彰是因為環境異常地高速和先手優勢，但這�
 
 >譯者注：「昭和MTG」即是指復古的MTG時代，比較接近以前第九版前，該時代的限制賽環境經常發生白板對撞，解牌的性能也不太高，KTK因節奏的緩慢以及平均卡牌性能的低落，就被戲稱這個名字。
 
-![](https://i.postimg.cc/vZWPkYZQ/MTG-write-a6.png)
+![5](https://i.meee.com.tw/a5UoaMB.png)
 
 沒有背叛預測，得到了與FDN近似寬度的箱形圖。
 在容易變成長線遊戲的所謂基本系列環境中，處理爆費的方法非常重要，但由於這些牌不希望在初手抽到，因此推測會出現這種近似FDN的情況。
@@ -151,7 +151,7 @@ ONE之所以惡名昭彰是因為環境異常地高速和先手優勢，但這�
 由於在驗證中得到了大致接近假說的結果，因此進入應用篇。
 將FDN的卡片的Δ(OH WR - GIH WR)按顏色分別進行比較。
 
-![](https://i.postimg.cc/qRtDm8tF/MTG-write-a7.png)
+![6](https://i.meee.com.tw/Tdv8uv7.png)
 
 從這圖表可以看出，藍色的箱形圖極端狹窄，而黑色和綠色則反過來相對寬廣。
 由於黑色和綠色的牌多為長線遊戲導向，因此推測它們的抽牌波動也會較大，但藍色也應該相對偏向長線遊戲才對。
@@ -164,14 +164,14 @@ ONE之所以惡名昭彰是因為環境異常地高速和先手優勢，但這�
 
 DSK
 
-![](https://i.postimg.cc/63vL4K17/MTG-write-a8.png)
+![7](https://i.meee.com.tw/pFIBsT9.png)
 
 雖然在偏近OH WR或偏近GIH WR之中可以看到各種顏色的特徵，但整體分布上個別顏色的變異性不大，給人一種相當平衡的印象。
 原本應該是強色的白色在數據上卻顯示出最大的抽牌波動性，這一點也很有趣，輕量兼具有生還異能的生物中，白色的比例比較高影響了結果。
 
 BLB
 
-![](https://i.postimg.cc/tT4G9rrm/MTG-write-a9.png)
+![8](https://i.postimg.cc/tT4G9rrm/MTG-write-a9.png)
 
 藍色分布極端地廣泛，且偏向GIH WR，這是一個有趣的數據。
 實際上，Δ的Worst 12（並不是指弱牌的方面）全部由藍色和無色牌組成。
