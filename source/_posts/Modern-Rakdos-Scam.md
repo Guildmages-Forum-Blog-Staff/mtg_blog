@@ -113,7 +113,7 @@ authors:
 而最主要的異能是用來鎖對手的墳場，比起 [Leyline of the Void](https://cards.scryfall.io/large/front/0/4/04d5d429-e0c6-42cc-a477-da7dabb1c295.jpg?1592516724) 好用不只一點，光是一個不能被阻擋的攻擊者就贏非常多了（除了不能直接丟進場以外）。
 最後一條是能用來再利用對手被放逐的資源且 **不用付費**，所以我們可以先拍 Dauthi 然後把對手手上的 Ulamog 或是 Emrakul 這些奧札奇丟掉，下個回合犧牲 Dauthi 施放，對方除了要承受我們免費丟一隻大仔以外，還要承受他們帶來的異能。
 
-> 注意因為 Dauthi Voidwalker 的第三條異能選中的牌為 _使用_ 這張牌，而 _使用_ 一張咒語即為 _施放_。
+> 注意因為 Dauthi Voidwalker 的第三條異能選中的牌為 _使用_ 這張牌，而 _使用_ 一張咒語即為 _施放_ 。
 > 因此如果這個咒語有額外的施放時觸發的異能（例如：[Emrakul, the Aeons Tron](https://cards.scryfall.io/large/front/2/4/249db4d4-2542-47ee-a216-e13ffbc2319c.jpg?1673146896) 施放時的多一回合）也會觸發。
 
 ### 關於 Dauthi Voidwalker 的二三事
