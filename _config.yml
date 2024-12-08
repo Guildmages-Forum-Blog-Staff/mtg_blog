@@ -109,6 +109,8 @@ deploy:
 
 # Neat
 all_minifier: True
+html_minifier:
+  collapseWhitespace: false
 
 # nofollow
 nofollow:
