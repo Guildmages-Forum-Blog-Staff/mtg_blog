@@ -1,6 +1,6 @@
 ---
 title: "為什麼（我認為） The One Ring 必須死：Dec 16th BnR 預測"
-date: "2024-12-09 13:13:58"
+date: "2024-12-09 23:07:29"
 tags:
   - "MiohitoKiri5474"
 cover: "https://guildmagesforum.tw/images/Why-The-One-Ring-Should-Die/cover.jpg"
@@ -16,6 +16,8 @@ authors:
 {% endnotel %}
 
 ## Before We Start
+
+{% mtgcard "The One Ring" %}
 
 欸是的沒錯，我又來寫 BnR 預測了。
 繼 {% mtglink "Nadu, Winged Wisdom" %} 之後，又有一張牌已經噁心到我想要寫另一篇文章吐槽了。
