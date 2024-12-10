@@ -167,12 +167,14 @@ async function fetchCardDataMeta(argv) {
       hexo.log.info(`Request Scryfall API: ${scryfallAPIPath}`);
       await sleep(500);
     } catch (err) {
-      return (
-        "<p><em>Error getting card data: <br />" +
-        `Arguments: ${args}<br />` +
-        `Query: ${JSON.stringify(argv)}<br />` +
-        `API Path: ${scryfallAPIPath}</em></p>`
-      );
+      return {
+        failure: true,
+        data:
+          "<p><em>Error getting card data: <br />" +
+          `Arguments: ${argv}<br />` +
+          `Query: ${JSON.stringify(argv)}<br />` +
+          `API Path: ${scryfallAPIPath}</em></p>`,
+      };
     }
   }
 
@@ -356,12 +358,14 @@ hexo.extend.tag.register(
         hexo.log.info(`Request Scryfall API: ${scryfallAPIPath}`);
         await sleep(500);
       } catch (err) {
-        return (
-          "<p><em>Error getting card data: <br />" +
-          `Arguments: ${args}<br />` +
-          `Query: ${JSON.stringify(argv)}<br />` +
-          `API Path: ${scryfallAPIPath}</em></p>`
-        );
+        return {
+          failure: true,
+          data:
+            "<p><em>Error getting card data: <br />" +
+            `Arguments: ${argv}<br />` +
+            `Query: ${JSON.stringify(argv)}<br />` +
+            `API Path: ${scryfallAPIPath}</em></p>`,
+        };
       }
     }
 
