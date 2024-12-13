@@ -8,6 +8,9 @@ thumbnail: "https://guildmagesforum.tw/images/Why-The-One-Ring-Should-Die/cover.
 excerpt: "老威你可以把 The One Ring 給 ban 了嗎⋯⋯拜託啦⋯⋯"
 authors:
   - "MiohitoKiri5474"
+categories:
+  - "Construct"
+  - "Modern"
 ---
 
 {% notel red 注意 %}
