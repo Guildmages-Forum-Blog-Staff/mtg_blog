@@ -9,6 +9,8 @@ thumbnail: "https://i.postimg.cc/Dfd2NRbg/407625190-122135490788036860-603928186
 excerpt: "歡慶 Guildmages' Forum 網站成立一周年！！！我們有新的中文名稱「魔風集會所」囉！來看看創辦人們這一年的心路歷程吧！"
 authors:
   - "gmf-staff"
+categories:
+ - "GMF Staff"
 ---
 
 > 本篇標題是致敬 MTG 頭號設計總監 Maro (Mark Rosewater) 每年都會寫的某某年度設計咨文，文章中會提到這一年來 MTG 做了什麼，哪些不錯的、或不盡理想的社群反饋。相當推薦有興趣的讀者也去閱讀 [設計咨文2023](https://magic.wizards.com/zh-Hant/news/making-magic/state-of-design-2023)，以及其他年度的文章。
