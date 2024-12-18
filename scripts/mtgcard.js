@@ -167,7 +167,9 @@ async function fetchCardDataMeta(argv) {
       hexo.log.info(`Request Scryfall API: ${scryfallAPIPath}`);
       await sleep(500);
     } catch (err) {
-      return {
+      hexo.log.warn(`API \"${scryfallAPIPath}\" not fetch!`);
+
+      data = {
         failure: true,
         data:
           "<p><em>Error getting card data: <br />" +
@@ -356,11 +358,12 @@ hexo.extend.tag.register(
         hexo.log.info(`Request Scryfall API: ${scryfallAPIPath}`);
         await sleep(500);
       } catch (err) {
-        return {
+        hexo.log.warn(`API \"${scryfallAPIPath}\" not fetch!`);
+
+        data = {
           failure: true,
           data:
             "<p><em>Error getting card data: <br />" +
-            `Arguments: ${argv}<br />` +
             `Query: ${JSON.stringify(argv)}<br />` +
             `API Path: ${scryfallAPIPath}</em></p>`,
         };
