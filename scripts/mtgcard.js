@@ -171,7 +171,6 @@ async function fetchCardDataMeta(argv) {
         failure: true,
         data:
           "<p><em>Error getting card data: <br />" +
-          `Arguments: ${argv}<br />` +
           `Query: ${JSON.stringify(argv)}<br />` +
           `API Path: ${scryfallAPIPath}</em></p>`,
       };
@@ -199,34 +198,34 @@ hexo.extend.tag.register(
 
     let card = await fetchCardDataMeta(argv);
     let html, cardImageUrl;
-    if (undefined === card) {
-      argv.tooltip = false;
-      card["image_uris"]["large"] = "#";
-      card["scryfall_uri"] = "#";
+
+    if (card?.failure) {
+      html = card.data;
+    } else {
+      if (card.image_uris !== undefined) {
+        cardImageUrl = card.image_uris.large;
+      } else {
+        cardImageUrl = card.card_faces[0].image_uris.large;
+      }
+      if (argv.tooltip) {
+        if (argv.alt) {
+          html = render(tpl.tooltip, {
+            URL: card.scryfall_uri,
+            NAME: decodeURI(argv.alt),
+            IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
+          });
+        } else {
+          html = render(tpl.tooltip, {
+            URL: card.scryfall_uri,
+            NAME: argv.name,
+            IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
+          });
+        }
+      } else {
+        html = render(tpl.image, { IMG: cardImageUrl });
+      }
     }
 
-    if (card.image_uris !== undefined) {
-      cardImageUrl = card.image_uris.large;
-    } else {
-      cardImageUrl = card.card_faces[0].image_uris.large;
-    }
-    if (argv.tooltip) {
-      if (argv.alt) {
-        html = render(tpl.tooltip, {
-          URL: card.scryfall_uri,
-          NAME: decodeURI(argv.alt),
-          IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
-        });
-      } else {
-        html = render(tpl.tooltip, {
-          URL: card.scryfall_uri,
-          NAME: argv.name,
-          IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
-        });
-      }
-    } else {
-      html = render(tpl.image, { IMG: cardImageUrl });
-    }
     return html;
   },
   { async: true }
@@ -245,30 +244,29 @@ hexo.extend.tag.register(
 
     let card = await fetchCardDataMeta(argv);
     let html, cardImageUrl;
-    if (undefined === card) {
-      argv.tooltip = false;
-      card["image_uris"]["large"] = "#";
-      card["scryfall_uri"] = "#";
-    }
 
-    if (card.image_uris !== undefined) {
-      cardImageUrl = card.image_uris.large;
+    if (card?.failure) {
+      html = card.data;
     } else {
-      cardImageUrl = card.card_faces[0].image_uris.large;
-    }
+      if (card.image_uris !== undefined) {
+        cardImageUrl = card.image_uris.large;
+      } else {
+        cardImageUrl = card.card_faces[0].image_uris.large;
+      }
 
-    if (argv.alt) {
-      html = render(tpl.tooltip, {
-        URL: card.scryfall_uri,
-        NAME: decodeURI(argv.alt),
-        IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
-      });
-    } else {
-      html = render(tpl.tooltip, {
-        URL: card.scryfall_uri,
-        NAME: argv.name,
-        IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
-      });
+      if (argv.alt) {
+        html = render(tpl.tooltip, {
+          URL: card.scryfall_uri,
+          NAME: decodeURI(argv.alt),
+          IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
+        });
+      } else {
+        html = render(tpl.tooltip, {
+          URL: card.scryfall_uri,
+          NAME: argv.name,
+          IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
+        });
+      }
     }
 
     return html;
