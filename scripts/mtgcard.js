@@ -372,14 +372,16 @@ hexo.extend.tag.register(
 
     let card = data;
     let html, cardImageUrl;
-    if (card.image_uris !== undefined) {
-      cardImageUrl = card.image_uris.large;
-    } else {
-      cardImageUrl = card.card_faces[0].image_uris.large;
-    }
+
     if (card?.failure) {
       html = card.data;
     } else {
+      if (card.image_uris !== undefined) {
+        cardImageUrl = card.image_uris.large;
+      } else {
+        cardImageUrl = card.card_faces[0].image_uris.large;
+      }
+
       if (argv.tooltip) {
         if (argv.alt) {
           html = render(tpl.tooltip, {
