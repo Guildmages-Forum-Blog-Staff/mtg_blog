@@ -376,22 +376,26 @@ hexo.extend.tag.register(
     } else {
       cardImageUrl = card.card_faces[0].image_uris.large;
     }
-    if (argv.tooltip) {
-      if (argv.alt) {
-        html = render(tpl.tooltip, {
-          URL: card.scryfall_uri,
-          NAME: decodeURI(argv.alt),
-          IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
-        });
-      } else {
-        html = render(tpl.tooltip, {
-          URL: card.scryfall_uri,
-          NAME: card.name,
-          IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
-        });
-      }
+    if (card?.failure) {
+      html = card.data;
     } else {
-      html = render(tpl.image, { IMG: cardImageUrl });
+      if (argv.tooltip) {
+        if (argv.alt) {
+          html = render(tpl.tooltip, {
+            URL: card.scryfall_uri,
+            NAME: decodeURI(argv.alt),
+            IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
+          });
+        } else {
+          html = render(tpl.tooltip, {
+            URL: card.scryfall_uri,
+            NAME: card.name,
+            IMG: render(tpl.tooltip_image, { IMG: cardImageUrl }),
+          });
+        }
+      } else {
+        html = render(tpl.image, { IMG: cardImageUrl });
+      }
     }
     return html;
   },
