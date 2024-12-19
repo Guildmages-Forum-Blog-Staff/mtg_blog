@@ -1,0 +1,92 @@
+<style>
+    .article-footer {
+        margin-top: 20px;
+    }
+
+    .article-footer .author-container {
+        display: flex;
+        gap: 20px;
+    }
+
+    .article-footer .author-container .item {
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .article-footer .author-container .item .avatar-column {
+        width: 30%;
+        display: flex;
+        place-items: center;
+    }
+
+    .article-footer .author-container .item .avatar img {
+        border-radius: 50%;
+        width: 40vw;
+        height: auto;
+    }
+
+    .article-footer .author-container .item .author-intro {
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .article-footer .author-container .item .author-intro .author-name {
+        margin-top: 10px;
+        font-size: 2em;
+    }
+
+    .article-footer .author-container .item .author-intro .intro {
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 5.5em;
+    }
+</style>
+
+<div class="nf-text">
+    <div class="page-template-content markdown-body">
+        <h1><%- page.title %></h1>
+        <%- page.content %>
+    </div>
+    <% const author_list = ['MiohitoKiri5474', 'cephille', 'JruMTG', 'JerobaMTG', 'Enki', 'T1BloodMoon', 'Kappa', 'ClarkShih', 'jeffchen', 'classiccool', 'yu-chen', 'bruce1235566', 'GY_Player', 'zhi-mao', 'david-yeh', 'JerryYang', 'Egavas', 'layukipedia', 'faintmama', 'ZHAN', 'MarkWen', 'Patrick', 'Weihow' ]; %>
+    <% const author_num = author_list.length; %>
+    <% for (let idx = 0; idx < author_num; idx++ ) { %>
+        <% const current_author = author_list[idx]; %>
+        <% const author_info = author_info_str(current_author); %>
+        <% const author_name = author_info.name; %>
+        <% const avatar = author_info.avatar; %>
+        <% const intro = author_info.intro; %>
+        <% const author_url_result = author_info.url; %>
+        <div class="article-footer flex flex-row gap-2 items-center px-2m:px-6 md:px-8">
+            <div class="info flex flex-col justify-between">
+                <div class="author-container">
+                    <div class="item">
+                        <div class="avatar-column">
+                            <a href="<%- author_url_result %>" class="authorlex items-center name text-default-text-color text-lg font-semibold flex">
+                                <div class="avatar flex-shrink-0p-[1px]">
+                                    <%- image_tag(avatar) %>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="author-intro items-center">
+                            <div class="author-name">
+                                <a href="<%- author_url_result %>"lass="text-default-text-color font-semibold p-10px">
+                                    <%= author_name %>
+                                </a>
+                            </div>
+                            <% const intro_length = intro.length; %>
+                            <div class="intro">
+                                <% for (let j = 0; j < intro_length; j++ ) { %>
+                                    <div class="page-template-contentarkdown-body">
+                                        <%- intro[j] %>
+                                    </div>
+                                <% } %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <% } %>
+</div>

@@ -82,6 +82,12 @@ const pageData = {
 		partial: "pages/bookmarks/bookmarks",
 		layout: "raw",
 	},
+	about: {
+		titles: [],
+		types: [],
+		partial: "pages/about/about_us",
+		layout: "raw",
+	},
 	pageTemplate: {
 		titles: [],
 		types: [],
@@ -131,6 +137,11 @@ hexo.extend.helper.register("getPagePartialPath", function (page) {
 		} else if (this.is_tag() && pageData.tagDetail.layout === "raw") { // return raw layout for tag page
 			return pageData.tagDetail.partial;
 		}
+	}
+
+	// Custom page with custom partial.
+	if (page.title == "About Us") {
+		return pageData.about.partial;
 	}
 
 	return pageData.pageTemplate.partial;
