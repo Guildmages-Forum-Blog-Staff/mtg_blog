@@ -45,7 +45,8 @@
              style="font-family: '<%- theme.home_banner.custom_font.family %>', sans-serif; !important;"
                 <% } %>
         >
-            <%- theme.home_banner.title || theme.style.first_screen.description || config.description %>
+            <%- theme.home_banner.title || theme.style.first_screen.description || config.description %> <br />
+            <%- "歡迎來到魔風集會所！" %>
             <%# theme.style.first_screen.description is deprecated %>
             <% if (theme.home_banner.subtitle.length !== 0) { %>
                 <p><i id="subtitle"></i></p>

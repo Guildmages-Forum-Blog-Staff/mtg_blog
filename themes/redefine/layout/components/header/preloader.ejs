@@ -75,6 +75,7 @@
         var textWrapper = document.querySelector('.ml13');
         // Split text into words
         var words = textWrapper.textContent.trim().split(' ');
+        words = ['Guildmages\'', 'Forum', '魔風集會所']
 
         // Clear the existing content
         textWrapper.innerHTML = '';
@@ -85,7 +86,12 @@
             wordSpan.classList.add('word');
             wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
             textWrapper.appendChild(wordSpan);
-            textWrapper.appendChild(document.createTextNode(' ')); // Add space between words
+            if ( word === "Forum" ) {
+                textWrapper.appendChild(document.createElement('br'));
+            }
+            else {
+                textWrapper.appendChild(document.createTextNode(' '));
+            }
         });
 
         var animation = anime.timeline({ loop: true })

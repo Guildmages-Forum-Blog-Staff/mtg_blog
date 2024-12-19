@@ -32,17 +32,19 @@
             </ul>
         </span>
         <% } %>
-        <% if (post.tags.length && theme.home.tags.enable === true) { %>
+        <% const authors = author_name(post); %>
+        <% const author_url_resule = author_url(post); %>
+        <% const length = authors.length; %>
+        <% if (authors) { %>
             <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
+                <i class="fa-solid fa-keyboard"></i>&nbsp;
                 <ul>
-                    <% post.tags.forEach((tag, i) => {
-                    if (theme.home.tags.limit === 0 || i + 1 <= theme.home.tags.limit) { %>
-                        <li>
-                            <%= i === 0 ? '' : '| ' %>
-                            <a href="<%- url_for(tag.path) %>"><%= tag.name %></a>&nbsp;
-                        </li>
-                    <% }}); %>
+                    <% for (let i = 0; i < length; i++ ) { %>
+                        <%= i === 0 ? '' : '| ' %>
+                        <a href="<%- author_url_resule[i] %>">
+                            <%- authors[i] %>
+                        </a>
+                    <% } %>
                 </ul>
             </span>
         <% } %>

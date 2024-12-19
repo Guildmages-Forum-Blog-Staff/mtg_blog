@@ -1,4 +1,11 @@
 <header class="navbar-container px-6 md:px-12">
+    <style>
+        .centered-text {
+            text-align: center;
+            margin: 0;
+            line-height: 1.5; /* Adjust this value to increase or decrease the space between lines */
+        }
+    </style>
     <div class="navbar-content transition-navbar <%- (theme.home_banner.enable === true && is_home() && !page.prev) ? 'has-home-banner' : '' %>">
         <div class="left">
             <% if (theme.defaults.hasOwnProperty('logo') && theme.defaults.logo) { %>
@@ -8,9 +15,10 @@
                     }) %>
                 </a>
             <% } %>
-            <a class="logo-title" href="<%= config.root %>">
+            <a class="logo-title centered-text" href="<%= config.root %>">
                 <%- is_home() ? '<h1>' : '' %>
-                <%= theme.info.title || config.title || 'Redefine Theme' %>
+                <%= 'Guildmages\' Forum' %><br />
+                <%= '魔風集會所' %>
                 <%- is_home() ? '</h1>' : '' %>
             </a>
         </div>
