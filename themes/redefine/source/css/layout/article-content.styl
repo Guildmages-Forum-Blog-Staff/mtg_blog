@@ -1,4 +1,4 @@
-@import '../common/variables'
+@require '../common/variables'
 
 $arrow-icon-width = 16px
 $post-nav-max-width = 220px
@@ -75,38 +75,11 @@ $gap = 30px
       box-shadow none !important
       max-width 100vw
 
-    .article-header .avatar img 
-      border-radius $redefine-border-radius-medium * 0.87
-      width 100%
-      height 100%
-      // background var(--avatar-background-color)
-
-    .article-footer .author-container
-      display flex
-      gap 20px
-
-    .article-footer .author-container .item
-      margin-top 20px
-      display flex
-
-    .article-footer .author-container .item .avatar-column
-      width 30%
-      display grid
-      place-items center
-
-    .article-footer .author-container .item .avatar img
-      border-radius 50%
-      width 30vw
-      height auto
-
-    .article-footer .author-container .item .author-intro
-      width 80%
-      margin-left 20px
-
-    .article-footer .author-container .item .author-intro .author-name
-      margin-top 10px
-      margin-bottom 10px
-      font-size 1.5em
+    .article-header .avatar img
+          border-radius: $redefine-border-radius-medium * 0.87
+          width 100%
+          height 100%
+          // background var(--avatar-background-color)
 
     .article-header, .article-header-meta-info
       margin-top 16px
