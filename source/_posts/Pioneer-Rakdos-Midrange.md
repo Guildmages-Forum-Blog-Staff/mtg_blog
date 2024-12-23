@@ -113,7 +113,7 @@ authors:
 
 最後這邊放個[套牌連結](https://www.mtggoldfish.com/deck/5713356#paper)。
 
-![](/images/Rakdos_Midrange-min.jpg)
+![](/images/Rakdos_Midrange-min.png)
 
 ## Starting Hands, Countermeasures and Mulligan
 

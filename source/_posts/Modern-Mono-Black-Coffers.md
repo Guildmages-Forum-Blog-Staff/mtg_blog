@@ -3,8 +3,8 @@ title: "純黑柯幫金庫：打牌靠奶，輕鬆自在"
 date: 2023-10-20 10:00:00
 tags:
   - "MiohitoKiri5474"
-cover: "https://guildmagesforum.tw/images/Modern-Mono-Black-Coffers/Cabal-Coffers.jpg"
-thumbnail: "https://guildmagesforum.tw/images/Modern-Mono-Black-Coffers/Cabal-Coffers.jpg"
+cover: "https://guildmagesforum.tw/images/Modern-Mono-Black-Coffers/Cabal-Coffers.webp"
+thumbnail: "https://guildmagesforum.tw/images/Modern-Mono-Black-Coffers/Cabal-Coffers.webp"
 excerpt: "猴王 MITQ 套牌唯一推薦。"
 
 categories:
