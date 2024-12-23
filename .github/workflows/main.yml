@@ -2,8 +2,8 @@ name: Auto Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
-
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
@@ -12,30 +12,31 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ssh-key: ${{ secrets.BLOG_SEC }}
 
-      - name: Set Time Zone
-        run: sudo timedatectl set-timezone 'Asia/Taipei'
+      - name: Use latest Node.js LTS
+        uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+          check-latest: true
+          cache: npm
 
-      - name: Configuration environment
+      - name: Set timezone
+        uses: szenius/set-timezone@v2.0
+        with:
+          timezoneLinux: Asia/Taipei
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Deploy using hexo-deployer-git
         env:
-          HEXO_DEPLOY_PRI: ${{secrets.BLOG_SEC}}
+          GIT_AUTHOR_NAME: ${{ vars.GIT_AUTHOR_NAME }}
+          GIT_AUTHOR_EMAIL: ${{ vars.GIT_AUTHOR_EMAIL }}
+          GIT_COMMITTER_NAME: ${{ vars.GIT_AUTHOR_NAME }}
+          GIT_COMMITTER_EMAIL: ${{ vars.GIT_AUTHOR_EMAIL }}
         run: |
-          mkdir -p ~/.ssh/
-          echo "$HEXO_DEPLOY_PRI" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git config --global user.name "MiohitoKiri5474"
-          git config --global user.email "lltzpp@gmail.com"
-
-      - name: Node.js Package install
-        run: |
-          sudo npm i -g hexo-cli
-          npm i
-          rm -rf node_modules
-          npm i --force
-
-      - name: Deploy
-        run: |
-          npm run clean
-          npm run build
-          npm run deploy
+          npm exec --package hexo -- hexo clean
+          npm exec --package hexo -- hexo generate
+          npm exec --package hexo -- hexo deploy
