@@ -1,7 +1,7 @@
 ---
 
 title: "無匹型體：標準純綠巨太龍"
-date: "2024-12-25 23:06:17"
+date: "2024-12-26 00:19:46"
 tags:
   - "JerobaMTG"
 authors:
@@ -32,7 +32,7 @@ excerpt: "巨大就是正義！"
 
 套牌概念與前些日子的[龍語怒吼：標準純紅龍燒](https://guildmagesforum.tw/Standard-Red-Dragon-Wins/)套牌類似，加速跳五費拍出我們的主角[巨太龍](https://scryfall.com/card/m19/185/gigantosaurus)。加速是綠色的拿手好戲，又有一費加速[羅堰妖精](https://scryfall.com/card/fdn/227/llanowar-elves)的回歸，最快三回就可以讓[巨太龍](https://scryfall.com/card/m19/185/gigantosaurus)登場。其他低費加速的部分，我們選用[無畏古生物學家](https://scryfall.com/card/lci/193/intrepid-paleontologist)與[瞥視核心](https://scryfall.com/card/lci/186/glimpse-the-core)，前者兼具回收恐龍牌與墳場針對的功能，後者則是難以被干擾的加速，不用擔心被對手的去除拖慢節奏，順帶壓縮牌庫減少後續抽地機率。
 
-![](https://i.imgur.com/osFtiL2.png)
+![](https://i.meee.com.tw/BryFjVY.png)
 ![](https://i.imgur.com/xnoMq7g.png)
 
 考慮到生物品質與[無畏古生物學家](https://scryfall.com/card/lci/193/intrepid-paleontologist)的種族支援能力，生物牌自然是以恐龍為主。筆者選用[好鬥顱鎚龍](https://scryfall.com/card/lci/208/pugnacious-hammerskull)、[痛擊霆偉龍](https://scryfall.com/card/fdn/560/thrashing-brontodon)、[巨身迅猛龍](https://scryfall.com/card/lci/191/hulking-raptor)，還有[巨太龍](https://scryfall.com/card/m19/185/gigantosaurus)的好朋友[始飢戈厄塔](https://scryfall.com/card/fdn/222/ghalta-primal-hunger)。[好鬥顱鎚龍](https://scryfall.com/card/lci/208/pugnacious-hammerskull)是三費體格怪物，不僅打人夠痛、面對快攻時也能逼迫對手繳出更多的咒語來交換。[巨身迅猛龍](https://scryfall.com/card/lci/191/hulking-raptor)是難以被去除的加速，讓你可以在下回合順暢的大招連發，[巨太龍](https://scryfall.com/card/m19/185/gigantosaurus)接[戈厄塔](https://scryfall.com/card/fdn/222/ghalta-primal-hunger)變得一點也不困難。[痛擊霆偉龍](https://scryfall.com/card/fdn/560/thrashing-brontodon)論功能性雖然不如[安詳鰭背龍](https://scryfall.com/card/mat/24/tranquil-frillback)，但贏在身材，不會被一發燒輕易點掉，在面對快攻時可以提高玩家生存率。
