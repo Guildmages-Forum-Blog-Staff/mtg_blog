@@ -151,7 +151,7 @@ async function fetchCardDataMeta(argv) {
   if (bulk_data_result.length === 1) {
     // Hit. No scryfall API.
     data = bulk_data_result[0];
-    hexo.log.info(`Request bulk data: ${scryfallAPIPath}`);
+    hexo.log.debug(`Request bulk data: ${scryfallAPIPath}`);
   } else {
     // Call Scryfall API.
     try {
@@ -340,7 +340,7 @@ hexo.extend.tag.register(
     if (bulk_data_result.length === 1) {
       // Hit. No scryfall API.
       data = bulk_data_result[0];
-      hexo.log.info(`Request bulk data: ${scryfallAPIPath}`);
+      hexo.log.debug(`Request bulk data: ${scryfallAPIPath}`);
     } else {
       // Call Scryfall API.
       if (argv.language !== "en") {
