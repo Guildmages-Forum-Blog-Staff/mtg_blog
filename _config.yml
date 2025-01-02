@@ -109,6 +109,8 @@ deploy:
 
 # Neat
 all_minifier: True
+image_minifier:
+  enable: false
 html_minifier:
   collapseWhitespace: false
 
