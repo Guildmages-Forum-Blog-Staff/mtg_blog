@@ -72,7 +72,7 @@ categories:
 雖然 list 上面還是寫作 Enigmatic Fires，不過現在其實都不會帶 {% mtgcard "Fires of Invention" tooltip=true %} 了。
 主要理由和前面講 Azorius Control 時一樣，作為慢速套牌 {% mtgcard "High Noon" tooltip=true %} 相當適合，同樣的可以阻止 Phoenix 和 Rakdos Aggro 的超絕展開，並且需要的時候也能給 {% mtgcard "Enigmatic Incarnation" tooltip=true %} 吃掉找三費的生物工具箱。
 
-另外紅霸主 {% mtgcard "Overlord of the Boilerbilges" tooltip=true %} 和綠霸主 {% mtgcard "Overlord of the Hauntwoods" tooltip=true %} 都非常適合這套牌，一來是節奏上適合，同時也能搭配 {% mtgcard "Up the Beanstalk" tooltip=true %} 做到解場 + 抽牌，同時可以被 {% mtgcard "Enigmatic Incarnation" tooltip=true %} 找也能當其肥料、又能搭配 {% mtgcard "Fable of the Mirror-Breaker" tooltip=true %} 做展開/斬殺，可說是一卡多用。
+另外紅霸主 {% mtgcard "Overlord of the Boilerbilges" tooltip=true %} 和綠霸主 {% mtgcard "Overlord of the Hauntwoods" tooltip=true %} 都非常適合這套牌，一來是節奏上適合，同時也能搭配 {% mtgcard "Up the Beanstalk" tooltip=true %} 做到解場 + 抽牌，同時可以被 {% mtgcard "Enigmatic Incarnation" tooltip=true %} 找也能當其肥料、又能搭配 {% mtgcard "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki" alt="Fable of the Mirror-Breaker" tooltip=true %} 做展開/斬殺，可說是一卡多用。
 
 > 是說 Overload 配 {% mtgcard "Up the Beanstalk" tooltip=true %} 究竟會不會在標準甚至於先驅被 ban 呢，二回 {% mtgcard "Up the Beanstalk" tooltip=true %} 三回 {% mtgcard "Overlord of the Hauntwoods" tooltip=true %} 抽一張 ramp，怎麼好像有種似曾相識的感覺（{% mtgcard "Uro, Titan of Nature's Wrath" tooltip=true %}：放我出去）。
 
@@ -105,13 +105,13 @@ Rakdos Transmogrify 是利用 {% mtgcard "Transmogrify" tooltip=true %} 低費�
 
 ![](https://cdn.melee.gg/decklists/5ffc967e-e5ce-4790-b627-3a37b471a93a.jpg?v=2)
 
-這個版本的 Rakdos Midrange 算是對環境的特化，改用 {% mtgcard "Archfiend of the Dross" tooltip=true %} 快速 clock 對手、並且也能有效的壓制 Sacrifice 套牌，同時加入更多的點殺和更多的 {% mtgcard "Graveyard Trespasser" tooltip=true %} 以應對 Rakdos Aggro。
+這個版本的 Rakdos Midrange 算是對環境的特化，改用 {% mtgcard "Archfiend of the Dross" tooltip=true %} 快速 clock 對手、並且也能有效的壓制 Sacrifice 套牌，同時加入更多的點殺和更多的 {% mtgcard "Graveyard Trespasser // Graveyard Glutton" tooltip=true %} 以應對 Rakdos Aggro。
 
 比起 {% mtgcard "Sheoldred, the Apocalypse" tooltip=true %}，{% mtgcard "Archfiend of the Dross" tooltip=true %} 的優點有：
 1. 不怕 {% mtgcard "Lightning Axe" tooltip=true %} 一發帶走
 2. 會飛不怕被各種 chump
 3. 打得贏環境內多數的延勢仔
-4. 可以用 {% mtgcard "Reflection of Kiki-Jiki" tooltip=true %} 複製打出單回合傷害上限
+4. 可以用 {% mtgcard "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki" alt="Reflection of Kiki-Jiki" tooltip=true %} 複製打出單回合傷害上限
 
 但他的弱點也是非常明顯：
 1. 非常怕被 {% mtgcard "Heartless Act" tooltip=true %} 拔三顆油
@@ -120,7 +120,7 @@ Rakdos Transmogrify 是利用 {% mtgcard "Transmogrify" tooltip=true %} 低費�
 
 其餘的部分我覺得就是很 solid 的構築，不過我個人不太喜歡五張 4 drop 的組法，少了 {% mtgcard "Sheoldred, the Apocalypse" tooltip=true %} 補血源好像不太夠。
 
-另外備牌的兩張 {% mtgcard "Hidetsugu Consumes All" tooltip=true %} 和一張 {% mtgcard "The Meathook Massacre" tooltip=true %}，算是對上 Sacrifice 的大殺器。
+另外備牌的兩張 {% mtgcard "Hidetsugu Consumes All // Vessel of the All-Consuming" tooltip=true %} 和一張 {% mtgcard "The Meathook Massacre" tooltip=true %}，算是對上 Sacrifice 的大殺器。
 
 ### Jund Sacrifice
 
@@ -321,7 +321,7 @@ Day 2 我們則可以看到 Mono-Black Demons 的轉換率最高，再次證明�
 
 ![](https://cdn.melee.gg/decklists/8f55fed7-55b0-4e18-870b-ab36300f1851.jpg?v=1)
 
-同樣很標準的 Rakdos Transmogrify 構築，不過選擇放一張 {% mtgcard "Hidetsugu Consumes All" tooltip=true %} 放到正編，可以有意識的去找這張牌，或是用結案的 {% mtgcard "Case of the Stashed Skeleton" tooltip=true %} 去找。
+同樣很標準的 Rakdos Transmogrify 構築，不過選擇放一張 {% mtgcard "Hidetsugu Consumes All // Vessel of the All-Consuming" tooltip=true %} 放到正編，可以有意識的去找這張牌，或是用結案的 {% mtgcard "Case of the Stashed Skeleton" tooltip=true %} 去找。
 
 ### Rakdos Midrange
 
@@ -361,9 +361,9 @@ Day 2 我們則可以看到 Mono-Black Demons 的轉換率最高，再次證明�
 
 ![](https://cdn.melee.gg/decklists/ab27e9a9-40af-4cbf-af04-8d447c020173.jpg?v=1)
 
-現在主要的 Enigmatic Incarnation 構築都會帶紅色，搭配 {% mtgcard "Fable of the Mirror-Breaker" tooltip=true %} 濾牌，還有 {% mtgcard "Overlord of the Boilerbilges" tooltip=true %} 作為解場和最後的收頭手段。
+現在主要的 Enigmatic Incarnation 構築都會帶紅色，搭配 {% mtgcard "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki" alt="Fable of the Mirror-Breaker" tooltip=true %} 濾牌，還有 {% mtgcard "Overlord of the Boilerbilges" tooltip=true %} 作為解場和最後的收頭手段。
 
-而這套牌在三費曲線上用藍霸主 {% mtgcard "Overlord of the Floodpits" tooltip=true %} 替代掉 {% mtgcard "Fable of the Mirror-Breaker" tooltip=true %} 的抽濾，同時可以觸發 {% mtgcard "Up the Beanstalk" tooltip=true %}。
+而這套牌在三費曲線上用藍霸主 {% mtgcard "Overlord of the Floodpits" tooltip=true %} 替代掉 {% mtgcard "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki" tooltip=true %} 的抽濾，同時可以觸發 {% mtgcard "Up the Beanstalk" tooltip=true %}。
 並且在利用藍霸主 {% mtgcard "Overlord of the Floodpits" tooltip=true %} 和黑霸主 {% mtgcard "Overlord of the Balemurk" tooltip=true %} 堆墳，提供肥料給 {% mtgcard "Kroxa and Kunoros" tooltip=true %} 打出源源不斷的場面。
 去除則是以黑色為主，除了 {% mtgcard "Fatal Push" tooltip=true %} 以外，DSK 的 {% mtgcard "Nowhere to Run" tooltip=true %}，其中 {% mtgcard "Nowhere to Run" tooltip=true %} 相當適合這套牌，殺完生物後可以變成給 {% mtgcard "Enigmatic Incarnation" tooltip=true %} 犧牲的肥料。
 
@@ -378,7 +378,7 @@ Day 2 我們則可以看到 Mono-Black Demons 的轉換率最高，再次證明�
 
 ![](https://cdn.melee.gg/decklists/51c3cc59-6804-4017-b44d-cb07e55f8762.jpg?v=1)
 
-基本上就是標準的 Boros Token Control，然後加上 {% mtgcard "Fable of the Mirror-Breaker" tooltip=true %} 和 {% mtgcard "March of Otherworldly Light" tooltip=true %}，有些人會放 {% mtgcard "Wedding Announcement" tooltip=true %}。
+基本上就是標準的 Boros Token Control，然後加上 {% mtgcard "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki" alt="Fable of the Mirror-Breaker" tooltip=true %} 和 {% mtgcard "March of Otherworldly Light" tooltip=true %}，有些人會放 {% mtgcard "Wedding Announcement // Wedding Festivity" tooltip=true %}。
 打 UW Control 或是中速對局很舒服，資源很難斷。
 
 ### Sultai Landfall Combo

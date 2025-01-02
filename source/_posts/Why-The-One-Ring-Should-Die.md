@@ -62,7 +62,7 @@ categories:
 讓我們回憶一下 LTR 後的環境：Rakdos Scam 和 Temur Rhinos 當道的環境，而當時會帶/能帶 {% mtglink "The One Ring" %} 的套牌有 UWx Control, Mono-Green Tron, Mono-Black Coffers, Amulet Titan 等等。
 
 Rakdos Scam 除了有一回 {% mtglink "Grief" %} scamming 以外，還有 {% mtglink "Thoughtseize" %} 掉手和 {% mtglink "Orcish Bowmasters" %} 可以懲罰大量抽牌的玩家，同時這些有帶 {% mtglink "The One Ring" %} 的套牌幾乎都是慢速套牌，很難與 Scam 對抗。
-而 Temur Rhinos 除了 {% mtglink "Force of Negation" %} 以外，後續還補上 {% mtglink "Tishana's Tidebinder" %} 可以壓制 {% mtglink "The One Ring" %}，加上 {% mtglink "Bonecrusher Giant" %} 或 {% mtglink "Questing Beast" %} 作為對策，先手三回拍 {% mtglink "Shardless Agent" %} cascade 出 {% mtglink "Crashing Footfalls" %} 生兩隻犀牛，四回打十點五回傷害不能被防止，再打十點收工。
+而 Temur Rhinos 除了 {% mtglink "Force of Negation" %} 以外，後續還補上 {% mtglink "Tishana's Tidebinder" %} 可以壓制 {% mtglink "The One Ring" %}，加上 {% mtglink "Bonecrusher Giant // Stomp" %} 或 {% mtglink "Questing Beast" %} 作為對策，先手三回拍 {% mtglink "Shardless Agent" %} cascade 出 {% mtglink "Crashing Footfalls" %} 生兩隻犀牛，四回打十點五回傷害不能被防止，再打十點收工。
 
 直到 MKM 前後，Scam 和 Rhinos 都中了一刀，但整體環境還是偏快，很多時候出 {% mtglink "The One Ring" %} 之前就快死了、或是拍 {% mtglink "The One Ring" %} 之後還是沒撐過去。
 這時候我認為 {% mtglink "The One Ring" %} 很強，但還沒強到需要被 ban。
@@ -73,7 +73,7 @@ Rakdos Scam 除了有一回 {% mtglink "Grief" %} scamming 以外，還有 {% mt
 
 如果我們觀察現在的 meta，會發現多數帶 {% mtglink "The One Ring" %} 的套牌有一大部分都是 WRx Energy（除了 WRx Energy 以外其他帶 {% mtglink "The One Ring" %} 的套牌基本上跟 MH3 前差不多），所以我們來解析一下這兩大 meta 毒瘤是怎麼遇上的。
 最初由 Aspiringspike 研發出的 Boros Energy list 是沒有 {% mtglink "The One Ring" %} 的，是直到 Nadu 被 ban 之後、大概九月底左右才開始有人試著放 {% mtglink "The One Ring" %}。
-理由我覺得很簡單，一來 {% mtglink "Fable of the Mirror-Breaker" %} 不夠強——除了複製出 {% mtglink "Ocelot Pride" %} 以外的複製品都不夠強，同時 WRx Energy 大概到四回左右就沒手牌了，{% mtglink "Fable of the Mirror-Breaker" %} 沒辦法濾更多牌。
+理由我覺得很簡單，一來 {% mtglink "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki" alt="Fable of the Mirror-Breaker" %} 不夠強——除了複製出 {% mtglink "Ocelot Pride" %} 以外的複製品都不夠強，同時 WRx Energy 大概到四回左右就沒手牌了，{% mtglink "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki" alt="Fable of the Mirror-Breaker" %} 沒辦法濾更多牌。
 二來 WRx Energy 為了更加穩定，開始慢慢的從快攻演變成中速，於是有人喪心病狂的放了 {% mtglink "The One Ring" %} 試試，反正手牌大概在三四回左右就會打乾，這時候接一張 {% mtglink "The One Ring" %} 補一坨手牌節奏上來說挺順的，而且有 {% mtglink "Guide of Souls" %}/{% mtglink "Phlage, Titan of Fire's Fury" %}/{% mtglink "Ocelot Pride" %} 這些補血組合，扣點血也沒什麼問題。
 然後發現 {% mtglink "The One Ring" %} 打內戰超強，可以用海量的資源差壓死對手，沒有 {% mtglink "The One Ring" %} 的那一方會輸；同時打 Jeskai Control 之類會進入長盤對局時也很有用，咒語點數都很小，能拍戒指了不可能拍不出其他東西吧。
 
@@ -139,7 +139,7 @@ A: We have the ability to reprint some cards (without specific property mentions
 
 ## 同期獄友
 
-如果只是單純的把 {% mtglink "The One Ring" %} 給禁了，我認為環境還是一樣會被 WRx Energy 統治，換回去 {% mtglink "Fable of the Mirror-Breaker" %} 就好。
+如果只是單純的把 {% mtglink "The One Ring" %} 給禁了，我認為環境還是一樣會被 WRx Energy 統治，換回去 {% mtglink "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki" alt="Fable of the Mirror-Breaker" %} 就好。
 即便有 {% mtglink "Suncleanser" %}，還是無法有效的壓制 WRx Energy，畢竟說到底這還是一張白色牌，為了這一個對局去硬拉白色還是有點過頭了，更不用說還能用 {% mtglink "Lightning Bolt" %}, {% mtglink "Static Prison" %} 或是 {% mtglink "Goblin Bombardment" %} 等解牌可以解掉。
 因此，我認為 WRx Energy 也是需要 ban 點牌，雖然如同之前 [關於 Nadu ban 的文章中](/Why-Nadu-Should-Die/#Ban-%E4%BA%86-Nadu-%E4%B9%8B%E5%BE%8C) 中也有提到，Energy 沒有一個特別好的關鍵單卡可以 ban，真的要說的話 {% mtglink "Guide of Souls" %} 應該是最適合的目標，少了補血的同時還少了產能量的來源。
 另一個合適的目標則是 {% mtglink "Amped Raptor" %}，少了一隻良好體質生物的同時也少了更多的資源，這刀砍下去頂多就是把同樣的位置換成 {% mtglink "Unstable Amulet" %}，節奏更慢了但可以賺取更多的資源。

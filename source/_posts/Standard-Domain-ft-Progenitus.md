@@ -154,7 +154,7 @@ R5 ID
 簡單來說就是要上一堆補血來想辦法活下去。
 3 費才能開始用的地脈束縛下掉一些用 {% mtglink "Elspeth's Smite" %} 去補位置。
 {% mtglink "Negate" %} 拿來康燒頭咒語。
-{% mtglink "Urabrasks Forge" %} 可以用失效、{% mtglink "tishanas tidebinder" %}、{% mtglink "tranquil frillback" %}、地脈束縛作應對。
+{% mtglink "Urabrask's Forge" %} 可以用失效、{% mtglink "Tishana's Tidebinder" %}、{% mtglink "tranquil frillback" %}、地脈束縛作應對。
 這個對局還要特別注意{% mtglink "Screaming Nemesis" %}，對手可能會拍這張牌然後燒它自己，讓你接下來的回合都不能補血，一定要留殺提防一下。
 
 

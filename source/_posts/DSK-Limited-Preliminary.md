@@ -47,7 +47,7 @@ authors:
 
 > 藍白色組結界牌數量：**36 + 1** （1 張無色的結界地 {% mtgcard "Valgavoth's Lair" tooltip=true %}）
 
-U 卡的 {% mtgcard "Inquisitive Glimmer" tooltip=true %} 作為本思路的加速器，讓結界與解鎖隔間更加容易，必定會是這個思路的關鍵單卡；而另一張 U 卡 {% mtgcard "Gremlin Tamer"  tooltip=true %} 則是一張相對普通的異景回報單卡，能夠良好地作用於有足夠結界 / 隔間單卡。而 R 卡的白藍雙色隔間，白色這邊的 {% mtgcard "Restricted Office" tooltip=true %} 可以消滅所有 3 攻以上的生物，這也暗示了白藍色組的生物大部分都會是 2 攻、或更低，因此可以從這張掃場中單向得利；藍色那邊的 {% mtgcard "Restricted Office" tooltip=true %} 則能夠讓你其他的永久物獲得辟邪，只有在費用足夠且有需要時，才會去起動這扇門。
+U 卡的 {% mtgcard "Inquisitive Glimmer" tooltip=true %} 作為本思路的加速器，讓結界與解鎖隔間更加容易，必定會是這個思路的關鍵單卡；而另一張 U 卡 {% mtgcard "Gremlin Tamer"  tooltip=true %} 則是一張相對普通的異景回報單卡，能夠良好地作用於有足夠結界 / 隔間單卡。而 R 卡的白藍雙色隔間，白色這邊的 {% mtgcard "Restricted Office // Lecture Hall" alt="Restricted Office" tooltip=true %} 可以消滅所有 3 攻以上的生物，這也暗示了白藍色組的生物大部分都會是 2 攻、或更低，因此可以從這張掃場中單向得利；藍色那邊的 {% mtgcard "Restricted Office // Lecture Hall" alt="Lecture Hall" tooltip=true %} 則能夠讓你其他的永久物獲得辟邪，只有在費用足夠且有需要時，才會去起動這扇門。
 
 而看到關注 2 攻以下的生物，也會讓我們想到 [紅白色組](#%E7%B4%85%E7%99%BD-%E2%80%94-%E5%BF%AB%E6%94%BB%EF%BC%88Aggro%EF%BC%89) 的特性，而 [紅藍色組](#%E7%B4%85%E8%97%8D-%E2%80%94-%E9%9A%94%E9%96%93%EF%BC%88Rooms%EF%BC%89) 的隔間主題也與白藍的異景主題高度連動。這是否隱喻著白藍、紅白、以及紅藍這三個潔思凱色組（紅、白、藍），在限制賽中能夠高協同性地運作呢？
 

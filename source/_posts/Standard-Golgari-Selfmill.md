@@ -56,7 +56,7 @@ excerpt: "手牌怎麼越打越多"
 
 ### 其他生物
 
-{% mtgcard "Mosswood Dreadknight" %}
+{% mtgcard "Mosswood Dreadknight // Dread Whispers" %}
 [蘚木林恐懼騎士](https://scryfall.com/card/woe/231/mosswood-dreadknight-dread-whispers)（4）：黑綠頂級2費曲線，不管怎麼組大概都少不了它。使用它時不要過度執著於歷險後從放逐區施放的SOP，適時的直接正拍有時反而能掌握遊戲節奏。
 
 {% mtgcard "Glissa Sunslayer" %}
@@ -71,7 +71,7 @@ excerpt: "手牌怎麼越打越多"
 {% mtgcard "Tranquil Frillback" %}
 [安詳鰭背龍](https://scryfall.com/card/mat/24/tranquil-frillback)（1）：在這個環境中，安詳鰭背龍不太怕沒工作，也是少數能一卡把[永續無瑕體](https://scryfall.com/card/dsk/6/enduring-innocence)解乾淨的生物，加上我們是個墳場套牌，非常不樂見吃到墳場針對，這些針對大多是神器結界（如[吸魂器](https://scryfall.com/card/dsk/248/ghost-vacuum)、[得享安息](https://scryfall.com/card/big/4/rest-in-peace)），其中[吸魂器](https://scryfall.com/card/dsk/248/ghost-vacuum)在某些套牌的正編就可看到，把神器結界都交給備牌有點太危險了，正編也要有些應對能力才行。如果當下環境中神器結界較多的話，可以考慮把[泰坦尼亞](https://scryfall.com/card/bro/193/titania-voice-of-gaea)換成一張[廢料射手](https://scryfall.com/card/blb/191/scrapshooter)，之所以不放第二張安詳鰭背龍，是基於套牌曲線考量，安詳鰭背龍雖然是3費生物，但不是實質的3費曲線，你不會希望準時拍一個白板下來，再加上你有時會需要把它扣到想針對的目標出現後再來解場，更何況我們還有[誠實的魯斯登](https://scryfall.com/card/otj/207/honest-rutstein)，這傢伙在2回沒往墳場堆生物的情況下，也不會是個主動的3回曲線，所以若我們繼續增加正編安詳鰭背龍的數量，反而對套牌的運作節奏是會有不良影響的，就這點來說廢料射手的主動性好很多，起碼是個3費4/4延勢的強力曲線，就算空拍，對場面的攻防也能起積極作用。
 
-{% mtgcard "Sheoldred" %}
+{% mtgcard "Sheoldred // The True Scriptures" %}
 [希歐蕊](https://scryfall.com/card/mom/125/sheoldred-the-true-scriptures)（1）：這應該是整副牌最脫離構築常軌的傢伙了吧，這個卡位最常見的選項應該是[啟示天災希歐蕊](https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse)或[敵對調查員](https://scryfall.com/card/big/10/hostile-investigator)，我一開始也是這麼組的，但在實測後發現我其實不缺致勝點，反倒是因為高頻率的自磨，很容易把去除都磨掉還回收不了，還是會希望有個帶去除能力的生物能用。最開始是先改用[念世卓柏卡布拉](https://scryfall.com/card/lci/97/chupacabra-echo)，說實話它就是個下位的[貪食卓柏卡布拉](https://scryfall.com/card/mkc/136/ravenous-chupacabra)沒錯，雖然我是自磨套牌，但在遊戲前期墳場也不見得有足夠的永久物來提供去除射程，如果在條件不對的情況下摸到它確實是很想死，但也不能否認只要墳場的永久物數量堆到足夠數量後（一個黑霸主ETB可能就達標了），它就是個超強的資源交換神器，而且精準選定想去除的目標這點還是很厲害，不過被一個沒機會自磨的開局卡4費節奏幾次後，決定還是改成運作比較穩定的單卡[希歐蕊](https://scryfall.com/card/mom/125/sheoldred-the-true-scriptures)，起碼也是個對手不能無視的強力威脅，還能解決一下我不易處理旅法的問題。
 
 ### 去除
@@ -88,7 +88,7 @@ excerpt: "手牌怎麼越打越多"
 {% mtgcard "Tear Asunder" %}
 [撕成碎片](https://scryfall.com/card/dmu/183/tear-asunder)（1）：在現在神器結界滿街跑的環境裡，正編帶個一張肯定不會錯，最爛也是4費的放逐萬解，不至於變死牌。
 
-{% mtgcard "Invasion of Innistrad" %}
+{% mtgcard "Invasion of Innistrad // Deluge of the Dead" %}
 [進軍依尼翠](https://scryfall.com/card/mom/115/invasion-of-innistrad-deluge-of-the-dead)（1）：久物類別的去除咒語再+1，雖然費用笨重了點但效果也很強力，只要轉化成功有一卡鎮壓場面的能力，對於我們這種資源向套牌來說，有時對手血量壓力也不大，比起直接打對手，打戰役還能給對手更大的防守壓力。如果嫌這張太笨重，可以改成其他常規的2費去除。
 
 {% mtgcard "Gix's Command" %}

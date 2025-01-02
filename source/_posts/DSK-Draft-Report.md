@@ -300,17 +300,17 @@ categories:
 | **<font color="#023FFD">藍</font><font color="#0A883B">綠</font>** 1 | {% mtgcard "Manifest Dread" tooltip=true %}  | {% mtgcard "Growing Dread" tooltip=true %} | {% mtgcard "Horrid Vigor" tooltip=true %}  |
 | **<font color="#023FFD">藍</font><font color="#0A883B">綠</font>** 2 | {% mtgcard "Piranha Fly" tooltip=true %} | {% mtgcard "Cryptid Inspector" tooltip=true %} | {% mtgcard "Unable to Scream" tooltip=true %} |
 | **<font color="#FD0214">紅</font>黑** 1 | {% mtgcard "Fear of Lost Teeth" tooltip=true %} | {% mtgcard "Sawblade Skinripper" tooltip=true %} | {% mtgcard "Final Vengeance" tooltip=true %} |
-| **<font color="#FD0214">紅</font>黑** 2 | {% mtgcard "Innocuous Rat" tooltip=true %} | {% mtgcard "Most Valuable Slayer" tooltip=true %} | {% mtgcard "Derelict Attic//Widow's Walk" tooltip=true %} |
+| **<font color="#FD0214">紅</font>黑** 2 | {% mtgcard "Innocuous Rat" tooltip=true %} | {% mtgcard "Most Valuable Slayer" tooltip=true %} | {% mtgcard "Derelict Attic // Widow's Walk" tooltip=true %} |
 | **黑<font color="#0A883B">綠</font>** 1 | {% mtgcard "Wary Watchdog" tooltip=true %}  | {% mtgcard "Patchwork Beastie" tooltip=true %} | {% mtgcard "Horrid Vigor" tooltip=true %}  |
 | **黑<font color="#0A883B">綠</font>** 2 | {% mtgcard "Say Its Name" tooltip=true %}  | {% mtgcard "Under the Skin" tooltip=true %} | {% mtgcard "Monstrous Emergence" tooltip=true %} |
 | **<font color="#023FFD">藍</font><font color="#FED761">白</font>** 1 | {% mtgcard "Fear of Surveillance" tooltip=true %} | {% mtgcard "Optimistic Scavenger" tooltip=true %} | {% mtgcard "Unable to Scream" tooltip=true %} |
-| **<font color="#023FFD">藍</font><font color="#FED761">白</font>** 2 | {% mtgcard "Grand Entryway//Elegant Rotunda" tooltip=true %} | {% mtgcard "Inquisitive Glimmer" tooltip=true %} | {% mtgcard "Stay Hidden, Stay Silent" tooltip=true %} |
+| **<font color="#023FFD">藍</font><font color="#FED761">白</font>** 2 | {% mtgcard "Grand Entryway // Elegant Rotunda" tooltip=true %} | {% mtgcard "Inquisitive Glimmer" tooltip=true %} | {% mtgcard "Stay Hidden, Stay Silent" tooltip=true %} |
 | **黑<font color="#FED761">白</font>** 1 | {% mtgcard "Fear of Surveillance" tooltip=true %} | {% mtgcard "Valgavoth's Faithful" tooltip=true %} | {% mtgcard "Sporogenic Infection" tooltip=true %} |
 | **黑<font color="#FED761">白</font>** 2 | {% mtgcard "Spectral Snatcher" tooltip=true %} | {% mtgcard "Shroudstomper" tooltip=true %} | {% mtgcard "Seized from Slumber" tooltip=true %} |
 | **<font color="#023FFD">藍</font>黑** 1 | {% mtgcard "Stalked Researcher" tooltip=true %} | {% mtgcard "Dashing Bloodsucker" tooltip=true %} | {% mtgcard "Nowhere to Run" tooltip=true %} |
 | **<font color="#023FFD">藍</font>黑** 2 | {% mtgcard "Skullsnap Nuisance" tooltip=true %} | {% mtgcard "Fear of Infinity" tooltip=true %} | {% mtgcard "Unable to Scream" tooltip=true %} |
 | **<font color="#FD0214">紅</font><font color="#023FFD">藍</font>** 1 | {% mtgcard "Stalked Researcher" tooltip=true %} | {% mtgcard "Ghostly Keybearer" tooltip=true %} | {% mtgcard "Scorching Dragonfire" tooltip=true %} |
-| **<font color="#FD0214">紅</font><font color="#023FFD">藍</font>** 2 | {% mtgcard "Creeping Peeper" tooltip=true %} | {% mtgcard "Meat Locker//Drowned Diner" tooltip=true %} | {% mtgcard "Roaring Furnace//Steaming Sauna" tooltip=true %} |
+| **<font color="#FD0214">紅</font><font color="#023FFD">藍</font>** 2 | {% mtgcard "Creeping Peeper" tooltip=true %} | {% mtgcard "Meat Locker // Drowned Diner" tooltip=true %} | {% mtgcard "Roaring Furnace // Steaming Sauna" tooltip=true %} |
 
 上表中列出的三個類別，低費曲線、主題單卡、戰鬥詭計與去除，是我認為構成 DSK 輪抽套牌最重要的三個維度，所提到的單卡也是以我實際使用下來，覺得各色組中必須要有、而且越多張越強的單卡。不過，最後的黑白、藍黑、紅藍色組，由於我個人並沒有很多使用經驗，因此這邊列出的單卡就僅供參考，讀者有意願嘗試的話，建議以你們實測的體感為主喔。
 

@@ -182,8 +182,8 @@ Finally, we've also heard from many players that the repeated triggers caused by
 
 ## 順便看一下其他賽制
 
-標準基本上很健康不用動，上一次的 BnR WotC 有說標準的 Boros Convoke 和 Domain Ramp 是他們的觀察對象，因為兩者都有一隻生物（{% mtgcard "Atraxa, Grand Unifier" tooltip=true %} 和 {% mtgcard "Knight Errant of Eos" tooltip=true %}）本身是大生物的同時、還能夠補手牌資源。
-不過同時也有提到，在今年的退標之後，Boros Convoke 少了 {% mtgcard "Voldaren Epicure" tooltip=true %} 可以搭配 {% mtgcard "Gleeful Demolition" tooltip=true %} 可以早出 {% mtgcard "Knight Errant of Eos" tooltip=true %}、Domain Ramp 少了三色地可以穩定的調色和湊 domain，都算是少了一點東西。
+標準基本上很健康不用動，上一次的 BnR WotC 有說標準的 Boros Convoke 和 Domain Ramp 是他們的觀察對象，因為兩者都有一隻生物（{% mtgcard "Atraxa, Grand Unifier" tooltip=true %} 和 {% mtgcard "Knight-Errant of Eos" tooltip=true %}）本身是大生物的同時、還能夠補手牌資源。
+不過同時也有提到，在今年的退標之後，Boros Convoke 少了 {% mtgcard "Voldaren Epicure" tooltip=true %} 可以搭配 {% mtgcard "Gleeful Demolition" tooltip=true %} 可以早出 {% mtgcard "Knight-Errant of Eos" tooltip=true %}、Domain Ramp 少了三色地可以穩定的調色和湊 domain，都算是少了一點東西。
 剩下大概就是來看一下先驅吧。
 
 先驅目前我也覺得還算是平衡，可能真的比較搞心態的就是 Abzan Amalia Combo，雖然按照網站中某寫手的說法這是一套爛套牌，不過沒有改變這套帶來的絕望感，有時候不是不想解而是解不掉，例如 Izzet Phoenix 看到場上有 {% mtgcard "Selfless Savior" tooltip=true %} 時手上只有一張解牌無法解掉 {% mtgcard "Amalia Benavides Aguirre" tooltip=true %}、等到對面做完後也點不死，或者是看到對手牌庫頂留了一張 {% mtgcard "Aetherflux Reservoir" tooltip=true %}，要有多絕望有多絕望⋯⋯

@@ -232,25 +232,25 @@ MH3 剛發售後的 Dimir Murktide 會帶上 [Deep Analysis](https://scryfall.co
 
 | Side Out | Side In |
 | :-: | :-: |
-| -2 {% mtgcard "Force of Negation" "mh1" tooltip=true %} | +2 {% mtgcard "Stern Scolding" "ltr" tooltip=true %} |
+| -2 {% mtgcard "Force of Negation" tooltip=true %} | +2 {% mtgcard "Stern Scolding" "ltr" tooltip=true %} |
 | -1 {% mtgcard "Sink into Stupor // Soporific Springs" tooltip=true %} | +1 {% mtgcard "The Meathook Massacre" "mid" tooltip=true %} |
-| -1 {% mtgcard "Spell Pierce" "neo" tooltip=true %} | +1 {% mtgcard "Legion's End" "m20" tooltip=true %} |
-| -3 {% mtgcard "Preordain" "m11" tooltip=true %} | +1 {% mtgcard "Toxic Deluge" "mh3" tooltip=true %} |
-|  | +2 {% mtgcard "Surgical Extraction" "nph" tooltip=true %} |
+| -1 {% mtgcard "Spell Pierce" tooltip=true %} | +1 {% mtgcard "Legion's End" "m20" tooltip=true %} |
+| -3 {% mtgcard "Preordain" tooltip=true %} | +1 {% mtgcard "Toxic Deluge" "mh3" tooltip=true %} |
+|  | +2 {% mtgcard "Surgical Extraction" tooltip=true %} |
 
-基本上就是把虧牌的FON，應對面偏小的 {% mtgcard "Spell Pierce" "neo" tooltip=true %} 下掉，換上更多的掃場；備牌的 {% mtgcard "Legion's End" "m20" tooltip=true %} 一張身兼解 + 腦切的效果，使用起來相當令人滿意。由於這個換法我們只剩下四張正康可以對應對手難處理的魔戒、泰坦，所以正康基本上要留給這些，生物用掃場跟殺去解。 {% mtgcard "Surgical Extraction" "nph" tooltip=true %} 則在對手的魔戒、泰坦、或重要的二費威脅如 {% mtgcard "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger" tooltip=true %} 、 {% mtgcard "Amped Raptor" tooltip=true %} 進墳時摘掉他們，讓我們後續顧慮減少，但仍需繼續盯緊重點牌張，對手被切掉一邊還是有機會靠剩下來的威脅玩死我們。
+基本上就是把虧牌的FON，應對面偏小的 {% mtgcard "Spell Pierce" tooltip=true %} 下掉，換上更多的掃場；備牌的 {% mtgcard "Legion's End" "m20" tooltip=true %} 一張身兼解 + 腦切的效果，使用起來相當令人滿意。由於這個換法我們只剩下四張正康可以對應對手難處理的魔戒、泰坦，所以正康基本上要留給這些，生物用掃場跟殺去解。 {% mtgcard "Surgical Extraction" tooltip=true %} 則在對手的魔戒、泰坦、或重要的二費威脅如 {% mtgcard "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger" tooltip=true %} 、 {% mtgcard "Amped Raptor" tooltip=true %} 進墳時摘掉他們，讓我們後續顧慮減少，但仍需繼續盯緊重點牌張，對手被切掉一邊還是有機會靠剩下來的威脅玩死我們。
 
-此外， {% mtgcard "Spell Snare" "dis" tooltip=true %} 仍然是這個對局的 MVP 。
+此外， {% mtgcard "Spell Snare" tooltip=true %} 仍然是這個對局的 MVP 。
 
 ### 瑪爾督能量（Mardu Energy）
 
 | Side Out | Side In |
 | :-: | :-: |
-| -2 {% mtgcard "Force of Negation" "mh1" tooltip=true %} | +2 {% mtgcard "Stern Scolding" "ltr" tooltip=true %} |
+| -2 {% mtgcard "Force of Negation" tooltip=true %} | +2 {% mtgcard "Stern Scolding" "ltr" tooltip=true %} |
 | -1 {% mtgcard "Sink into Stupor // Soporific Springs" tooltip=true %} | +1 {% mtgcard "The Meathook Massacre" "mid" tooltip=true %} |
-| -1 {% mtgcard "Spell Pierce" "neo" tooltip=true %} | +1 {% mtgcard "Legion's End" "m20" tooltip=true %} |
-| -3 {% mtgcard "Preordain" "m11" tooltip=true %} | +1 {% mtgcard "Toxic Deluge" "mh3" tooltip=true %} |
-|  | +2 {% mtgcard "Surgical Extraction" "nph" tooltip=true %} |
+| -1 {% mtgcard "Spell Pierce" tooltip=true %} | +1 {% mtgcard "Legion's End" "m20" tooltip=true %} |
+| -3 {% mtgcard "Preordain" tooltip=true %} | +1 {% mtgcard "Toxic Deluge" "mh3" tooltip=true %} |
+|  | +2 {% mtgcard "Surgical Extraction" tooltip=true %} |
 
 換備方式同紅白能量，但瑪爾督帶上了更針對我們的 {% mtgcard "Fatal Push" "2xm" tooltip=true %} 、 {% mtgcard "Thoughtseize" "2xm" tooltip=true %} 、 以及 {% mtgcard "Orcish Bowmasters" "ltr" tooltip=true %} ，這也讓我們的組合技更容易被對手打斷，我們在做出組核技時，必須要留意對手有沒有可能跳弓箭手。
 
@@ -260,8 +260,8 @@ MH3 剛發售後的 Dimir Murktide 會帶上 [Deep Analysis](https://scryfall.co
 
 | Side Out | Side In |
 | :-: | :-: |
-| -2 {% mtgcard "Force of Negation" "mh1" tooltip=true %} | +2 {% mtgcard "Nihil Spellbomb" "som" tooltip=true %} |
-| -1 {% mtgcard "Toxic Deluge" "mh3" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" "nph" tooltip=true %} |
+| -2 {% mtgcard "Force of Negation" tooltip=true %} | +2 {% mtgcard "Nihil Spellbomb" tooltip=true %} |
+| -1 {% mtgcard "Toxic Deluge" "mh3" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" tooltip=true %} |
 | -1 {% mtgcard "Echo of Eons" "mh1" tooltip=true %} | +1 {% mtgcard "Legion's End" "m20" tooltip=true %} |
 | -2 {% mtgcard "Harbinger of the Seas" "mh3" tooltip=true %} | +1 {% mtgcard "Stern Scolding" "ltr" tooltip=true %}  |
 
@@ -272,33 +272,33 @@ MH3 剛發售後的 Dimir Murktide 會帶上 [Deep Analysis](https://scryfall.co
 | Side Out | Side In |
 | :-: | :-: |
 | -4 {% mtgcard "Fatal Push" "2xm" tooltip=true %}  | +3 {% mtgcard "Consign to Memory" "mh3" tooltip=true %} |
-| -1 {% mtgcard "Toxic Deluge" "mh3" tooltip=true %} | +2 {% mtgcard "Nihil Spellbomb" "som" tooltip=true %} |
-| -2 {% mtgcard "Spell Snare" "dis" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" "nph" tooltip=true %} |
+| -1 {% mtgcard "Toxic Deluge" "mh3" tooltip=true %} | +2 {% mtgcard "Nihil Spellbomb" tooltip=true %} |
+| -2 {% mtgcard "Spell Snare" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" tooltip=true %} |
 
 這個對局中，基本上 {% mtgcard "Phlage, Titan of Fire's Fury" "mh3" tooltip=true %} 得用康 + 摘掉，盡可能不要讓他結算，真的結算也有 {% mtgcard "Consign to Memory" "mh3" tooltip=true %} 可以康掉補血的效果，同時看住 {% mtgcard "The One Ring" "ltr" tooltip=true %} 、以及白藍雙元素的進場效果。我們的生物基本上比他們泰坦以外的生物厲害，站住就能反推過去。
 
-{% mtgcard "Spell Snare" "dis" tooltip=true %} 在這個對局中基本上只能瞄準對面的正康，考慮到效益僅保留 1 張。
+{% mtgcard "Spell Snare" tooltip=true %} 在這個對局中基本上只能瞄準對面的正康，考慮到效益僅保留 1 張。
 
 ### 奧札奇體系 （Eldrazi Tron, Ramp, Through the Breach）
 
 | Side Out | Side In |
 | :-: | :-: |
 | -4 {% mtgcard "Fatal Push" "2xm" tooltip=true %}  | +3 {% mtgcard "Consign to Memory" "mh3" tooltip=true %} |
-| -3 {% mtgcard "Spell Snare" "dis" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" "nph" tooltip=true %} |
-| -1 {% mtgcard "Spell Pierce" "neo" tooltip=true %} | +3 {% mtgcard "Break the Ice" "mh2" tooltip=true %} |
+| -3 {% mtgcard "Spell Snare" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" tooltip=true %} |
+| -1 {% mtgcard "Spell Pierce" tooltip=true %} | +3 {% mtgcard "Break the Ice" "mh2" tooltip=true %} |
 
-基本上這個備牌已經針對奧札奇體系去特化了，有需要的話可以炸完他們的地後手摘掉。但因為奧札奇除了塔脈爐外，還有 {% mtgcard "Ugin's Labyrinth" "mh3" tooltip=true %} 、 以及 {% mtgcard "Eldrazi Temple" "roe" tooltip=true %} ，並不是炸斷並手摘塔脈爐之一就能令其降速，須特別留意要炸的地，若能在一輪交換後結算超載的 {% mtgcard "Break the Ice" "mh2" tooltip=true %} 基本上等於勝利。
+基本上這個備牌已經針對奧札奇體系去特化了，有需要的話可以炸完他們的地後手摘掉。但因為奧札奇除了塔脈爐外，還有 {% mtgcard "Ugin's Labyrinth" "mh3" tooltip=true %} 、 以及 {% mtgcard "Eldrazi Temple" tooltip=true %} ，並不是炸斷並手摘塔脈爐之一就能令其降速，須特別留意要炸的地，若能在一輪交換後結算超載的 {% mtgcard "Break the Ice" "mh2" tooltip=true %} 基本上等於勝利。
 
 ### 紅底風暴（Ruby Storm）
 
 | Side Out | Side In |
 | :-: | :-: |
-| -1 {% mtgcard "Sink into Stupor" tooltip=true %} | +3 {% mtgcard "Consign to Memory" "mh3" tooltip=true %} |
-| -2 {% mtgcard "Shoot the Sheriff" "otj" tooltip=true %}  | +2 {% mtgcard "Surgical Extraction" "nph" tooltip=true %} |
-| -2 {% mtgcard "Harbinger of the Seas" "mh3" tooltip=true %}  | +2 {% mtgcard "Nihil Spellbomb" "som" tooltip=true %} |
+| -1 {% mtgcard "Sink into Stupor // Soporific Springs" tooltip=true %} | +3 {% mtgcard "Consign to Memory" "mh3" tooltip=true %} |
+| -2 {% mtgcard "Shoot the Sheriff" "otj" tooltip=true %}  | +2 {% mtgcard "Surgical Extraction" tooltip=true %} |
+| -2 {% mtgcard "Harbinger of the Seas" "mh3" tooltip=true %}  | +2 {% mtgcard "Nihil Spellbomb" tooltip=true %} |
 | -2 {% mtgcard "Fatal Push" "2xm" tooltip=true %} |  |
 
-{% mtgcard "Spell Snare" "dis" tooltip=true %} 是這個對局的 MVP ，風暴一堆關鍵單卡都是二費。另外，別忘了 {% mtgcard "Consign to Memory" "mh3" tooltip=true %} 可以康 {% mtgcard "Grapeshot" "tsr" tooltip=true %} 的風暴觸發，一康就全部都不會複製，請耐心的等待對手的最後一手。
+{% mtgcard "Spell Snare" tooltip=true %} 是這個對局的 MVP ，風暴一堆關鍵單卡都是二費。另外，別忘了 {% mtgcard "Consign to Memory" "mh3" tooltip=true %} 可以康 {% mtgcard "Grapeshot" tooltip=true %} 的風暴觸發，一康就全部都不會複製，請耐心的等待對手的最後一手。
 
 ### 泰坦護身符（Amulet Titan）
 
@@ -306,18 +306,18 @@ MH3 剛發售後的 Dimir Murktide 會帶上 [Deep Analysis](https://scryfall.co
 
 | Side Out | Side In |
 | :-: | :-: |
-| -3 {% mtgcard "Spell Snare" "dis" tooltip=true %} | +3 {% mtgcard "Consign to Memory" "mh3" tooltip=true %} |
+| -3 {% mtgcard "Spell Snare" tooltip=true %} | +3 {% mtgcard "Consign to Memory" "mh3" tooltip=true %} |
 | -4 {% mtgcard "Fatal Push" "2xm" tooltip=true %} （OTD） | +2 {% mtgcard "Stern Scolding" "ltr" tooltip=true %} （OTD） |
-| -2 {% mtgcard "Fatal Push" "2xm" tooltip=true %} （OTP） | +2 {% mtgcard "Surgical Extraction" "nph" tooltip=true %} |
+| -2 {% mtgcard "Fatal Push" "2xm" tooltip=true %} （OTP） | +2 {% mtgcard "Surgical Extraction" tooltip=true %} |
 
 #### 分析師型
 
 | Side Out | Side In |
 | :-: | :-: |
 | -4 {% mtgcard "Fatal Push" "2xm" tooltip=true %} | +3 {% mtgcard "Consign to Memory" tooltip=true %} |
-| -1 {% mtgcard "Spell Snare" "dis" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" "nph" tooltip=true %} |
-| -1 {% mtgcard "Force of Negation" "mh1" tooltip=true%} (OTP) | +2 {% mtgcard "Nihil Spellbomb" "som" tooltip=true %} |
-| -1 {% mtgcard "Spell Pierce" "neo" tooltip=true %} (OTD) | |
+| -1 {% mtgcard "Spell Snare" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" tooltip=true %} |
+| -1 {% mtgcard "Force of Negation" tooltip=true%} (OTP) | +2 {% mtgcard "Nihil Spellbomb" tooltip=true %} |
+| -1 {% mtgcard "Spell Pierce" tooltip=true %} (OTD) | |
 
 這邊是帶了 {% mtgcard "Aftermath Analyst" "mkm" tooltip=true %} aka 分析師 的類型。
 
@@ -325,8 +325,8 @@ MH3 剛發售後的 Dimir Murktide 會帶上 [Deep Analysis](https://scryfall.co
 
 | Side Out | Side In |
 | :-: | :-: |
-| -1 {% mtgcard "Sheoldred, the Apocalypse" "dmu" tooltip=true %} | +2 {% mtgcard "Nihil Spellbomb" "som" tooltip=true %} |
-| -3 {% mtgcard "Preordain" "m11" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" "nph" tooltip=true %} |
+| -1 {% mtgcard "Sheoldred, the Apocalypse" "dmu" tooltip=true %} | +2 {% mtgcard "Nihil Spellbomb" tooltip=true %} |
+| -3 {% mtgcard "Preordain" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" tooltip=true %} |
 | -1 {% mtgcard "Murktide Regent" "mh2" tooltip=true %} | +1 {% mtgcard "Legion's End" "m20" tooltip=true %} |
 
 下掉偏慢的黑魔判與 1 張龍侯，下掉巫術時機的 Preordain、換上 4 張剋墳、與 1 張 {% mtgcard "Legion's End" "m20" tooltip=true %} 。
@@ -341,7 +341,7 @@ MH3 剛發售後的 Dimir Murktide 會帶上 [Deep Analysis](https://scryfall.co
 
 | Side Out | Side In |
 | :-: | :-: |
-| -4 {% mtgcard "Orcish Bowmasters" "ltr" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" "nph" tooltip=true %} |
+| -4 {% mtgcard "Orcish Bowmasters" "ltr" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" tooltip=true %} |
 | -1 {% mtgcard "Sheoldred, the Apocalypse" "dmu" tooltip=true %} | +1 {% mtgcard "Toxic Deluge" "mh3" tooltip=true %}  |
 | -2 {% mtgcard "Echo of Eons" tooltip=true %} | +1 {% mtgcard "Legion's End" "m20" tooltip=true %} |
 |  | +2 {% mtgcard "Stern Scolding" "ltr" tooltip=true %} |
@@ -352,8 +352,8 @@ MH3 剛發售後的 Dimir Murktide 會帶上 [Deep Analysis](https://scryfall.co
 
 | Side Out | Side In |
 | :-: | :-: |
-| -4 {% mtgcard "Fatal Push" "2xm" tooltip=true %} | +2 {% mtgcard "Nihil Spellbomb" "som" tooltip=true %} |
-| -3 {% mtgcard "Spell Snare" "dis" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" "nph" tooltip=true %} |
+| -4 {% mtgcard "Fatal Push" "2xm" tooltip=true %} | +2 {% mtgcard "Nihil Spellbomb" tooltip=true %} |
+| -3 {% mtgcard "Spell Snare" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" tooltip=true %} |
 |  | +3 {% mtgcard "Consign to Memory" "mh3" tooltip=true %} |
 
 
@@ -361,7 +361,7 @@ MH3 剛發售後的 Dimir Murktide 會帶上 [Deep Analysis](https://scryfall.co
 
 雖然對手乍看是四色套牌，但除了雙 Cascade （{% mtgcard "Shardless Agent" "mh2" tooltip=true %} 、{% mtgcard "Ardent Plea" "arb" tooltip=true %}）外，其實不太會因為藍月賢者讓全部地變海島而被卡住，對手仍可以悠哉地填墳，然後再用回手的效果彈回藍月賢者去做 Cascade 、甚至用 {% mtgcard "Press the Enemy" "ltr" tooltip=true %} 彈 + 手上無情走骨。如果我們結算了藍月賢者，要盡快地將對手的墳場移除，讓對手不能好整以暇地累積資源。
 
-{% mtgcard "Teferi, Time Raveler" "war" tooltip=true %} 仍是我們的一生之敵，不能讓他結算，高優先的手摘目標。{% mtgcard "Spell Pierce" "neo" tooltip=true %} 雖然在一堆免費咒語下看起來有點傻，但為了小太跟三回準時Cascade後的 Living End，還是得留一下。畢竟有更爛的 {% mtgcard "Fatal Push" "2xm" tooltip=true %} 跟 {% mtgcard "Spell Snare" "dis" tooltip=true %} 得先請它們離開這個對局。
+{% mtgcard "Teferi, Time Raveler" tooltip=true %} 仍是我們的一生之敵，不能讓他結算，高優先的手摘目標。{% mtgcard "Spell Pierce" tooltip=true %} 雖然在一堆免費咒語下看起來有點傻，但為了小太跟三回準時Cascade後的 Living End，還是得留一下。畢竟有更爛的 {% mtgcard "Fatal Push" "2xm" tooltip=true %} 跟 {% mtgcard "Spell Snare" tooltip=true %} 得先請它們離開這個對局。
 
 別忘了，小心對手的 {% mtgcard "Colossal Skyturtle" "neo" tooltip=true %} 。
 
@@ -369,9 +369,9 @@ MH3 剛發售後的 Dimir Murktide 會帶上 [Deep Analysis](https://scryfall.co
 
 | Side Out | Side In |
 | :-: | :-: |
-| -3 {% mtgcard "Spell Snare" "DIS" tooltip=true %} | +2 {% mtgcard "Stern Scolding" "ltr" tooltip=true %} |
+| -3 {% mtgcard "Spell Snare" tooltip=true %} | +2 {% mtgcard "Stern Scolding" "ltr" tooltip=true %} |
 | -2 {% mtgcard "Harbinger of the Seas" "mh3" tooltip=true %} | +1 {% mtgcard "Legion's End" "m20" tooltip=true %} |
-|  | +2 {% mtgcard "Surgical Extraction" "nph" tooltip=true %} |
+|  | +2 {% mtgcard "Surgical Extraction" tooltip=true %} |
 
 盡快的結算我們 5/5 以上的龍侯 （不會死在對手一張 {% mtgcard "Soul Spike" "csp" tooltip=true %} 、或放逐兩張手牌出的 {% mtgcard "March of Wretched Sorrow" "neo" tooltip=true %} 下，至少可以做到一換四），然後阻止對面的 {% mtgcard "Necrodominance" "mh3" tooltip=true %} 與 {% mtgcard "The One Ring" "ltr" tooltip=true %} 。
 
@@ -382,16 +382,16 @@ MH3 剛發售後的 Dimir Murktide 會帶上 [Deep Analysis](https://scryfall.co
 | Side Out | Side In |
 | :-: | :-: |
 | -1 {% mtgcard "Echo of Eons" "mh1" tooltip=true %} | +2 {% mtgcard "Stern Scolding" "ltr" tooltip=true %} |
-| -2 {% mtgcard "Harbinger of the Seas" "mh3" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" "nph" tooltip=true %} |
-| -3 {% mtgcard "Preordain" "m11" tooltip=true %} | +1 {% mtgcard "Toxic Deluge" "mh3" tooltip=true %} |
-| -1 {% mtgcard "Spell Pierce" "neo" tooltip=true %} | +1 {% mtgcard "Legion's End" "m20" tooltip=true %} |
+| -2 {% mtgcard "Harbinger of the Seas" "mh3" tooltip=true %} | +2 {% mtgcard "Surgical Extraction" tooltip=true %} |
+| -3 {% mtgcard "Preordain" tooltip=true %} | +1 {% mtgcard "Toxic Deluge" "mh3" tooltip=true %} |
+| -1 {% mtgcard "Spell Pierce" tooltip=true %} | +1 {% mtgcard "Legion's End" "m20" tooltip=true %} |
 |  | +1 {% mtgcard "The Meathook Massacre" "mid" tooltip=true %} |
 
 這是一個艱難的對局，對方有茫茫多的動點可以取勝，而我們則必須步步為營，以最適當的解牌去應對。
 
-我們的起手必須要有能夠及時應對 {% mtgcard "Delighted Halfling" "ltr" tooltip=true %} 、 以及隨後的 {% mtgcard "Agatha's Soul Cauldron" "woe" tooltip=true %} 、 {% mtgcard "Grist, the Hunger Tide" "mh2" tooltip=true %} 、 {% mtgcard "Yawgmoth, Thran Physician" "mh1" tooltip=true %} ，一回出的半身人必須死，不然死的就是我們手上的康、還有之後的我們。
+我們的起手必須要有能夠及時應對 {% mtgcard "Delighted Halfling" "ltr" tooltip=true %} 、 以及隨後的 {% mtgcard "Agatha's Soul Cauldron" "woe" tooltip=true %} 、 {% mtgcard "Grist, the Hunger Tide" tooltip=true %} 、 {% mtgcard "Yawgmoth, Thran Physician" tooltip=true %} ，一回出的半身人必須死，不然死的就是我們手上的康、還有之後的我們。
 
-別忘了， {% mtgcard "Grist, the Hunger Tide" "mh2" tooltip=true %} 在戰場以外時是生物牌，我們要用 {% mtgcard "Stern Scolding" "ltr" tooltip=true %} 去康，而不是FON 或 {% mtgcard "Spell Pierce" "neo" tooltip=true %}
+別忘了， {% mtgcard "Grist, the Hunger Tide" tooltip=true %} 在戰場以外時是生物牌，我們要用 {% mtgcard "Stern Scolding" "ltr" tooltip=true %} 去康，而不是FON 或 {% mtgcard "Spell Pierce" tooltip=true %}
 
 有時候手摘去把 {% mtgcard "Young Wolf" "dka" tooltip=true %} 切掉，可以讓對手的無限組合技中斷，但再怎麼差，他們都還是有地面平推的 B 計畫，這時掃場就非常關鍵了， {% mtgcard "The Meathook Massacre" "mid" tooltip=true %} 通常不會太慢。
 
