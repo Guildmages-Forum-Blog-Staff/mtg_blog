@@ -19,6 +19,7 @@ jobs:
       - uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.BLOG_SEC }}
+          log-public-key: false
 
       - name: Use latest Node.js LTS
         uses: actions/setup-node@v4
