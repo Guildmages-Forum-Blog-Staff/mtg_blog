@@ -8,12 +8,17 @@ on:
 
 jobs:
   build:
+    # Move back to ubuntu-latest after January 17th, 2025.
+    # https://github.com/actions/runner-images/issues/10636
     runs-on: ubuntu-24.04
 
     steps:
       - uses: actions/checkout@v4
+
+      # hexo-deployer-git will create its own repo. checkout action is not enough.
+      - uses: webfactory/ssh-agent@v0.9.0
         with:
-          ssh-key: ${{ secrets.BLOG_SEC }}
+          ssh-private-key: ${{ secrets.BLOG_SEC }}
 
       - name: Use latest Node.js LTS
         uses: actions/setup-node@v4
