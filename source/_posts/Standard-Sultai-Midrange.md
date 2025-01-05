@@ -1,7 +1,7 @@
 ---
 
 title: "蘇勒台中速 — 追求卓越，不計代價"
-date: "2025-01-05 09:59:28"
+date: "2025-01-05 11:41:45"
 tags:
   - "Patrick"
 cover: "https://i.meee.com.tw/7qWaOU0.jpg"
@@ -25,13 +25,13 @@ categories:
 
 ### 核心關鍵生物：烏龜？這是什麼？
 
-{% mtglink "Fecund Greenshell" %}
+{% mtgpick "blb" 171 %}
  
 優秀的體格配上延勢（Reach），在現今環境中可以防守絕大部分的生物，進場異能只要成功結算，最差也可以補到一張牌、如果是地牌更可以擴張法術力優勢，特別注意因為不是抽牌，所以也可以規避掉 [Sheoldred, the Apocalypse](https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse) 與 [Faerie Mastermind](https://scryfall.com/card/mom/58/faerie-mastermind) 現在這兩個用量很大的生物造成的效應。最後當你地牌超過 10 張時，你的每個小生物都會變成可怕的怪物，對於沒有正解的中速套牌可以說是無解的存在。後續的生物選擇也是為了最大化 [Fecund Greenshell](https://scryfall.com/card/blb/171/fecund-greenshell) 的進場異能，而刻意都選擇了屁股較大的生物。
 
 ### 後期大招：想不到吧，這張牌不是只有指揮官在用！
 
-{% mtglink "Season of Weaving" %}
+{% mtgpick "blb" 68 %}
  
 俗稱[藍季節](https://scryfall.com/card/blb/68/season-of-weaving)，對於很多人來說可說是指揮官的玩具，但在這套牌中可以說是壓倒很多人的最後一根稻草。由於核心生物 [Fecund Greenshell](https://scryfall.com/card/blb/171/fecund-greenshell) 非傳奇的特性，他成為了我們第二個選項最優先複製的目標， 6 費咒語可以在抽一張牌的同時製造出兩個 [Fecund Greenshell](https://scryfall.com/card/blb/171/fecund-greenshell) 的複製體，只要成功我們就可以獲得額外兩個體質優秀的阻擋者以及 5 次的進場異能！等於額外 5 張的牌張優勢，如果因此擴張到 10 塊地，那所有的生物都會獲得 +6/+6 的可怕體格。而在沒有場面時單純的抽五張牌也可以幫我們快速拉回資源上的優勢，或是在場面劣勢時，第三項異能也可以在補兩張牌時為我們爭取一回合的時間。
 
@@ -49,7 +49,7 @@ categories:
 
 ### 最後一塊拼圖：解牌、加速、賺資源三位一體
 
-{% mtglink "Insidious Fungus" %}
+{% mtgpick "dsk" 186 %}
  
 為了因應現在神器結界充斥的環境，對應的解牌是必不可少的，生為筆者最後一張加入的生物，雖然一直有注意但都沒有真的使用過，大部分的情況下他就只是一個 3 費的結界神器解，在現在的標準環境中完全是不夠優秀的。但因為 [Fecund Greenshell](https://scryfall.com/card/blb/171/fecund-greenshell) 的關係一切都不一樣了，它在保留功能性的同時成為了我們最低費的觸發源， 1 費的生物就可以幫你擴張一張牌的優勢，後期超過 10 塊地時，也可以成為一個有威脅性的生物。此外，因為夠低費往往在 1 回合出他時可以給對方產生不能下重要結界如 [Up the Beanstalk](https://scryfall.com/card/woe/195/up-the-beanstalk) 、 [Caretaker's Talent](https://scryfall.com/card/blb/6/caretakers-talent) 、 [Unholy Annex // Ritual Chamber](https://scryfall.com/card/dsk/118/unholy-annex-ritual-chamber) 的壓力。最後就是如果自己手中已經或有後期咒語，也可以毫不吝嗇的犧牲掉來加速。
 
