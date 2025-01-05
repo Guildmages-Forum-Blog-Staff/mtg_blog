@@ -15,13 +15,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # hexo-deployer-git will create its own repo. checkout action is not enough.
-      - name: Add SSH key to agent for site repo branch
-        uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.BLOG_SEC }}
-          log-public-key: false
-
       - name: Use latest Node.js LTS
         uses: actions/setup-node@v4
         with:
@@ -36,6 +29,13 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      # hexo-deployer-git will create its own repo. checkout action is not enough.
+      - name: Add SSH key to agent for site repo branch
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.BLOG_SEC }}
+          log-public-key: false
 
       - name: Deploy using hexo-deployer-git
         env:
