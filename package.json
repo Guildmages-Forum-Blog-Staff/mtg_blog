@@ -34,5 +34,8 @@
     "hexo-wordcount": "^6.0.1",
     "markdown-it": "^13.0.1",
     "nodejieba": "^3.4.4"
+  },
+  "devDependencies": {
+    "imagemin-cli": "^8.0.0"
   }
 }
