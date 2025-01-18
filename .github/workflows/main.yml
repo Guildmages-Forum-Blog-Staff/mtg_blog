@@ -28,7 +28,7 @@ jobs:
           timezoneLinux: Asia/Taipei
 
       - name: Install dependencies
-        run: npm install --production
+        run: npm install --omit=dev
 
       # hexo-deployer-git will create its own repo. checkout action is not enough.
       - name: Add SSH key to agent for site repo branch
