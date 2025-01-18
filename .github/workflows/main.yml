@@ -41,6 +41,7 @@ jobs:
 
       - name: Deploy using hexo-deployer-git
         env:
+          NODE_ENV: production
           GIT_AUTHOR_NAME: ${{ vars.GIT_AUTHOR_NAME }}
           GIT_AUTHOR_EMAIL: ${{ vars.GIT_AUTHOR_EMAIL }}
           GIT_COMMITTER_NAME: ${{ vars.GIT_AUTHOR_NAME }}
