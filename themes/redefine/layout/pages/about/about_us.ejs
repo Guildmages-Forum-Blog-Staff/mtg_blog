@@ -58,12 +58,12 @@
         <% const avatar = author_info.avatar; %>
         <% const intro = author_info.intro; %>
         <% const author_url_result = author_info.url; %>
-        <div class="article-footer flex flex-row gap-2 items-center px-2m:px-6 md:px-8">
+        <div class="article-footer flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
             <div class="info flex flex-col justify-between">
                 <div class="author-container">
                     <div class="item">
                         <div class="avatar-column">
-                            <a href="<%- author_url_result %>" class="authorlex items-center name text-default-text-color text-lg font-semibold flex">
+                            <a href="<%- author_url_result %>" class="author flex items-center name text-default-text-color text-lg font-semibold flex">
                                 <div class="avatar flex-shrink-0p-[1px]">
                                     <%- image_tag(avatar) %>
                                 </div>
@@ -71,14 +71,14 @@
                         </div>
                         <div class="author-intro items-center">
                             <div class="author-name">
-                                <a href="<%- author_url_result %>"lass="text-default-text-color font-semibold p-10px">
+                                <a href="<%- author_url_result %>" class="text-default-text-color font-semibold p-10px">
                                     <%= author_name %>
                                 </a>
                             </div>
                             <% const intro_length = intro.length; %>
                             <div class="intro">
                                 <% for (let j = 0; j < intro_length; j++ ) { %>
-                                    <div class="page-template-contentarkdown-body">
+                                    <div class="page-template-content markdown-body">
                                         <%- intro[j] %>
                                     </div>
                                 <% } %>
