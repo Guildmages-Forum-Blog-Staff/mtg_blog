@@ -8,9 +8,7 @@ on:
 
 jobs:
   build:
-    # Move back to ubuntu-latest after January 17th, 2025.
-    # https://github.com/actions/runner-images/issues/10636
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
