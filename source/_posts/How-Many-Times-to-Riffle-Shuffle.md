@@ -6,7 +6,7 @@ tags:
 authors:
   - "mm"
 categories:
-  - "Deep-Dive"
+  - "Deep Dive"
 cover: "https://hackmd.io/_uploads/HJnVhMLFkx.jpg"
 thumbnail: "https://hackmd.io/_uploads/HJnVhMLFkx.jpg"
 excerpt: "你不洗亂牌，遊戲就不好玩"
