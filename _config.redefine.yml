@@ -94,7 +94,7 @@ global:
   open_graph:
     enable: true
     image: /images/logo.webp  # default og:image
-    description: 各路旅法師的集散地
+    description: null
   # Google Analytics
   google_analytics:
     enable: true # Whether to enable Google Analytics
