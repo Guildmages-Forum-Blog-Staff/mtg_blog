@@ -1,7 +1,7 @@
 ---
 
 title: "乙太飄移標準初探"
-date: "2025-02-16 20:48:00"
+date: "2025-02-17 08:49:22"
 tags:
   - "JruMTG"
 authors:
@@ -111,7 +111,7 @@ excerpt: "這個爛寶看起來好香，不如把牠丟進鍋子裡煮了吧"
 [套牌連結](https://www.mtggoldfish.com/deck/6915072#paper)
 ![decklist](https://i.meee.com.tw/mKtINFK.png)
 
-沒錯，還是[鍋子](https://scryfall.com/card/woe/242/agathas-soul-cauldron)竭絕的回合，這次改成Combo向的構築，[鍋子](https://scryfall.com/card/woe/242/agathas-soul-cauldron)+[竄天鬼領袖紅擋](https://scryfall.com/card/dft/218/redshift-rocketeer-chief)+[咒眠仙靈](https://scryfall.com/card/woe/66/sleep-cursed-faerie)，可以把任何大於等於3攻的生物變成僅限起動異能用的無限Mana源，如果還有[行走集庫](https://scryfall.com/card/dft/235/marketback-walker)時，就能把無限Mana轉化為無限大生物，即使打不過去也能用[沃達連逐樂客](https://scryfall.com/card/mom/171/voldaren-thrillseeker)直接打臉收頭，[航龍工程師](https://scryfall.com/card/dft/121/draconautics-engineer)+[後燃專家](https://scryfall.com/card/dft/150/afterburner-expert)為首的生物則是提供正面作戰能力，讓套牌有個中速模式可以運作，不會完全依靠Combo來致勝。
+沒錯，還是[鍋子](https://scryfall.com/card/woe/242/agathas-soul-cauldron)竭絕的回合，這次改成Combo向的構築，[鍋子](https://scryfall.com/card/woe/242/agathas-soul-cauldron)+[竄天鬼領袖紅擋](https://scryfall.com/card/dft/218/redshift-rocketeer-chief)+[咒眠仙靈](https://scryfall.com/card/woe/66/sleep-cursed-faerie)，可以把任何大於等於3攻的生物變成僅限起動異能用的無限Mana源，如果還有[行走集庫](https://scryfall.com/card/dft/235/marketback-walker)時，就能把無限Mana轉化為無限可控灌大的生物，即使打不過去也能用[沃達連逐樂客](https://scryfall.com/card/mom/171/voldaren-thrillseeker)直接打臉收頭<font color="#AAAAAA">（但如果是行走集庫本人在場上，想把自己投擲出去打死人，記得把身材控制在自己牌庫能承受範圍內）</font>，[航龍工程師](https://scryfall.com/card/dft/121/draconautics-engineer)+[後燃專家](https://scryfall.com/card/dft/150/afterburner-expert)為首的生物則是提供正面作戰能力，讓套牌有個中速模式可以運作，不會完全依靠Combo來致勝。
 
 ![重點單卡](https://i.meee.com.tw/9ttCPG8.png)
 
