@@ -1,7 +1,7 @@
 ---
 
 title: "艾斯波龍侯 — 亙古回聲再臨"
-date: "2025-02-20 13:43:38"
+date: "2025-02-20 14:10:14"
 tags:
   - "cephille"
   - "jeffchen"
@@ -33,12 +33,12 @@ excerpt: "沒放大眼睛跟黑白神，龍侯與亙古回聲是否還能起舞�
 [試作套牌連結：Dimir Oculus_20250116](https://www.mtggoldfish.com/deck/6868741#paper)
 
 本次測試重點：
-1. {% mtglink "counterspell" %} 的位置換成3張 {% mtglink "thoughtseize" %}、以及4張的 {% mtglink "Force of Negation" %}，目的是配合 {% mtglink "Abhorrent Oculus" alt="大眼" %} 的主動計畫開路、以及大眼落地後tapped out仍可用FON免費反擊。
+1. {% mtglink "Counterspell" %} 的位置換成3張 {% mtglink "Thoughtseize" %}、以及4張的 {% mtglink "Force of Negation" %}，目的是配合 {% mtglink "Abhorrent Oculus" alt="大眼" %} 的主動計畫開路、以及大眼落地後tapped out仍可用FON免費反擊。
 2. 正1備1 {% mtglink "Kaito, Bane of Nightmares" %} 以及備牌2張的 {% mtglink "Orcish Bowmasters" %} 做為備牌局被剋墳的替代計畫。
 
 本次測試心得：
 1. {% mtglink "Kaito, Bane of Nightmares" alt="魁渡" %} 不是解答，即使做到上限：忍術成功出，然後回手一個大眼顯化懼象出的2/2（甚至還蓋著 {% mtglink "Force of Negation" alt="FON" %} 回手後可以使用），主回合tapped out然後打對手3刺探二抽1，面對Eldrazi Ramp、Temur Breach等套牌，這樣的節奏斷檔，回合結束後換人，死的就是我們。
-2. {% mtglink "thoughtseize" alt="思緒" %} 在正編很普通，打能量很差，而且還很痛，換回 {% mtglink "counterspell" alt="正康" %} ，FON跟著減少回到3張。
+2. {% mtglink "Thoughtseize" alt="思緒" %} 在正編很普通，打能量很差，而且還很痛，換回 {% mtglink "Counterspell" alt="正康" %} ，FON跟著減少回到3張。
 3. 總之就是回到原點，仍需繼續尋找不依賴墳場的獲勝手段（win-con）。
 4. 補充一下，思緒、或其他低費棄牌咒語的強度在於，你看完手牌後的下一個威脅能不能讓對手感到頭痛，是的話就值得；不是的話那就是在虧節奏、法術力向下交換。此外，近代很難但靠看一張就導致對手遊戲計劃卡住，而在錯誤的時機topdeck思緒、或你思緒棄掉了對手的威脅後，他又立刻自摸一張，這些狀況都是使用思緒很差，而必須考慮的風險。
 
@@ -140,11 +140,11 @@ MIT後的近代藍黑（或是艾斯波），我認為可以往中速方向走�
 ![](https://i.meee.com.tw/j2y72j1.jpg)
 
 由於本文是我主筆的關係，以下的主要內容，會以[我的牌表](https://melee.gg/Decklist/View/474954)為主去進行說明。這邊也說明一下我跟Jeff的版本主要的差異：
-- 主牌局我選用了3張 {% mtglink "Force of Negation" alt="FON" %} 而他沒帶；Jeff改帶了2張 {% mtglink "Consider" %} 、以及一張 {% mtglink "Drown to the Loch" %} ，而第3張的剋墳選用也有些許的差異。
+- 主牌局我選用了3張 {% mtglink "Force of Negation" alt="FON" %} 而他沒帶；Jeff改帶了2張 {% mtglink "Consider" %} 、以及一張 {% mtglink "Drown in the Loch" %} ，而第3張的剋墳選用也有些許的差異。
 - 生物的部分，Jeff專注於價值，以及一些靠  {% mtglink "Harbinger of the Seas" alt="海島人" %} unfair win的對局， {% mtglink "Tamiyo, Inquisitive Student//Tamiyo, Seasoned Scholar" alt="多美代" %} 與海島人各帶足2張；我則更專注於解牌的應對，這兩張生物牌只帶各1張，多帶了 {% mtglink "Prismatic Ending" %} ，與 {% mtglink "Sink into Stupor//Soporific Springs" %} 。 
 - 找地地的選用，Jeff做得更為分散，能降低被 {% mtglink "Surgical Extraction" alt="手摘" %} 的影響。另外，他帶了第3張 {% mtglink "Watery Grave" alt"藍黑電震地" %} ，來降低中後期正拍海島循環、亙古回聲而被快地卡住的問題。
 - 而備牌基本上12張相同，但我更重視剋墳與換備後的中速對局；而Jeff更重視需要掃場、以及Eldrazi Ramp的對局。
-- Jeff賽後檢討，正編應該捨棄 {% mtglink "Consider" %}  投入{% mtglink "Force of Negation" alt="FON" %} ，已經有兩張多美代的情況，FON的代價完全可以接受，備牌的 {% mtglink "Shattered Assumption" %} 並不是好選擇，會傾向帶第四張的 {% mtglink "Consign to Memory" %} 。
+- Jeff賽後檢討，正編應該捨棄 {% mtglink "Consider" %}  投入{% mtglink "Force of Negation" alt="FON" %} ，已經有兩張多美代的情況，FON的代價完全可以接受，備牌的 {% mtglink Shatter Assumptions" %} 並不是好選擇，會傾向帶第四張的 {% mtglink "Consign to Memory" %} 。
 
 ### 套牌核心
 
@@ -160,7 +160,7 @@ MIT後的近代藍黑（或是艾斯波），我認為可以往中速方向走�
 
 簡述了青蛙的強度，接下來要說說青蛙這些異能的隱藏優勢，比起牌面上的異能，若能完全發揮這些優勢，青蛙的強度將遠超你的想像：
 - 棄牌可以玩的花招太多了，瘋魔（Madness），填墳後再挖回來等，族繁不及備載。這也是青蛙在薪傳賽制被禁的主因，搭配 {% mtglink "Reanimate" %} 的挖墳策略過於強勢。而在近代中我們的大眼體系，也就是在玩這個套路。我們這次套牌主打的 {% mtglink "Echo of Eons" alt="亙古回聲" %} 也可以因此丟到墳場來返照施放。
-- 瞬間放逐墳場三張牌，不只能讓青蛙飛起來，也有機會讓你的龍侯瞬間變大；還有機會躲掉 {% mtglink "Drown to the Loch" %} 這類的牌，或讓對手 {% mtglink "Surgical Extraction" %} 這類的墳場針對目標落空。
+- 瞬間放逐墳場三張牌，不只能讓青蛙飛起來，也有機會讓你的龍侯瞬間變大；還有機會躲掉 {% mtglink "Drown in the Loch" %} 這類的牌，或讓對手 {% mtglink "Surgical Extraction" %} 這類的墳場針對目標落空。
 - 搭配最近很夯的 {% mtglink "Ketramose, the New Dawn" alt="黑白神" %} ，每在你的回合起動一次青蛙的異能時就可以抽一痛一，搭配 {% mtglink "Darkblast" %} 還可以做出超大型青蛙，但你牌庫可能也要空了…… Combo細節可以參考[這篇](https://mtgrocks.com/ketramose-the-new-dawn-psychic-frog-combo-mtg/)，就不在此贅述。
 - 還有很多可能性，值得讀者進一步去開發。
 
@@ -295,7 +295,7 @@ Preordain作為套牌濾牌的基石，但由於環境中存在著過快的組�
 
 從這幾個條件中，我們篩選出以下牌，並簡述為什麼選/沒選的原因：
 
--  {% mtglink "Go for the Thorat" %} ：**最終選擇**，雖然去除不掉黑白神與伊莫庫，但殺不到神器生物這個缺點，其實相當不關鍵；原因是大部分神器生物都落於其它解牌、甚至bowmasters的射程內，唯一殺不到的 {% mtglink "Kappa Cannoneer" %} 其它張也殺不了，因此不成問題。
+-  {% mtglink "Go for the Throat" %} ：**最終選擇**，雖然去除不掉黑白神與伊莫庫，但殺不到神器生物這個缺點，其實相當不關鍵；原因是大部分神器生物都落於其它解牌、甚至bowmasters的射程內，唯一殺不到的 {% mtglink "Kappa Cannoneer" %} 其它張也殺不了，因此不成問題。
 -  {% mtglink "Baleful Mastery" %} ：相當接近最終選擇，實體四費但可以兩費施放，也可以繞過Snare；但捨棄的原因仍是二費施放時要給對手抽一張的代價，可能會無法承受。
 -  {% mtglink "Path to Exile" %} ：非常優秀的放逐解，捨棄的原因是會因此讓我們之後登場的海島人unfair計畫變差。
 -  {% mtglink "The End" %} ：腦葉切除的效果很吸引人，但基本上都是四費施放太過笨重。
