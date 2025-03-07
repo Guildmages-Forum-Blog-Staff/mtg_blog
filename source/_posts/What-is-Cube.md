@@ -1,9 +1,9 @@
 ---
 title: "什麼是CUBE - 你的第一個Cube"
-date: "2025-03-07 15:00:26"
+date: "2025-03-07 15:21:25"
 tags:
   - "dalance"
-cover: "https://cards.scryfall.io/art_crop/front/3/d/3d946df5-f206-4241-bb55-97db67dc793c.jpg\""
+cover: "https://cards.scryfall.io/art_crop/front/3/d/3d946df5-f206-4241-bb55-97db67dc793c.jpg"
 thumbnail: "https://cards.scryfall.io/art_crop/front/3/d/3d946df5-f206-4241-bb55-97db67dc793c.jpg"
 excerpt: "想認識什麼是CUBE嗎，進來看一下吧！"
 authors:
