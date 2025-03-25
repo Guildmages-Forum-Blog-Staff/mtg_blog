@@ -198,37 +198,38 @@ authors:
 接著來聊聊目前環境內的幾個常見套牌的對局重點及備牌選擇，泰坦護身符是一套套牌計畫非常積極的套牌，而泰坦會需要面對的問題主要有三種：
 
 1.  **血月效果：**
-    指的是類似[腥紅之月](https://scryfall.com/card/drk/58/blood-moon)，會讓地失去異能的效果，環境內常見的有三種，照威脅程度高到低排序是：- **[紅月賢者](https://scryfall.com/card/fut/101/magus-of-the-moon) > [腥紅之月](https://scryfall.com/card/drk/58/blood-moon) > [月輪山影](https://scryfall.com/card/m19/128/alpine-moon)**
+    指的是類似[腥紅之月](https://scryfall.com/card/drk/58/blood-moon)，會讓地失去異能的效果，環境內常見的有三種，照威脅程度高到低排序是：
+    - **[紅月賢者](https://scryfall.com/card/fut/101/magus-of-the-moon) > [腥紅之月](https://scryfall.com/card/drk/58/blood-moon) > [月輪山影](https://scryfall.com/card/m19/128/alpine-moon)**
 
-        ![](https://i.imgur.com/8CTn1gE.jpeg)
+    ![](https://i.imgur.com/8CTn1gE.jpeg)
 
-        由於泰坦護身符正邊就帶有[曆祚母聖樹](https://scryfall.com/card/neo/266/boseiju-who-endures)，因此[紅月賢者](https://scryfall.com/card/fut/101/magus-of-the-moon)作為其中唯一的非結界，一定需要備牌才能處理，是最麻煩的威脅。
+    由於泰坦護身符正邊就帶有[曆祚母聖樹](https://scryfall.com/card/neo/266/boseiju-who-endures)，因此[紅月賢者](https://scryfall.com/card/fut/101/magus-of-the-moon)作為其中唯一的非結界，一定需要備牌才能處理，是最麻煩的威脅。
 
-        - 常見的泰坦應對方式：[曆祚母聖樹](https://scryfall.com/card/neo/266/boseiju-who-endures)、[活旺之力](https://scryfall.com/card/mh1/164/force-of-vigor)、[撕成碎片](https://scryfall.com/card/dmu/183/tear-asunder)、[肢解](https://scryfall.com/card/nph/57/dismember)
+    - 常見的泰坦應對方式：[曆祚母聖樹](https://scryfall.com/card/neo/266/boseiju-who-endures)、[活旺之力](https://scryfall.com/card/mh1/164/force-of-vigor)、[撕成碎片](https://scryfall.com/card/dmu/183/tear-asunder)、[肢解](https://scryfall.com/card/nph/57/dismember)
 
 2.  **阻止泰坦成功：**
     環境內常見的威脅有三個，**[反擊咒語](https://scryfall.com/card/ice/64/counterspell)、[銳敏](https://scryfall.com/card/mh2/67/subtlety)**和**[提莎娜的縛潮師](https://scryfall.com/card/lci/81/tishanas-tidebinder)**，其中最麻煩的是[銳敏](https://scryfall.com/card/mh2/67/subtlety)，因為能替代施放的特性，即使對手沒有法力仍然有可能施放，更難防。
 
-        ![](https://i.imgur.com/Sc2Tqes.jpeg)
+    ![](https://i.imgur.com/Sc2Tqes.jpeg)
 
-        現今環境內帶[反擊咒語](https://scryfall.com/card/ice/64/counterspell)的套牌較少（基本上只有少數的紅藍底龍侯套牌或藍白底控制套牌），因此對付[反擊咒語](https://scryfall.com/card/ice/64/counterspell)效果最好的一張牌[靈魂洞窟](https://scryfall.com/card/avr/226/cavern-of-souls)在現今的環境中比較少出現，我在MIT最終的構築也沒有帶。
+    現今環境內帶[反擊咒語](https://scryfall.com/card/ice/64/counterspell)的套牌較少（基本上只有少數的紅藍底龍侯套牌或藍白底控制套牌），因此對付[反擊咒語](https://scryfall.com/card/ice/64/counterspell)效果最好的一張牌[靈魂洞窟](https://scryfall.com/card/avr/226/cavern-of-souls)在現今的環境中比較少出現，我在MIT最終的構築也沒有帶。
 
-        - 常見的泰坦應對方式：[反擊咒語](https://scryfall.com/card/ice/64/counterspell)、[阻禦網](https://scryfall.com/card/ulg/125/defense-grid)
+    - 常見的泰坦應對方式：[反擊咒語](https://scryfall.com/card/ice/64/counterspell)、[阻禦網](https://scryfall.com/card/ulg/125/defense-grid)
 
 3.  **拆除護身符**
     在沒有護身符的情況下，泰坦護身符的套牌計畫和速度會被大幅干擾，因此，拆除護身符也是一個我們需要去面對的問題，另外，因為目前環境內解護身符（神器）的牌大多能同時處理克撒傳（結界），所以在面對這類型備牌的對局也經常將克撒傳下掉。
 
-        以下簡述環境內常見的拆除護身符手段：
+    以下簡述環境內常見的拆除護身符手段：
 
-        **可以同時拆除克撒傳：**
-        [曆祚母聖樹](https://scryfall.com/card/neo/266/boseiju-who-endures)、[挑選毒藥](https://scryfall.com/card/mkm/170/pick-your-poison)、[失控蟲械](https://scryfall.com/card/bro/199/haywire-mite)、[活旺之力](https://scryfall.com/card/mh1/164/force-of-vigor)
-        ![](https://i.imgur.com/toCSsxd.jpeg)
+    **可以同時拆除克撒傳：**
+    [曆祚母聖樹](https://scryfall.com/card/neo/266/boseiju-who-endures)、[挑選毒藥](https://scryfall.com/card/mkm/170/pick-your-poison)、[失控蟲械](https://scryfall.com/card/bro/199/haywire-mite)、[活旺之力](https://scryfall.com/card/mh1/164/force-of-vigor)
+    ![](https://i.imgur.com/toCSsxd.jpeg)
 
-        **無法同時拆除克撒傳：**
-        [密設爆裂物](https://scryfall.com/card/5dn/118/engineered-explosives)、[虹彩終局](https://scryfall.com/card/mh2/25/prismatic-ending)、[熔毀崩塌](https://scryfall.com/card/lci/234/molten-collapse)、[兄弟反目](https://scryfall.com/card/bro/128/brotherhoods-end)
-        ![](https://i.imgur.com/5Rrgvo0.jpeg)
+    **無法同時拆除克撒傳：**
+    [密設爆裂物](https://scryfall.com/card/5dn/118/engineered-explosives)、[虹彩終局](https://scryfall.com/card/mh2/25/prismatic-ending)、[熔毀崩塌](https://scryfall.com/card/lci/234/molten-collapse)、[兄弟反目](https://scryfall.com/card/bro/128/brotherhoods-end)
+    ![](https://i.imgur.com/5Rrgvo0.jpeg)
 
-        - 常見的泰坦應對方式：通常沒有特定的牌張應對手段（我在MIT的牌表中使用了[大學院廢墟](https://scryfall.com/card/tsp/269/academy-ruins)，但不是一個常見的備牌），因此在備牌局經常會有扣著多餘護身符不做，或是向無護身符勝利手段的操作。
+    - 常見的泰坦應對方式：通常沒有特定的牌張應對手段（我在MIT的牌表中使用了[大學院廢墟](https://scryfall.com/card/tsp/269/academy-ruins)，但不是一個常見的備牌），因此在備牌局經常會有扣著多餘護身符不做，或是向無護身符勝利手段的操作。
 
 4.  **比泰坦更快更積極的威脅：**
     舉例來說，像是一回[流光爍影](https://scryfall.com/card/mh1/7/ephemerate)或[死裡逃生](https://scryfall.com/card/woe/101/not-dead-after-all)的[悲慟](https://scryfall.com/card/mh2/87/grief)，或是準時傾曳[壞滅足跡](https://scryfall.com/card/mh1/160/crashing-footfalls)的犀牛，這類型的威脅就會依據環境的數量去做備編解牌的對應。
