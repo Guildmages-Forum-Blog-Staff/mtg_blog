@@ -2,7 +2,7 @@
 title: "團結力量大！ 紅白家鼠快攻分享"
 date: "2024-12-23 11:11:01"
 tags:
-  - "馬克吐溫"
+  - "markwen"
 cover: "https://i.meee.com.tw/acCY5Cf.webp"
 thumbnail: "https://i.meee.com.tw/acCY5Cf.webp"
 excerpt: "如果單打獨鬥不行，那就三五成群一起上！"
