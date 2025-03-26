@@ -1,7 +1,7 @@
 ---
 
 title: "韃契：龍襲風暴～機制解析"
-date: "2025-03-20 10:55:17"
+date: "2025-03-20 14:35:02"
 tags:
   - "JruMTG"
 authors:
@@ -15,7 +15,7 @@ excerpt: "來看看韃契：龍襲風暴中出現了哪些機制吧！"
 ---
 
 ## 單色混血魔法力
-![Hybrid Mana](https://i.meee.com.tw/9L9WiTb.png)
+![Hybrid Mana](https://i.meee.com.tw/xy7pUGw.png)
 
 混血魔法力再度出現，不過這次所混的是比較少見的組合。本系列的單色混血魔法力符號，可以選擇用 2 點任意色、或是 1 點指定色來支付，而這種混血魔法力，無論你選擇用哪邊支付，在計算魔法力值時，都會使用較高的那邊來計算。
 
@@ -25,7 +25,7 @@ excerpt: "來看看韃契：龍襲風暴中出現了哪些機制吧！"
 
 
 ## 續戰（Endure）
-![Endure](https://i.meee.com.tw/7LPBxQB.png)
+![Endure](https://i.meee.com.tw/MySpsZV.png)
 
 代表色組：阿布贊（黑白綠）
 
@@ -37,7 +37,7 @@ excerpt: "來看看韃契：龍襲風暴中出現了哪些機制吧！"
 
 
 ## 動員（Mobilize）
-![Mobilize](https://i.meee.com.tw/RZqbLIp.png)
+![Mobilize](https://i.meee.com.tw/D9acJjW.png)
 
 代表色組：瑪爾都（紅黑白）
 
@@ -82,6 +82,7 @@ excerpt: "來看看韃契：龍襲風暴中出現了哪些機制吧！"
 
 當然如果你不想、或無法橫置自己生物的話，就乖乖支付完整的諧頌魔法力費用也是沒問題的。
 
+使用諧頌施放的咒語，離開堆疊時將改為放逐（這包含了正常結算、以及被反擊）。
 
 
 
