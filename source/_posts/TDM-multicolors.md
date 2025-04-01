@@ -1,6 +1,6 @@
 ---
 title: "韃契：龍襲風暴（TDM）限制賽介紹 — 多色"
-date: "2025-03-31 23:46:05"
+date: "2025-04-01 10:47:17"
 tags:
   - "cephille"
 authors:
@@ -58,7 +58,7 @@ excerpt: "想深入了解TDM限制賽嗎？從這篇多色開始閱讀，相信�
 | **精靈龍（MR）** | {% mtglink "Betor, Kin to All" %} | {% mtglink "Shiko, Paragon of the Way" %} | {% mtglink "Teval, Arbiter of Virtue" %} | {% mtglink "Neriv, Heart of the Storm" %} | {% mtglink "Ureni, the Song Unending" %} | 
 | **部落非生物咒語（MR）** | {% mtglink "Perennation" %} | {% mtglink "Jeskai Revelation" %} | {% mtglink "Death Begets Life" %} | {% mtglink "All-Out Assault" %} | {% mtglink "Dragonback Assault" %} | 
 | **部落領袖（R）** | {% mtglink "Felothar, Dawn of the Abzan" %} | {% mtglink "Narset, Jeskai Waymaster" %} | {% mtglink "Kotis, the Fangkeeper" %} | {% mtglink "Zurgo, Thunder's Decree" %} | {% mtglink "Eshki Dragonclaw" %} | 
-| **單色傳奇** | {% mtglink "Anafenza, Unyielding Lineage" %} | {% mtglink "Taigam, Master Opportunist" %} | {% mtglink "Sidisi, Regent of the Mire" %} | {% mtglink "Tersa Lightshatter" %} | {% mtglink "Tersa Lightshatter" %} | {% mtglink "Surrak, Elusive Hunter" %} |
+| **單色傳奇** | {% mtglink "Anafenza, Unyielding Lineage" %} | {% mtglink "Taigam, Master Opportunist" %} | {% mtglink "Sidisi, Regent of the Mire" %} | {% mtglink "Tersa Lightshatter" %} | {% mtglink "Surrak, Elusive Hunter" %} | 
 | **單色龍（R）** | {% mtglink "Clarion Conqueror" %} | {% mtglink "Marang River Regent" %} | {% mtglink "Scavenger Regent" %} | {% mtglink "Magmatic Hellkite" %} | {% mtglink "Bloomvine Regent" %} | 
 | **單色功能地（R）** | {% mtglink "Great Arashin City" %} | {% mtglink "Cori Mountain Monastery" %} | {% mtglink "Kishla Village" %} | {% mtglink "Dalkovan Encampment" %} | {% mtglink "Mistrise Village" %} | 
 | **部落傳記（R）** | {% mtglink "Revival of the Ancestors" %} | {% mtglink "Rediscover the Way" %} | {% mtglink "Awaken the Honored Dead" %} | {% mtglink "Thunder of Unity" %} | {% mtglink "Roar of Endless Song" %} | 
@@ -121,10 +121,14 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 2. 限制賽較難取得
 3. 不談只能挖地回來的下限，六費挖一個3/3或4/4辟邪不滅回場，這並不會是你把它放進牌組、並花六費想達到的成果。
 
+但考慮到其上限，仍給予平均2.5分的評價。
+
 <!---184: Abzan部落領袖--->
 {% mtgpick "tdm" 184 %}
 分數：3.5
 評語：進場能變成4/4踐踏就已值回費用，非常適合在擅長生token的阿布贊色組使用。
+
+> 小Tip：當他與黑白色組具有動員（Mobilize）異能的生物一同攻擊時，攻擊後先結算動員派出1/1，然後再結算這張牌攻擊犧牲放豆的效果，就可以吃掉生出來的1/1來讓其他生物再肥一圈！
 
 <!---218: Abzan部落傳記--->
 {% mtgpick "tdm" 218 %}
@@ -136,22 +140,22 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 分數：3.0
 評語：333死觸+進場放逐對手一張非地牌非常厲害，基本上可以1換2。但他離場要派出一個X/X生物，這個副作用仍是不小。如果放逐的是高費牌，會需要另一張解牌作為防守。放逐的若是低費解牌就比較不用擔心。
 
-如果放逐的是Omen類解牌、或混血法力的牌，要特別留意對手解掉她後會拿回一個大生物。
+如果放逐的是Omen類解牌、或混血法力的牌，要特別留意對手解掉他後會拿回一個大生物。
 
 <!---236: Abzan R卡四費生物--->
 {% mtgpick "tdm" 236 %}
 分數：3.5
-評語：一帶一不錯，但自磨4張有時會虧到招或想要的高費牌，組牌時要稍微注意一下3費以下/以上的生物數量。
+評語：一帶一很厲害，但自磨4張有時會虧到招或想要的高費牌，組牌時要稍微注意一下3費以下/以上的生物、以及一些墳場回收牌的數量。
 
 <!---168: Abzan U龍--->
 {% mtgpick "tdm" 168 %}
 分數：3.0
-評語：一卡解鎖放豆主題，都放自己六費叫個6/7飛龍也夠頂了。阿布贊色組非常好的頂曲線，沒給更高是因為費用的關係。
+評語：一卡解鎖放豆主題，都放自己六費叫個6/7飛龍也夠頂了。是阿布贊色組非常好的頂曲線，沒給更高是因為費用的關係。
 
 <!---200: Abzan U混血法術--->
 {% mtgpick "tdm" 200 %}
 分數：3.5
-評語：考慮到這系列許多有威脅性的牌都是3費以上的，各色組至捨都會沾到一色，最差可以五費施放，應該是最穩定且泛用的硬解。
+評語：考慮到這系列許多有威脅性的牌都是3費以上的，各色組至少都會沾到一色，最差也能五費施放，應該是最穩定且泛用的硬解。
 
 <!---224: 圍城小犀牛--->
 {% mtgpick "tdm" 224 %}
@@ -169,7 +173,7 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 
 > **Takeaway：連咒（Flurry）** 異能除了作為主題機制外，也是這個色組的核心運作模式。在生物體格偏普通的設計下，如何透過生物自帶的連咒效果，一面持續施放咒語並接管場面，將是潔斯凱色組要在限制賽脫穎而出的關鍵。1+1絕對大於2，這一點將在潔斯凱色組發揮得淋漓盡致！此外，也可以帶上一些紅/藍雙色的諧頌（Harmonize）牌，埋伏在手牌/墳場來作為連咒的觸發來源。
 > 
->這個系列有一些低費能夠重複施放的咒語，如藍色的[Wingspan Stride](https://scryfall.com/card/tdm/66/wingspan-stride)、或紅色的[Fleeting Effigy](https://scryfall.com/card/tdm/108/fleeting-effigy)，都是讓你在手牌斷檔時仍可持續觸發連咒效果的牌，要進入這個色組時，別忘記拿下一些這類的牌！
+>這個系列有一些低費能夠重複施放的咒語，如藍色的 {% mtglink "Wingspan Stride" %} 、或紅色的 {% mtglink "Fleeting Effigy" %} ，都是讓你在手牌斷檔時仍可持續觸發連咒效果的牌，要進入這個色組時，別忘記拿下一些這類的牌！
 
 
 <!---223: Jeskai精靈龍--->
@@ -202,7 +206,7 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 <!---211: 大號饋擊掌--->
 {% mtgpick "tdm" 211 %}
 分數：2.5
-評語：這張牌沒有目標！沒有目標！沒有目標！作為一張大號的[饋擊掌](https://scryfall.com/card/ktk/173/deflecting-palm)乍看之下很吸引人，但要隨時保持五費開放，在閃現生物不多的限制賽中還是太卡節奏了，而對手看你打這個色組也完全可以繞著他打。屬於那種主牌有第23張可以放，備牌後手通常要下掉的牌。
+評語：這張牌沒有目標！沒有目標！沒有目標！作為一張大號的 {% mtglink "Deflecting Palm" alt="饋擊掌" %} 乍看之下很吸引人，但要隨時保持五費開放，在閃現生物不多的限制賽中還是太卡節奏了，而對手看你打這個色組也完全可以繞著他打。屬於那種主牌有第23張可以放，備牌後手通常要下掉的牌。
 
 小提醒：這張牌防止的來源傷害如果大於你的牌庫，呃……就別施放了吧，最好的狀況也是結算後平局（返傷打死對手+抽爆自己牌庫），因此輸掉就太白癡了XD
 
@@ -214,12 +218,12 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 <!---219: Jeskai U混血法術--->
 {% mtgpick "tdm" 219 %}
 分數：3.0
-評語：潔斯凱專武，就算四費出Stun掉一個威脅，三回合再賺一張牌也非常強。
+評語：潔斯凱專武，就算四費出讓一個威脅Stun三回合，再加上看二選一下回合施放，相當舒服！
 
 <!---195: Jeskai U人--->
 {% mtgpick "tdm" 195 %}
 分數：3.0
-評語：四費2/4連擊靈技，你就想成他是沒有進場效果、少一費一屁股的[白藍鋼彈](https://scryfall.com/card/dft/219/riptide-gearhulk)，被打到還是很痛的。
+評語：四費2/4連擊靈技，你就想成他是沒有進場效果、少一費一屁股的 {% mtglink "Riptide Gearhulk" alt="白藍鋼彈" %} ，被打到還是很痛的。
 
 <!---208: Jeskai C混血生物--->
 {% mtgpick "tdm" 208 %}
@@ -250,7 +254,7 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 <!---202: Sultai部落領袖--->
 {% mtgpick "tdm" 202 %}
 分數：3.5
-評語：打到人很厲害，但前提要打得到；在沒有灌大的狀態下他會一直被3防生物擋住，然後如果死於一張[Desperate Measures](https://scryfall.com/card/tdm/78/desperate-measures)會很虧。話雖然這麼說，蘇勒台色組的機制就是復新，要放豆有放豆，要穿透有穿透，上述的問題在實戰時應該都能被改善。
+評語：打到人很厲害，但前提要打得到；在沒有灌大的狀態下他會一直被3防生物擋住，然後如果死於一張 {% mtglink "Desperate Measures" %} 會很虧。話雖然這麼說，蘇勒台色組的機制就是復新，要放豆有放豆，要穿透有穿透，上述的問題在實戰時應該都能被改善。
 
 <!---170: Sultai部落傳記--->
 {% mtgpick "tdm" 170 %}
@@ -262,17 +266,17 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 <!---183: Sultai R卡四費蛇蛇--->
 {% mtgpick "tdm" 183 %}
 分數：3.5
-評語：私心想給4.0分，無奈三指定色還是有可能卡住。把他想成不虧牌、甚至還賺牌的[Ertai Resurrected](https://scryfall.com/card/dmu/199/ertai-resurrected)就行了。
+評語：私心想給4.0分，無奈三指定色還是有可能卡住。把他想成不虧牌、甚至還賺牌的 {% mtglink "Ertai Resurrected" %} 就行了。
 
 <!---204: Sultai R卡五費入土人--->
 {% mtgpick "tdm" 204 %}
 分數：3.0
-評語：536繫命的體質非常至尊，但指定[入土](https://scryfall.com/card/dmr/82/entomb)三張牌到墳場，會需要搭配才會強，不然牌庫少三張料可能不太好。
+評語：536繫命的體質非常至尊，但指定 {% mtglink "Entomb" alt="入土" %} 三張牌到墳場，會需要搭配才會強，不然牌庫少三張料可能不太好。
 
 <!---199: Sultai U龍--->
 {% mtgpick "tdm" 199 %}
 分數：3.0
-評語：有機會靠他幫忙調出五色，復新也很強。
+評語：有機會靠他派出的珍寶來幫忙調出五色，復新也很強。
 
 <!---214: Sultai U混血法術--->
 {% mtgpick "tdm" 214 %}
@@ -291,17 +295,17 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 
 ### 瑪爾都部落 — <span style="color:#AF2321">紅</span><span style="color:#C3B270">白</span><span style="color:#808080">黑</span>
 
-![](https://i.meee.com.tw/NjA0jYi.jpg)![](https://i.meee.com.tw/NjA0jYi.jpg)
+![](https://i.meee.com.tw/NjA0jYi.jpg)
 
-**Takeaway：動員（Mobilize）** 異能絕對是瑪爾都於這次限制賽的重中之重！但如何讓套牌能按照曲線調出三色，或以雙色為主展開前3回合的場面，在第四回合能有湊齊第三色開始打出色組的爆發，這在瑪爾都色組的構築中將是最大關鍵！也許，像[Mardu Devotee](https://scryfall.com/card/tdm/16/mardu-devotee)這樣的牌，將是這個快攻色組轉不轉得動的重要拼圖。
-
-四～五回合後將迎來這個色組的轉變，是要轉為龍族空襲取勝、或是轉往生物進場/死亡造成的額外血差來收頭、或是兩者兼具；這個轉捩點能否順利轉換而不斷檔，將是瑪爾都色組致勝的重點。
+> **Takeaway：動員（Mobilize）** 異能絕對是瑪爾都於這次限制賽的重中之重！但如何讓套牌能按照曲線調出三色，或以雙色為主展開前3回合的場面，在第四回合能有湊齊第三色開始打出色組的爆發，這在瑪爾都色組的構築中將是最大關鍵！也許，像 {% mtglink "Mardu Devotee" %} 這樣的牌，將是這個快攻色組轉不轉得動的重要拼圖。
+> 
+> 四～五回合後將迎來這個色組的轉變，是要轉為龍族空襲取勝、或是轉往生物進場/死亡造成的額外血差來收頭、或是兩者兼具；這個轉捩點能否順利轉換而不斷檔，將是瑪爾都色組致勝的重點。
 
 
 <!---210: Mardu 精靈龍--->
 {% mtgpick "tdm" 210 %}
 分數：4.0
-評語：4.0分主要是給他本身的體格，被動效果要好用，需要搭配敏捷生物、或動員派出的小兵來增傷。搭配他的眷屬[Sonic Shrieker](https://scryfall.com/card/tdm/226/sonic-shrieker)打4補4相當誘人。
+評語：4.0分主要是給他本身的體格，被動效果要好用，需要搭配敏捷生物、或動員派出的小兵來增傷。搭配他的眷屬 {% mtglink "Sonic Shrieker" %} 打4補4相當誘人。
 
 <!---167: Mardu MR非生物咒語-->
 {% mtgpick "tdm" 167 %}
@@ -331,7 +335,7 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 <!---226: Mardu U龍--->
 {% mtgpick "tdm" 226 %}
 分數：3.5
-評語：本體544飛合格，進場一個小閃電螺旋解怪，或點對手頭棄牌都很強，這應該會是瑪爾都色組非常優秀的頂曲線。
+評語：本體544飛合格，進場一個小 {% mtglink "Lightning Helix" alt="閃電螺旋" %} 解怪，或點對手頭棄牌都很強，這應該會是瑪爾都色組非常優秀的頂曲線。
 
 <!---177: Mardu U混血法術--->
 {% mtgpick "tdm" 177 %}
@@ -343,7 +347,7 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 分數：4.0
 評語：攻擊生物有死觸，讓你動員異能的生物戰鬥後存活的機率大增。
 
-> [部落屠夫](https://scryfall.com/card/ktk/168/butcher-of-the-horde)：殺死我的不是時間或疾病，而是比我更強的傢伙，真是太好了！（Hint：地上那堆……）
+>  {% mtglink "Butcher of the Horde" alt="部落屠夫" %} ：殺死我的不是時間或疾病，而是比我更強的傢伙，真是太好了！（Hint：地上那堆……）
 
 <!---216: Mardu C混血生物--->
 {% mtgpick "tdm" 216 %}
@@ -352,19 +356,20 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 
 ### 鐵木爾鋒疆 — <span style="color:#4A8A3D">綠</span><span style="color:#006DB3">藍</span><span style="color:#AF2321">紅</span>
 
-**Takeaway：諧頌（Harmonize）** 異能在體格以及資源戰中本來就佔優勢的本質上，有一點錦上添花，當然鐵木爾色組生物高攻擊力的特性，能輕易地讓諧頌異能減費。然而，這個色組的關鍵仍是 **體格優質的生物、踐踏異能、以及適度的干擾與去除**。許多生物本身都自帶賺/濾牌的ETB、再加上諧頌牌的中後期資源補強，使這個色組在設計上單卡質量都顯得特別優秀。
-
 ![](https://i.meee.com.tw/WBConoZ.jpg)
+
+> **Takeaway：諧頌（Harmonize）** 異能在體格以及資源戰中本來就佔優勢的本質上，有一點錦上添花，當然鐵木爾色組生物高攻擊力的特性，能輕易地讓諧頌異能減費。然而，這個色組的關鍵仍是 **體格優質的生物、踐踏異能、以及適度的干擾與去除**。許多生物本身都自帶賺/濾牌的ETB、再加上諧頌牌的中後期資源補強，使這個色組在設計上單卡質量都顯得特別優秀。
+
 
 <!---233: Temur精靈龍--->
 {% mtgpick "tdm" 233 %}
 分數：4.5
-評語：超絕進化的[龍王安塔卡](https://scryfall.com/card/dtk/216/dragonlord-atarka)，本身還反白反黑超難殺！因為是八費的關係得扣點分數，但強度是5.0分的，結算後就很難輸了。
+評語：超絕進化的 {% mtglink "Dragonlord Atarka" alt="龍王安塔卡" %} ，本身還反白反黑超難殺！因為是八費的關係得扣點分數，但強度是5.0分的，結算後就很難輸了。
 
 <!---179: Temur MR非生物咒語--->
 {% mtgpick "tdm" 179 %}
 分數：4.5
-評語：中型掃場+地落生4/4飛龍，在擅長ramp調色的鐵木爾色組，要五回施放並不困難；而結算後就能開始賺取大量優勢！然而要能穩定觸發地落的話，扣掉SPG的五張對色找地地難以取得，得靠像[成形野地](https://scryfall.com/card/tdm/255/evolving-wilds)、或其他一些找地上手/進場的牌了。
+評語：中型掃場+地落生4/4飛龍，在擅長ramp調色的鐵木爾色組，要五回施放並不困難；而結算後就能開始賺取大量優勢！然而要能穩定觸發地落的話，扣掉SPG的五張對色找地地難以取得，得靠像 {% mtglink "Evolving Wilds" alt="成形野地" %} 、或其他一些找地上手/進場的牌了。
 
 > 註：打3點的射程在這個系列應該可以解掉超過六成以上（99 of 148）的生物，相當夠用了！
 
@@ -373,13 +378,13 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 分數：4.0
 評語：四費出節奏場面不失，並鼓勵你施放後，至少在下個回合戰階前，做一個生物+非生物咒語，就可以拉大牌差+體格（4/4 --> 6/6）優勢。警戒踐踏守護一。而如果你可以在五六費時當回合拍下他、再加上一個低費非生物咒語，戰階開始也可以觸發他的效果。只要有搭配，準時出/晚點出都非常強，不愧是現任鐵木爾可汗！
 
-> 註1：你可以想像五費時拍他+從墳場諧頌[Winternight Stories](https://scryfall.com/card/tdm/67/winternight-stories)有多強！
+> 註1：你可以想像五費時拍他+從墳場諧頌 {% mtglink "Winternight Stories" %} 有多強！
 > 註2：要注意的是，你必須在戰前行動階段合計施放至少各一個生物&非生物咒語，只施放生物咒語，進戰階才施放非生物咒語並不能滿足他的觸發條件。
 
 <!---220: Temur部落傳記--->
 {% mtgpick "tdm" 220 %}
 分數：4.5
-評語：不愧是R卡，比U卡的[Mammoth Bellow](https://scryfall.com/card/tdm/205/mammoth-bellow)強上不只一個檔次，三張結算完打過去應該快贏了。
+評語：不愧是R卡，比U卡的 {% mtglink "Mammoth Bellow" %} 強上不只一個檔次，第三章結算完打過去應該快贏了。
 
 <!---228: Temur R卡生物--->
 {% mtgpick "tdm" 228 %}
@@ -389,7 +394,7 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 <!---225: 胖咒法師--->
 {% mtgpick "tdm" 225 %}
 分數：3.0
-評語：胖咒法師在限制賽中究竟厲不厲害呢？幾點分析如下：
+評語：作為 {% mtglink "Snapcaster Mage" alt="迅咒法師" %} 的後輩，胖咒法師在限制賽中究竟厲不厲害呢？幾點分析如下：
 
 1. 基本不會三費出，但需要補節奏也可以考慮
 2. 中期登場給完目標咒語諧頌異能後，可以直接橫置自己至少減3費，四回或更之後出再用一個單色咒語很不錯
@@ -401,7 +406,7 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 分數：4.0
 評語：基本上就是進場辟邪的大飛龍，要殺還得讓他先揍過一拳，太痛苦了。
 
-> [燼龍派蒂墨司](https://scryfall.com/card/m19/219/zht/%E7%87%BC%E9%BE%8D%E6%B4%BE%E8%92%82%E5%A2%A8%E5%8F%B8-(palladia-mors-the-ruiner))哭暈在廁所XD
+> {% mtglink "Palladia-Mors, the Ruiner" alt="燼龍派蒂墨司" %} 哭暈在廁所XD
 
 <!---180: Temur 混血U巫術--->
 {% mtgpick "tdm" 180 %}
@@ -411,7 +416,7 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 <!---205: Temur U巫術--->
 {% mtgpick "tdm" 205 %}
 分數：3.0
-評語：[獸群的召喚](https://scryfall.com/card/ody/231/call-of-the-herd)進化版，別忘了你第一隻派出的5/5大象可以拿來付諧頌的5費，基本上是八費分期付款生兩頭5/5大象，可以了！
+評語： {% mtglink "Call of the Herd" alt="獸群的召喚" %} 進化版，別忘了你第一隻派出的5/5大象可以拿來付諧頌的5費，基本上是八費分期付款生兩頭5/5大象，強牌！
 
 <!---229: Temur C混血生物--->
 {% mtgpick "tdm" 229 %}
@@ -495,7 +500,7 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 分數：3.0
 評語：四費準時拍就夠厲害了，後期連咒的同時給你一隻更大的6/5警戒威懾。
 
-> Echo一下，OTJ限制賽有一個玩法是施放一發[Slick Sequence](https://scryfall.com/card/otj/233/slick-sequence)在堆疊上時，再加第二發，然後兩發結算時都會計算到another spell而抽牌。你也可以趁這張咒語還在堆疊上時，再補上一張瞬間或閃現牌，結算進場時他也會帶著兩個+1/+1指示物喔！（有沒有必要這麼做倒是其次，但想寫可以這樣玩XD）
+> Echo一下，OTJ限制賽有一個玩法是施放一發 {% mtglink "Slick Sequence" %} 在堆疊上時，再加第二發，然後兩發結算時都會計算到another spell而抽牌。你也可以趁這張咒語還在堆疊上時，再補上一張瞬間或閃現牌，結算進場時他也會帶著兩個+1/+1指示物喔！（有沒有必要這麼做倒是其次，但想寫可以這樣玩XD）
 
 <!---188: 紅藍Harmonize燒（Temur）--->
 {% mtgpick "tdm" 188 %}
@@ -520,7 +525,7 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 <!---201: 藍綠有牌離開墳場鳥（Sultai）--->
 {% mtgpick "tdm" 201 %}
 分數：3.5
-評語：體格合格，有機會抽到一兩張就賺了！
+評語：體格合格，有機會抽到一兩張就賺了！在有復新/諧頌牌支持的藍綠色組應該不難達成，混黑打蘇勒台要抽牌就更不是問題了。
 
 ### 五色咒語 — 召現精靈龍
 
@@ -539,6 +544,6 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 
 而如今重返韃契，物是人非，部族領袖們與自新的風暴儀式中誕生的精靈龍，合力擊敗了五位龍王，並結束了[韃契龍王](https://scryfall.com/sets/dtk)的時代；作為曾經的故事核心人物的薩坎與娜爾施，都在新非瑞克西亞侵攻後被剝奪了火花，而烏金與尼可波拉斯也雙雙從[火花之戰](https://scryfall.com/sets/war)後就禁錮著彼此的冥想境域中解放，新的陰謀將在多重宇宙展開。
 
-韃契這個時空，對於我而言是一個相當有「歷史感」的特別時空。不只是他的故事線橫跨千年、兩條世界線，見證過龍族與人族的興衰輪轉；更是其背景設定，穿越古中國（潔斯凱）、蒙古（鐵木爾），女真與其他中亞部族的混合體（瑪爾都）、西亞（阿布贊）、以及南亞與東南亞的匯合（蘇勒台）等的特色，揉雜成一個富含亞洲各地風情，也彼此爭鬥不休的歷史衝突再演。
+韃契這個時空，對於我而言是一個相當有 「歷史感」 的特別時空。不只是他的故事線橫跨千年、兩條世界線，見證過龍族與人族的興衰輪轉；更是其背景設定，穿越古中國（潔斯凱）、蒙古（鐵木爾），女真與其他中亞部族的混合體（瑪爾都）、西亞（阿布贊）、以及南亞與東南亞的匯合（蘇勒台）等的特色，揉雜成一個富含亞洲各地風情，也彼此爭鬥不休的歷史衝突再演。
 
 雖然老威很明顯在行銷資源上厚此薄彼，但作為一個回歸的時空，不論在致敬舊韃契、或對三色限制賽環境設計的用心程度、以及牌張在構築上的開發潛力，[TDM](https://scryfall.com/sets/tdm)都會是近年來少數的佳作！相信對於接下來的構築賽、以及想體驗三色環境限制賽的玩家而言，TDM都將是一個值得回頭好好體驗的好系列！
