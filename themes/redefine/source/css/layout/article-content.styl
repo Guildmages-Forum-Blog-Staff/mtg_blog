@@ -12,7 +12,8 @@ $gap = 30px
   gap 0px
 
   +redefine-mobile()
-    overflow-x hidden
+    // Let mobile webpage has horizontal scroll. This will break RWD.
+    overflow-x auto
 
 
   &.show-toc
