@@ -1,6 +1,6 @@
 ---
 title: "韃契：龍襲風暴（TDM）限制賽介紹 — 多色"
-date: "2025-04-01 10:47:17"
+date: "2025-04-01 13:05:08"
 tags:
   - "cephille"
 authors:
@@ -52,6 +52,8 @@ excerpt: "想深入了解TDM限制賽嗎？從這篇多色開始閱讀，相信�
 我們可以從MR的三色精靈龍，來想像各個部落在限制賽中最強大的可能樣貌；我們也可以從C卡的調色生物、U卡的部落紀念碑等，觀察出這些基礎單卡是如何為各部落服務，以確保部落機制能夠運行無礙。而貫穿其間的，是韃契時空中生活著的部落民、他們的領袖、及歷代傳奇（連接2015年韃契三部曲的故事），還有同時因龍襲風暴而降生的風暴龍裔（Stormborns）等生物。
 
 魔風集會所這次也整理了下列表格，希望有助於讀者們理解，忘記時也歡迎隨時回頭查閱喔！
+
+> 註：由於下方表格較大的關係，手機版的讀者如果發現表格內容無法完全展示，可將螢幕從直向轉為橫向，並將表格向左滑就能看到五個部族的全貌囉！
 
 | Item | <span style="color:#C3B270">阿</span><span style="color:#808080">布</span><span style="color:#4A8A3D">贊</span> | <span style="color:#006DB3">潔</span><span style="color:#AF2321">斯</span><span style="color:#C3B270">凱</span> | <span style="color:#808080">蘇</span><span style="color:#4A8A3D">勒</span><span style="color:#006DB3">台</span> | <span style="color:#AF2321">瑪</span><span style="color:#C3B270">爾</span><span style="color:#808080">都</span> | <span style="color:#4A8A3D">鐵</span><span style="color:#006DB3">木</span><span style="color:#AF2321">爾</span> |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -184,7 +186,7 @@ Seeded Booster並不是新的設計，早在2012年再訪拉尼卡（RTR）、20
 <!---196: Jeskai MR非生物咒語--->
 {% mtgpick "tdm" 196 %}
 分數：4.0
-評語：對比下來，有點像更易施放的潔斯凱版[殘酷通牒](https://scryfall.com/card/e01/82/cruel-ultimatum)，但瞬間的特性可能更接近於[至炫熔彩](https://scryfall.com/card/stx/203/magma-opus)，值得首挑！七費一換五以上仍是相當的瘋狂！不過拿下他就意味著你在接下來的輪抽過程裡，要主動拿下一些合理的加速牌，避免這張強牌持續卡在手上。
+評語：對比下來，有點像更易施放的潔斯凱版 {% mtglink "Cruel Ultimatum" alt="殘酷通牒" %} ，但瞬間的特性可能更接近於 {% mtglink "Magma Opus" alt="至炫熔彩" %} ，值得首挑！七費一換五以上仍是相當的瘋狂！不過拿下他就意味著你在接下來的輪抽過程裡，要主動拿下一些合理的加速牌，避免這張強牌持續卡在手上。
 
 > 這次要top deck前不用先排好7費召喚它了XD --> [Gabriel Nassif's Called Shot](https://www.youtube.com/watch?v=ju_LZGBN5qU)
 
