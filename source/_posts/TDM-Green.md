@@ -1,6 +1,6 @@
 ---
 title: "韃契：龍襲風暴（TDM）限制賽介紹 — 綠色"
-date: "2025-04-03 00:24:11"
+date: "2025-04-03 00:57:49"
 tags:
   - "GY_Player"
 authors:
@@ -10,7 +10,7 @@ categories:
   - "TDM"
 cover: "https://media.wizards.com/2025/images/daily/4AcOPybnPT.webp"
 thumbnail: "https://media.wizards.com/2025/images/daily/4AcOPybnPT.webp"
-excerpt: "最能體現綠色玩法的系列:跳費加速叫大怪!不就是幾條龍王嗎，看我用拳頭打回去!"
+excerpt: "最能體現綠色玩法的系列：跳費加速叫大怪！不就是幾條龍王嗎？看我用拳頭打回去！"
 ---
 
 韃契：龍襲風暴（Tarkir: Dragonstorm, TDM）將於 2025年4月4日舉行售前賽活動，而於隔一週2025年4月11日正式發行，想更了解單卡在限制賽的單卡評分與建議嗎？那就來看看這一系列的TDM限制賽介紹吧！
@@ -200,19 +200,19 @@ excerpt: "最能體現綠色玩法的系列:跳費加速叫大怪!不就是幾�
 分數：4.0
 評語：333踐踏就有3.0分，他不只多了一攻，還可以讓你的生物被殺/被康/被指定時可以賺牌，打綠很難不首挑。
 
-註：從異能設計來看，新舊可汗隱隱有以下的隱喻：老可汗蘇拉克威猛依然，但在Temur鋒疆的分工上更偏守土衛民；而新可汗Eshki的異能就更適合開疆拓土。只是作為從KTK一路玩到現在的玩家，看著蘇拉克從年輕時的少年毆熊（[[Savage Punch]]）、進化到DTK時的中年搏鱷（[[Epic Confrontation]]）；再來與血爪盡釋前嫌，齊力對抗新非入侵（[[Surrak and Goreclaw]]）。如今TDM步入暮年交接可汗一職給新世代，仍堅定守護鐵木爾鋒疆，不禁令我有點感動。
+> [cephille](https://guildmagesforum.tw/tags/cephille/)小註：從異能設計來看，新舊可汗隱隱有以下的隱喻：老可汗蘇拉克威猛依然，但在鐵木爾鋒疆的分工上更偏守土衛民；而新可汗[Eshki Dragonclaw](https://scryfall.com/card/tdm/182/eshki-dragonclaw)的異能就更適合開疆拓土。作為從KTK一路玩到現在的玩家，看著蘇拉克從年輕時的少年毆熊（[Savage Punch](https://scryfall.com/card/ktk/147/savage-punch)）、進化到DTK時的中年搏鱷（[Epic Confrontation](https://scryfall.com/card/dtk/185/epic-confrontation)）；再來與[血爪](https://scryfall.com/card/m19/186/goreclaw-terror-of-qal-sisma)盡釋前嫌，齊力對抗新非入侵（[Surrak and Goreclaw](https://scryfall.com/card/mom/337/surrak-and-goreclaw)）。如今於TDM步入暮年，交接可汗一職給新世代後，仍堅定守護著鐵木爾鋒疆，不禁令我有點感動。
 
 
 <!---162--->
 {% mtgpick "tdm" 162 %}
 分數：3.0
-評語：復新費用乍看是五費，但只要場上有二攻的生物，就可以在三費的回合先給二攻生物+2+2後攻擊(變成四攻)，戰階後橫置再+2+2，在不虧傷害的情況下做出可觀的場面。
+評語：復新費用乍看是五費，但只要場上有二攻的生物，就可以在三費的回合先給二攻生物+2+2後攻擊（變成四攻），戰階後橫置再+2/+2，在不虧傷害的情況下做出可觀的場面。
 
 
 <!---163--->
 {% mtgpick "tdm" 163 %}
 分數：3.5
-評語：無法相信這是張C卡，能抽牌的話最好，但最差也是四費5/4。最強C卡
+評語：無法相信這是張C卡，能抽牌的話最好，但最差也是四費5/4。最強C卡。
 
 
 <!---164--->
@@ -234,5 +234,5 @@ excerpt: "最能體現綠色玩法的系列:跳費加速叫大怪!不就是幾�
 
 
 ## 結語
-諸君，我喜歡墳場!有復新跟諧頌兩個機制的支持，墳場的厚度決定了資源的多寡，磨下去就對了!
+諸君，我喜歡墳場！有復新跟諧頌兩個機制的支持，墳場的厚度決定了資源的多寡，磨下去就對了！
 話雖如此，我最看好的套牌仍然是綠底的多色套牌，搭配的調色/跳費單卡真的是太多了。高費的多色炸彈也很多，問就是全都要。
