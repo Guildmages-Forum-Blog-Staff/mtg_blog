@@ -1,12 +1,12 @@
 ---
 
 title: 'Cube設計 - Cube Cobra介紹'
-date: 2025-04-08 21:30:57
+date: 2024-04-08 21:30:00
 tags:
   - dalance
 
-cover: "https://cards.scryfall.io/art_crop/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg"
-thumbnail: "https://cards.scryfall.io/art_crop/front/7/4/74cd063c-9134-43ae-9113-8c667c2d892c.jpg?1562545730"
+cover: "https://i.meee.com.tw/z5P3HxZ.jpg"
+thumbnail: "https://i.meee.com.tw/DKFwWNc.jpg"
 excerpt: "萬能的Cube Cobra，請賜給我神奇的力量！"
 authors:
   - "dalance"
@@ -36,7 +36,7 @@ categories:
 2. 每張牌至少能夠適用於一種以上的套牌。
 3. 每個雙色主題都可以得到支持。
 4. Cube有合適的Mana曲線。
-![image](https://hackmd.io/_uploads/rJiaIlZhke.png)
+![image](https://i.meee.com.tw/p9JUZQo.png)
 在這邊簡單補充幾種套牌Archetype：分別是快攻、中速、控制和組合技，在輪抽中裡面常見的套牌都是中速或快攻。而在Cube中，如果設計者想要提供組合技或者控制就要在對應的Mana Curve中，加上足夠的牌讓玩家可以抽。
 例如足夠多的低費牌和戰鬥詭計可以用來支持快攻、同樣的足夠的妨礙咒語、移除和終結者可以讓控制的計畫成型，組合技亦同。
 
@@ -56,22 +56,22 @@ categories:
 2. 把圖片預覽（Image）改成純文字預覽（Checklst），並依自己的需求把全部卡牌複製下來。
 > Scryfall在checklist介面沒辦法直接匯出，就到空白處把需要的卡牌整列複製下來就好；也有可能有更簡便的方法，也歡迎大家嘗試後分享囉！
 
-![image](https://hackmd.io/_uploads/S1WCy3rhyx.png)
+![image](https://i.meee.com.tw/MUJzrCs.png)
 
 3. 貼到待編輯的介面，如Microsoft Excel、Google試算表等，然後只複製卡名（Name）的那一欄。
 
-![image](https://hackmd.io/_uploads/SyjlxhHhye.png)
+![image](https://i.meee.com.tw/Rb7osQy.png)
 
 4. 在Cube Cobra創建一個新的Cube（Creat A New Cube），這個步驟必須先註冊自己的Cube Cobra帳號後並登入。有趣的是，創新Cube還需要回答簡單的魔風小知識，答錯可是建不成的XD
-![image](https://hackmd.io/_uploads/H1NSg3Hn1g.png)
-![image](https://hackmd.io/_uploads/HkHue3Sh1e.png)
+![image](https://i.meee.com.tw/qvh6L7c.png)
+![image](https://i.meee.com.tw/cZPUkFh.png)
 
 5. 進到新建立的Cube裡 List > Import/Export > Paste Text ，然後回到步驟4裡，把所有卡名複製過來貼上，接著點選"Add Cards"，~~美味蟹堡就完成了~~ 就建立好我們的單卡Cube了。
 > 如果要加入[SPG](https://scryfall.com/sets/spg)、或舊系列的額外系列牌張（如WOE的魅附奇譚（WOT）、STX的秘典（STA）等）該系列開得到的單卡的話，就比照上面的方法，依序加入該Cube中。
-![image](https://hackmd.io/_uploads/r1yjx2Bhkl.png)
-![image](https://hackmd.io/_uploads/HyR3ehS31l.png)
-![image](https://hackmd.io/_uploads/H1OG-hrnJx.png)
-![image](https://hackmd.io/_uploads/ry7D-2r21l.png)
+![image](https://i.meee.com.tw/4mUHwC3.png)
+![image](https://i.meee.com.tw/56AKUQW.png)
+![image](https://i.meee.com.tw/tWPWTyF.png)
+![image](https://i.meee.com.tw/xkCHGj8.png)
 
 ---
 
@@ -79,11 +79,11 @@ categories:
 選一個你喜歡的Cube，這邊以[Vanilla Cube](https://cubecobra.com/cube/list/van)為例：
 
 1. 到[Vanilla Cube](https://cubecobra.com/cube/list/van) 頁面
-![image](https://hackmd.io/_uploads/HyfKR9K3Je.png)
+![image](https://i.meee.com.tw/rXbYNA9.png)
 2. 點右上的List
-![image](https://hackmd.io/_uploads/SJs-G2r31l.png)
+![image](https://i.meee.com.tw/HTioEfi.png)
 3. 點Export，然後選擇Clone
-![image](https://hackmd.io/_uploads/r1QXC9Fnkl.png)
+![image](https://i.meee.com.tw/pvGXgfu.png)
 
 你就可以得到一份Vanilla Cube的備份了，在你的備份內你可以盡情修改不會影響到原Cube。
 
@@ -100,9 +100,9 @@ categories:
 2. 在Import/Export點Paste然後大量輸入。
 3. Maybeboard點擊單卡中把牌再點"Move To Mainboard"。
 
-![image](https://hackmd.io/_uploads/HJd3VsqoJg.png)
-![image](https://hackmd.io/_uploads/SyxdTNoqs1l.png)
-![image](https://hackmd.io/_uploads/Bylgrsqo1x.png)
+![image](https://i.meee.com.tw/MN7k2v7.png)
+![image](https://i.meee.com.tw/5yynbJK.png)
+![image](https://i.meee.com.tw/eMBZ7Yi.png)
 
 #### List - Remove 移除
 
@@ -113,7 +113,7 @@ categories:
 特別注意當你對List進行修改的時候，修改並不會馬上儲存下來，Cobra使用了ChangeList來讓你看這個批次修改了哪些東西。
 你可以在修改之後按下"Save Changes"儲存，或者"Discard All"丟棄，你也可以點卡名左邊的"X"來把這個變更撤銷掉。
 
-![image](https://hackmd.io/_uploads/SJOSJiFn1x.png)
+![image](https://i.meee.com.tw/4U3sHyk.png)
 
 ---
 
@@ -159,7 +159,7 @@ Scryfall提供一個由社群支持的[Scryfall Tagger](https://tagger.scryfall.
 
 [掠奪人魚的tagger](https://tagger.scryfall.com/card/afc/86)
 
-![image](https://hackmd.io/_uploads/BJRZGncikg.png)
+![image](https://i.meee.com.tw/OYl68c0.png)
 
 tagger會列出掠奪人魚的特性，掠奪人魚在tagger上特性直接被標成loot了，在特性的旁邊也可以看到有類似功能的牌，有些是相似的牌，有些則是上位牌。
 找牌沒有想法的時候來看看tagger，有時也會有不同的收穫。
@@ -173,10 +173,10 @@ tagger會列出掠奪人魚的特性，掠奪人魚在tagger上特性直接被�
 排序功能，CubeCobra可以使用四種卡的特性來排序，你可以按照自己感興趣的方式來排序，以下介紹幾種常用的。
 
 **Color / Color Category**
-![image](https://hackmd.io/_uploads/H1GVXf13ke.png)
+![image](https://i.meee.com.tw/VEtkdRA.png)
 這是預設的分類，多色那邊也會按公會色來分組，之後再用Mana分小群，群內則用字母順序來排序。
 
-![image](https://hackmd.io/_uploads/BJlI7zy3yg.png)
+![image](https://i.meee.com.tw/YXaTfm1.png)
 
 這是我用來整理Cube的時候用的，在最後要出試玩Cube版本的時候，要把Cobra上面的卡表轉換成紙本的Cube，這時我會把紙牌按顏色分開，之後再用Mana數量來排序，再來跟Cobra上面的List對照，不要讓少牌或者放錯牌打擾你美好的測試時光。
 
@@ -197,9 +197,6 @@ tagger會列出掠奪人魚的特性，掠奪人魚在tagger上特性直接被�
 
 **Color / Toughness**
 可以用來評估移除牌的作用，如果整個Cube生物防禦都只有1/2的話，那麼 {% mtglink "Shock" %} 跟 {% mtglink "Murder" %} 其實是等價的，在設計移除的時候不妨考慮一下這點來思考移除的射程。
-
-{% mtgcard "Shock" %}
-{% mtgcard "Murder" %}
 
 ---
 ### ELO
@@ -224,18 +221,18 @@ ELO可以透過玩家的pick順序輸出參考分數，但這只有在比較的�
 
 前面提到的Cobra修改牌張資訊除了點單卡還可以點上面的Label，以上圖的Green為例，我想要把這些生物都打上delirium的tag的話，先下完指令。
 
-![image](https://hackmd.io/_uploads/SJJcxPlnyx.png)
+![image](https://i.meee.com.tw/x26FGVh.png)
 
 再點開Label，也就是圖中的Creature
 
-![image](https://hackmd.io/_uploads/ByK7ZPlhJx.png)
+![image](https://i.meee.com.tw/SpsyAR7.png)
 
 在tag處輸入delirium後再按Apply to all就能對這些牌打上delirium tag了
 
-![image](https://hackmd.io/_uploads/rJHSWwl2kg.png)
+![image](https://i.meee.com.tw/XVesRRK.png)
 
 之後就可以用delirium tag來搜尋牌了！
-![image](https://hackmd.io/_uploads/Ska0MoFhyl.png)
+![image](https://i.meee.com.tw/flrBHoN.png)
 
 > 用tag而不用o來找的原因是：當你有複合類別咒語的時候，你可以把它當成一種可以支持delirium的牌並且打上tag，但是o:做不到這件事情。
 
@@ -350,7 +347,6 @@ Cobra搜尋做的沒有Scryfall那麼來的方便，Cobra只有提供兩種特�
 
 ~~另外，目前執行速度真的很慢，體驗不佳。~~
 
----
 
 ### Overview 預覽
 
@@ -358,7 +354,7 @@ Cobra搜尋做的沒有Scryfall那麼來的方便，Cobra只有提供兩種特�
 
 預覽就像Cube的手冊頁面，一份清楚的文件可以大幅減少新手理解的時間，加快理解Cube的速度，提升遊戲體驗。
 
----
+
 
 ## 結語
 
