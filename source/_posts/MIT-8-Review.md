@@ -1,11 +1,11 @@
 ---
 
 title: "哩哩扣扣的賽前準備和MIT#8隨想"
-date: "2025-04-10 13:23:52"
+date: "2025-04-10 13:40:12"
 tags:
   - "Weihow"
-cover: "https://i.meee.com.tw/IVOnkyp.png"
-thumbnail: "https://i.meee.com.tw/IVOnkyp.png"
+cover: "https://i.meee.com.tw/ceYbXI5.webp"
+thumbnail: "https://i.meee.com.tw/ceYbXI5.webp"
 excerpt: "打造最強之矛 — 紅白能量之路"
 authors:
   - "Weihow"
@@ -25,6 +25,8 @@ categories:
 這篇文章主要會以我是如何準備MIT#8為主軸，分成[賽場分析](#%E4%B8%80%E3%80%81%E8%B3%BD%E5%A0%B4%E5%88%86%E6%9E%90)、[套牌選擇](#%E4%BA%8C%E3%80%81%E5%A5%97%E7%89%8C%E9%81%B8%E6%93%87)、[有效率的練習](#%E4%B8%89%E3%80%81%E6%9C%89%E6%95%88%E7%8E%87%E7%9A%84%E7%B7%B4%E7%BF%92)、以及[其他準備](#%E5%9B%9B%E3%80%81%E5%85%B6%E4%BB%96%E7%9A%84%E6%BA%96%E5%82%99)共四個部分，具體介紹我的準備過程。
 
 ## 一、賽場分析
+
+![](https://i.meee.com.tw/IVOnkyp.png)
 
 在準備期間，我會主要觀察國外RC以及MTGO的動向。
 除了觀察國外RC的套牌分佈，我也會看從第一天到第二天的套牌轉換率（即套牌從第一天晉級到第二天的比例）。我覺得轉換率會比套牌分布更能反映當前Meta，而套牌轉換率較高的套牌將會是我會特別考慮的目標。
@@ -65,7 +67,7 @@ MTGO上面的League需要10 Tix（大約10美金）的報名費。若在五場�
 
 ### 觀摩
 
-除了實際對局以外，我也會到網路上觀看職業玩家的影片，來了解一些關鍵決策的選擇、和細節操作。實況主[misplacedginger](https://www.patreon.com/Misplacedginger)是我玩Boros Energy的啟蒙老師。我最有印象的是當時他有 {% mtglink "Goblin Bombardment" %} 跟 {% mtglink "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger" %} 在場上，而對手也是玩Boros Energy且場面和他一模一樣。在雙方用相同牌組對峙的情況下，[misplacedginger](https://www.patreon.com/Misplacedginger)透過更勝一籌的操作和理解拿下了勝利。過程中有太多細節，顛覆我對Boros Energy的理解。當下就覺得一定要跟這個人學習！所以大家也可以多看看網路上的高手打牌，可以學到很多意想不到的東西。像是Reddit和Discord上，也會有很多關於不同牌組打法和構築的討論，我也會關注並看看大家有沒有一些新穎的想法。網路上也有很多付費的Guide可以購買，我自己是沒買過，如果有買過的人，也歡迎分享你們使用後的心得。
+除了實際對局以外，我也會到網路上觀看職業玩家的影片，來了解一些關鍵決策的選擇、和細節操作。實況主[misplacedginger](https://www.patreon.com/Misplacedginger)是我玩Boros Energy的啟蒙老師。我最有印象的是當時他有 {% mtglink "Goblin Bombardment" %} 跟 {% mtglink "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger" alt="阿耶尼" %} 在場上，而對手也是玩Boros Energy且場面和他一模一樣。在雙方用相同牌組對峙的情況下，[misplacedginger](https://www.patreon.com/Misplacedginger)透過更勝一籌的操作和理解拿下了勝利。過程中有太多細節，顛覆我對Boros Energy的理解。當下就覺得一定要跟這個人學習！所以大家也可以多看看網路上的高手打牌，可以學到很多意想不到的東西。像是Reddit和Discord上，也會有很多關於不同牌組打法和構築的討論，我也會關注並看看大家有沒有一些新穎的想法。網路上也有很多付費的Guide可以購買，我自己是沒買過，如果有買過的人，也歡迎分享你們使用後的心得。
 
 ## 四、其他的準備
 
