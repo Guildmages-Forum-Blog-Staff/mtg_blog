@@ -1,7 +1,7 @@
 ---
 
 title: "韃契：龍襲風暴～標準初探"
-date: "2025-04-13 21:05:43"
+date: "2025-04-13 21:59:33"
 tags:
   - "JruMTG"
 authors:
@@ -11,7 +11,7 @@ categories:
   - "Standard"
 cover: "https://i.meee.com.tw/SfzHOn8.png"
 thumbnail: "https://i.meee.com.tw/SfzHOn8.png"
-excerpt: ""
+excerpt: "讓龍族再次偉大"
 ---
 
 ## 套牌介紹
