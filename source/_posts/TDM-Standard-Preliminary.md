@@ -1,7 +1,7 @@
 ---
 
 title: "韃契：龍襲風暴～標準初探"
-date: "2025-04-13 21:59:33"
+date: "2025-04-13 22:00:00"
 tags:
   - "JruMTG"
 authors:
@@ -75,7 +75,7 @@ excerpt: "讓龍族再次偉大"
 [套牌連結](https://www.mtggoldfish.com/deck/7028138#paper)
 ![decklist](https://i.meee.com.tw/VVcu9Wr.png)
 
-筆者作為控制愛好者，[馬蘭河龍侯](https://scryfall.com/card/tdm/51/marang-river-regent-coil-and-catch)是個人在這系列中非常關注的一張新卡。以往的 Draw Go 控制中，大概都會有一組 4 費的瞬間賺牌咒語，[記憶奔騰](https://scryfall.com/card/inr/75/memory-deluge)誕生後，可以說是以壓倒性的強度壟斷這個卡位整整三年，直到它退標為止，但在這之後，其實沒有任何卡能實質性的填補這個空缺，當然只是要瞬間賺牌，選項還是不少，但強度顯然都是差一個檔次的，也是因此近期 Meta 演化成了使用[囤積物資](https://scryfall.com/card/inr/75/memory-deluge)的版本，既然瞬間招的強度有點尷尬，那乾脆就部分改用費用節奏可接受、深度超深的巫術賺牌。說回[馬蘭河龍侯](https://scryfall.com/card/tdm/51/marang-river-regent-coil-and-catch)，牠作為預兆的抽 3 棄 1 其實也不強，就是還算能用的程度而已，但勝在本體是個有致勝能力的終端生物，這表示我們可以只用濾牌咒語的卡位獲得額外的終結者，對於控制套牌而言，不消耗卡位的免費致勝點是非常珍貴的，這讓我們構築時可以專心思考怎麼控死對手就好。
+筆者作為控制愛好者，[馬蘭河龍侯](https://scryfall.com/card/tdm/51/marang-river-regent-coil-and-catch)是個人在這系列中非常關注的一張新卡。以往的 Draw Go 控制中，大概都會有一組 4 費的瞬間賺牌咒語，[記憶奔騰](https://scryfall.com/card/inr/75/memory-deluge)誕生後，可以說是以壓倒性的強度壟斷這個卡位整整三年，直到它退標為止，但在這之後，其實沒有任何卡能實質性的填補這個空缺，當然只是要瞬間賺牌，選項還是不少，但強度顯然都是差一個檔次的，也是因此近期 Meta 演化成了使用[囤積物資](https://scryfall.com/card/dft/67/stock-up)的版本，既然瞬間招的強度有點尷尬，那乾脆就部分改用費用節奏可接受、深度超深的巫術賺牌。說回[馬蘭河龍侯](https://scryfall.com/card/tdm/51/marang-river-regent-coil-and-catch)，牠作為預兆的抽 3 棄 1 其實也不強，就是還算能用的程度而已，但勝在本體是個有致勝能力的終端生物，這表示我們可以只用濾牌咒語的卡位獲得額外的終結者，對於控制套牌而言，不消耗卡位的免費致勝點是非常珍貴的，這讓我們構築時可以專心思考怎麼控死對手就好。
 
 ![重點單卡](https://i.meee.com.tw/rPp9VIB.png)
 
@@ -208,7 +208,7 @@ excerpt: "讓龍族再次偉大"
 [套牌連結](https://www.mtggoldfish.com/deck/7036679#paper)
 ![decklist](https://i.meee.com.tw/tUPvebA.png)
 
-BLB以後的標準紅底快攻，可以說幾乎被家鼠體系壟斷，套牌構成也綁定的大量的生物強化配套，不過這系列出現了一張新牌，讓你有足夠誘因放棄家鼠體系，回歸傳統刷咒語次數的靈技套牌，那就是[科黎鋼介刀](https://scryfall.com/card/tdm/103/cori-steel-cutter)，他的本體只是個武具，卻可以不同的透過連咒來產出靈技生物Token，並且武具自身的強化也十分有感，可以讓你擁有足夠強力進攻節奏的同時，又不斷的補充續行打點。
+BLB以後的標準紅底快攻，可以說幾乎被家鼠體系壟斷，套牌構成也綁定的大量的生物強化配套，不過這系列出現了一張新牌，讓你有足夠誘因放棄家鼠體系，回歸傳統刷咒語次數的靈技套牌，那就是[科黎鋼介刀](https://scryfall.com/card/tdm/103/cori-steel-cutter)，他的本體只是個武具，卻可以不斷的透過連咒來產出靈技生物Token，並且武具自身的強化也十分有感，可以讓你擁有足夠強力進攻節奏的同時，又持續的補充續行打點。
 
 連咒要求你一回合打出複數張咒語，想要達成這點，除了用上大量抽牌咒語外，[逐風客才能](https://scryfall.com/card/blb/75/stormchasers-talent)+[一鎮難容二虎](https://scryfall.com/card/otj/74/this-town-aint-big-enough)的回收體系也是答案之一。
 
@@ -266,7 +266,7 @@ BLB以後的標準紅底快攻，可以說幾乎被家鼠體系壟斷，套牌�
 [套牌連結](https://www.mtggoldfish.com/deck/7036655#paper)
 ![decklist](https://i.meee.com.tw/xGQbI0Q.png)
 
-筆者私心認為，[瑪爾都破陣兵](https://scryfall.com/card/tdm/206/mardu-siegebreaker)是這系列趣味度最高的一張牌，他本質上很接近一個[雲移](https://scryfall.com/card/jmp/97/cloudshift)機，除了拿去刷帶有ETB效應的生物之外，雲移類效應與試作的搭配也很好，這裡同時選用了[非瑞克西亞噬生亞龍](https://scryfall.com/card/bro/121/phyrexian-fleshgorger)+[戰鬥甩擊械](https://scryfall.com/card/bro/35/combat-thresher)兩種試作生物，並且配上[書卷挪移](https://scryfall.com/card/mom/34/scrollshift)強化主動雲移能力，時機適當時也能成為保護咒語，此外[書卷挪移](https://scryfall.com/card/mom/34/scrollshift)也可以用來雲移隱現中的[黑霸主](https://scryfall.com/card/dsk/113/overlord-of-the-balemurk)，透過這些手段來解決瑪爾都資源量缺乏的問題。其實一般在帶白色的雲移套牌中，二費去除的位置可以部份選用[勁風吹散](https://scryfall.com/card/blb/24/parting-gust)，它能當一張放放逐殺、也能當一個[雲移](https://scryfall.com/card/jmp/97/cloudshift)來用，但要在這個三色套牌中再放一個兩點白的瞬間，指定色要求實在是太恐怖了，所以作罷。
+筆者私心認為，[瑪爾都破陣兵](https://scryfall.com/card/tdm/206/mardu-siegebreaker)是這系列趣味度最高的一張牌，他本質上很接近一個[雲移](https://scryfall.com/card/jmp/97/cloudshift)機，除了拿去刷帶有ETB效應的生物之外，雲移類效應與試作的搭配也很好，這裡同時選用了[非瑞克西亞噬生亞龍](https://scryfall.com/card/bro/121/phyrexian-fleshgorger)+[戰鬥甩擊械](https://scryfall.com/card/bro/35/combat-thresher)兩種試作生物，並且配上[書卷挪移](https://scryfall.com/card/mom/34/scrollshift)強化主動雲移能力，時機適當時也能成為保護咒語，此外[書卷挪移](https://scryfall.com/card/mom/34/scrollshift)也可以用來雲移隱現中的[黑霸主](https://scryfall.com/card/dsk/113/overlord-of-the-balemurk)，透過這些手段來解決瑪爾都資源量缺乏的問題。其實一般在帶白色的雲移套牌中，二費去除的位置可以部份選用[勁風吹散](https://scryfall.com/card/blb/24/parting-gust)，它能當一張放逐殺、也能當一個[雲移](https://scryfall.com/card/jmp/97/cloudshift)來用，但要在這個三色套牌中再放一個兩點白的瞬間，指定色要求實在是太恐怖了，所以作罷。
 
 附帶一提，在構築[瑪爾都破陣兵](https://scryfall.com/card/tdm/206/mardu-siegebreaker)套牌時，有個要特別注意的問題，就是被他放逐的生物，在攻擊派出複製品時，是會錯過攻擊觸發時機點的，例如[蝕液野馬](https://scryfall.com/card/otj/82/caustic-bronco)、[叛教幫傳道士](https://scryfall.com/card/lci/113/preacher-of-the-schism)都有這問題。
 
