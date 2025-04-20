@@ -34,7 +34,7 @@ excerpt: "現在正是復權的時刻。"
 既然預兆和歷險都不能指望，那我們就把目標放在[艾絲琦](https://scryfall.com/card/tdm/182/eshki-dragonclaw)進場當回合就能滿足異能條件，也就是套牌中存在大量一費施放的非生物咒語，另外還有一點可能較少人注意到，那就是[艾絲琦](https://scryfall.com/card/tdm/182/eshki-dragonclaw)和額外戰階的搭配性奇佳，不僅異能會反覆觸發，本體還有警戒踐踏，不用重置也能暴揍對手。而在標準內有個套路非常符合[艾絲琦](https://scryfall.com/card/tdm/182/eshki-dragonclaw)的條件。
 
 [套牌列表](https://www.mtggoldfish.com/deck/7038797#paper)
-![](https://i.imgur.com/uzFuERR.png)
+![](https://i.imgur.com/m7L3Ep6.png)
 
 躁狂的套路相信各位讀者都熟，生物牌與非生物牌比例相近，又是透過非生物咒語濾生物拍出來，可以經常做到同一回合施放生物和非生物咒語。
 
