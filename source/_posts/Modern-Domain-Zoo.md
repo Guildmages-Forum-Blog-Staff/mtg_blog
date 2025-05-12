@@ -1,7 +1,7 @@
 ---
 
 title: "領土動物園（Domain Zoo）遊玩指南《韃契：龍襲風暴環境》"
-date: "2025-05-12 16:53:03"
+date: "2025-05-12 19:20:59"
 tags:
   - "CIXS"
 cover: "https://i.meee.com.tw/EqP61om.png"
@@ -233,7 +233,7 @@ categories:
 ## 單卡知識與技巧
 ### 《據地卡甫》
 
-{mtgpick "mh2" 216 }
+{% mtgpick "mh2" 216 %}
 
 不管它在哪裡，Kavu的攻防值永遠都是由Domain決定，一旦地的種類夠多，《[嚴肅斥責/Stern Scolding](https://scryfall.com/card/ltr/71/stern-scolding)》是康不掉的。
 比起棄抽，有時候應該更關注對手的墳場，以防Phlage的出現或者讓其有足夠的牌張數進行逸脫、讓《[白骨帝王/Emperor of Bones](https://scryfall.com/card/mh3/90/emperor-of-bones)》《[災沼霸主/Overlord of the Balemurk](https://scryfall.com/card/dsk/113/overlord-of-the-balemurk)》能夠回收的生物變少、放逐較難進入墳場的牌張，使對手無法達成躁狂。
