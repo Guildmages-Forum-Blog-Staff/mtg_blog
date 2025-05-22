@@ -2,7 +2,7 @@
 
 title: "MTG新手入坑指南"
 date: "2024-09-10 14:00:00"
-updated: "2024-11-07 11:23:28"
+updated: "2025-5-22 12:00:0"
 tags:
   - "JruMTG"
 authors:
