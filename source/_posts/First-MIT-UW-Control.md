@@ -170,7 +170,7 @@ Tiebinder可以拿來康刀、水獺才能升級、以及各種planswalkers。
 |  | +3 {% mtglink "Tishana's Tidebinder" %} |
 
 
-Lockdown除了 {% mtglink "Up to Beanstalk" %} 以外沒有目標，Ride's End在霸主的生物都有攻擊時觸發效果的情況下，並不是好選擇，常常導致虧牌，對手前期也不太會下生物所以常常卡手。
+Lockdown除了 {% mtglink "Up the Beanstalk" %} 以外沒有目標，Ride's End在霸主的生物都有攻擊時觸發效果的情況下，並不是好選擇，常常導致虧牌，對手前期也不太會下生物所以常常卡手。
 Jace一樣是作為wincon，但與打全知不同的是Jace可以在前期下出來做-2，當作賺牌的工具，因為對手最好的解牌是 {% mtglink "Leyline Binding" %} ，而我們有4張Get Lost以及三張的Marang River Regent把被壓的Jace拿回來並且再開一次招，也可以[-X] X=4，然後透過藍龍把Jace回手做到快速斬殺。
 Negate用來應對對手備牌會上的非生物咒語。
 Tidebinder可以康許多霸主套牌的進場觸發異能，最好的目標是 {% mtglink "Atraxa, Grand Unifier" %} 。
