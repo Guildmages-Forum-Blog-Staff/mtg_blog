@@ -54,6 +54,9 @@
     <% for (let idx = 0; idx < author_num; idx++ ) { %>
         <% const current_author = author_list[idx]; %>
         <% const author_info = author_info_str(current_author); %>
+        <% if ( !author_info ) { %>
+            <% continue; %>
+        <% } %>
         <% const author_name = author_info.name; %>
         <% const avatar = author_info.avatar; %>
         <% const intro = author_info.intro; %>
