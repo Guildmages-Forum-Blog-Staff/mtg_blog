@@ -34,7 +34,7 @@ TDFC在戰場與堆疊外的任何區域時，都只有正面的特徵。TDFC在
 
 ## 傳紀生物（Saga Creature）
 
-![Saga Creature](https://i.meee.com.tw/BbQJ7kK.png)
+![Saga Creature](https://i.meee.com.tw/yfAZ9GM.png)
 
 傳紀是個結界的副類別，擁有自己專屬的特殊規則。雖然傳紀已經是個近年來每年都會登場的半長青機制了，但本系列在傳紀設計上有比較突破性的創新，本系列的所有傳紀都同時是生物，這也使它需要同時遵守傳紀與生物的規則。
 
@@ -49,6 +49,16 @@ TDFC在戰場與堆疊外的任何區域時，都只有正面的特徵。TDFC在
 >舉例：你的場上有一個[倍產旺季](https://scryfall.com/card/fdn/216/doubling-season)，之後你讓一個傳紀進場，它進場時將會有兩個學問指示物，第 I & II 章節的異能會一起觸發，並由你自排堆疊。
 
 
+{% folding blue :: FIN傳紀規則修改 %}
+
+以往傳紀如果因為某種原因失去所有異能，那麼它將被視為一個最終章節為0的傳紀，並在[SBA（狀態動作）](https://mtg.fandom.com/wiki/State-based_action)檢查中被犧牲，經典範例如[克撒傳](https://scryfall.com/card/mh2/259/urzas-saga)+[腥紅之月](https://scryfall.com/card/2xm/118/blood-moon)，但這個規則互動非常不直觀，並且隨著本系列傳紀生物的出現，讓傳紀失去所有異能的情境將會更頻繁地出現。
+
+從本系列開始，官方更改了傳紀失去異能的相關規則，新版規則如下：
+如果一個傳紀失去章節異能，它將不會因狀態動作而被犧牲（學問指示物 ≧ 最終章節編號）、也不會因為回合動作（第一行動階段開始時）放置學問指示物，直到它再次具有章節異能為止。
+
+![Rule Cgamge](https://i.meee.com.tw/F5rIbZc.png)
+
+{% endfolding %}
 
 
 ## 歷險（Adventure）
