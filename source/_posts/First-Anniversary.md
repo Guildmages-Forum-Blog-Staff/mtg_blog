@@ -17,7 +17,7 @@ categories:
 
 ## 話說從頭：Guildmages' Forum 網站是怎麼誕生的？
 
-![](https://thumbsnap.com/i/JdQkVzbC.jpg?0821)
+![](https://i.meee.com.tw/zRQ3noa.jpg)
 
 2023 年 9 月 7 日是 Guildmage's Forum 網站正式公布的日期，也是一個值得紀念的日子。這篇文章就帶大家來回顧一下我們這個網站是怎麼開始，一年來又做了那些嘗試，以及運營這個網站的心得吧！
 
