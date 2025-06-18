@@ -11,8 +11,6 @@ categories:
 cover: "https://i.meee.com.tw/aIDvSAy.jpg"
 thumbnail: "https://i.meee.com.tw/aIDvSAy.jpg"
 excerpt: "名為最終幻想的系列堂堂上市，更是魔風集會所最初的讀者輪抽同樂會。"
-authors:
-  - "faintmama"
 categories:
   - "Others"
   - "Interview"
