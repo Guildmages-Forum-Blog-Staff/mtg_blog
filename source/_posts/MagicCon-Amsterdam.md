@@ -7,8 +7,8 @@ cover: "https://i.postimg.cc/jSBqSNTR/IMG-9131-1.jpg"
 thumbnail: "https://i.postimg.cc/jSBqSNTR/IMG-9131-1.jpg"
 excerpt: "第一次參加MagicCon就上手？來看看吧！"
 categories:
-  - "Others"
-  - "MTG Anecdote"
+  - "Tournaments"
+  - "Overseas"
 authors:
   - "cephille"
 ---
