@@ -10,8 +10,8 @@ excerpt: "世冠賽 30 落幕啦！恭喜 David Yeh 在本屆世冠賽取得 23 
 authors:
   - "david-yeh"
 categories:
+  - "Tournaments"
   - "Overseas"
-  - "MWC30"
 ---
 
 
