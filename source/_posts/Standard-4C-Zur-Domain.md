@@ -1,6 +1,6 @@
 ---
 title: "祖爾領土 : 祖爾一出，必要見血!!!"
-date: "2025-06-24 10:16:21"
+date: "2025-06-24 13:37:30"
 tags:
   - "ClarkShih"
 authors:
@@ -15,17 +15,17 @@ excerpt: "你打的有我霸主痛？抽的有我豆莖多嗎？"
 
 ## 前言
 
-哈囉大家好呀~我是施兆恩aka荒野騎士，原本是兩三個月前就要開始寫，但是當時考慮到不想在比賽前就公開策略、而且新系列也快出了就停下來了。不過現在比賽也比完了、隊友也拿到PT資格，沒道理不寫吧？
+哈囉大家好呀~我是施兆恩aka荒野騎士，原本是兩三個月前就要開始寫，但是當時考慮到不想在比賽前就公開策略、而且新系列也快出了就停下來了。不過現在比賽也比完了、[臺灣隊友也拿到PT資格](https://guildmagesforum.tw/MIT-9-Review-sertyple/)，沒道理不寫吧？
 
 ## 牌組介紹
 
 ### 牌組構成
 
-https://www.mtggoldfish.com/deck/7094062#paper
+[牌表連結：祖爾一出，必要見血！！！](https://www.mtggoldfish.com/deck/7193174#paper)
 
 ![DeckList](https://i.meee.com.tw/DleZlzE.png)
 
-這是我與美國的隊友為PT FINAL FANTASY準備的牌表
+上圖是我與美國的隊友為PT FINAL FANTASY準備的牌表。
 #### 固定卡位
 ![](https://i.meee.com.tw/ceHy5hJ.png)
  - 4 [Zur, Eternal Schemer](https://scryfall.com/card/dmu/228/zur-eternal-schemer)
@@ -63,13 +63,13 @@ https://www.mtggoldfish.com/deck/7094062#paper
 
 作為四色套牌，地牌的配置在這個套牌可謂極為重要，我所使用的地牌配置是來自PT DFT冠軍Matt Nass的牌表進行微調，以下是Matt Nass的地牌配置:
 ![](https://i.meee.com.tw/9FRGEJU.png)
- - 4 [Hushwood Verge](https://scryfall.com/card/dsk/261/hushwood-verge) (白綠Verge)
- - 4 [Lush Portico](https://scryfall.com/card/mkm/263/lush-portico) (白綠刺探地)
- - 3 [Floodfarm Verge](https://scryfall.com/card/dsk/259/floodfarm-verge) (白藍Verge)
- - 2 [Wastewood Verge](https://scryfall.com/card/dft/268/wastewood-verge) (黑綠Verge)
- - 3 [Shadowy Backstreet](https://scryfall.com/card/mkm/268/shadowy-backstreet) (黑白刺探地)
- - 3 [Hedge Maze](https://scryfall.com/card/mkm/262/hedge-maze) (藍綠刺探地)
- - 2 [Razorverge Thicket](https://scryfall.com/card/one/257/razorverge-thicket) (白綠快地)
+ - 4 [Hushwood Verge](https://scryfall.com/card/dsk/261/hushwood-verge) （白綠Verge）
+ - 4 [Lush Portico](https://scryfall.com/card/mkm/263/lush-portico)（白綠刺探地）
+ - 3 [Floodfarm Verge](https://scryfall.com/card/dsk/259/floodfarm-verge) （白藍Verge）
+ - 2 [Wastewood Verge](https://scryfall.com/card/dft/268/wastewood-verge) （黑綠Verge）
+ - 3 [Shadowy Backstreet](https://scryfall.com/card/mkm/268/shadowy-backstreet)（黑白刺探地）
+ - 3 [Hedge Maze](https://scryfall.com/card/mkm/262/hedge-maze) （藍綠刺探地）
+ - 2 [Razorverge Thicket](https://scryfall.com/card/one/257/razorverge-thicket)（白綠快地）
  - 1 Forest
  - 1 Island
  - 1 Plains
@@ -77,13 +77,14 @@ https://www.mtggoldfish.com/deck/7094062#paper
 
 如果你是不瞭解祖爾領土的玩家，或許看不出這個配置的巧妙之處，但我從未忘記當我瞭解這個地牌配置時有多驚嘆，現在讓我仔細分析這個配置:
  - 白綠兩色是這套牌的核心，如果你撇除[Zur](https://scryfall.com/card/dmu/228/zur-eternal-schemer)不看，你會注意到正編完全沒有任何白綠以外的牌，這就解釋了為何[Hushwood Verge](https://scryfall.com/card/dsk/261/hushwood-verge)和[Lush Portico](https://scryfall.com/card/mkm/263/lush-portico)這兩張直接放滿、甚至放了2張[Razorverge Thicket](https://scryfall.com/card/one/257/razorverge-thicket)，就是為了去支撐這套牌對於白綠兩色的需求。
- - 因為白綠兩色如此重要，這也直接影響到了其他雙色地牌的選擇，而每個地牌都一定能產出白色或綠色，而Verge會選擇[Floodfarm Verge](https://scryfall.com/card/dsk/259/floodfarm-verge)和[Wastewood Verge](https://scryfall.com/card/dft/268/wastewood-verge) (黑綠Verge)就是因為他們的主色是白色和綠色，這樣即使沒有對應的基本地類別，這兩張地牌也可以幫助我們施放牌組中的低費咒語。([藍綠Verge](https://scryfall.com/card/dft/270/willowrush-verge)的主色是藍、[黑白Verge](https://scryfall.com/card/dft/250/bleachbone-verge)的主色是黑)
- - 而Verge影響了除了白綠以外刺探地的選擇，[Hedge Maze](https://scryfall.com/card/mkm/262/hedge-maze)和[Shadowy Backstreet](https://scryfall.com/card/mkm/268/shadowy-backstreet)，不管哪一張都可以讓所有Verge都可以產出兩種法力，而且兩張同時在場就可以提供四種不同的基本地類別，讓[Leyline Binding](https://scryfall.com/card/dmu/24/leyline-binding)能以兩費施放。(如果是選[黑綠](https://scryfall.com/card/mkm/271/underground-mortuary)和[白藍刺探地](https://scryfall.com/card/mkm/264/meticulous-archive)，與特定Verge在場時無法讓Verge產兩色)
+ - 因為白綠兩色如此重要，這也直接影響到了其他雙色地牌的選擇，而每個地牌都一定能產出白色或綠色，而Verge會選擇[Floodfarm Verge](https://scryfall.com/card/dsk/259/floodfarm-verge)和[Wastewood Verge](https://scryfall.com/card/dft/268/wastewood-verge) （黑綠Verge）就是因為他們的主色是白色和綠色，這樣即使沒有對應的基本地類別，這兩張地牌也可以幫助我們施放牌組中的低費咒語。（[藍綠Verge](https://scryfall.com/card/dft/270/willowrush-verge)的主色是藍、[黑白Verge](https://scryfall.com/card/dft/250/bleachbone-verge)的主色是黑）
+ - 而Verge影響了除了白綠以外刺探地的選擇，[Hedge Maze](https://scryfall.com/card/mkm/262/hedge-maze)和[Shadowy Backstreet](https://scryfall.com/card/mkm/268/shadowy-backstreet)，不管哪一張都可以讓所有Verge都可以產出兩種法力，而且兩張同時在場就可以提供四種不同的基本地類別，讓[Leyline Binding](https://scryfall.com/card/dmu/24/leyline-binding)能以兩費施放。（如果是選[黑綠](https://scryfall.com/card/mkm/271/underground-mortuary)和[白藍刺探地](https://scryfall.com/card/mkm/264/meticulous-archive)，與特定Verge在場時無法讓Verge產兩色）
 
 以上就是讓這個地牌配置如此完美的原因。那麼，我的地牌配置與 Matt Nass 的牌表又有什麼不同呢？那就是我將牌組的兩張地牌替換成[Cavern of Souls](https://scryfall.com/card/lci/269/cavern-of-souls)。原因主要是因為隨者PT DFT的結束和新系列TDM的發售，反擊咒語的使用量大幅提升，我在測試的過程中也發現Domain對上控制類型的套牌時時常會力不從心，而且很多玩家也因為注意到Domain開始不使用[Cavern of Souls](https://scryfall.com/card/lci/269/cavern-of-souls)又重新投入反擊咒語，因此我才決定將[Cavern of Souls](https://scryfall.com/card/lci/269/cavern-of-souls)這張加回來。近期MO上有不少玩家在備牌投入了2~3張的[Overlord of the Floodpits](https://scryfall.com/card/dsk/68/overlord-of-the-floodpits)，為了保證換入後能夠穩定施放，因此需要將牌組裡的基本沼澤換成[Cavern of Souls](https://scryfall.com/card/lci/269/cavern-of-souls)。
 
 ### 備牌介紹
 ![](https://i.meee.com.tw/1UVISYE.png)
+
 備牌的選擇與正編一樣，主要還是看你想要專注於什麼對局，而下面是我的備牌選擇以及原因。
 
  - 3 [Authority of the Consuls](https://scryfall.com/card/fdn/137/authority-of-the-consuls)：打快攻的好幫手，敏捷生物不再敏捷，配合[Split Up](https://scryfall.com/card/dsk/32/split-up)可以做到完全掃場，也可以讓[Ride's End](https://scryfall.com/card/dft/25/rides-end)不用等對手攻擊才能2費施放。
@@ -214,7 +215,7 @@ https://www.mtggoldfish.com/deck/7094062#paper
 5. 有時候[Ride's End](https://scryfall.com/card/dft/25/rides-end)比較適合在自己的回合使用，特別是在對手已經沒有法力的情況下。
 
 ## 關於PT FINAL FANTASY
-全球最具競爭力的隊伍ChannelFireball，其中幾位成員(Edgar Magalhaes、Reid Duke、Seth Manfield和Gabriel Nassif），在PT FINAL FANTASY也使用了祖爾領土出戰。
+全球最具競爭力的隊伍ChannelFireball，其中幾位成員（Edgar Magalhaes、Reid Duke、Seth Manfield和Gabriel Nassif），在PT FINAL FANTASY也使用了祖爾領土出戰。
 以下是他們的牌表：
 ![](https://i.meee.com.tw/d5SeAG0.png)
 
