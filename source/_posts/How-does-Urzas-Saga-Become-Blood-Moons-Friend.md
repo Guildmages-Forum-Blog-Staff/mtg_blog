@@ -1,12 +1,13 @@
 ---
-title: '血月如何從克撒傳的天敵變隊友'
+
+title: "血月如何從克撒傳的天敵變隊友"
 date: "2025-06-12 15:13:12"
 tags:
- - "JruMTG"
+  - "JruMTG"
 authors:
- - "JruMTG"
+  - "JruMTG"
 categories:
- - "MTG Rules"
+  - "MTG Rules"
 cover: "https://i.meee.com.tw/Kp73t7c.png"
 thumbnail: "https://i.meee.com.tw/Kp73t7c.png"
 excerpt: "FIN系列的傳紀規則究竟改了啥？"
@@ -24,7 +25,7 @@ excerpt: "FIN系列的傳紀規則究竟改了啥？"
 
 ## 舊規則複習
 
-在講解新的規則之前，先讓我們快速複習一下，在舊有規則下[腥紅之月](https://scryfall.com/card/2xm/118/blood-moon)是如何影響[克撒傳](https://scryfall.com/card/mh2/259/urzas-saga)的。完整解說可參閱往期文章：[克撒傳怎麼自爆了](https://guildmagesforum.tw/Saga-and-Moon/)
+在講解新的規則之前，先讓我們快速複習一下，在舊有規則下[腥紅之月](https://scryfall.com/card/2xm/118/blood-moon)是如何影響[克撒傳](https://scryfall.com/card/mh2/259/urzas-saga)的。完整解說可參閱往期文章：[克撒傳怎麼自爆了](https://guildmagesforum.tw/Saga-and-Moon/) 
 
 
 - 傳紀犧牲條件：學問指示物數量≥最終章節編號 ＆ 不是已觸發且尚未離開堆疊的章節觸發式異能來源。此狀態動作（SBA）。
@@ -58,7 +59,7 @@ excerpt: "FIN系列的傳紀規則究竟改了啥？"
 
 ## 現行傳紀規則
 
-其實這次的規則修改，只是對傳紀的規則做了一點微調，具體改動如下：
+其實這次的規則修改，只是對傳紀的規則做了一點微調，具體改動如下： 
 
 - **如果一個傳紀失去章節異能，它將不會因狀態動作而被犧牲<font color="#B0B0B0">（學問指示物 ≧ 最終章節編號）</font>、也不會因為回合動作<font color="#B0B0B0">（第一行動階段開始時）</font>放置學問指示物，直到它再次具有章節異能為止。**
 
@@ -75,11 +76,11 @@ excerpt: "FIN系列的傳紀規則究竟改了啥？"
 
 
 ![1](https://i.meee.com.tw/VtnQsJp.png)
->[克撒傳](https://scryfall.com/card/mh2/259/urzas-saga)：
->I章：克撒傳獲得「{T}：加{C}。」
->II章：克撒傳獲得「{2}，{T}：派出一個0/0無色組構體衍生神器生物，且具有『你每操控一個神器，此生物便得+1/+1。』」
->[腥紅之月](https://scryfall.com/card/2xm/118/blood-moon)：
->非基本地都是山脈。
+> ● [克撒傳](https://scryfall.com/card/mh2/259/urzas-saga)：
+> I章：克撒傳獲得「{T}：加{C}。」
+> II章：克撒傳獲得「{2}，{T}：派出一個0/0無色組構體衍生神器生物，且具有『你每操控一個神器，此生物便得+1/+1。』」
+> ● [腥紅之月](https://scryfall.com/card/2xm/118/blood-moon)：
+> 非基本地都是山脈。
 
 先讓我們快速複習一下把地變成某一基本地類別效應的規則：
 
@@ -105,14 +106,14 @@ excerpt: "FIN系列的傳紀規則究竟改了啥？"
 
 
 ![2](https://i.meee.com.tw/7PdV4yz.png)
->[克撒傳](https://scryfall.com/card/mh2/259/urzas-saga)：
->I章：克撒傳獲得「{T}：加{C}。」
->II章：克撒傳獲得「{2}，{T}：派出一個0/0無色組構體衍生神器生物，且具有『你每操控一個神器，此生物便得+1/+1。』」
->III章：從你的牌庫中搜尋一張魔法力費用為{0}或{1}的神器牌，將之放進戰場，然後洗牌。
->[海疆先兆師](https://scryfall.com/card/mh3/63/harbinger-of-the-seas)：
->非基本地都是海島。<font color="#B0B0B0">（簡稱藍月人）</font>
->[先制地脈](https://scryfall.com/card/m20/64/leyline-of-anticipation)：
->你可以將咒語視同具有閃現異能地來施放。
+> ● [克撒傳](https://scryfall.com/card/mh2/259/urzas-saga)：
+> I章：克撒傳獲得「{T}：加{C}。」
+> II章：克撒傳獲得「{2}，{T}：派出一個0/0無色組構體衍生神器生物，且具有『你每操控一個神器，此生物便得+1/+1。』」
+> III章：從你的牌庫中搜尋一張魔法力費用為{0}或{1}的神器牌，將之放進戰場，然後洗牌。
+> ● [海疆先兆師](https://scryfall.com/card/mh3/63/harbinger-of-the-seas)：
+> 非基本地都是海島。<font color="#B0B0B0">（簡稱藍月人）</font>
+> ● [先制地脈](https://scryfall.com/card/m20/64/leyline-of-anticipation)：
+> 你可以將咒語視同具有閃現異能地來施放。
 
 讓我們把情境逼得更極限一點，看看如何最大限度的利用傳紀規則。
 
@@ -120,11 +121,11 @@ excerpt: "FIN系列的傳紀規則究竟改了啥？"
 
 
 ![3](https://i.meee.com.tw/XsvXiaq.png)
->[克撒傳](https://scryfall.com/card/mh2/259/urzas-saga)：
->I章：克撒傳獲得「{T}：加{C}。」
->II章：克撒傳獲得「{2}，{T}：派出一個0/0無色組構體衍生神器生物，且具有『你每操控一個神器，此生物便得+1/+1。』」
->[腥紅之日](https://scryfall.com/card/rix/92/blood-sun)：
->非所有地均失去魔法力異能以外的所有異能。
+> ● [克撒傳](https://scryfall.com/card/mh2/259/urzas-saga)：
+> I章：克撒傳獲得「{T}：加{C}。」
+> II章：克撒傳獲得「{2}，{T}：派出一個0/0無色組構體衍生神器生物，且具有『你每操控一個神器，此生物便得+1/+1。』」
+> ● [腥紅之日](https://scryfall.com/card/rix/92/blood-sun)：
+> 非所有地均失去魔法力異能以外的所有異能。
 
 同樣是[克撒傳](https://scryfall.com/card/mh2/259/urzas-saga)已經跑到第II章，不過這次進場的改成[腥紅之日](https://scryfall.com/card/rix/92/blood-sun)，這與前面的[腥紅之月](https://scryfall.com/card/2xm/118/blood-moon)會產生甚麼差別嗎？
 
@@ -145,15 +146,3 @@ excerpt: "FIN系列的傳紀規則究竟改了啥？"
 ## 結語
 
 這次的規則修改，從消除非直觀的規則互動這點來說，筆者覺得立意是好的。只是經過這麼一改，[克撒傳](https://scryfall.com/card/mh2/259/urzas-saga)忽然就失去了最大的約束力，甚至曾經的約束力還反過來成為了自己的幫手，可以預期短期內會對近代以上的賽制造成有感的影響，但究竟是否會成為不健康的環境衝擊，現在還無法判斷，只能交給時間來驗證了。
-
-
-
-
-
-
-
-
-
-
-
-
