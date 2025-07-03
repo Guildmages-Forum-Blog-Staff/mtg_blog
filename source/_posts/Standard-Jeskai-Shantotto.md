@@ -1,7 +1,7 @@
 ---
 
 title: "激昂奇技：標準潔斯凱香托托"
-date: "2025-07-03 09:56:41"
+date: "2025-07-03 17:05:15"
 tags:
   - "JerobaMTG"
 authors:
@@ -26,22 +26,22 @@ excerpt: "阿啦！本小姐阿，可是暴怒了呢。"
 在這次的四點魔法力非生物咒語主題單卡中，筆者選用以下兩張：
 
 ![](https://i.meee.com.tw/4ndsjgi.png)
->聯邦軍師香托托
+> ● **聯邦軍師香托托**
 >傳奇生物 – 矮人／魔法師
 >每當你施放非生物咒語時，香托托得+X/+0直到回合結束，X為施放該咒語時所支付的魔法力數量。如果X等於或大於4，則抽一張牌。
 
 ![](https://i.meee.com.tw/xvav6Ft.png)
->>帕拉美奇亞皇帝
->>傳奇生物 – 人類／貴族／魔法師
->>{T}：加{U}或{R}。此魔法力只能用來施放非生物咒語。
->>每當你施放非生物咒語時，若施放它時支付過至少四點魔法力，則在帕拉美奇亞皇帝上放>>置一個+1/+1指示物。然後若其上有三個或更多+1/+1指示物，則轉化它。
-//
->>地獄的支配者
->>傳奇生物～惡魔／貴族／法術師
->>隕石～每當地獄的支配者攻擊時，它向每位對手各造成X點傷害，X為你墳墓場中非生物且非地的牌數量。
+> ● **帕拉美奇亞皇帝**
+>傳奇生物 – 人類／貴族／魔法師
+>{T}：加{U}或{R}。此魔法力只能用來施放非生物咒語。
+>每當你施放非生物咒語時，若施放它時支付過至少四點魔法力，則在帕拉美奇亞皇帝上放置一個+1/+1指示物。然後若其上有三個或更多+1/+1指示物，則轉化它。
+> ● **地獄的支配者**
+>傳奇生物～惡魔／貴族／魔法師
+>隕石～每當地獄的支配者攻擊時，它向每位對手各造成X點傷害，X為你墳墓場中非生物且非地的牌數量。
 
 來自FFXI的[香托托](https://scryfall.com/card/fin/241/shantotto-tactician-magician)是位用字遣詞帶有高貴氣息、性格卻相當火爆的塔魯魯族，其身份是聯邦首席元老兼最強黑魔導士，在FF大亂鬥作品[紛爭NT的決戰動畫](https://www.youtube.com/watch?v=TDcMzfFyceU&t=134s)中，僅憑一人之力從旁打散兩大魔女BOSS[暗黑之雲](https://scryfall.com/card/fin/217/cloud-of-darkness)與[阿爾提米西亞](https://scryfall.com/card/fin/247/ultimecia-time-sorceress-ultimecia-omnipotent)的聯合魔法，實力不言可喻。雖然在卡牌上她只是U卡，但只要達成四費條件就能抽牌，還會隨著支付的費用灌大攻擊力，破壞力不在話下，適合當作套牌引擎。
 另外一個選牌則是FFll的最終boss[帕拉美奇亞皇帝](https://scryfall.com/card/fin/219/the-emperor-of-palamecia-the-lord-master-of-hell)，幫助你快速跳費的mana頭，對你拍大招提供助力，如果存活得夠久，還可以轉化成[地獄支配者](https://scryfall.com/card/fin/219/the-emperor-of-palamecia-the-lord-master-of-hell?back)終結對手。以這兩位強大魔法師為核心的套牌列表如下：
+
 [套牌列表](https://www.mtggoldfish.com/deck/7185579#paper)
 ![](https://i.meee.com.tw/CNMchYI.png)
 
