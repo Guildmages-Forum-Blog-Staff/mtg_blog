@@ -64,7 +64,7 @@ categories:
 
 其實最後還是沒有調整好。三色是一個不錯的改動，但對於meta的convoke仍然不夠尊重，win & in八強那局被澈底懲罰。如果將時光快轉到一年後的現在，我會說正1備2的[The Filigree Sylex](https://scryfall.com/card/one/227/the-filigree-sylex)是必要的。當年也有看到類似的構築，但沒有深入去研究使用情境就過去了。
 
-{% "The Filigree Sylex" "one" %}
+{% mtgcard "The Filigree Sylex" "one" %}
 
 儘管無緣八強，我還是自己[前往Amesterdam參加Magic Con](https://guildmagesforum.tw/MagicCon-Amsterdam/)，並在[歐洲的夏日風光、與友人的陪伴中重新思考這趟旅程的意義](https://hackmd.io/@cephille/Hy_FaTDwA)。也才有一年後Magic Spotlight: Final Fantasy的故事新章。
 
@@ -151,7 +151,7 @@ Echo到久遠前的20241117的心魔：我的藍黑怎麼樣都打不贏Domain R
 
 > [是我自己～錯誤～的決定～～～](https://youtu.be/STn-xzn1634?si=8wel5vZ6hJuEP_SA)
 
-{% "The Filigree Sylex" "one" %}
+{% mtgcard "The Filigree Sylex" "one" %}
 
 #### [20250622 MTGA 秘稀](https://www.facebook.com/share/p/1AjhYzHR8e/)
 

@@ -2,6 +2,7 @@
 title: "豬鼻子的標準藍黑中速分析與戰報"
 date: "2024-01-28 16:13:22"
 tags:
+  - "cephille"
 cover: "https://i.imgur.com/ta3fvVY.jpg"
 thumbnail: "https://i.imgur.com/ta3fvVY.jpg"
 excerpt: "想知道為什麼我標準賽選擇藍黑中速嗎？來看看這一篇吧！"
