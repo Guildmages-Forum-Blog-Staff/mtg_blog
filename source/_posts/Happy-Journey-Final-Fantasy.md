@@ -132,7 +132,7 @@ SQUARE ENIX GARDEN位在熱鬧的渉谷Sakura Stage三樓，於2024年12月19日
 ![30](https://i.meee.com.tw/NcgOlUQ.jpg)
 ![31](https://i.meee.com.tw/o3m1Qte.jpg)
  
-各個展品都附上的魔風的牌張，展示兩大IP攜手合作的緊密關係，當我們感覺像是在看FF展，卻又時時被一旁同步展出的卡牌提醒「嘿！魔風也在這個世界裡囉！」，每一刻都很是振奮。
+各個展品都附上了魔風的牌張，展示兩大IP攜手合作的緊密關係，當我們感覺像是在看FF展，卻又時時被一旁同步展出的卡牌提醒「嘿！魔風也在這個世界裡囉！」，每一刻都很是振奮。
 
 ![32](https://i.meee.com.tw/7E7XZ6z.jpg)
 ![33](https://i.meee.com.tw/B0ZjAno.jpg)
@@ -148,7 +148,7 @@ SQUARE ENIX GARDEN位在熱鬧的渉谷Sakura Stage三樓，於2024年12月19日
  
 我們報名了Challenge Standard，報名費2500JPY/人：
 1-	排隊
-2-	使用Companion加入比賽(工作人員舉牌巡場讓牌隊員玩家掃描賽事QR code或手動輸入賽事編號)
+2-	使用Companion加入比賽(工作人員舉牌巡場讓排隊的玩家掃描賽事QR code或手動輸入賽事編號)
 3-	付款(cash only)
 4-	工作人員核對玩家APP的名稱確認已加入賽事
 以上完成就可以離開排隊隊伍了，等候配對入座就可以開戰。
