@@ -1,6 +1,6 @@
 ---
 title: "敗戰處理：豬鼻子的標準藍黑中速回顧"
-date: "2025-07-10 09:46:03"
+date: "2025-07-10 09:43:03"
 tags:
   - "cephille"
 cover: "https://i.meee.com.tw/EZxxiG6.jpg"
@@ -26,6 +26,8 @@ categories:
 
 謹以此文，獻給我牌組中的[啟示天災希歐蕊](https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse)，感謝她陪伴了我這兩年，恭喜畢業XD ~~但以後抽牌不會補血我該怎麼辦~~ 
 
+{% mtgcard "Sheoldred, the Apocalypse" "dmu" %}
+
 ## 為什麼我選擇藍黑中速？
 
 並不是因為這個套牌最強，當然，最一開始是有這個考量在。套牌強度會隨著新系列不斷發售而改變，但核心的玩法則是不變的。
@@ -47,6 +49,8 @@ categories:
 在2023年賽季，我使用的是藍白士兵，屬於一直以來我所喜歡、且慣用的節奏套牌；在集會所初創時期，我也寫過這一篇[標準藍白士兵的流變與展望](https://guildmagesforum.tw/Standard-UW-Solider/)來簡述我個人的理解。不過，在2023年末見識到黑底雙魔判，二三四連拍，魔風好簡單的壓倒性武力，以及士兵種族在LCI後沒有獲得足夠補強的弱勢，我決定轉用藍黑中速參加後續的標準賽季。
 
 這場MITQ雖然沒有打得很好，但也更深刻地體會到[Gix, Yawgmoth Praetor](https://scryfall.com/card/tdc/181/gix-yawgmoth-praetor)以及黑魔判的強力。
+
+![](https://i.meee.com.tw/nDC2pP1.jpg)
 
 #### [20240127 ALG MITQ - 豬鼻子的標準藍黑中速分析與戰報（MIT#6資格取得）](https://guildmagesforum.tw/Standard-Dimir-Midrange/)
 
@@ -90,6 +94,8 @@ categories:
 #### [20241103 CM APAC標準賽](https://www.facebook.com/share/p/1Cw5ABWUFg/)
 
 這一次的心得：[Nowhere to Run](https://scryfall.com/card/dsk/111/nowhere-to-run)是比[Cut Down](https://scryfall.com/card/dmu/89/cut-down)更好的解牌，我也在套牌中使用了正2備1。然而這邊沒有說清楚的是，這時是紅白家鼠、紅綠靈技等帶了超多保護咒語的快攻居多的環境，[Sheltered by Ghosts](https://scryfall.com/card/dsk/30/sheltered-by-ghosts)、[Innkeeper's Talent](https://scryfall.com/card/blb/180/innkeepers-talent)、與[Overprotect](https://scryfall.com/card/blb/185/overprotect)被大量地使用。若非如此，一費的Cut Down於效率上遠高於二費的Nowhere to Run的。
+
+{% mtgcard "Nowhere to Run" "dsk" %}
 
 #### [20241117 CM MITQ](https://www.facebook.com/share/p/171toufQzx/)
 
@@ -155,7 +161,9 @@ Echo到久遠前的20241117的心魔：我的藍黑怎麼樣都打不贏Domain R
 
 #### [20250622 MTGA 秘稀](https://www.facebook.com/share/p/1AjhYzHR8e/)
 
-Again and Again，那裡跌倒就那裡站起來。這次我終於學會要帶[Sylex](https://scryfall.com/card/one/227/the-filigree-sylex)了，然後正1備1 [Vren, the Relentless](https://scryfall.com/card/blb/239/vren-the-relentless)要把那群水獺跟和尚都炸死，再穢土轉生成我的[無情鼠群](https://scryfall.com/card/tsr/329/zht/%E7%84%A1%E6%83%85%E9%BC%A0%E7%BE%A4-(relentless-rats))大軍。Spotlight: Final Fantasy，我來啦！
+Again and Again，那裡跌倒就那裡站起來。這次我終於學會要帶[Sylex](https://scryfall.com/card/one/227/the-filigree-sylex)了，然後正1備1 [Vren, the Relentless](https://scryfall.com/card/blb/239/vren-the-relentless)要把那群水獺跟和尚都炸死，再穢土轉生成我的[無情鼠群](https://scryfall.com/card/tsr/329/zht/%E7%84%A1%E6%83%85%E9%BC%A0%E7%BE%A4-(relentless-rats))大軍！Spotlight: Final Fantasy，我來啦！
+
+{% mtgcard "Vren, the Relentless" "blb" %}
 
 #### [20250628 Spotlight: Final Fantasy賽報](https://www.facebook.com/share/p/1F11mgr4kw/)
 
