@@ -32,7 +32,7 @@ excerpt: "太空系列來臨，大家準備好翱翔於宇宙間，駕駛太空�
 
 ![](https://i.meee.com.tw/FzANrzq.png)
 
-組建一個基於神器的牌組，透過消耗對手的資源來慢慢取勝。 {% mtglink "Alpharael, Dreaming Acolyt" %} 可以讓你補充手牌，且透過丟棄神器牌而不虧資源； {% mtglink "Dubious Delicacy" %} 進場解決對手生物之後，看是要用來捕血抑或是斬殺都相當不錯。
+組建一個基於神器的牌組，透過消耗對手的資源來慢慢取勝。 {% mtglink "Alpharael, Dreaming Acolyte" %} 可以讓你補充手牌，且透過丟棄神器牌而不虧資源； {% mtglink "Dubious Delicacy" %} 進場解決對手生物之後，看是要用來捕血抑或是斬殺都相當不錯。
 
 ### <span style="color:#808080">黑</span><span style="color:#AF2321">紅</span> — 空洞(Void)
 
@@ -58,7 +58,7 @@ excerpt: "太空系列來臨，大家準備好翱翔於宇宙間，駕駛太空�
 
 ![](https://i.meee.com.tw/Fx98qhQ.png)
 
-在戰場中組建最大的軍隊，以絕對的數量征服你的對手。 {% mtglink "Syr Vondam, the Lucent" %} 可以強化你的眾多衍生物或是小生物，更進一步可以使用 {% mtglink Dual-Sun Adepts" %} 這類連擊生物將對手擊敗。
+在戰場中組建最大的軍隊，以絕對的數量征服你的對手。 {% mtglink "Syr Vondam, the Lucent" %} 可以強化你的眾多衍生物或是小生物，更進一步可以使用 {% mtglink "Dual-Sun Adepts" %} 這類連擊生物將對手擊敗。
 
 ### <span style="color:#006DB3">藍</span><span style="color:#AF2321">紅</span> — 神器快攻
 
