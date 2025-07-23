@@ -76,7 +76,7 @@ excerpt: "本次的綠色單卡都有優秀的下限，最差也是不虧體質�
 {% mtgpick "eoe" 177 %}
 分數：3.0
 評語：支持進攻順便開路的優秀單卡。
->另外補充一點，[A Statement on the Rules Text of Diplomatic Relations from Edge of Eternities](https://scryfall.com/card/eoe/177/diplomatic-relations)，根據官方於2025年7月21日發布的這篇文章，這張牌的實卡有勘誤， "Target creature" 勘誤後的敘述是 "Target creature **you control**"，~~不能拿對手的生物解對手的生物了~~。
+>另外補充一點，[A Statement on the Rules Text of Diplomatic Relations from Edge of Eternities](https://magic.wizards.com/en/news/announcements/a-statement-on-the-rules-text-of-diplomatic-relations)，根據官方於2025年7月21日發布的這篇文章，這張牌的實卡有勘誤， "Target creature" 勘誤後的敘述是 "Target creature **you control**"，~~不能拿對手的生物解對手的生物了~~。
 
 <!---178--->
 {% mtgpick "eoe" 178 %}
