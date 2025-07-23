@@ -2,7 +2,7 @@
 
 title: "回合流程詳解"
 date: "2023-10-27 00:00:00"
-updated: "2025-06-20 16:00:00"
+updated: "2025-07-23 09:13:24"
 tags:
   - "JruMTG"
 authors:
@@ -22,6 +22,8 @@ excerpt: "回合結構大部分解開始！"
 也正因為基礎，在處理許多規則問題時，終究要回到對回合流程的底層觀念。
 
 這期就來講講一個回合經過了那些流程，每個流程又是怎麼運作的。新手可以透過這篇文章理解回合流程的清晰定義，老手也可以藉機確認自己是否有認知盲區。
+
+![回合流程](https://i.meee.com.tw/LAeCDVh.png)
 
 ---
 
@@ -96,8 +98,10 @@ excerpt: "回合結構大部分解開始！"
 有些牌的能力可以讓你獲得額外的開始階段，其中就包含了這三個步驟。
 
 ![開始階段](https://i.meee.com.tw/I7VmyMS.png)
->[神日史芬斯](https://scryfall.com/card/cmr/99/sphinx-of-the-second-sun)：在你戰鬥後的行動階段開始時，你在該階段後額外得到一個開始階段。（開始階段包括重置步驟、維持步驟和抽牌步驟。）
->[神日陰影](https://scryfall.com/card/mh3/70/shadow-of-the-second-sun)：在所結附的玩家之戰鬥後的行動階段開始時，在該階段後額外多出一個開始階段。（在新多出來的重置、維持和抽牌步驟後，才是結束步驟。）
+> ● **[神日史芬斯](https://scryfall.com/card/cmr/99/sphinx-of-the-second-sun)：**
+> 在你戰鬥後的行動階段開始時，你在該階段後額外得到一個開始階段。（開始階段包括重置步驟、維持步驟和抽牌步驟。）
+> ● **[神日陰影](https://scryfall.com/card/mh3/70/shadow-of-the-second-sun)：**
+> 在所結附的玩家之戰鬥後的行動階段開始時，在該階段後額外多出一個開始階段。（在新多出來的重置、維持和抽牌步驟後，才是結束步驟。）
 
 ### 重置步驟（Untap Step）
 
@@ -108,8 +112,9 @@ excerpt: "回合結構大部分解開始！"
 
 時間跳躍是個以前很少做以後也不會做的冷門機制，本文省略介紹。看完流程順序就能知曉為何躍回的永久物會被重置。
 
-![重置](https://i.imgur.com/J4rw2WA.jpg)
->[穹天儀](https://scryfall.com/card/mid/252/the-celestus)：每當白晝成為黑夜或黑夜成為白晝時，你獲得1點生命。你可以抽一張牌。若你如此作，則棄一張牌。
+![重置](https://i.meee.com.tw/wheuFoE.png)
+> ● **[穹天儀](https://scryfall.com/card/mid/252/the-celestus)：**
+> 每當白晝成為黑夜或黑夜成為白晝時，你獲得1點生命。你可以抽一張牌。若你如此作，則棄一張牌。
 
 穹天儀的案例很好的同時展示了晝夜機制的運作以及重置步驟的特殊性。重置步驟最特殊的地方就是玩家不會獲得優先權，任何在重置步驟滿足觸發條件的觸發式異能也會暫時保留，直到維持步驟（正常來說）才會在玩家獲得優先權之前上堆疊，假設你操控穹天儀並且發生了晝夜切換，這個補血與抽棄手牌的能力真正上堆疊的時機會是維持階段。
 
@@ -122,9 +127,11 @@ excerpt: "回合結構大部分解開始！"
 
 維持步驟十分簡單，比較常見的問題是同時有複數個觸發式異能上堆疊時順序怎麼處理，解法可以記住這兩句話：「同個玩家自排堆疊」&「主動玩家先上堆疊」，如果都是同一個玩家操控的觸發式異能，該玩家可自己排列在堆疊上的順序，多個玩家都有觸發式異能時，主動玩家的先上堆疊，被動玩家的再上堆疊（表示在堆疊較上方，會先結算），這也被稱為「主動玩家先決定規則（APNAP，即Active Player NonActive Player）」。
 
-![晝夜竊賊](https://i.imgur.com/rBIvDa1.jpg)
->[大膽的竊賊](https://scryfall.com/card/jou/36/daring-thief)：啟悟～每當大膽的竊賊成為未橫置時，選擇目標由你操控之非地永久物，以及目標由對手操控、且與前者有共通牌類別之永久物。你可以交換兩者的操控權。
->[護教蠻兵/月怒蠻狼](https://scryfall.com/card/mid/7/brutal-cathar-moonrage-brute)：晝行/夜行，以下簡稱白狼人。
+![晝夜竊賊](https://i.meee.com.tw/Zl3zCup.png)
+> ● **[大膽的竊賊](https://scryfall.com/card/jou/36/daring-thief)：**
+> 啟悟～每當大膽的竊賊成為未橫置時，選擇目標由你操控之非地永久物，以及目標由對手操控、且與前者有共通牌類別之永久物。你可以交換兩者的操控權。
+> ● **[護教蠻兵/月怒蠻狼](https://scryfall.com/card/mid/7/brutal-cathar-moonrage-brute)：**
+> 晝行/夜行，以下簡稱白狼人。
 
 大膽的竊賊在成為未橫置（也就是重置）時會觸發一個以非地永久物為目標的異能，而白狼人則是個受晝夜規則影響的生物，其中一面有守護。假設在我的回合開始時，我有一個橫置的大膽的竊賊，對手有一個白狼人，我打算以對手的白狼人為目標用大膽的竊賊的異能，並且上回合滿足了晝夜切換的條件，結果如下：
 - 重置步驟開始。
@@ -133,9 +140,11 @@ excerpt: "回合結構大部分解開始！"
 - 維持步驟開始。
 - 剛剛保留的大膽的竊賊異能現在上堆疊，以白狼人為目標的話，如果當前在月怒蠻狼的背面，則會觸發白狼人的守護異能。
 
-![維持抽棄](https://i.imgur.com/Si9ELC4.jpg)
->[入城鑰匙](https://scryfall.com/card/kld/220/key-to-the-city)：每當入城鑰匙成為未橫置時，你可以支付{2}。若你如此作，則抽一張牌。
->[腐臭帝王龍](https://scryfall.com/card/m20/111/rotting-regisaur)：在你的維持開始時，棄一張牌。
+![維持抽棄](https://i.meee.com.tw/hmUGgTp.png)
+> ● **[入城鑰匙](https://scryfall.com/card/kld/220/key-to-the-city)：**
+> 每當入城鑰匙成為未橫置時，你可以支付{2}。若你如此作，則抽一張牌。
+> ● **[腐臭帝王龍](https://scryfall.com/card/m20/111/rotting-regisaur)：**
+> 在你的維持開始時，棄一張牌。
 
 我在回合開始時有一個橫置的入城鑰匙與腐臭帝王龍，入城鑰匙在重置時會觸發一個付費抽牌的異能，腐臭帝王龍則是維持觸發棄牌異能，這時流程如下：
 - 重置步驟開始。
@@ -150,7 +159,7 @@ excerpt: "回合結構大部分解開始！"
 
 抽牌步驟在抽牌後同樣會產生優先權，若是有[寇安甘的指命](https://scryfall.com/card/2x2/239/kolaghans-command)這類瞬間時機的棄牌招，可以在這時使用，假設對手原本沒有手牌，唯一的一張手牌正是這個抽牌步驟抽起來的，被你做了發寇安甘的指命肯定十分痛苦。
 
-![瞬間棄牌](https://i.imgur.com/O2AzFCc.jpg)
+![瞬間棄牌](https://i.meee.com.tw/9vNIeYm.png)
 
 ---
 
@@ -169,9 +178,12 @@ excerpt: "回合結構大部分解開始！"
 在大多情況下，行動階段就是一場遊戲中讓你進行主要操作的時間，需要注意的是巫術時機的定義就包含了必須是自己的行動階段這條，平時為何無法在行動階段以外的時間施放非瞬間或閃現咒語，正是由這條規則決定的。
 
 ![主階一](https://i.meee.com.tw/WdAfcB2.png)
->[命運神克洛緹絲](https://scryfall.com/card/thb/220/klothys-god-of-destiny)：在你戰鬥前的行動階段開始時，將目標牌從墳墓場放逐。若該牌是地牌，則加{R}或{G}。若否，則你獲得2點生命且克洛緹絲向每位對手各造成2點傷害。
->[北地詩人賽詩會](https://scryfall.com/card/khm/229/showdown-of-the-skalds)：一個傳紀。
->[廢品戰術家穆埃拉](https://scryfall.com/card/blb/227/muerra-trash-tactician)：在你的第一行動階段開始時，你每操控一個浣熊，便加{R}或{G}。
+> ● **[命運神克洛緹絲](https://scryfall.com/card/thb/220/klothys-god-of-destiny)：**
+> 在你戰鬥前的行動階段開始時，將目標牌從墳墓場放逐。若該牌是地牌，則加{R}或{G}。若否，則你獲得2點生命且克洛緹絲向每位對手各造成2點傷害。
+> ● **[北地詩人賽詩會](https://scryfall.com/card/khm/229/showdown-of-the-skalds)：**
+> 一個傳紀。
+> ● **[廢品戰術家穆埃拉](https://scryfall.com/card/blb/227/muerra-trash-tactician)：**
+> 在你的第一行動階段開始時，你每操控一個浣熊，便加{R}或{G}。
 
 命運神克洛緹絲與廢品戰術家穆埃拉的觸發式異能皆是在第一行動階段開始時上堆疊，另外傳紀也會在第一行動階段開始時放置一個學問指示物，要注意放一個學問指示物這是不上堆疊的回合動作，會上堆疊的是傳紀獲得學問指示物時觸發的觸發式異能。
 
@@ -191,17 +203,23 @@ excerpt: "回合結構大部分解開始！"
 
 如果一個觸發式異能的觸發條件是「在你回合的戰鬥開始時」，那便是指戰鬥開始步驟，這些觸發式異能會先上堆疊，玩家才獲得優先權。
 
-![鼠車](https://i.imgur.com/wRQEKOg.jpg)
->[熾場幫頭目脂牙](https://scryfall.com/card/neo/220/greasefang-okiba-boss)：在你回合的戰鬥開始時，將目標載具牌從你的墳墓場移回戰場。它獲得敏捷異能。在你的下一個結束步驟開始時，將它移回其擁有者手上。
->[幻日二號](https://scryfall.com/card/war/24/parhelion-ii)）：一個載具。
->[直刺咽喉](https://scryfall.com/card/bro/102/go-for-the-throat)：消滅目標非神器的生物。
+![鼠車](https://i.meee.com.tw/xQoGZvr.png)
+> ● **[熾場幫頭目脂牙](https://scryfall.com/card/neo/220/greasefang-okiba-boss)：**
+> 在你回合的戰鬥開始時，將目標載具牌從你的墳墓場移回戰場。它獲得敏捷異能。在你的下一個結束步驟開始時，將它移回其擁有者手上。
+> ● **[幻日二號](https://scryfall.com/card/war/24/parhelion-ii)）：**
+> 一個載具。
+> ● **[直刺咽喉](https://scryfall.com/card/bro/102/go-for-the-throat)：**
+> 消滅目標非神器的生物。
 
 熾場幫頭目脂牙在戰鬥開始步驟開始時，可以將自己墳場一張載具拉回戰場（好比說幻日二號），這個異能上堆疊時就已經選定目標，並且異能上堆疊後玩家才獲得優先權，即使你此時回應異能用直刺咽喉消滅脂牙，也無法阻止載具重回戰場，若是想靠去除來阻止這件事，就必須在對方進入戰鬥階段前動手，一般是在對手宣告主階一即將階段切換讓出優先權時，不過你此時回應後遊戲還不會進入戰鬥階段，而是停留在主階一，需要對手再一次的讓出優先權才會切換階段，也就是說對手還有機會在主階一叫出另一隻脂牙。
 
-![法老神賦禮](https://i.imgur.com/6SJhFYb.jpg)
->[法老神賦禮](https://scryfall.com/card/hou/161/god-pharaohs-gift)：在你回合的戰鬥開始時，你可以從你的墳墓場放逐一張生物牌。若你如此作，則派出一個衍生物，該衍生物為所放逐之牌的複製品，但它是4/4黑色殭屍。它獲得敏捷異能直到回合結束。
->[入城鑰匙](https://scryfall.com/card/kld/220/key-to-the-city)：{T}，棄一張牌：至多一個目標生物本回合不能被阻擋。
->[新創天使](https://scryfall.com/card/kld/4/angel-of-invention)：一張生物牌。
+![法老神賦禮](https://i.meee.com.tw/nO7W3nV.jpg)
+> ● **[法老神賦禮](https://scryfall.com/card/hou/161/god-pharaohs-gift)：**
+> 在你回合的戰鬥開始時，你可以從你的墳墓場放逐一張生物牌。若你如此作，則派出一個衍生物，該衍生物為所放逐之牌的複製品，但它是4/4黑色殭屍。它獲得敏捷異能直到回合結束。
+> ● **[入城鑰匙](https://scryfall.com/card/kld/220/key-to-the-city)：**
+> {T}，棄一張牌：至多一個目標生物本回合不能被阻擋。
+> ● **[新創天使](https://scryfall.com/card/kld/4/angel-of-invention)：**
+> 一張生物牌。
 
 法老神賦禮同樣是戰鬥開始步驟開始時觸發的異能，只是跟上面的脂牙有個小小的差別，就是法老神賦禮的異能沒有目標，異能結算時才選擇要放逐墳場哪張生物牌並派出一個複製品Token，所以你有機會回應這個異能，利用瞬間時機的棄牌能力（例如入城鑰匙）將新創天使丟進墳場，等法老神賦禮異能結算時便可放逐新創天使並派出一個他的複製品Token。
 
@@ -228,38 +246,50 @@ excerpt: "回合結構大部分解開始！"
 
 另外從宣告攻擊者步驟開始，直到戰鬥傷害步驟為止，每個步驟都是先進行該步驟定義的回合動作，之後相關觸發式異能才上堆疊並讓玩家獲得優先權。
 
-![斯奎](https://i.imgur.com/0Bx94Et.jpg)
->[偽王斯奎](https://scryfall.com/card/dmu/146/squee-dubious-monarch)：每當偽王斯奎攻擊時，派出一個1/1紅色鬼怪衍生生物，其為橫置且正進行攻擊。
->[直刺咽喉](https://scryfall.com/card/bro/102/go-for-the-throat)：消滅目標非神器的生物。
+![斯奎](https://i.meee.com.tw/sNCTNU7.png)
+> ● **[偽王斯奎](https://scryfall.com/card/dmu/146/squee-dubious-monarch)：**
+> 每當偽王斯奎攻擊時，派出一個1/1紅色鬼怪衍生生物，其為橫置且正進行攻擊。
+> ● **[直刺咽喉](https://scryfall.com/card/bro/102/go-for-the-throat)：**
+> 消滅目標非神器的生物。
 
 偽王斯奎攻擊時會派出一個生物Token，你若是等到宣告攻擊者後才用直刺咽喉消滅偽王斯奎是阻止不了Token的產出的，想要阻止這件事就必須在偽王斯奎攻擊前消滅他，這與上面脂牙的案例類似，但比較幸運的是，你最後能消滅偽王斯奎的機會是在戰鬥開始步驟，對手很難在這時間叫出第二隻偽王斯奎。
 
-![攻擊觸發](https://i.imgur.com/KKcIuDj.jpg)
->[聚力領袖薇諾塔](https://scryfall.com/card/iko/216/winota-joiner-of-forces)：每當一個由你操控的非人類生物攻擊時，檢視你牌庫頂的六張牌。你可以將其中一張人類生物牌放進戰場，其為橫置且正進行攻擊。它獲得不滅異能直到回合結束。將其餘的牌以隨機順序置於你的牌庫底。
->[華輝護教軍艾德琳](https://scryfall.com/card/moc/167/adeline-resplendent-cathar)：每當你攻擊時，對每位對手而言，你派出一個1/1白色人類衍生生物，其為橫置且正向該玩家或一個由其操控的鵬洛客進行攻擊。
->[宣導](https://scryfall.com/card/clb/730/propaganda)：對每個生物而言，除非其操控者為其支付{2}，否則它不能攻擊你。
+![攻擊觸發](https://i.meee.com.tw/vBn87A0.jpg)
+> ● **[聚力領袖薇諾塔](https://scryfall.com/card/iko/216/winota-joiner-of-forces)：**
+> 每當一個由你操控的非人類生物攻擊時，檢視你牌庫頂的六張牌。你可以將其中一張人類生物牌放進戰場，其為橫置且正進行攻擊。它獲得不滅異能直到回合結束。將其餘的牌以隨機順序置於你的牌庫底。
+> ● **[華輝護教軍艾德琳](https://scryfall.com/card/moc/167/adeline-resplendent-cathar)：**
+> 每當你攻擊時，對每位對手而言，你派出一個1/1白色人類衍生生物，其為橫置且正向該玩家或一個由其操控的鵬洛客進行攻擊。
+> ● **[宣導](https://scryfall.com/card/clb/730/propaganda)：**
+> 對每個生物而言，除非其操控者為其支付{2}，否則它不能攻擊你。
 
 當聚力領袖薇諾塔使用自己的異能將華輝護教軍艾德琳放進戰場且正在攻擊時，由於已經過了宣告攻擊者的時機，艾德琳在你攻擊時派出一個Token的能力不會觸發，不過也因為艾德琳沒有宣告攻擊者，宣導要求每個生物的操控者為其支付2費否則不能攻擊你的能力同樣不會檢查到艾德琳。
 
-![必須攻擊1](https://i.imgur.com/2pIIAgG.jpg)
->[拒降者魯瑞雜爾](https://scryfall.com/card/2x2/271/ruric-thar-the-unbowed)：拒降者魯瑞雜爾每回合若能攻擊，則必須攻擊。
->[宣導](https://scryfall.com/card/clb/730/propaganda)：對每個生物而言，除非其操控者為其支付{2}，否則它不能攻擊你。
+![必須攻擊1](https://i.meee.com.tw/CmVmZWC.jpg)
+> ● **[拒降者魯瑞雜爾](https://scryfall.com/card/2x2/271/ruric-thar-the-unbowed)：**
+> 拒降者魯瑞雜爾每回合若能攻擊，則必須攻擊。
+> ● **[宣導](https://scryfall.com/card/clb/730/propaganda)：**
+> 對每個生物而言，除非其操控者為其支付{2}，否則它不能攻擊你。
 
 拒降者魯瑞雜爾要求此生物「若能攻擊則必須攻擊」，但當對手有宣導，這個付費並非強制的。
 - 如果有效應限制生物「除非支付某費用，否則不能攻擊」，不會強制要求玩家支付該費用。
 
 你如果不付費生物就不能攻擊，既然壓根就不能攻擊，魯瑞雜爾的「若能攻擊」後面接了啥也就不重要了，而付費這動作沒有任何效應可以強制你執行。
 
-![必須攻擊2](https://i.imgur.com/P19ViV1.jpg)
->[拒降者魯瑞雜爾](https://scryfall.com/card/2x2/271/ruric-thar-the-unbowed)：拒降者魯瑞雜爾每回合若能攻擊，則必須攻擊。
->[暴行大師](https://scryfall.com/card/2x2/251/master-of-cruelties)：暴行大師只能單獨進行攻擊。
+![必須攻擊2](https://i.meee.com.tw/FTamX8p.png)
+> ● **[拒降者魯瑞雜爾](https://scryfall.com/card/2x2/271/ruric-thar-the-unbowed)：**
+> 拒降者魯瑞雜爾每回合若能攻擊，則必須攻擊。
+> ● **[暴行大師](https://scryfall.com/card/2x2/251/master-of-cruelties)：**
+> 暴行大師只能單獨進行攻擊。
 
 拒降者魯瑞雜爾的要求是「若能攻擊則必須攻擊」，而暴行大師則是「只能單獨進行攻擊」，當你同時操控這兩者且他們都沒有召喚失調問題時，唯一符合所有要求的操作就是魯瑞雜爾攻擊、暴行大師不攻擊。
 
-![必須攻擊3](https://i.imgur.com/Iubrlu2.jpg)
->[拒降者魯瑞雜爾](https://scryfall.com/card/2x2/271/ruric-thar-the-unbowed)：拒降者魯瑞雜爾每回合若能攻擊，則必須攻擊。
->[暴行大師](https://scryfall.com/card/2x2/251/master-of-cruelties)：暴行大師只能單獨進行攻擊。
->[化學師的詭計](https://scryfall.com/card/rtr/149/chemisters-trick)：直到回合結束，目標不由你操控的生物得-2/-0且本回合若能攻擊，則必須進行攻擊。超載{3}{U}{R}（你可以支付此咒語的超載費用來施放它。如果你如此作，將其中的「目標」字樣全部更改為「每個」。）
+![必須攻擊3](https://i.meee.com.tw/dB0ka5t.png)
+> ● **[拒降者魯瑞雜爾](https://scryfall.com/card/2x2/271/ruric-thar-the-unbowed)：**
+> 拒降者魯瑞雜爾每回合若能攻擊，則必須攻擊。
+> ● **[暴行大師](https://scryfall.com/card/2x2/251/master-of-cruelties)：**
+> 暴行大師只能單獨進行攻擊。
+> ● **[化學師的詭計](https://scryfall.com/card/rtr/149/chemisters-trick)：**
+> 直到回合結束，目標不由你操控的生物得-2/-0且本回合若能攻擊，則必須進行攻擊。超載{3}{U}{R}（你可以支付此咒語的超載費用來施放它。如果你如此作，將其中的「目標」字樣全部更改為「每個」。）
 
 再讓我們提升一點難度，同樣是沒有召喚失調的拒降者魯瑞雜爾&暴行大師，但這次暴行大師因為化學師的詭計也被套上了「若能攻擊則必須攻擊」的能力，現在的狀況是...
 
@@ -283,10 +313,13 @@ excerpt: "回合結構大部分解開始！"
 
 經由排列組合分析可以看到，兩者皆攻擊直接違反「限制」，屬於非法行動，其餘皆滿足「限制」。如果兩者皆不攻擊會違反兩項「要求」，其中任意一隻攻擊則是違反一項「要求」、滿足一項「要求」，在所有組合中能遵循的最大「要求」數正是1，也就是說讓兩者之一單獨攻擊是合法行動，而兩者皆不攻擊時遵循「要求」數是0，既然存在遵循數1的選擇，那選擇遵循數0就是非法行動了。
 
-![必須攻擊4](https://i.imgur.com/E8owXT9.jpg)
->[古魯破咒人](https://scryfall.com/card/rna/179/gruul-spellbreaker)：兩隻不重要的生物。
->[暴行大師](https://scryfall.com/card/2x2/251/master-of-cruelties)：暴行大師只能單獨進行攻擊。
->[化學師的詭計](https://scryfall.com/card/rtr/149/chemisters-trick)：直到回合結束，目標不由你操控的生物得-2/-0且本回合若能攻擊，則必須進行攻擊。超載{3}{U}{R}（你可以支付此咒語的超載費用來施放它。如果你如此作，將其中的「目標」字樣全部更改為「每個」。）
+![必須攻擊4](https://i.meee.com.tw/1PCwkOg.png)
+> ● **[古魯破咒人](https://scryfall.com/card/rna/179/gruul-spellbreaker)：**
+> 兩隻不重要的生物。
+> ● **[暴行大師](https://scryfall.com/card/2x2/251/master-of-cruelties)：**
+> 暴行大師只能單獨進行攻擊。
+> ● **[化學師的詭計](https://scryfall.com/card/rtr/149/chemisters-trick)：**
+> 直到回合結束，目標不由你操控的生物得-2/-0且本回合若能攻擊，則必須進行攻擊。超載{3}{U}{R}（你可以支付此咒語的超載費用來施放它。如果你如此作，將其中的「目標」字樣全部更改為「每個」。）
 
 那如果再把題目變成暴行大師與兩個古魯破咒人一起被化學師的詭計要求「若能攻擊則必須攻擊」呢？ 
 - 古魯破咒人×2不攻擊、暴行大師不攻擊：
@@ -300,9 +333,11 @@ excerpt: "回合結構大部分解開始！"
 
 這時可以看到，能遵循的最大「要求」數是2，也就是「古魯破咒人×2攻擊、暴行大師不攻擊」，只要你選了這以外的選擇皆為非法行動。
 
-![天使惡魔龍](https://i.imgur.com/Op28uNn.jpg)
->[穹境的卡莉雅](https://scryfall.com/card/2x2/235/kaalia-of-the-vast)：每當穹境的卡莉雅攻擊任一對手時，你可以將一張天使，惡魔或龍生物牌從你手上橫置放進戰場，且正向該對手進行攻擊。
->[暴行大師](https://scryfall.com/card/2x2/251/master-of-cruelties)：暴行大師只能單獨進行攻擊。
+![天使惡魔龍](https://i.meee.com.tw/69foEwS.png)
+> ● **[穹境的卡莉雅](https://scryfall.com/card/2x2/235/kaalia-of-the-vast)：**
+> 每當穹境的卡莉雅攻擊任一對手時，你可以將一張天使，惡魔或龍生物牌從你手上橫置放進戰場，且正向該對手進行攻擊。
+> ● **[暴行大師](https://scryfall.com/card/2x2/251/master-of-cruelties)：**
+> 暴行大師只能單獨進行攻擊。
 
 當然，暴行大師的規則終究只有在宣告攻擊者時才會起到限制，如果是透過穹境的卡莉雅這類能力直接放進戰場且正在攻擊，就不會檢查到只能單獨攻擊這條能力。
 
@@ -326,16 +361,21 @@ excerpt: "回合結構大部分解開始！"
 
 <font color="#FF0000">FDN規則更新：原規則中在宣告阻擋者完成後還要 **「決定傷害分配順序」** ，現在此流程已刪除，玩家在傷害結算時可以任意分配傷害。 </font>
 
-![阻擋後飛行](https://i.imgur.com/MtQAnZH.jpg)
->[河流巨蛇](https://scryfall.com/card/akh/66/river-serpent)：攻擊生物
->[大步飛躍](https://scryfall.com/card/akh/20/mighty-leap)：直到回合結束，目標生物得+2/+2且獲得飛行異能。
->[高大沙丘亞龍](https://scryfall.com/card/akh/168/greater-sandwurm)：阻擋生物。
+![阻擋後飛行](https://i.meee.com.tw/akIruua.png)
+> ● **[河流巨蛇](https://scryfall.com/card/akh/66/river-serpent)：**
+> 攻擊生物
+> ● **[大步飛躍](https://scryfall.com/card/akh/20/mighty-leap)：**
+> 直到回合結束，目標生物得+2/+2且獲得飛行異能。
+> ● **[高大沙丘亞龍](https://scryfall.com/card/akh/168/greater-sandwurm)：**
+> 阻擋生物。
 
 假設我以一個河流巨蛇宣告攻擊，對手使用高大沙丘亞龍宣告阻擋，在宣告阻擋者完成後，河流巨蛇就已經是被阻擋的狀態了，在傷害結算前玩家會獲得優先權，這時我可以用大步飛躍讓河流巨蛇獲得+2/+2與飛行，但在宣告阻擋者完成後才獲得飛行並不會改變河流巨蛇已經被阻擋的結果，兩者稍後在戰鬥傷害步驟會同歸於盡。
 
-![必須阻擋](https://i.imgur.com/1YqGfYo.jpg)
->[勤工聯誘兵](https://scryfall.com/card/snc/156/riveteers-decoy)：若能阻擋勤工聯誘兵，則必須阻擋之。
->[靈念伴侶](https://scryfall.com/card/cmm/838/spirited-companion)：阻擋生物。
+![必須阻擋](https://i.meee.com.tw/s0BzHgL.jpg)
+> ● **[勤工聯誘兵](https://scryfall.com/card/snc/156/riveteers-decoy)：**
+> 若能阻擋勤工聯誘兵，則必須阻擋之。
+> ● **[靈念伴侶](https://scryfall.com/card/cmm/838/spirited-companion)：**
+> 阻擋生物。
 
 勤工聯誘兵的規則為「若能阻擋此卡則必須阻擋之」，假設對手用勤工聯誘兵對我進行攻擊，我場上有三個靈念伴侶，牠們三個都必須阻擋勤工聯誘兵嗎？ 答案是不用，勤工聯誘兵只要求這張卡能被阻擋就必須被阻擋，但沒規定要怎麼阻擋，一個生物去阻擋跟三個生物去聯合阻擋都符合規定，所以你只需要讓一個靈念伴侶去阻擋就可以了。至於真正的強制要求所有生物能阻擋此卡都必須阻擋的案例可以參考[奈西安野豬](https://scryfall.com/card/thb/181/nessian-boar)。
 
@@ -363,10 +403,13 @@ excerpt: "回合結構大部分解開始！"
 
 戰鬥傷害步驟最大的重點就是傷害分配與結算的規則，讓我們用幾個範例做解釋：
 
-![傷害結算](https://i.imgur.com/1b8UkNB.jpg)
->[霸蛛暴龍](https://scryfall.com/card/one/189/tyrranax-rex)：踐踏、下毒4。
->[非瑞克西亞抹煞獸](https://scryfall.com/card/one/105/phyrexian-obliterator)：每當一個來源對非瑞克西亞抹煞獸造成傷害時，該來源的操控者犧牲等量的永久物。
->[頑強敗犬](https://scryfall.com/card/snc/97/tenacious-underdog)：阻擋生物。
+![傷害結算](https://i.meee.com.tw/hsP6vQY.png)
+> ● **[霸蛛暴龍](https://scryfall.com/card/one/189/tyrranax-rex)：**
+> 踐踏、下毒4。
+> ● **[非瑞克西亞抹煞獸](https://scryfall.com/card/one/105/phyrexian-obliterator)：**
+> 每當一個來源對非瑞克西亞抹煞獸造成傷害時，該來源的操控者犧牲等量的永久物。
+> ● **[頑強敗犬](https://scryfall.com/card/snc/97/tenacious-underdog)：**
+> 阻擋生物。
 
 我使用霸蛛暴龍宣告攻擊，對手選擇讓非瑞克西亞抹煞獸&頑強敗犬聯合阻擋，這時遊戲流程如下：
 - 宣告阻擋者步驟開始。
@@ -376,17 +419,24 @@ excerpt: "回合結構大部分解開始！"
 - 戰鬥傷害步驟開始。
 - 傷害結算，我選擇如何分配傷害，頑強敗犬的致命傷害為2，非瑞克西亞抹煞獸的致命傷害為5，如果我想讓霸蛛暴龍的踐踏打到對手傷害的話，一定要先對這些阻擋生物都分配致命傷害才行。但我也可以把全部傷害都任意分配在這些阻擋生物上，例如頑強敗犬8、非瑞克西亞抹煞獸0，你想的話頑強敗犬5、非瑞克西亞抹煞獸3這種意義不明的分配規則上也是允許的。雖然正常情況下你會希望盡可能換掉對手更多的生物，但如果對手聯合阻擋的生物中，有一些你不想看到的受傷害或死亡觸發效應時，可以透過正確的分配傷害來規避。
 
-![死觸踐踏](https://i.imgur.com/8BavGtK.jpg)
->[尋水獸](https://scryfall.com/card/eld/171/questing-beast)：死觸。
->[蔽影矛](https://scryfall.com/card/thb/236/shadowspear)：佩帶此武具的生物得+1/+1且具有踐踏與繫命異能。
->[巨太龍](https://scryfall.com/card/m19/185/gigantosaurus)：阻擋生物。
+![死觸踐踏](https://i.meee.com.tw/orV5USF.png)
+> ● **[尋水獸](https://scryfall.com/card/eld/171/questing-beast)：**
+> 死觸。
+> ● **[蔽影矛](https://scryfall.com/card/thb/236/shadowspear)：**
+> 佩帶此武具的生物得+1/+1且具有踐踏與繫命異能。
+> ● **[巨太龍](https://scryfall.com/card/m19/185/gigantosaurus)：**
+> 阻擋生物。
 
 假設現在改成我使用一個尋水獸配戴蔽影矛進行攻擊（5/5死觸踐踏），對手讓四個巨太龍宣告聯合阻擋尋水獸。這時好玩的來了，分配戰鬥傷害的規則是「具有踐踏異能的生物需要對所有阻擋它們的生物分配致命傷害，然後再將多餘的傷害分配給它們正攻擊的對象」，而死觸來源的傷害只要1點即為致命傷害，也就是說我的尋水獸可以給這四個巨太龍各分配1點傷害，防禦玩家也分配1點傷害，因為在死觸面前不管是防禦力是10還100，都只要給予1點傷害就是致命傷害。
 
-![反色](https://i.meee.com.tw/DyV7bsR.png)
->[長吼食肉龍](https://scryfall.com/card/lci/171/trumpeting-carnosaur)：紅色有踐踏的攻擊生物。
->[蔚藍龍獸](https://scryfall.com/card/m20/53/cerulean-drake)：反紅保護。
->[魯莽挑發鬼](https://scryfall.com/card/m21/133/brash-taunter)：不滅。
+![反色](https://i.meee.com.tw/wZBAL1K.png)
+> ● **[長吼食肉龍](https://scryfall.com/card/lci/171/trumpeting-carnosaur)：**
+> 紅色有踐踏的攻擊生物。
+> ● **[蔚藍龍獸](https://scryfall.com/card/m20/53/cerulean-drake)：**
+> 反紅保護。
+> ● **[魯莽挑發鬼](https://scryfall.com/card/m21/133/brash-taunter)：**
+> 不滅。
+> 每當魯莽挑發鬼受到傷害時，它向目標對手造成等量的傷害。
 
 其實分配致命傷害時，規則並不關心這個傷害給出去後是不是真的致命，如果傷害來源有死觸那只要1點傷害就是致命傷害，一般傷害來源的話，致命傷害就等同這個生物的防禦力，好比說我拿長吼食肉龍宣告攻擊，對手使用蔚藍龍獸（反紅保護）&魯莽挑發鬼（不滅）聯合阻擋長吼食肉龍，他們都不是受到長吼食肉龍的傷害會死的生物，但在計算分配致命傷害只看他們防禦力是多少，這案例正好都是1，假設我以盡可能對防禦玩家造成最高傷害為目標，結果會是：
 - 分配傷害魯莽挑發鬼1、蔚藍龍獸1、防禦玩家5。
@@ -397,23 +447,38 @@ excerpt: "回合結構大部分解開始！"
 
 從這也可以看出魯莽挑發鬼很怕遇到踐踏的對手，因為對方只要分配1點傷害給魯莽挑發鬼就算分配到致命傷害的，還有多的傷害可以繼續往下分配，魯莽挑發鬼也就永遠只會受到1點傷害（除非對手想不開願意超額分配傷害給你）。
 
-![空氣牆](https://i.imgur.com/c82Wl2M.jpg)
->[蘚木林恐懼騎士](https://scryfall.com/card/woe/231/mosswood-dreadknight-dread-whispers)：踐踏
->[虔敬新兵丹尼克](https://scryfall.com/card/mid/217/dennick-pious-apprentice-dennick-pious-apparition)：阻擋生物。
->[直刺咽喉](https://scryfall.com/card/bro/102/go-for-the-throat)：消滅目標非神器的生物。
+![空氣牆](https://i.meee.com.tw/LiYtgDy.png)
+> ● **[衝擊犀牛](https://scryfall.com/card/tdm/224/skirmish-rhino)：**
+> 3/4踐踏，攻擊生物。
+> ● **[鐵木爾褐毛獸](https://scryfall.com/card/tdm/229/temur-tawnyback)：**
+> 阻擋生物。
+> ● **[巨龍捕獵](https://scryfall.com/card/tdm/79/dragons-prey)：**
+> 消滅目標生物。
 
-假設我以一個3/2踐踏的蘚木林恐懼騎士宣告攻擊，對手選擇讓虔敬新兵丹尼克阻擋我的騎士，宣告阻擋者後玩家會獲得優先權，這時我可以使用直刺咽喉或是其他任何瞬間去除來使丹尼克離開場上，正常在一般的戰鬥中，一個攻擊生物被對手阻擋後，即使阻擋生物在傷害結算前離場，攻擊生物也不會因此改成對玩家造成傷害，這正是玩家間俗稱的「空氣牆」效應，但如果攻擊生物有踐踏的話，會視同阻擋生物都已經被分配了致命傷害一樣（就好比阻擋生物是一個0/0），在這個案例中，丹尼克阻擋後離場則蘚木林恐懼騎士將會對對手造成3點傷害。
+假設我以一個3/4踐踏的衝擊犀牛宣告攻擊，對手選擇讓鐵木爾褐毛獸阻擋我的衝擊犀牛，宣告阻擋者後玩家會獲得優先權，這時我可以使用巨龍捕獵或是其他任何瞬間去除來使鐵木爾褐毛獸離開場上，正常在一般的戰鬥中，一個攻擊生物被對手阻擋後，即使阻擋生物在傷害結算前離場，攻擊生物也不會因此改成對玩家造成傷害，這正是玩家間俗稱的「空氣牆」效應，但如果攻擊生物有踐踏的話，會視同阻擋生物都已經被分配了致命傷害一樣（就好比阻擋生物是一個0/0），在這個案例中，鐵木爾褐毛獸阻擋後離場，則衝擊犀牛將會對對手造成3點戰鬥傷害。
 
-![你已經死了](https://i.imgur.com/stAy3o7.jpg)
->[羅堰黑土語者](https://scryfall.com/card/dmu/170/llanowar-loamspeaker)：{T}：加一點任意顏色的魔法力。
->[你已經死了](https://scryfall.com/card/neo/129/you-are-already-dead)：消滅目標本回合中受過傷害的生物。
->[啟示天災希歐蕊](https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse)：攻擊生物。
+![你已經死了](https://i.meee.com.tw/n1O0Sis.png)
+> ● **[啟示天災希歐蕊](https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse)：**
+> 攻擊生物。
+> ● **[羅堰黑土語者](https://scryfall.com/card/dmu/170/llanowar-loamspeaker)：**
+> {T}：加一點任意顏色的魔法力。
+> 阻擋生物。
+> ● **[你已經死了](https://scryfall.com/card/neo/129/you-are-already-dead)：**
+> 消滅目標本回合中受過傷害的生物。
 
 假設現在我有一隻羅堰黑土語者，是可以橫置產一點任意魔法力的狀態，目前沒有其他任何可以產出魔力的來源，手握一張你已經死了（消滅目標本回合中受過傷害的生物，現在對手用一隻啟示天災希歐蕊對我進行攻擊，我有機會用羅堰黑土語者先產出一點黑色法力，阻擋希歐蕊給她造成1點傷害後再用剛剛的黑色法力去施放你已經死了來消滅希歐蕊嗎？ 答案是不能，因為羅堰黑土語者生前最後有機會產出法力的時機是宣告阻擋者步驟，一旦切換到戰鬥傷害步驟時法力池未用完的魔法力會被清空，而戰鬥傷害步驟一旦開始，羅堰黑土語者就會因為傷害結算而死去，在這之後你才會獲得優先權。
 
-![先攻忍術](https://i.imgur.com/CKDr9dy.jpg)
->[戮日者格莉莎](https://scryfall.com/card/one/202/glissa-sunslayer)：每當戮日者格莉莎對任一玩家造成戰鬥傷害時，選擇一項～
->[嚙掌忍者](https://scryfall.com/card/neo/88/biting-palm-ninja)：忍術。每當嚙掌忍者對任一玩家造成戰鬥傷害時，你可以從其上移去一個威懾指示物。當你如此作時，該玩家展示其手牌且你選擇其中一張非地牌。放逐該牌。
+![先攻忍術](https://i.meee.com.tw/g8oIbw1.png)
+> ● **[戮日者格莉莎](https://scryfall.com/card/one/202/glissa-sunslayer)：**
+> 每當戮日者格莉莎對任一玩家造成戰鬥傷害時，選擇一項～
+> • 你抽一張牌且失去1點生命。
+> • 消滅目標結界。
+> • 從目標永久物上移去至多三個指示物。
+> ● **[嚙掌忍者](https://scryfall.com/card/neo/88/biting-palm-ninja)：**
+> 忍術{2}{B}
+> 嚙掌忍者進戰場時上面有一個威懾指示物。
+> 每當嚙掌忍者對任一玩家造成戰鬥傷害時，你可以從其上移去一個威懾指示物。當你如此作時，該玩家展示其手牌且你選擇其中一張非地牌。放逐該牌。
+
 
 當參與戰鬥的生物中包含先攻或連擊時，會多出一個戰鬥傷害步驟，且第一個戰鬥傷害步驟中是有優先權可以操作的，好比說我操控一個具有先攻的戮日者格莉莎進行攻擊，對手不阻擋且我還手握一個嚙掌忍者，在第一個戰鬥傷害步驟中，格莉莎造成傷害後自己有一個觸發式，雖然她在這個戰鬥階段中已經不會再打出戰鬥傷害了，但直到戰鬥階段結束前她都還是一個攻擊中的生物，滿足[忍術](https://guildmagesforum.tw/Standard-Dimir-Ninja/)條件中的「未受阻擋的攻擊生物」，你可以在這時使用嚙掌忍者的忍術異能回收格莉莎，隨後第二個戰鬥傷害步驟中嚙掌忍者會再造成一次傷害，並觸發他打到玩家時的能力。
 
@@ -438,9 +503,12 @@ excerpt: "回合結構大部分解開始！"
 基本上第一行動階段行動階段與第二行動階段在規則上沒有太大差異，主要差異就是傳紀此時不會自動放置學問指示物。
 
 ![主階二](https://i.meee.com.tw/8ro4U2H.png)
->[織命使堤謨娜](https://scryfall.com/card/c16/48/tymna-the-weaver)：在你 **戰鬥後的行動階段** 開始時，你可以支付X點生命，X為本回合中曾受到戰鬥傷害的對手數量。若你如此作，則抽X張牌。
->[永生內赫布](https://scryfall.com/card/hou/104/neheb-the-eternal)：在你 **戰鬥後的行動階段** 開始時，所有對手於本回合中每失去過1點生命，便加{R}到你的魔法力池中。
->[灼塑導師](https://scryfall.com/card/blb/213/fireglass-mentor)：在你的 **第二行動階段** 開始時，若本回合中有對手失去過生命，則放逐你牌庫頂的兩張牌。選擇其中一張。直到回合結束，你可以使用該牌。
+> ● **[織命使堤謨娜](https://scryfall.com/card/c16/48/tymna-the-weaver)：**
+> 在你 **戰鬥後的行動階段** 開始時，你可以支付X點生命，X為本回合中曾受到戰鬥傷害的對手數量。若你如此作，則抽X張牌。
+> ● **[永生內赫布](https://scryfall.com/card/hou/104/neheb-the-eternal)：**
+> 在你 **戰鬥後的行動階段** 開始時，所有對手於本回合中每失去過1點生命，便加{R}到你的魔法力池中。
+> ● **[灼塑導師](https://scryfall.com/card/blb/213/fireglass-mentor)：**
+> 在你的 **第二行動階段** 開始時，若本回合中有對手失去過生命，則放逐你牌庫頂的兩張牌。選擇其中一張。直到回合結束，你可以使用該牌。
 
 只有每個回合的第一個行動階段是戰鬥前行動階段，其餘的行動階段皆為戰鬥後行動階段。但是第二行動階段就真的是一回合只有一個了，因此像堤謨娜&內赫布這種舊卡，只要你能獲得額外的行動階段，就能反覆觸發他們的寫法。而灼塑導師因為綁定第二行動階段，所以即使你再獲得額外的行動階段牠的異能也不會觸發。
 
@@ -470,16 +538,20 @@ excerpt: "回合結構大部分解開始！"
 
 一般情況下清空步驟會讓玩家執行的唯一動作就是手牌超出上限時的棄牌，不會產生堆疊或優先權，不過在某些情況下，清空步驟會滿足狀態動作或觸發式異能的條件，這通常是棄牌導致的，這種時候異能會上堆疊，玩家會獲得優先權，等到堆疊解乾淨並且玩家都讓過優先權後，會重新開始新一次的清空步驟。
 
-![清空棄牌](https://i.imgur.com/e96e4wn.jpg)
->[火爆](https://scryfall.com/card/uma/129/fiery-temper)：瘋魔{R}（如果你棄掉此牌，將之棄到放逐區。當你如此作時，支付其瘋魔費用施放之，否則便將其置入你的墳墓場。）
->[全知利艾爾](https://scryfall.com/card/iko/203/rielle-the-everwise)：每當你每回合首度棄掉一張或數張牌時，抽等量的牌。
+![清空棄牌](https://i.meee.com.tw/L4VLVbW.png)
+> ● **[火爆](https://scryfall.com/card/uma/129/fiery-temper)：**
+> 瘋魔{R}（如果你棄掉此牌，將之棄到放逐區。當你如此作時，支付其瘋魔費用施放之，否則便將其置入你的墳墓場。）
+> ● **[全知利艾爾](https://scryfall.com/card/iko/203/rielle-the-everwise)：**
+> 每當你每回合首度棄掉一張或數張牌時，抽等量的牌。
 
 舉例來說，當你因為清空步驟的棄牌要求而棄掉一個有瘋魔異能的牌（例如火爆）時，這張牌依舊可以上堆疊、可以被回應。而如果清空步驟的棄牌正好是你本回合首度棄牌，將會觸發全知利艾爾的抽牌異能，你可以抽等量的牌，但別高興得太早，因為之後將會再進一次清空步驟，這時又會要求你將手牌棄到上限，你沒辦法藉由利艾爾的異能突破手牌上限限制。
 
 
 ![清空棄牌](https://i.meee.com.tw/4QrqiMI.png)
->[封口](https://scryfall.com/card/m14/35/silence)：所有對手本回合都不能施放咒語。
->[死冥權能](https://scryfall.com/card/ima/98/necropotence)：每當你棄一張牌時，將該牌從你的墳場放逐。
+> ● **[封口](https://scryfall.com/card/m14/35/silence)：**
+> 所有對手本回合都不能施放咒語。
+> ● **[死冥權能](https://scryfall.com/card/ima/98/necropotence)：**
+> 每當你棄一張牌時，將該牌從你的墳場放逐。
 
 這是另一個在清空步驟產生堆疊的有趣情境。假設本回合中你的對手結算過封口，那麼理論上本回合你是無法施放咒語的，但其實有個方法可以繞過封口的限制，先讓我們回頭看看清空步驟的處理順序：
 
@@ -501,8 +573,10 @@ excerpt: "回合結構大部分解開始！"
 - 有些效應會在階段內增加步驟，它們會在某個步驟之前或之後直接加入新的步驟，如果在同一個步驟後創造有多個額外步驟，最後創造的步驟將會先發生。
 
 ![額外階段](https://i.meee.com.tw/CmWm6fy.png)
->[阿庫姆之怒穆朗格](https://scryfall.com/card/znr/150/moraug-fury-of-akoum)：地落～每當一個地在你的操控下進戰場時，若當前是你的行動階段，則在此階段後額外多出一個戰鬥階段。在該次戰鬥開始時，重置所有由你操控的生物。
->[龍命連結點](https://scryfall.com/card/m19/306/nexus-of-fate)：於本回合後進行額外的一個回合。
+> ● **[阿庫姆之怒穆朗格](https://scryfall.com/card/znr/150/moraug-fury-of-akoum)：**
+> 地落～每當一個地在你的操控下進戰場時，若當前是你的行動階段，則在此階段後額外多出一個戰鬥階段。在該次戰鬥開始時，重置所有由你操控的生物。
+> ● **[龍命連結點](https://scryfall.com/card/m19/306/nexus-of-fate)：**
+> 於本回合後進行額外的一個回合。
 
 要注意的是這些額外回合與階段都有著插隊性質，以阿庫姆之怒穆朗格為例，當你在行動階段地落時，就會在這行動階段後獲得一個額外的戰鬥階段，並且只有在他所創造的這個額外戰鬥階段開始時會重置你所有生物。
 
