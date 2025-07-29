@@ -25,11 +25,11 @@ excerpt: '急徵太空船駕駛員'
 [套牌連結](https://www.mtggoldfish.com/deck/7257368#paper)
 ![decklist](https://i.meee.com.tw/R1yMHzG.png)
 
-這次標準輪替，對純白 Token 控制而言，只損失了一張[止戈為武](https://scryfall.com/card/bro/11/lay-down-arms)，雖然確實是損失了個強力一費去除，但還有尚未退標的[艾紫培的重擊](https://scryfall.com/card/mom/13/elspeths-smite)、以及本系列的新人[接縫裂痕](https://scryfall.com/card/eoe/34/seam-rip)（結界版[攜帶式次元洞](https://scryfall.com/card/afr/33/portable-hole)），這兩張牌以一費去除的角度來看，也算是高於平均值了，所以整體結構沒有出現重大破口。並且有點因禍得福的是：少了[止戈為武](https://scryfall.com/card/bro/11/lay-down-arms)後，反而不用太糾結自己平原的數量，可以盡情發揮單色套牌功能地上限高的優勢。
+這次標準輪替，對純白 Token 控制而言，只損失了一張[止戈為武](https://scryfall.com/card/bro/11/lay-down-arms)，雖然確實是損失了個強力一費去除，但還有尚未退標的[艾紫培的重擊](https://scryfall.com/card/fdn/493/elspeths-smite)、以及本系列的新人[接縫裂痕](https://scryfall.com/card/eoe/34/seam-rip)（結界版[攜帶式次元洞](https://scryfall.com/card/afr/33/portable-hole)），這兩張牌以一費去除的角度來看，也算是高於平均值了，所以整體結構沒有出現重大破口。並且有點因禍得福的是：少了[止戈為武](https://scryfall.com/card/bro/11/lay-down-arms)後，反而不用太糾結自己平原的數量，可以盡情發揮單色套牌功能地上限高的優勢。
 
-另外提到白色去除，就不得不提這系列[短時封鎖](https://scryfall.com/card/dmu/36/temporary-lockdown)的接班人[天頂盟星籠](https://scryfall.com/card/rvr/280/hallowed-fountain)，雖然它只能解生物＆神器，但這並不全是缺點，因為我們自己備牌也帶了[執政官威權](https://scryfall.com/card/fdn/137/authority-of-the-consuls)＆[得享安息](https://scryfall.com/card/big/4/rest-in-peace)，這些針對性結界也同樣不會被自己誤傷，尤其是在對抗快攻時，[執政官威權](https://scryfall.com/card/fdn/137/authority-of-the-consuls)經常會一同出現，此外新牌[接縫裂痕](https://scryfall.com/card/eoe/34/seam-rip)也很巧妙的設計成結界類別，因此兩個抗快去除得以同時並存。
+另外提到白色去除，就不得不提這系列[短時封鎖](https://scryfall.com/card/dmu/36/temporary-lockdown)的接班人[天頂盟星籠](https://scryfall.com/card/eoe/27/pinnacle-starcage)，雖然它只能解生物＆神器，但這並不全是缺點，因為我們自己備牌也帶了[執政官威權](https://scryfall.com/card/fdn/137/authority-of-the-consuls)＆[得享安息](https://scryfall.com/card/big/4/rest-in-peace)，這些針對性結界也同樣不會被自己誤傷，尤其是在對抗快攻時，[執政官威權](https://scryfall.com/card/fdn/137/authority-of-the-consuls)經常會一同出現，此外新牌[接縫裂痕](https://scryfall.com/card/eoe/34/seam-rip)也很巧妙的設計成結界類別，因此兩個抗快去除得以同時並存。
 
-> 其實[天頂盟星籠](https://scryfall.com/card/rvr/280/hallowed-fountain)相比於[短時封鎖](https://scryfall.com/card/dmu/36/temporary-lockdown)還有個優點，是它能放逐神器地，不過這個優點在標準內基本上可無視就是。
+> 其實[天頂盟星籠](https://scryfall.com/card/eoe/27/pinnacle-starcage)相比於[短時封鎖](https://scryfall.com/card/dmu/36/temporary-lockdown)還有個優點，是它能放逐神器地，不過這個優點在標準內基本上可無視就是。
 
 ![重點單卡](https://i.meee.com.tw/rwn6Brn.png)
 
@@ -87,7 +87,7 @@ excerpt: '急徵太空船駕駛員'
 
 以[燦爛新暉柯塔摩斯](https://scryfall.com/card/dft/209/ketramose-the-new-dawn)（俗稱黑白神）為核心的控制，盡可能選用與放逐有關的泛用單卡，來發揮黑白神的價值，其中[停止//終止](https://scryfall.com/card/mkm/246/cease-desist)+[致命掩蓋](https://scryfall.com/card/mkm/83/deadly-cover-up)的搭配可以說完全是為了[黑白神](https://scryfall.com/card/dft/209/ketramose-the-new-dawn)量身訂做的，[停止](https://scryfall.com/card/mkm/246/cease-desist)抽牌時能順便放逐墳場，之後一卡滿足[致命掩蓋](https://scryfall.com/card/mkm/83/deadly-cover-up)的搜證 6，而[致命掩蓋](https://scryfall.com/card/mkm/83/deadly-cover-up)施放時有做搜證的話，施放費用與效果處理各有一次放逐墳場的動作，可以讓[黑白神](https://scryfall.com/card/dft/209/ketramose-the-new-dawn)抽兩次牌，還不會掃掉有不滅的[黑白神](https://scryfall.com/card/dft/209/ketramose-the-new-dawn)。
 
-以搭配黑白神為前提的話，在一費去除的選擇上，新牌[接縫裂痕](https://scryfall.com/card/eoe/34/seam-rip)確實是優於[斬落](https://scryfall.com/card/dmu/89/cut-down)＆[艾紫培的重擊](https://scryfall.com/card/mom/13/elspeths-smite)的，這也是少數帶黑色組退標後一費去除反而進化的特例，不過[接縫裂痕](https://scryfall.com/card/eoe/34/seam-rip)畢竟是巫術時機，救不了某些特別吃節奏的場面，所以備牌還是有乖乖備著[艾紫培的重擊](https://scryfall.com/card/mom/13/elspeths-smite)。
+以搭配黑白神為前提的話，在一費去除的選擇上，新牌[接縫裂痕](https://scryfall.com/card/eoe/34/seam-rip)確實是優於[斬落](https://scryfall.com/card/dmu/89/cut-down)＆[艾紫培的重擊](https://scryfall.com/card/fdn/493/elspeths-smite)的，這也是少數帶黑色組退標後一費去除反而進化的特例，不過[接縫裂痕](https://scryfall.com/card/eoe/34/seam-rip)畢竟是巫術時機，救不了某些特別吃節奏的場面，所以備牌還是有乖乖備著[艾紫培的重擊](https://scryfall.com/card/fdn/493/elspeths-smite)。
 
 ![重點單卡](https://i.meee.com.tw/k4B4qPw.png)
 
@@ -165,7 +165,7 @@ LCI 的海盜與神器高度綁定，這就給了[合成實驗船](https://scryf
 
 不過雖說白藍控這次獲得了一張超級強力的補牌，白色去除這次輪替也沒啥影響，但是在法力基礎上卻出現很大的破口，[白藍痛地](https://scryfall.com/card/dmu/243/adarkar-wastes)退標，以前可能將就著用的[白藍快地](https://scryfall.com/card/one/258/seachrome-coast)也一起退了，這次又沒重印[白藍電震地](https://scryfall.com/card/rvr/280/hallowed-fountain)，[初始市鎮](https://scryfall.com/card/fin/289/starting-town)這玩意實在不是雙色控制會允許自己放的東西，只能提升躺地跟基本地數量，將就著用一下了。
 
-話說雖然正編的[究極](https://scryfall.com/card/fin/38/ultima)＆備牌的[天頂盟星籠](https://scryfall.com/card/rvr/280/hallowed-fountain)看似是會相衝的解場，但你會需要[天頂盟星籠](https://scryfall.com/card/rvr/280/hallowed-fountain)的對局，大概也是節奏快到沒時間等到 5 費出[究極](https://scryfall.com/card/fin/38/ultima)了，在換備時他們很高機率是會互相抽換的，如果想保有正掃數量不變的同時，又能追加使用[天頂盟星籠](https://scryfall.com/card/rvr/280/hallowed-fountain)，就把正編的[究極](https://scryfall.com/card/fin/38/ultima)全改成[審判末日](https://scryfall.com/card/fdn/140/day-of-judgment)吧。
+話說雖然正編的[究極](https://scryfall.com/card/fin/38/ultima)＆備牌的[天頂盟星籠](https://scryfall.com/card/eoe/27/pinnacle-starcage)看似是會相衝的解場，但你會需要[天頂盟星籠](https://scryfall.com/card/eoe/27/pinnacle-starcage)的對局，大概也是節奏快到沒時間等到 5 費出[究極](https://scryfall.com/card/fin/38/ultima)了，在換備時他們很高機率是會互相抽換的，如果想保有正掃數量不變的同時，又能追加使用[天頂盟星籠](https://scryfall.com/card/eoe/27/pinnacle-starcage)，就把正編的[究極](https://scryfall.com/card/fin/38/ultima)全改成[審判末日](https://scryfall.com/card/fdn/140/day-of-judgment)吧。
 
 ![重點單卡](https://i.meee.com.tw/10MChvB.png)
 
