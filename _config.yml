@@ -91,6 +91,8 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
+  - .nojekyll
+  - .well-known/*
 exclude:
 ignore:
 
@@ -105,6 +107,7 @@ deploy:
   type: git
   repository: git@github.com:Guildmages-Forum-Blog-Staff/mtg_blog.git
   branch: gp_deploy
+  ignore_hidden: false
 
 # Neat
 all_minifier: True
