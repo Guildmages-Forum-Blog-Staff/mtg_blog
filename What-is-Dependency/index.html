@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="MTG 中文網站, Guildmages Forum, mtg blog, mtg decktech, mtg 近代, mtg 先驅, mtg, mtg pioneer, mtg modern, 魔風集會所">
+    
+    <meta name="author" content="Guildmages&#39; Forum Staff">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    
+    
+    <link rel="canonical" href="https://guildmagesforum.tw/what-is-dependency/">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+    
+        
+        <meta name="description" content="Guildmages’ Forum 魔風集會所是一個繁體中文的部落格，致力於推廣魔法風雲會競技型賽制。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="什麼是從屬關係">
+<meta property="og:url" content="https://guildmagesforum.tw/What-is-Dependency/index.html">
+<meta property="og:site_name" content="Guildmages&#39; Forum 魔風集會所">
+<meta property="og:description" content="Guildmages’ Forum 魔風集會所是一個繁體中文的部落格，致力於推廣魔法風雲會競技型賽制。">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://guildmagesforum.tw/images/logo.webp">
+<meta property="article:published_time" content="2024-05-09T01:25:22.000Z">
+<meta property="article:modified_time" content="2025-08-12T05:56:37.197Z">
+<meta property="article:author" content="Jru">
+<meta property="article:tag" content="JruMTG">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://guildmagesforum.tw/images/logo.webp">
+    
+    
+        
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-JFWD3SG42T"></script>
+        <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-JFWD3SG42T")</script>
+    
+    
+    <link rel="icon" type="image/png" href="/images/logo.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.jpg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/logo.jpg">
+    
+    
+    <title>
+        
+            什麼是從屬關係 | Guildmages&#39; Forum 魔風集會所
+        
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    
+    
+    
+    
+    
+    
+    
+        
+<script src="/js/build/libs/anime.min.js"></script>
+
+    
+
+    <script id="hexo-configurations">window.config={hostname:"guildmagesforum.tw",root:"/",language:"en",path:"search.xml"},window.theme={articles:{style:{font_size:"18px",line_height:1.5,image_border_radius:"14px",image_alignment:"center",image_caption:!1,link_icon:!1,delete_mask:!1,title_alignment:"left",headings_top_spacing:{h1:"3.2rem",h2:"2.4rem",h3:"1.9rem",h4:"1.6rem",h5:"1.4rem",h6:"1.3rem"}},word_count:{enable:!0,count:!0,min2read:!0},author_label:{enable:!1,auto:!1,list:[]},code_block:{copy:!0,style:"mac",highlight_theme:{light:"github",dark:"vs2015"},font:{enable:!1,family:null,url:null}},toc:{enable:!0,max_depth:6,number:!0,expand:!0,init_open:!0},copyright:{enable:!0,default:"cc_by_nc_sa"},lazyload:!0,pangu_js:!0,recommendation:{enable:!0,title:"或許你會喜歡",limit:6,mobile_limit:4,placeholder:"/images/wallhaven-wqery6-light.webp",skip_dirs:[]}},colors:{primary:"#A31F34",secondary:null,default_mode:"light"},global:{fonts:{chinese:{enable:!1,family:null,url:null},english:{enable:!1,family:null,url:null},title:{enable:!1,family:null,url:null}},content_max_width:"1000px",sidebar_width:"210px",hover:{shadow:!0,scale:!1},scroll_progress:{bar:!0,percentage:!0},website_counter:{url:"https://events.vercount.one/js",enable:!0,site_pv:!0,site_uv:!0,post_pv:!0},single_page:!0,preloader:{enable:!0,custom_message:null},open_graph:{enable:!0,image:"/images/logo.webp",description:null},google_analytics:{enable:!0,id:"G-JFWD3SG42T"}},home_banner:{enable:!0,style:"fixed",image:{light:"/images/wallhaven-wqery6-light.webp",dark:"/images/wallhaven-wqery6-dark.webp"},title:"Welcome to Guildmages' Forum!",subtitle:{text:["各路旅法師的集散地","讓玩家額外有個 +1/+1 指示物","釋放各路玩家的限制","盡情享受遊戲","不瘋魔不成活"],hitokoto:{enable:!1,show_author:!1,api:"https://v1.hitokoto.cn"},typing_speed:100,backing_speed:50,starting_delay:500,backing_delay:1500,loop:!0,smart_backspace:!0},text_color:{light:"#fff",dark:"#d1d1b6"},text_style:{title_size:"2.8rem",subtitle_size:"1.5rem",line_height:1.2},custom_font:{enable:!1,family:null,url:null},social_links:{enable:!1,style:"default",links:{github:null,instagram:null,zhihu:null,twitter:null,email:null},qrs:{weixin:null}}},plugins:{feed:{enable:!0},aplayer:{enable:!1,type:"fixed",audios:[{name:null,artist:null,url:null,cover:null,lrc:null}]},mermaid:{enable:!1,version:"11.4.1"}},version:"2.8.2",navbar:{auto_hide:!0,color:{left:"#f78736",right:"#367df7",transparency:35},width:{home:"1200px",pages:"1000px"},links:{Home:{path:"/",icon:"fa-regular fa-house"},Categories:{path:"/categories",icon:"fa-regular fa-folder"},"About Us":{path:"/about",icon:"fa-regular fa-user"},"Contact Us":{path:"/Contact-Us",icon:"fa-regular fa-mailbox-flag-up"},Links:{icon:"fa-regular fa-link",submenus:{"Guildmages' Forum 粉專":"https://www.facebook.com/guildmagesforumtw","台南猴王的耍猴日常":"https://www.facebook.com/TainanMonkeyKing","豬鼻子的mtg世界":"https://www.facebook.com/Pignosemtgworld","多明納里亞圖書館":"https://dominarialibrary.com","龍尊與荒野騎士的玄境之談":"https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807","塞克斯的MTG日誌":"http://76vezffd.blogspot.com/","約力昂大叔 Uncle Yorion":"https://www.facebook.com/profile.php?id=100068751771443","Kappa The Gathering":"https://www.facebook.com/profile.php?id=61558862427620","Mystic Zone":"http://mysticzonetw.blogspot.com/","Spark Double Podcast":"https://linktr.ee/sparkdouble","勇德大叔的日常":"https://www.facebook.com/UncleJund","鳥不喇基":"https://www.facebook.com/profile.php?id=100063848411689","魔法風雲會粉專":"https://www.facebook.com/MagicTheGathering.ct","下水道鱷魚":"https://facebook.com/profile.php?id=61567687550022","紅的喜氣":"https://www.facebook.com/profile.php?id=100083415367398","貓羽的文字日誌":"https://whitecat2.pixnet.net/blog","寬麵的遊戲頻道":"https://www.facebook.com/profile.php?id=100083345574225"}}},search:{enable:!0,preload:!0}},page_templates:{friends_column:2,tags_style:"blur"},home:{sidebar:{enable:!0,position:"left",first_item:"info",announcement:null,show_on_mobile:!0,links:{Categories:{path:"/categories",icon:"fa-regular fa-folder"},"About Us":{path:"/about",icon:"fa-regular fa-user"},"Contact Us":{path:"/Contact-Us",icon:"fa-regular fa-mailbox-flag-up"}}},article_date_format:"auto",excerpt_length:200,categories:{enable:!0,limit:3},tags:{enable:!0,limit:3}},footerStart:"2023/8/23 00:00:00"},window.lang_ago={second:"%s seconds ago",minute:"%s minutes ago",hour:"%s hours ago",day:"%s days ago",week:"%s weeks ago",month:"%s months ago",year:"%s years ago"},window.data={masonry:!1}</script>
+    
+    
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Guildmages' Forum 魔風集會所" type="application/atom+xml">
+</head>
+
+
+
+<body>
+	<div class="progress-bar-container">
+	
+	<span class="scroll-progress-bar"></span>
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	
+	
+	
+	
+</div>
+
+<style>:root{--preloader-background-color:#fff;--preloader-text-color:#000}@media (prefers-color-scheme:dark){:root{--preloader-background-color:#202124;--preloader-text-color:#fff}}@media (prefers-color-scheme:light){:root{--preloader-background-color:#fff;--preloader-text-color:#000}}@media (max-width:600px){.ml13{font-size:2.6rem!important}}.preloader{display:flex;flex-direction:column;gap:1rem;align-items:center;justify-content:center;position:fixed;padding:12px;top:0;right:0;bottom:0;left:0;width:100vw;height:100vh;background-color:var(--preloader-background-color);z-index:1100;transition:opacity .2s ease-in-out}.ml13{font-size:3.2rem;color:var(--preloader-text-color);letter-spacing:-1px;font-weight:500;font-family:Chillax-Variable,sans-serif;text-align:center}.ml13 .word{display:inline-flex;flex-wrap:wrap;white-space:nowrap}.ml13 .letter{display:inline-block;line-height:1em}</style>
+
+<div class="preloader">
+    <h2 class="ml13">
+        Guildmages&#39; Forum 魔風集會所
+    </h2>
+    <script>
+        var textWrapper = document.querySelector('.ml13');
+        // Split text into words
+        var words = textWrapper.textContent.trim().split(' ');
+        words = ['Guildmages\'', 'Forum', '魔風集會所']
+
+        // Clear the existing content
+        textWrapper.innerHTML = '';
+
+        // Wrap each word and its letters in spans
+        words.forEach(function(word) {
+            var wordSpan = document.createElement('span');
+            wordSpan.classList.add('word');
+            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
+            textWrapper.appendChild(wordSpan);
+            if ( word === "Forum" ) {
+                textWrapper.appendChild(document.createElement('br'));
+            }
+            else {
+                textWrapper.appendChild(document.createTextNode(' '));
+            }
+        });
+
+        var animation = anime.timeline({ loop: true })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [20, 0],
+                translateZ: 0,
+                opacity: [0, 1],
+                filter: ['blur(5px)', 'blur(0px)'],
+                easing: "easeOutExpo",
+                duration: 1200,
+                delay: (el, i) => 300 + 20 * i,
+            })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [0, -20],
+                opacity: [1, 0],
+                filter: ['blur(0px)', 'blur(5px)'],
+                easing: "easeInExpo",
+                duration: 1000,
+                delay: (el, i) => 15 * i,
+                complete: function() {
+                    hidePreloader();
+                }
+            }, '-=700');
+
+
+        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
+
+        // If the theme status is not found in local storage, check the preferred color scheme
+        if (themeStatus === undefined || themeStatus === null) {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                themeStatus = 'dark';
+            } else {
+                themeStatus = 'light';
+            }
+        }
+
+        // Now you can use the themeStatus variable in your code
+        if (themeStatus) {
+            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
+            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
+        } else {
+            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
+            document.documentElement.style.setProperty('--preloader-text-color', '#000');
+        }
+
+        window.addEventListener('load', function () {
+            setTimeout(hidePreloader, 5000); // Call hidePreloader after 5000 milliseconds if not already called by animation
+        });
+
+        function hidePreloader() {
+            var preloader = document.querySelector('.preloader');
+            preloader.style.opacity = '0';
+            setTimeout(function () {
+                preloader.style.display = 'none';
+            }, 200);
+        }
+    </script>
+</div>
+
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <style>.centered-text{text-align:center;margin:0;line-height:1.5}</style>
+    <div class="navbar-content transition-navbar">
+        <div class="left">
+            
+            <a class="logo-title centered-text" href="/">
+                
+                Guildmages&#39; Forum<br>
+                魔風集會所
+                
+            </a>
+        </div>
+
+        <div class="right">
+            
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/">
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    HOME
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/categories">
+                                    <i class="fa-regular fa-folder fa-fw"></i>
+                                    CATEGORIES
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/about">
+                                    <i class="fa-regular fa-user fa-fw"></i>
+                                    ABOUT US
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/Contact-Us">
+                                    <i class="fa-regular fa-mailbox-flag-up fa-fw"></i>
+                                    CONTACT US
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a class="has-dropdown" href="#" onclick="&#34;return" false;&#34;>
+                                    <i class="fa-regular fa-link fa-fw"></i>
+                                    LINKS
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/guildmagesforumtw">
+                                                    GUILDMAGES&#39; FORUM 粉專
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/TainanMonkeyKing">
+                                                    台南猴王的耍猴日常
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/Pignosemtgworld">
+                                                    豬鼻子的MTG世界
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://dominarialibrary.com">
+                                                    多明納里亞圖書館
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807">
+                                                    龍尊與荒野騎士的玄境之談
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="http://76vezffd.blogspot.com/">
+                                                    塞克斯的MTG日誌
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100068751771443">
+                                                    約力昂大叔 UNCLE YORION
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=61558862427620">
+                                                    KAPPA THE GATHERING
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="http://mysticzonetw.blogspot.com/">
+                                                    MYSTIC ZONE
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://linktr.ee/sparkdouble">
+                                                    SPARK DOUBLE PODCAST
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/UncleJund">
+                                                    勇德大叔的日常
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100063848411689">
+                                                    鳥不喇基
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/MagicTheGathering.ct">
+                                                    魔法風雲會粉專
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://facebook.com/profile.php?id=61567687550022">
+                                                    下水道鱷魚
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083415367398">
+                                                    紅的喜氣
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://whitecat2.pixnet.net/blog">
+                                                    貓羽的文字日誌
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083345574225">
+                                                    寬麵的遊戲頻道
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/">
+                            <span>
+                                HOME
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/categories">
+                            <span>
+                                CATEGORIES
+                            </span>
+                            
+                                <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/about">
+                            <span>
+                                ABOUT US
+                            </span>
+                            
+                                <i class="fa-regular fa-user fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/Contact-Us">
+                            <span>
+                                CONTACT US
+                            </span>
+                            
+                                <i class="fa-regular fa-mailbox-flag-up fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" navbar-data-toggle="submenu-Links">
+                            <span>
+                                LINKS
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-Links">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/guildmagesforumtw">GUILDMAGES&#39; FORUM 粉專</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/TainanMonkeyKing">台南猴王的耍猴日常</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/Pignosemtgworld">豬鼻子的MTG世界</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://dominarialibrary.com">多明納里亞圖書館</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807">龍尊與荒野騎士的玄境之談</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="http://76vezffd.blogspot.com/">塞克斯的MTG日誌</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100068751771443">約力昂大叔 UNCLE YORION</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=61558862427620">KAPPA THE GATHERING</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="http://mysticzonetw.blogspot.com/">MYSTIC ZONE</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://linktr.ee/sparkdouble">SPARK DOUBLE PODCAST</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/UncleJund">勇德大叔的日常</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100063848411689">鳥不喇基</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/MagicTheGathering.ct">魔法風雲會粉專</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://facebook.com/profile.php?id=61567687550022">下水道鱷魚</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083415367398">紅的喜氣</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://whitecat2.pixnet.net/blog">貓羽的文字日誌</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083345574225">寬麵的遊戲頻道</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    
+                    
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">38</div>
+        <div class="label text-third-text-color text-sm">Tags</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">30</div>
+        <div class="label text-third-text-color text-sm">Categories</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">275</div>
+        <div class="label text-third-text-color text-sm">Posts</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
+
+		<div class="article-title relative w-full">
+			
+			
+			
+			<img src="https://media.wizards.com/2018/images/daily/c4rd4r7_9CleBJNchb.jpg" alt="什麼是從屬關係" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75">
+			
+			<div class="w-full flex items-center absolute bottom-0 justify-start">
+				<h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color">什麼是從屬關係</h1>
+			</div>
+			
+		</div>
+
+		
+			
+			
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			
+				<a href="/tags/jrumtg/" class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+					<img src="https://i.imgur.com/JoQEQJA.png">
+				</a>
+			
+			<div class="info flex flex-col justify-between">
+				
+					
+					<ul class="name text-default-text-color text-lg font-semibold flex">
+						
+							&nbsp;&nbsp;
+							<a href="/tags/jrumtg/" class="author flex items-center">
+								Jru
+							</a>
+							
+						</ul>
+					
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-05-09 09:25:22</span>
+        <span class="mobile">2024-05-09 09:25:22</span>
+        <span class="hover-info">Created</span>
+    </span>
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/mtg-rules/">MTG Rules</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-keyboard"></i>&nbsp;<span>7.6k Words</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>26 Mins</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<h2 id="Before-We-Start"><a href="#Before-We-Start" class="headerlink" title="Before We Start"></a>Before We Start</h2><p>歡迎來到<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://mtg.fandom.com/wiki/Layer?so=search">Layer</a>專欄第四篇，這次的主角是從屬關係（Dependency）。</p>
+<p>在正式開始介紹規則前，要先做個心理建設，本期會是Layer專欄中最難的一篇，雖然從屬關係只是Layer系統眾多規則的其中一環，只在少數情境下才會作用，但作用方式極為複雜，介紹從屬關係甚至比介紹Layer系統本身還難。</p>
+<p>在處理有關從屬關係的規則判讀時，確實容易出現一種特殊情況，就是原本好像直覺上都快想通了，真的把細部規則扒開來看時腦袋又打結了。因此對於本篇文章所列舉的範例情境，如果真的無法理解規則運作原理，就只記經典案例的結果，或一些不嚴謹但好記的簡單解釋也無妨。 <font color="#AAAAAA">（反正比賽真的遇到問題就是叫裁判）</font></p>
+<details class="red" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>往期回顧 </summary>
+              <div class="content">
+              <ul><li><a href="https://guildmagesforum.tw/What-is-Copiable-Value/">可複製特徵</a></li><li><a href="https://guildmagesforum.tw/Characteristic-Defining-Ability/">特徵定義異能</a></li><li><a href="https://guildmagesforum.tw/What-is-Time-Stamp/">時間印記</a></li></ul>
+              </div>
+            </details>
+
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/U2woWJO.jpg" alt="封面"></p>
+<hr>
+<h2 id="什麼是從屬關係"><a href="#什麼是從屬關係" class="headerlink" title="什麼是從屬關係"></a>什麼是從屬關係</h2><h3 id="時間印記與從屬關係"><a href="#時間印記與從屬關係" class="headerlink" title="時間印記與從屬關係"></a>時間印記與從屬關係</h3><p>還記得上一篇我們在介紹時間印記時，簡單的介紹了一下Layer各層定義，以及時間印記的適用條件：</p>
+<details class="red" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>Layer各層定義 </summary>
+              <div class="content">
+              <ul><li>層1：影響<a href="https://guildmagesforum.tw/What-is-Copiable-Value/">可複製特徵值</a>的規則和效應生效。<ul><li>層1a：可複製效應生效。</li><li>層1b：牌面朝下的咒語和永久物的特徵相關規則生效。</li></ul></li><li>層2：改變操控權的效應生效。</li><li>層3：改變敘述的效果生效。</li><li>層4：改變類別的效應生效。這包括改變物件的牌類別、副類別、超類別。</li><li>層5：改變顏色的效應生效。</li><li>層6：添加異能的效應、關鍵字指示物、移除異能的效應、令對象不能具有某異能的效應生效。</li><li>層7：改變力量和&#x2F;或防禦力的效果生效。<ul><li>層7a：定義力量和&#x2F;或防禦力的<a href="https://guildmagesforum.tw/Characteristic-Defining-Ability/">特徵定義異能</a>所產生的效應生效。</li><li>層7b：將力量和&#x2F;或防禦力設定為一個特定的數字或數值的效應生效。提及生物的基礎力量和&#x2F;或防禦力的效應在此層生效。</li><li>層7c：影響力量和&#x2F;或防禦力（但不將力量和&#x2F;或防禦力設定為一個特定的數字或數值）的效應和指示物生效。</li><li>層7d：交換生物的力量和防禦力的效應生效。</li></ul></li></ul>
+              </div>
+            </details>
+
+<ul>
+<li>613.7.<br>在同一層或副層中，一般情況下使用時間印記系統來決定效應生效的順序。一個具有較早時間印記的效應在具有較晚時間印記的效應之前生效。</li>
+</ul>
+<p>然而這條規則其實還有但書，也就是在滿足特定條件時，即使都在處理同一層的問題，也不是依照時間印記來解決，而是要依據從屬關係處理。至於到底甚麼是從屬關係？又該如何判斷何時使用甚麼規則？ 這就是本期的主題了。</p>
+<ul>
+<li>613.8.<br>在一個層或副層中，有時會使用從屬系統來決定效應生效的順序。如果存在從屬關係，它將覆蓋時間印記系統。</li>
+</ul>
+<h3 id="為甚麼需要從屬關係"><a href="#為甚麼需要從屬關係" class="headerlink" title="為甚麼需要從屬關係"></a>為甚麼需要從屬關係</h3><p>先讓我們看看下面這個情境，假設我已操控<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dom/25/kwende-pride-of-femeref">費米瑞甫之傲桂恩岱</a>，接著下了一個<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/znr/27/maul-of-the-skyclaves">空境巨鎚</a>並使其佩帶至<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/10e/268/grizzly-bears">灰棕熊</a>身上，那麼這個灰棕熊現在是否有連擊異能？</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.postimg.cc/mTsZqHx1/image.png" alt="先攻"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dom/25/kwende-pride-of-femeref">費米瑞甫之傲桂恩岱</a>：由你操控且具先攻異能的生物具有連擊異能。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/znr/27/maul-of-the-skyclaves">空境巨鎚</a>：佩帶此武具的生物得+2&#x2F;+2且具有飛行與先攻異能。</p>
+</blockquote>
+<p><strong>「因為空境巨鎚會給佩帶生物先攻異能，而桂恩岱又會讓具先攻異能的生物具有連擊異能，所以灰棕熊有連擊」</strong> ，這確實是正確答案，相信也不太會有人答錯，但是如果我們只用時間印記的觀念來解釋的話，就會發現這似乎有點矛盾了。</p>
+<p>無論是空境巨鎚得給生物先攻，還是桂恩岱的給生物連擊，同屬於<strong>第6層的添加異能的效應</strong> ，如果讓我們按照時間印記的邏輯來看，桂恩岱具有較早的時間印記，所以異能會優先處理，可是這時灰棕熊並沒有先攻，因此不生效，接著才處理時間印記較晚的空境巨鎚的異能，讓灰棕熊獲得先攻異能，然而此時桂恩岱已經檢查不到灰棕熊的先攻，導致無法賦予它連擊。</p>
+<p>這樣的解釋十分反直覺對吧？ 實際上如果所有同一層的效應都只依靠時間印記來處理，那已經不只是反直覺了，還會讓遊戲出許多大Bug，或是讓非常多種類的設計無法正常運作，那麼這問題該怎麼解呢？答案就是讓部分效應的生效順序不是依照時間印記，而是 <strong>依據它們的相互關係</strong> 決定生效順序，這正是 <strong>從屬關係</strong> 的核心理念。</p>
+<h3 id="從屬關係規則定義"><a href="#從屬關係規則定義" class="headerlink" title="從屬關係規則定義"></a>從屬關係規則定義</h3><p>先讓我們來看看從屬關係<font color="#AAAAAA">（不講人話）</font>的規則原文是怎麼描述的：</p>
+<ul>
+<li>613.8.<br>在一個層或副層中，有時會使用從屬系統來決定效應生效的順序。如果存在從屬關係，它將覆蓋時間印記系統。</li>
+<li>613.8a<br>如果一個效應（a）與另一個效應在同一層（或副層）中生效；（b）生效的順序將改變第一個效應的敘述或存在、改變它將生效的對象、或改變它將生效的內容；以及（c）這兩個效應都是或都不是特徵定義異能，則第一個效應「從屬於」第二個效應。否則，這兩個效應不從屬於彼此。</li>
+<li>613.8b<br>一個從屬於一個或數個其他效應的效應等待直到這些效應都已生效。如果多個從屬效應將同時生效，它們將按照相對的時間印記順序生效。如果多個從屬效應形成從屬循環，則忽略此規則且這些在從屬循環中的效應將按照時間印記順序生效。</li>
+<li>613.8c<br>在每個效應生效之後，將重新確定剩餘效應生效的順序，而且如果一個還沒有生效的效應成為從屬或不再從屬於其他還沒有生效的效應，順序可能改變。</li>
+</ul>
+<p>如果你覺得這幾條規則每個字都看得懂，但拚在一起就看不懂的話，那你是個正常人。在筆者看來，從屬關係在全規則條文中確實屬於最不講人話的那群了。</p>
+<p>首先613.8a定義了甚麼樣的效應之間會形成從屬關係：</p>
+<ul>
+<li><strong>（a）與另一個效應在同一層（或副層）中生效</strong><br>這個很好理解，並且到這還與時間印記條件一致，決定時間印記&amp;從屬關係差別的規則還在後續。</li>
+<li><strong>（c）這兩個效應都是或都不是特徵定義異能</strong><br><a href="https://guildmagesforum.tw/Characteristic-Defining-Ability/">特徵定義異能（CDA）</a>的定義我們在先前文章已經解釋過了，對CDA還不熟的讀者可以回頭翻翻往期文章。</li>
+<li><strong><font color="#FF0000">（b）生效的順序將改變第一個效應的敘述或存在、改變它將生效的對象、或改變它將生效的內容</font></strong><br>這短短的一行，就是從屬關係最重要的核心定義了！你是不是覺得這條規則描述得太籠統了，等等還會看到一堆細項條文來補充細節？ 很遺憾的沒有，這些就是從屬關係的全部規則文本了。</li>
+</ul>
+<p>再讓我們深入解析一下613.8a的（b）是甚麼意思？ 假設現在有兩個效應：<font color="#FF0000">效應A</font> &amp; <font color="#0000FF">效應B</font>，這兩個效應都作用於同一層或副層、且都是或都不是CDA，先讓我們拋棄時間印記的觀念，單獨的看這兩個效應的作用對象，如果<font color="#FF0000">效應A</font>先應用後，會導致<font color="#0000FF">效應B</font>產生以下變化：</p>
+<ul>
+<li>改變<font color="#0000FF">效應B</font>的敘述或存在。例如先應用了<font color="#FF0000">效應A</font>後<font color="#0000FF">效應B</font>直接消失。</li>
+<li>改變<font color="#0000FF">效應B</font>將生效的對象。例如<font color="#0000FF">效應B</font>只對神器生效，而<font color="#FF0000">效應A</font>將非神器永久物變成神器。</li>
+<li>改變<font color="#0000FF">效應B</font>將生效的內容。例如<font color="#0000FF">效應B</font>可以給一個生物獲得某些異能，而<font color="#FF0000">效應A</font>改變了獲得的異能內容。</li>
+</ul>
+<p>滿足上述條件時，我們就可以說：<font color="#0000FF">效應B</font> <strong>從屬於</strong> <font color="#FF0000">效應A</font>！</p>
+<p>再讓我們回頭看看<font color="#0000FF">費米瑞甫之傲桂恩岱</font>&amp;<font color="#FF0000">空境巨鎚</font>的舉例，先應用<font color="#FF0000">空境巨鎚</font>後會導致<font color="#0000FF">桂恩岱</font>生效的對象改變，也就是原本不受<font color="#0000FF">桂恩岱</font>影響的灰棕熊，現在因為<font color="#FF0000">空境巨鎚</font>讓它也會被<font color="#0000FF">桂恩岱</font>的效應影響了，這裡我們就可以說：<font color="#0000FF">桂恩岱</font>從屬於<font color="#FF0000">空境巨鎚</font>。</p>
+<p>簡單總結一下，想要判斷多個效應的處理，該用時間印記還從屬關係系統，就看 <strong>這兩個效應應用其中一個後，會不會對另一個效應產生變化？</strong></p>
+<h2 id="從屬關係規則案例"><a href="#從屬關係規則案例" class="headerlink" title="從屬關係規則案例"></a>從屬關係規則案例</h2><p>掌握了基本的規則後，就來讓我們看看實際範例吧！</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.postimg.cc/51SZWN4G/image.png" alt="化蛙術"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mkm/245/yarus-roar-of-the-old-gods">古神之吼雅魯斯</a>：由你操控的其他生物具有敏捷異能。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/clu/103/turn-to-frog">化蛙術</a>：直到回合結束，目標生物失去所有異能，且成為基礎力量與防禦力為1&#x2F;1的藍色蛙。</p>
+</blockquote>
+<p>對雅魯斯使用化蛙術後，你的其他生物是否還能透過雅魯斯獲得敏捷異能？</p>
+<p>因為應用了<font color="#FF0000">化蛙術</font>後，<font color="#0000FF">雅魯斯</font>便會失去賦予其他生物敏捷的能力，也就是上面說的先應用了<font color="#FF0000">效應A</font>後<font color="#0000FF">效應B</font>直接消失，這屬於613.8a（b）的第一種情況，所以<font color="#0000FF">雅魯斯</font>從屬於<font color="#FF0000">化蛙術</font>，你的其他生物將不再透過雅魯斯獲得敏捷異能。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.postimg.cc/SmK9WNnm/image.png" alt="鍋子"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/242/agathas-soul-cauldron">阿加莎的靈魂鼎鑊</a>：對由你操控且其上有+1&#x2F;+1指示物的生物而言，它們具有所有以阿加莎的靈魂鼎鑊放逐之生物牌的所有起動式異能。<br>{橫置}：將目標牌從墳墓場放逐。當以此法放逐一張生物牌時，在目標由你操控的生物上放置一個+1&#x2F;+1指示物。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/81/tishanas-tidebinder">提莎娜的縛潮師</a>：當提莎娜的縛潮師進戰場時，反擊至多一個目標起動式或觸發式異能。如果以此法反擊神器，生物或鵬洛客的異能，則於提莎娜的縛潮師仍在戰場上的時段內，該永久物失去所有異能。</p>
+</blockquote>
+<p>阿加莎的靈魂鼎鑊以下簡稱 「鍋子」，這題<a href="https://guildmagesforum.tw/What-is-Time-Stamp/">上一期</a>的「<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/242/agathas-soul-cauldron">鍋子</a>+<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mh2/39/dress-down">褪除武裝</a>」範例有幾分相似，但上期僅用時間印記就可解釋，這次卻要用到從屬關係，讀者可以先自行想想兩者的差別為何？</p>
+<p>回到範例描述，目前鍋子已經放逐過<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/rvr/133/birds-of-paradise">天堂鳥</a>，你有+1&#x2F;+1指示物的生物都會擁有天堂鳥的魔法力異能（{T}：加一點任意顏色的魔法力），並且現在你有一個上面有+1&#x2F;+1指示物的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/j22/746/young-wolf">幼狼</a>，之後鍋子再度啟動異能時被提莎娜的縛潮師康了，那麼縛潮師還在場期間，你的幼狼是否還擁有天堂鳥的魔法力異能？</p>
+<p>其實這題的解法與上題相同，<font color="#FF0000">縛潮師</font>可以使<font color="#0000FF">鍋子</font>失去所有異能，其中包含賦予生物起動式異能的能力，所以<font color="#0000FF">鍋子</font>從屬於<font color="#FF0000">縛潮師</font>，你的生物將無法再透過鍋子獲得起動式異能。</p>
+<p>至於同樣都是異能的添加&#x2F;移除效應，為何「鍋子+褪除武裝」可以用時間印記解釋，「鍋子+縛潮師」就要用到從屬關係呢？ 答案是褪除武裝&amp;縛潮師效應作用對象的不同！<br>鍋子&amp;褪除武裝的效應都是作用在生物上，彼此之間無關係，應用其中一個不會導致另一個效應本身發生改變，所以是使用時間印記系統。<br>但鍋子+縛潮師的案例中，是鍋子影響生物，而縛潮師影響鍋子，應用了縛潮師的效果後會導致鍋子也發生改變，所以使用從屬關係系統。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.postimg.cc/zq8ddKs5/Dress-Down.png" alt="敏捷"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/c20/213/garna-the-bloodflame">炎脈加娜</a>：由你操控的其他生物具有敏捷異能。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/m13/129/fervor">群情激昂</a>：由你操控的生物具有敏捷異能。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mh2/39/dress-down">褪除武裝</a>：生物均失去所有異能。</p>
+</blockquote>
+<p>還是覺得時間印記&amp;從屬關係的區別有點亂嗎？ 那來個比較單純的範例加深記憶吧。 假設場上我的場上有炎脈加娜或群情激昂其中一個，加上褪除武裝，那我的生物是否會有敏捷異能？</p>
+<p>炎脈加娜的情況就與上面兩例一樣，先應用了<font color="#FF0000">褪除武裝</font>後會導致<font color="#0000FF">炎脈加娜</font>失去給予其他生物敏捷異能的能力，所以兩者有從屬關係，<font color="#0000FF">炎脈加娜</font>從屬於<font color="#FF0000">褪除武裝</font>。</p>
+<p>而群情激昂與褪除武裝並沒有任何直接互動，因為群情激昂並不是生物，不受褪除武裝的影響，它們只是同樣以層6的異能增減效應去影響生物，所以在這裡要比較兩者的時間印記，若是群情激昂先進場、褪除武裝後進場，那麼生物將失去所有異能；反之若是褪除武裝先進場、群情激昂後進場，那麼你的生物將先失去所有異能後再獲得敏捷異能。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.postimg.cc/Q8PBztZB/image.png" alt="器械進擊"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/bbd/241/mycosynth-lattice">構生菌格柵</a>：所有永久物均額外具有神器此類別的。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/arc/6/march-of-the-machines">器械進擊</a>：每個非生物的神器都是神器生物，力量與防禦力各等同於其總魔法力值。</p>
+</blockquote>
+<p>構生菌格柵&amp;器械進擊兩者同時在場，是否會因為兩者時間印記順序而導致結果不同？</p>
+<p>因為應用了<font color="#FF0000">構生菌格柵</font>後，會導致<font color="#0000FF">器械進擊</font>效應生效的對象改變，原本非神器的永久物也會因為<font color="#FF0000">構生菌格柵</font>變成神器而被<font color="#0000FF">器械進擊</font>影響，這屬於613.8a（b）的第二種情況，所以<font color="#0000FF">器械進擊</font>從屬於<font color="#FF0000">構生菌格柵</font>，兩者時間印記不構成影響。</p>
+<blockquote>
+<p>另外補充一下，因為構生菌格柵&amp;器械進擊的能力都可以對地生效，所以當兩者同時在場時，所有地會成為0&#x2F;0的神器生物，這組合等效於一個炸地Combo。</p>
+</blockquote>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.postimg.cc/191rCyZ5/image.png" alt="異西里獄卒"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/2x2/83/necrotic-ooze">潰疽流漿</a>：只要潰疽流漿在戰場上，它便具有所有墳場中每張生物牌的所有起動式異能。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tsr/149/yixlid-jailer">異西里獄卒</a>：墳墓場中的牌失去所有異能。</p>
+</blockquote>
+<p>對手操控異西里獄卒，之後我下了一個潰疽流漿，那麼我的潰疽流漿能否擁有墳場生物牌的所有起動式異能？</p>
+<p>這個例子看起來跟前面鍋子+縛潮師的案例很像，但其實還是有些區別，在上面的案例中縛潮師的效應是直接作用於鍋子，讓鍋子失去異能，屬於613.8a（b）的第一種情況。</p>
+<p>但在這個案例中，異西里獄卒的能力並非直接作用於潰疽流漿，而是作用於能定義潰疽流漿會獲得甚麼異能的墳場中的牌上，也就是說<font color="#FF0000">異西里獄卒</font>改變<font color="#0000FF">潰疽流漿</font>的效應將生效的內容，這屬於613.8a（b）的第三種情況，<font color="#0000FF">潰疽流漿</font>從屬於<font color="#FF0000">異西里獄卒</font>，潰疽流漿將無法獲得任何墳場中生物牌的起動式異能。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.postimg.cc/VYs82rMK/image.png" alt="縫組食屍鬼"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/m12/112/sutured-ghoul">縫組食屍鬼</a>：於縫組食屍鬼進戰場時，從你的墳墓場放逐任意數量的生物牌。<br>縫組食屍鬼的力量等同於以此法放逐之牌力量的總和，且其防禦力等同於以此法放逐之牌防禦力的總和。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mh2/93/necrogoyf">死冥耶夫</a>：死冥耶夫的力量等同於所有墳墓場中的生物牌數量。</p>
+</blockquote>
+<p>縫組食屍鬼進場時放逐了墳場中的死冥耶夫，那麼縫組食屍鬼的力量該如何計算？</p>
+<p>這是個罕見的發生於<a href="https://guildmagesforum.tw/Characteristic-Defining-Ability/">CDA</a>的從屬關係，先來回顧一下CDA的重要特徵之一就是 <strong>「特徵定義異能在所有區域生效」</strong> ，所以無論死冥耶夫現在在哪個區域，這張牌的力量都會動態檢查當前遊戲狀態。</p>
+<p>而<font color="#0000FF">縫組食屍鬼</font>的CDA在計算力量時，需要參考被它放逐的<font color="#FF0000">死冥耶夫</font>的CDA，也就是說<font color="#0000FF">縫組食屍鬼</font>從屬於<font color="#FF0000">死冥耶夫</font>，你會先計算出<font color="#FF0000">死冥耶夫</font>的力量後，再拿這個數值去計算<font color="#0000FF">縫組食屍鬼</font>的力量。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/vKYfQSl.jpg" alt="NTR"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/cma/34/control-magic">魔法操控術</a>：你操控所貼附的生物。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tmp/90/steal-enchantment">竊取結界</a>：你操控所貼附的結界。</p>
+</blockquote>
+<p>我操控一隻<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/10e/268/grizzly-bears">灰棕熊</a>，對手用魔法操控術貼附在我的灰棕熊，獲得其操控權，之後我將竊取結界貼附在魔法操控術上，獲得魔法操控術的操控權，那麼灰棕熊的操控權也會回到我這邊嗎？</p>
+<p>這兩者都屬於層2的「改變操控權的效應」。<font color="#0000FF">魔法操控術</font>的效果為 <strong>「你」操控所貼附的生物</strong>，這之中的 <strong>「你」</strong> 就是這個靈氣的操控者，而<font color="#FF0000">竊取結界</font>將會改變<font color="#0000FF">魔法操控術</font>的操控者，也就是說<font color="#0000FF">魔法操控術</font>從屬於<font color="#FF0000">竊取結界</font>，最後灰棕熊的操控權將會歸於我方。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/U2woWJO.jpg" alt="約墓"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/2xm/118/blood-moon">腥紅之月</a>：非基本地都是山脈。以下簡稱「血月」。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tsr/287/urborg-tomb-of-yawgmoth">約格莫夫之墓烏爾博格</a>：每個地均額外具有沼澤此地類別。以下簡稱「約墓」。</p>
+</blockquote>
+<p>終於來到從屬關係最經典的案例了，血月+約墓是談論從屬關係絕對繞不開的範例，這篇文章少個這個例題，就像少了醬汁的炸鳳尾蝦一樣。</p>
+<p>在正式解讀兩者的關係之前，還是有必要先回頭解釋一下血月的能力是如何運作的。簡單來說，血月會讓非基本地失去原有的地類別與異能，再讓它獲得山脈類別&amp;產紅色法力能力，雖然這之中牽涉到了失去異能，但這並非第6層的異能增減效應，而是第4層的類別更改效應中的一個特例，更完整的解釋可以參考往期文章：<a href="https://guildmagesforum.tw/Saga-and-Moon/">克撒傳怎麼自爆了</a>。</p>
+<ul>
+<li>305.7<br>將一塊地的子類別設置為一種或數種基本地類別時，它將失去原有的地類別，也失去的從原有規則文本、類別所獲得的所有能力，並獲得產出與現有基本地類別對應顏色魔法力的能力。設置地的子類別並不會導致其失去其他卡牌類別(生物、結界)或超類別(基本、傳奇、雪境等)</li>
+</ul>
+<p>回到範例，現在場上同時有血月+約墓，那麼場上所有非基本地會是甚麼類別？</p>
+<p>來看看如果先應用了約墓會怎麼樣？約墓會讓所有地額外具有沼澤類別，之後換血月生效，那些非基本地會變為山脈，這之中跟約墓先前應用的效應沒有任何關係，就是單純的覆蓋過去了，所以<font color="#FF0000">血月</font> <strong>並不從屬於</strong> <font color="#0000FF">約墓</font>。</p>
+<p>那麼先應用了<font color="#FF0000">血月</font>的結果是如何？<font color="#FF0000">血月</font>會使<font color="#0000FF">約墓</font>失去所有原本的異能，也就是說應用<font color="#FF0000">血月</font>後<font color="#0000FF">約墓</font>的效應會直接消失，因此<font color="#0000FF">約墓</font>從屬於<font color="#FF0000">血月</font>！最後包含約墓在內所有非基本地會成為山脈。</p>
+<p>實際上這個案例本身的邏輯非常簡單，不過這種修改地類別的寫法，相對於上面的範例，有時看上去不是那麼直觀；並且相比於前面範例是很明顯的<font color="#FF0000">A</font>會影響<font color="#0000FF">B</font>，<font color="#FF0000">血月</font>&amp;<font color="#0000FF">約墓</font>的互動特別像是時間印記的處理範圍，貌似兩個效應並不怎麼有從屬性，近似的案例可以參考<a href="https://guildmagesforum.tw/What-is-Time-Stamp/">上期</a>的「血月+<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mkm/217/leyline-of-the-guildpact">十會盟地脈</a>」。當你不確定兩個效應之間究竟有無從屬關係時，一個簡單的判斷法就是 <strong>「把這兩個效應以不同的生效順序分別模擬一次」</strong> ，以此題為例，分別嘗試先應用血月或約墓後，兩者的關係其實就很明顯了，甚至於哪怕你還是搞不懂從屬關係的定義，起碼在對局中是能理清當下遊戲狀態的。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.postimg.cc/Sm7cpn6P/basic.png" alt="根徑滌淨師"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/2xm/118/blood-moon">腥紅之月</a>：非基本地都是山脈。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/brc/24/rootpath-purifier">根徑滌淨師</a>：由你操控的地和你牌庫中的地牌都是基本。</p>
+</blockquote>
+<p>假設場上有血月，且你操控根徑滌淨師時，你的地會變成甚麼樣？</p>
+<p><font color="#0000FF">血月</font>的效應只能作用於「非基本地」，但是<font color="#FF0000">根徑滌淨師</font>可以將你的地都額外賦予「基本」類別，也就是說應用<font color="#FF0000">根徑滌淨師</font>會導致<font color="#0000FF">血月</font>效應生效的對象改變，<font color="#0000FF">血月</font>從屬於<font color="#FF0000">根徑滌淨師</font>，你的所有地將先獲得「基本」類別後無視血月的影響，因為這些地已經不是血月的生效對象了，但你的對手就沒這麼幸運了，他們還是照常受到血月的影響。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.postimg.cc/3rKWHCqz/image.png" alt="艾莎婭"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/2xm/118/blood-moon">腥紅之月</a>：非基本地都是山脈。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/znr/179/ashaya-soul-of-the-wild">荒野之魂艾莎婭</a>：荒野之魂艾莎婭的力量和防禦力各等同於由你操控的地數量。<br>由你操控且非衍生物的生物都是樹林地，且仍具有原本類別。</p>
+</blockquote>
+<p>我的場上原本有一個荒野之魂艾莎婭，現在血月進場，那麼艾莎婭將會如何？（先讓我們把問題簡化點，無視任何其他永久物或效應）</p>
+<p>艾莎婭的能力可以讓我方的非衍生物生物都額外具有地&#x2F;樹林類別，這也包括了它自己，所以<font color="#FF0000">艾莎婭</font>效應應用後自己是生物的同時也會成為一塊樹林地，既然是非基本地，那就代表它是<font color="#0000FF">血月</font>的作用對象了，<font color="#0000FF">血月</font>從屬於<font color="#FF0000">艾莎婭</font>，艾莎婭會因為血月成為一塊山脈，問題是… 那之後呢？</p>
+<p>這裡直接先給結論，艾莎婭不會因為血月失去生物類別，但會因為血月失去自己定義力量&amp;防禦力的CDA，然後作為一個0&#x2F;0的生物在下次狀態動作時死去，這個範例更加完整的解釋會在最終的Layer統整專欄中再出現一次，並且基於這個範例你還可以得到非常多有趣的變體情境。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.postimg.cc/J1BRc83w/image.png" alt="氣蘊四體"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tsb/39/conspiracy">同謀</a>：於同謀進場時，選擇一種生物類別。<br>由你擁有且不在場的生物，由你操控的生物咒語，以及由你操控的生物都是這個類別。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tsr/215/life-and-limb">氣蘊四體</a>：所有樹林與所有腐生物都是1&#x2F;1綠色腐生物生物和樹林地，且仍具有原本類別。</p>
+</blockquote>
+<p>假設我的場上同時有氣蘊四體&amp;同謀，且同謀宣言生物類別為腐生物，另外我有操控一個基本樹林+一個<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dmr/24/savannah-lions">草原雄獅</a>，那麼這兩個效應該如何處理呢？</p>
+<p>假設先應用<font color="#FF0000">同謀</font>，那麼我的草原雄獅將因此額外獲得腐生物類別，這會導致<font color="#0000FF">氣蘊四體</font>效應生效的對象改變，所以<font color="#0000FF">氣蘊四體</font>從屬於<font color="#FF0000">同謀</font>成立。</p>
+<p>等等！這還不是全部的結論，現在讓我們把應用順序反過來看看會如何？ 如果先應用了<font color="#FF0000">氣蘊四體</font>，這會使我的基本樹林成為一個1&#x2F;1綠色腐生物，因為它獲得了生物類別，這也導致了<font color="#0000FF">同謀</font>效應生效的對象改變，所以<font color="#0000FF">同謀</font>從屬於<font color="#FF0000">氣蘊四體</font>也成立。</p>
+<p>那麼現在尷尬了，有兩個效應互相從屬於對方時該如何處裡？ 這裡就要看到上面我們簡單帶過的這條規則：</p>
+<ul>
+<li>613.8b<br>一個從屬於一個或數個其他效應的效應等待直到這些效應都已生效。如果多個從屬效應將同時生效，它們將按照相對的時間印記順序生效。如果多個從屬效應形成從屬循環，則忽略此規則且這些在從屬循環中的效應將按照時間印記順序生效。</li>
+</ul>
+<p>這個案例中，同謀&amp;氣蘊四體正好形成了從屬循環，因此根據規則613.8b，從屬關係消失，這兩個效應將依照時間印記來處理。</p>
+<p>由於本期專欄的重點在介紹從屬關係，所以這題讓我們在此做個小結，但在最終Layer統整專欄時你還會再看到這題一次，因為這兩個效應哪怕是依照時間印記來處理也不安分，還會有其他牽涉多層Layer處理的規則從中作亂。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.postimg.cc/5fHjBmFS/1.png" alt="夷為平地1"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/2xm/118/blood-moon">腥紅之月</a>：非基本地都是山脈。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/me4/9/conversion">夷為平地</a>：所有山脈是平原。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/grn/257/steam-vents">蒸氣噴發口</a>：地～海島／山脈。以下簡稱「紅藍地」。</p>
+</blockquote>
+<p>假設我的場上同時有血月&amp;夷為平地，沒有任何地<font color="#AAAAAA">（就當我吃了發<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/a25/5/armageddon">毀天滅地</a>吧）</font> ，然後我下了一塊紅藍地，這塊紅藍地會變成山脈還平原？</p>
+<p>此時你或許會理所當然的覺得，血月與夷為平地有從屬關係，因為血月會先把不是山脈的地變成山脈，導致夷為平地的效應生效的對象改變，所以夷為平地從屬於血月？</p>
+<p>但回到這個案例，再讓我們看看兩個效應是如何作用於紅藍地的，紅藍地原本就是一塊非基本的山脈，同時是血月&amp;夷為平地的效果適用對象，且先適用其中一者後，不會導致另一者因此不適用，或者說 <strong>效應生效的對象不改變</strong> ，因此這並不是從屬關係，而是依照時間印記來處理的。</p>
+<p>假設時間印記是夷為平地在前、血月在後，那麼紅藍地就是先處理夷為平地成為平原，再處理血月成為山脈，最後它會是一塊山脈。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.postimg.cc/BS9nT8rY/2.png" alt="夷為平地2"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/2xm/118/blood-moon">腥紅之月</a>：非基本地都是山脈。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/me4/9/conversion">夷為平地</a>：所有山脈是平原。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/grn/257/steam-vents">蒸氣噴發口</a>：地～海島／山脈。以下簡稱「紅藍地」。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/rna/246/breeding-pool">滋生之池</a>：地～樹林／海島。以下簡稱「藍綠地」。</p>
+</blockquote>
+<p>承上題，時間印記是夷為平地在前、血月在後，場上的紅藍地已經成為山脈了，接著我再下一塊藍綠地，這會對局面產生甚麼影響嗎？</p>
+<p>這時我們再檢查一下血月&amp;夷為平地會怎麼處理藍綠地，發現這跟上面情況有點不同了，藍綠地是個非基本地，但不是山脈，因此如果先應用<font color="#FF0000">血月</font>會導致<font color="#0000FF">夷為平地</font>的效應生效的對象改變，反之則不會有這種生效對象改變，此時<font color="#FF0000">血月</font>&amp;<font color="#0000FF">夷為平地</font>忽然之間有了從屬關係！<font color="#0000FF">夷為平地</font>從屬於<font color="#FF0000">血月</font>，藍綠地會先適用<font color="#FF0000">血月</font>成為山脈、再適用<font color="#0000FF">夷為平地</font>最終成為平原。</p>
+<p>那麼上一題留下來的那塊紅藍地呢？答案是跟著一起變，因為血月&amp;夷為平地這兩個效應從時間印記轉為從屬關係後，會重新確定效應的處理順序，所以原本是山脈的紅藍地，會因為你下了一塊藍綠地而變成平原。</p>
+<p>這也帶出了從屬關係一個與眾不同的特性，那就是決定複數個效應是否會形成從屬關係，是取決於當下的遊戲狀況的，而非從單卡文本上就能完整判斷。</p>
+<p>理解了這個觀念後，讀者可以回頭看看<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tsb/39/conspiracy">同謀</a>+<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tsr/215/life-and-limb">氣蘊四體</a>那題，並且嘗試分別移除範例情境中的基本樹林或<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dmr/24/savannah-lions">草原雄獅</a>，亦或者兩者都移除，看看這兩個效應之間關係又會發生甚麼變化？</p>
+<hr>
+<h2 id="Next：Layer"><a href="#Next：Layer" class="headerlink" title="Next：Layer"></a>Next：Layer</h2><p>至此我們介紹Layer系統的工具終於都介紹完了，下一期我們將完整的介紹Layer系統是如何運作的。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/MsDDctp.jpg" alt="Next"></p>
+
+    <style>.tooltip span{display:none;color:#000}.mtgcard{max-width:300px!important}.tooltip span img{float:left;margin:0}.tooltip:hover span{display:block;position:absolute;top:0;left:0;z-index:1000;margin-top:12px;margin-left:32px;overflow:hidden;padding:8px}.tooltip{text-decoration:none;position:relative;display:inline;opacity:1;z-index:unset}</style>
+  <style>.mtable{padding:16px 16px 32px 16px;border:1px solid #000;box-shadow:7px 5px 5px rgba(0,0,0,.2);min-width:240px;background:unset}.crow{display:flex;width:100%;align-items:baseline}.ccount{width:2em;min-width:1rem}.cname{width:100%;min-width:160px}.ccost{width:5em;min-width:3rem}.tooltip span{display:none;color:#000}.mtgcard{max-width:300px!important}.tooltip span img{float:left;margin:0}.tooltip:hover span{display:block;position:absolute;top:0;left:0;z-index:1000;margin-top:12px;margin-left:32px;overflow:hidden;padding:8px}@media (min-width:900px){.mtable{display:flex;max-width:900px}.mblock{margin-right:30px}.mdeck,.msideboard{width:50%}}.tooltip{text-decoration:none;position:relative;display:inline;opacity:1;z-index:unset}</style>
+		</div>
+
+		
+			
+			
+			
+			
+			<div class="article-footer flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+				<div class="info flex flex-col justify-between">
+					
+						
+
+						
+							<div class="author-container">
+								<div class="item">
+									<div class="avatar-column">
+										<a href="/tags/jrumtg/" class="author flex items-center name text-default-text-color text-lg font-semibold flex">
+											<div class="avatar flex-shrink-0p-[1px]">
+												<img src="https://i.imgur.com/JoQEQJA.png">
+											</div>
+										</a>
+									</div>
+									<div class="author-intro items-center">
+										<div class="author-name">
+											<a href="/tags/jrumtg/" class="text-default-text-color font-semibold p-10px">
+												Jru
+											</a>
+										</div>
+										
+										<div>
+											
+												<div class="page-template-content markdown-body">
+													構築與限制賽皆打，構築有玩賽制 : 標準、先驅、近代、EDH（海怪禁單挑、官禁多人休閒向），薪傳與純普也有研究但身邊沒環境。
+												</div>
+											
+												<div class="page-template-content markdown-body">
+													主力賽制為標準，喜歡打重視去除與資源的慢節奏套牌。
+												</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						
+					
+				</div>
+			</div>
+		
+
+		
+		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+			<div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> 什麼是從屬關係</li>
+        <li><strong>Author:</strong> Jru</li>
+        <li><strong>Created at
+                :</strong> 2024-05-09 09:25:22</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2025-08-12 13:56:37
+            </li>
+        
+        <li>
+            <strong>Link:</strong> https://guildmagesforum.tw/What-is-Dependency/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+
+            
+                This work is licensed under <a class="license" target="_blank" rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a>.
+            
+        </li>
+    </ul>
+</div>
+
+		</div>
+		
+
+		
+  <div class="recommended-article px-2 sm:px-6 md:px-8">
+   <div class="recommended-desktop">
+    <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>或許你會喜歡</span>
+    </div>
+    <div class="recommended-article-group"><a class="recommended-article-item" href="/Layer/" title="Layer：持續性效應的互動" rel="bookmark">
+  <img src="https://i.meee.com.tw/i99FcrX.png" alt="Layer：持續性效應的互動" class="!max-w-none">
+  <span class="title">Layer：持續性效應的互動</span>
+</a><a class="recommended-article-item" href="/Beginners-Guide/" title="MTG新手入坑指南" rel="bookmark">
+  <img src="https://i.meee.com.tw/jMNOt22.jpg" alt="MTG新手入坑指南" class="!max-w-none">
+  <span class="title">MTG新手入坑指南</span>
+</a><a class="recommended-article-item" href="/DSK-Draft-Report/" title="暮悲邸：鬼屋驚魂（DSK）輪抽分享" rel="bookmark">
+  <img src="https://i.meee.com.tw/uACP7WK.jpg" alt="暮悲邸：鬼屋驚魂（DSK）輪抽分享" class="!max-w-none">
+  <span class="title">暮悲邸：鬼屋驚魂（DSK）輪抽分享</span>
+</a><a class="recommended-article-item" href="/OTJ-Limited/" title="豬鼻子的光雷驛鏢客限制賽分析（寫在PT OTJ之前）" rel="bookmark">
+  <img src="https://i.postimg.cc/BvXT0L8J/viko-menezes-horse-wisperer.jpg" alt="豬鼻子的光雷驛鏢客限制賽分析（寫在PT OTJ之前）" class="!max-w-none">
+  <span class="title">豬鼻子的光雷驛鏢客限制賽分析（寫在PT OTJ之前）</span>
+</a><a class="recommended-article-item" href="/What-is-Time-Stamp/" title="什麼是時間印記" rel="bookmark">
+  <img src="https://i.postimg.cc/pxbqm3Mb/Diminish.jpg" alt="什麼是時間印記" class="!max-w-none">
+  <span class="title">什麼是時間印記</span>
+</a><a class="recommended-article-item" href="/Pioneer-Introduction/" title="先驅簡易環境指南" rel="bookmark">
+  <img src="https://guildmagesforum.tw/images/mtg-pioneer.jpg" alt="先驅簡易環境指南" class="!max-w-none">
+  <span class="title">先驅簡易環境指南</span>
+</a></div>
+   </div>
+   <div class="recommended-mobile">
+   <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>或許你會喜歡</span>
+   </div>
+   <div class="recommended-article-group"><a class="recommended-article-item" href="/Layer/" title="Layer：持續性效應的互動" rel="bookmark">
+  <img src="https://i.meee.com.tw/i99FcrX.png" alt="Layer：持續性效應的互動" class="!max-w-none">
+  <span class="title">Layer：持續性效應的互動</span>
+</a><a class="recommended-article-item" href="/Beginners-Guide/" title="MTG新手入坑指南" rel="bookmark">
+  <img src="https://i.meee.com.tw/jMNOt22.jpg" alt="MTG新手入坑指南" class="!max-w-none">
+  <span class="title">MTG新手入坑指南</span>
+</a><a class="recommended-article-item" href="/DSK-Draft-Report/" title="暮悲邸：鬼屋驚魂（DSK）輪抽分享" rel="bookmark">
+  <img src="https://i.meee.com.tw/uACP7WK.jpg" alt="暮悲邸：鬼屋驚魂（DSK）輪抽分享" class="!max-w-none">
+  <span class="title">暮悲邸：鬼屋驚魂（DSK）輪抽分享</span>
+</a><a class="recommended-article-item" href="/OTJ-Limited/" title="豬鼻子的光雷驛鏢客限制賽分析（寫在PT OTJ之前）" rel="bookmark">
+  <img src="https://i.postimg.cc/BvXT0L8J/viko-menezes-horse-wisperer.jpg" alt="豬鼻子的光雷驛鏢客限制賽分析（寫在PT OTJ之前）" class="!max-w-none">
+  <span class="title">豬鼻子的光雷驛鏢客限制賽分析（寫在PT OTJ之前）</span>
+</a></div>
+   </div>
+  </div>
+
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="prev" rel="prev" href="/Pioneer-Mono-Black-Processor/">
+					<span class="left arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-left"></i>
+					</span>
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">Pioneer 純黑噬體中速</span>
+						<span class="post-nav-item">Prev posts</span>
+					</span>
+				</a>
+			</div>
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/Standard-Deck-Revise-After-OTJ/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">《光雷驛鏢客》舊科技新譯</span>
+						<span class="post-nav-item">Next posts</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+
+
+		
+		<div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+			<div class="comments-container mt-10 w-full">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        Comments
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>import{init}from"/js/libs/waline.mjs";function loadWaline(){init({el:"#waline",serverURL:"https://mtg-blog-comment.vercel.app/",lang:"zh-TW",dark:'body[class~="dark-mode"]',reaction:!1,requiredMeta:["nick","mail"],emoji:[]})}"undefined"!=typeof swup?loadWaline():window.addEventListener("DOMContentLoaded",loadWaline)</script>
+
+
+
+        
+    
+</div>
+
+		</div>
+		
+	</div>
+
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">On this page</div>
+		<div class="page-title">什麼是從屬關係</div>
+		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Before-We-Start"><span class="nav-number">1.</span> <span class="nav-text">Before We Start</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%80%E9%BA%BC%E6%98%AF%E5%BE%9E%E5%B1%AC%E9%97%9C%E4%BF%82"><span class="nav-number">2.</span> <span class="nav-text">什麼是從屬關係</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%99%82%E9%96%93%E5%8D%B0%E8%A8%98%E8%88%87%E5%BE%9E%E5%B1%AC%E9%97%9C%E4%BF%82"><span class="nav-number">2.1.</span> <span class="nav-text">時間印記與從屬關係</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%82%BA%E7%94%9A%E9%BA%BC%E9%9C%80%E8%A6%81%E5%BE%9E%E5%B1%AC%E9%97%9C%E4%BF%82"><span class="nav-number">2.2.</span> <span class="nav-text">為甚麼需要從屬關係</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%9E%E5%B1%AC%E9%97%9C%E4%BF%82%E8%A6%8F%E5%89%87%E5%AE%9A%E7%BE%A9"><span class="nav-number">2.3.</span> <span class="nav-text">從屬關係規則定義</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BE%9E%E5%B1%AC%E9%97%9C%E4%BF%82%E8%A6%8F%E5%89%87%E6%A1%88%E4%BE%8B"><span class="nav-number">3.</span> <span class="nav-text">從屬關係規則案例</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Next%EF%BC%9ALayer"><span class="nav-number">4.</span> <span class="nav-text">Next：Layer</span></a></li></ol>
+
+	</div>
+</div>
+	</div>
+	
+</div>
+
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+            <div class="customize-info my-1">Guildmages' Forum 魔風集會所的部分內容是威世智 (Wizards of the Coast) 同好內容政策允許的非官方同好內容。 <br> 本網站所提供之魔法風雲會 (Magic the Gathering, MTG) 文字和圖形資訊，包括卡片圖像、魔法力符號和部分卡片資訊的中文翻譯，版權均為孩之寶集團的子公司威世智所有。 <br> Guildmages' Forum 魔風集會所並不由威世智製作、背書、支持，亦不隸屬於該公司。 <br> 上述聲明以外的所有內容均屬於 2023 © Guildmages' Forum 魔風集會所以及其協力創作者們。</div>
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2023</span>
+              -
+            
+            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration:0.5s;color:#f54545"></i>&nbsp;&nbsp;<a href="/">Guildmages&#39; Forum Staff</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        275 posts in total
+                    </span>
+                    
+                        <span>
+                            1097.4k words in total
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://events.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">VISITOR COUNT</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">TOTAL PAGE VIEWS</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">POWERED BY <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewbox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io" rel="external nofollow noopener noreferrer">Hexo</a></span>
+            <span class="text-sm lg:block">THEME&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine" rel="external nofollow noopener noreferrer">Redefine v2.8.2</a></span>
+        </div>
+        
+        
+            <div>
+                Blog up for <span class="odometer" id="runtime_days"></span> days <span class="odometer" id="runtime_hours"></span> hrs <span class="odometer" id="runtime_minutes"></span> Min <span class="odometer" id="runtime_seconds"></span> Sec
+            </div>
+        
+        
+            <script data-swup-reload-script>try{function odometer_init(){document.querySelectorAll(".odometer").forEach(e=>{new Odometer({el:e,format:"( ddd).dd",duration:200})})}odometer_init()}catch(e){}</script>
+        
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
+
+		
+		
+		<li class="go-comment">
+			<i class="fa-regular fa-comments"></i>
+		</li>
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		
+		
+		<li class="right-bottom-tools rss flex justify-center items-center">
+			<a class="flex justify-center items-center" href="/atom.xml" target="_blank">
+				<i class="fa-regular fa-rss"></i>
+			</a>
+		</li>
+		
+
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="arrow-up fas fa-arrow-up"></i>
+			<span class="percent"></span>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container">
+	<img src>
+</div>
+
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Search..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+</main>
+
+
+
+<script src="/js/build/libs/Swup.min.js"></script>
+
+<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>const swup=new Swup({plugins:[new SwupScriptsPlugin({optin:!0}),new SwupProgressPlugin,new SwupScrollPlugin({offset:80}),new SwupSlideTheme({mainElement:".main-content-body"}),new SwupPreloadPlugin],containers:["#swup"]})</script>
+
+
+
+
+	
+<script src="/js/build/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/build/utils.js" type="module"></script>
+
+<script src="/js/build/main.js" type="module"></script>
+
+<script src="/js/build/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/build/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/build/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/build/layouts/categoryList.js" type="module"></script>
+
+
+
+    
+<script src="/js/build/tools/localSearch.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/runtime.js"></script>
+
+    
+<script src="/js/build/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/build/libs/Typed.min.js"></script>
+
+  
+<script src="/js/build/plugins/typed.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+    
+<script src="/js/build/tools/tocToggle.js" type="module" data-swup-reload-script></script>
+
+<script src="/js/build/layouts/toc.js" type="module" data-swup-reload-script></script>
+
+<script src="/js/build/plugins/tabs.js" type="module" data-swup-reload-script></script>
+
+
+
+
+<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script></script>
+
+
+<script src="/js/build/layouts/essays.js" type="module" data-swup-reload-script></script>
+
+
+
+    
+<script src="/js/build/libs/pangu.min.js"></script>
+
+<script src="/js/build/plugins/pangu.js"></script>
+
+
+
+
+	
+</body>
+
+</html>

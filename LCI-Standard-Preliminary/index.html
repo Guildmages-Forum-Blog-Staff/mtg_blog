@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="MTG 中文網站, Guildmages Forum, mtg blog, mtg decktech, mtg 近代, mtg 先驅, mtg, mtg pioneer, mtg modern, 魔風集會所">
+    
+    <meta name="author" content="Guildmages&#39; Forum Staff">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    
+    
+    <link rel="canonical" href="https://guildmagesforum.tw/lci-standard-preliminary/">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+    
+        
+        <meta name="description" content="Guildmages’ Forum 魔風集會所是一個繁體中文的部落格，致力於推廣魔法風雲會競技型賽制。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="依夏蘭迷窟標準初探">
+<meta property="og:url" content="https://guildmagesforum.tw/LCI-Standard-Preliminary/index.html">
+<meta property="og:site_name" content="Guildmages&#39; Forum 魔風集會所">
+<meta property="og:description" content="Guildmages’ Forum 魔風集會所是一個繁體中文的部落格，致力於推廣魔法風雲會競技型賽制。">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://guildmagesforum.tw/images/logo.webp">
+<meta property="article:published_time" content="2023-11-23T04:17:46.000Z">
+<meta property="article:modified_time" content="2025-08-12T05:56:37.176Z">
+<meta property="article:author" content="豬鼻子的mtg世界 &amp; Jru &amp; 跳鼠">
+<meta property="article:tag" content="cephille">
+<meta property="article:tag" content="JruMTG">
+<meta property="article:tag" content="JerobaMTG">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://guildmagesforum.tw/images/logo.webp">
+    
+    
+        
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-JFWD3SG42T"></script>
+        <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-JFWD3SG42T")</script>
+    
+    
+    <link rel="icon" type="image/png" href="/images/logo.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.jpg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/logo.jpg">
+    
+    
+    <title>
+        
+            依夏蘭迷窟標準初探 | Guildmages&#39; Forum 魔風集會所
+        
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    
+    
+    
+    
+    
+    
+    
+        
+<script src="/js/build/libs/anime.min.js"></script>
+
+    
+
+    <script id="hexo-configurations">window.config={hostname:"guildmagesforum.tw",root:"/",language:"en",path:"search.xml"},window.theme={articles:{style:{font_size:"18px",line_height:1.5,image_border_radius:"14px",image_alignment:"center",image_caption:!1,link_icon:!1,delete_mask:!1,title_alignment:"left",headings_top_spacing:{h1:"3.2rem",h2:"2.4rem",h3:"1.9rem",h4:"1.6rem",h5:"1.4rem",h6:"1.3rem"}},word_count:{enable:!0,count:!0,min2read:!0},author_label:{enable:!1,auto:!1,list:[]},code_block:{copy:!0,style:"mac",highlight_theme:{light:"github",dark:"vs2015"},font:{enable:!1,family:null,url:null}},toc:{enable:!0,max_depth:6,number:!0,expand:!0,init_open:!0},copyright:{enable:!0,default:"cc_by_nc_sa"},lazyload:!0,pangu_js:!0,recommendation:{enable:!0,title:"或許你會喜歡",limit:6,mobile_limit:4,placeholder:"/images/wallhaven-wqery6-light.webp",skip_dirs:[]}},colors:{primary:"#A31F34",secondary:null,default_mode:"light"},global:{fonts:{chinese:{enable:!1,family:null,url:null},english:{enable:!1,family:null,url:null},title:{enable:!1,family:null,url:null}},content_max_width:"1000px",sidebar_width:"210px",hover:{shadow:!0,scale:!1},scroll_progress:{bar:!0,percentage:!0},website_counter:{url:"https://events.vercount.one/js",enable:!0,site_pv:!0,site_uv:!0,post_pv:!0},single_page:!0,preloader:{enable:!0,custom_message:null},open_graph:{enable:!0,image:"/images/logo.webp",description:null},google_analytics:{enable:!0,id:"G-JFWD3SG42T"}},home_banner:{enable:!0,style:"fixed",image:{light:"/images/wallhaven-wqery6-light.webp",dark:"/images/wallhaven-wqery6-dark.webp"},title:"Welcome to Guildmages' Forum!",subtitle:{text:["各路旅法師的集散地","讓玩家額外有個 +1/+1 指示物","釋放各路玩家的限制","盡情享受遊戲","不瘋魔不成活"],hitokoto:{enable:!1,show_author:!1,api:"https://v1.hitokoto.cn"},typing_speed:100,backing_speed:50,starting_delay:500,backing_delay:1500,loop:!0,smart_backspace:!0},text_color:{light:"#fff",dark:"#d1d1b6"},text_style:{title_size:"2.8rem",subtitle_size:"1.5rem",line_height:1.2},custom_font:{enable:!1,family:null,url:null},social_links:{enable:!1,style:"default",links:{github:null,instagram:null,zhihu:null,twitter:null,email:null},qrs:{weixin:null}}},plugins:{feed:{enable:!0},aplayer:{enable:!1,type:"fixed",audios:[{name:null,artist:null,url:null,cover:null,lrc:null}]},mermaid:{enable:!1,version:"11.4.1"}},version:"2.8.2",navbar:{auto_hide:!0,color:{left:"#f78736",right:"#367df7",transparency:35},width:{home:"1200px",pages:"1000px"},links:{Home:{path:"/",icon:"fa-regular fa-house"},Categories:{path:"/categories",icon:"fa-regular fa-folder"},"About Us":{path:"/about",icon:"fa-regular fa-user"},"Contact Us":{path:"/Contact-Us",icon:"fa-regular fa-mailbox-flag-up"},Links:{icon:"fa-regular fa-link",submenus:{"Guildmages' Forum 粉專":"https://www.facebook.com/guildmagesforumtw","台南猴王的耍猴日常":"https://www.facebook.com/TainanMonkeyKing","豬鼻子的mtg世界":"https://www.facebook.com/Pignosemtgworld","多明納里亞圖書館":"https://dominarialibrary.com","龍尊與荒野騎士的玄境之談":"https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807","塞克斯的MTG日誌":"http://76vezffd.blogspot.com/","約力昂大叔 Uncle Yorion":"https://www.facebook.com/profile.php?id=100068751771443","Kappa The Gathering":"https://www.facebook.com/profile.php?id=61558862427620","Mystic Zone":"http://mysticzonetw.blogspot.com/","Spark Double Podcast":"https://linktr.ee/sparkdouble","勇德大叔的日常":"https://www.facebook.com/UncleJund","鳥不喇基":"https://www.facebook.com/profile.php?id=100063848411689","魔法風雲會粉專":"https://www.facebook.com/MagicTheGathering.ct","下水道鱷魚":"https://facebook.com/profile.php?id=61567687550022","紅的喜氣":"https://www.facebook.com/profile.php?id=100083415367398","貓羽的文字日誌":"https://whitecat2.pixnet.net/blog","寬麵的遊戲頻道":"https://www.facebook.com/profile.php?id=100083345574225"}}},search:{enable:!0,preload:!0}},page_templates:{friends_column:2,tags_style:"blur"},home:{sidebar:{enable:!0,position:"left",first_item:"info",announcement:null,show_on_mobile:!0,links:{Categories:{path:"/categories",icon:"fa-regular fa-folder"},"About Us":{path:"/about",icon:"fa-regular fa-user"},"Contact Us":{path:"/Contact-Us",icon:"fa-regular fa-mailbox-flag-up"}}},article_date_format:"auto",excerpt_length:200,categories:{enable:!0,limit:3},tags:{enable:!0,limit:3}},footerStart:"2023/8/23 00:00:00"},window.lang_ago={second:"%s seconds ago",minute:"%s minutes ago",hour:"%s hours ago",day:"%s days ago",week:"%s weeks ago",month:"%s months ago",year:"%s years ago"},window.data={masonry:!1}</script>
+    
+    
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Guildmages' Forum 魔風集會所" type="application/atom+xml">
+</head>
+
+
+
+<body>
+	<div class="progress-bar-container">
+	
+	<span class="scroll-progress-bar"></span>
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	
+	
+	
+	
+</div>
+
+<style>:root{--preloader-background-color:#fff;--preloader-text-color:#000}@media (prefers-color-scheme:dark){:root{--preloader-background-color:#202124;--preloader-text-color:#fff}}@media (prefers-color-scheme:light){:root{--preloader-background-color:#fff;--preloader-text-color:#000}}@media (max-width:600px){.ml13{font-size:2.6rem!important}}.preloader{display:flex;flex-direction:column;gap:1rem;align-items:center;justify-content:center;position:fixed;padding:12px;top:0;right:0;bottom:0;left:0;width:100vw;height:100vh;background-color:var(--preloader-background-color);z-index:1100;transition:opacity .2s ease-in-out}.ml13{font-size:3.2rem;color:var(--preloader-text-color);letter-spacing:-1px;font-weight:500;font-family:Chillax-Variable,sans-serif;text-align:center}.ml13 .word{display:inline-flex;flex-wrap:wrap;white-space:nowrap}.ml13 .letter{display:inline-block;line-height:1em}</style>
+
+<div class="preloader">
+    <h2 class="ml13">
+        Guildmages&#39; Forum 魔風集會所
+    </h2>
+    <script>
+        var textWrapper = document.querySelector('.ml13');
+        // Split text into words
+        var words = textWrapper.textContent.trim().split(' ');
+        words = ['Guildmages\'', 'Forum', '魔風集會所']
+
+        // Clear the existing content
+        textWrapper.innerHTML = '';
+
+        // Wrap each word and its letters in spans
+        words.forEach(function(word) {
+            var wordSpan = document.createElement('span');
+            wordSpan.classList.add('word');
+            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
+            textWrapper.appendChild(wordSpan);
+            if ( word === "Forum" ) {
+                textWrapper.appendChild(document.createElement('br'));
+            }
+            else {
+                textWrapper.appendChild(document.createTextNode(' '));
+            }
+        });
+
+        var animation = anime.timeline({ loop: true })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [20, 0],
+                translateZ: 0,
+                opacity: [0, 1],
+                filter: ['blur(5px)', 'blur(0px)'],
+                easing: "easeOutExpo",
+                duration: 1200,
+                delay: (el, i) => 300 + 20 * i,
+            })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [0, -20],
+                opacity: [1, 0],
+                filter: ['blur(0px)', 'blur(5px)'],
+                easing: "easeInExpo",
+                duration: 1000,
+                delay: (el, i) => 15 * i,
+                complete: function() {
+                    hidePreloader();
+                }
+            }, '-=700');
+
+
+        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
+
+        // If the theme status is not found in local storage, check the preferred color scheme
+        if (themeStatus === undefined || themeStatus === null) {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                themeStatus = 'dark';
+            } else {
+                themeStatus = 'light';
+            }
+        }
+
+        // Now you can use the themeStatus variable in your code
+        if (themeStatus) {
+            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
+            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
+        } else {
+            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
+            document.documentElement.style.setProperty('--preloader-text-color', '#000');
+        }
+
+        window.addEventListener('load', function () {
+            setTimeout(hidePreloader, 5000); // Call hidePreloader after 5000 milliseconds if not already called by animation
+        });
+
+        function hidePreloader() {
+            var preloader = document.querySelector('.preloader');
+            preloader.style.opacity = '0';
+            setTimeout(function () {
+                preloader.style.display = 'none';
+            }, 200);
+        }
+    </script>
+</div>
+
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <style>.centered-text{text-align:center;margin:0;line-height:1.5}</style>
+    <div class="navbar-content transition-navbar">
+        <div class="left">
+            
+            <a class="logo-title centered-text" href="/">
+                
+                Guildmages&#39; Forum<br>
+                魔風集會所
+                
+            </a>
+        </div>
+
+        <div class="right">
+            
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/">
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    HOME
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/categories">
+                                    <i class="fa-regular fa-folder fa-fw"></i>
+                                    CATEGORIES
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/about">
+                                    <i class="fa-regular fa-user fa-fw"></i>
+                                    ABOUT US
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/Contact-Us">
+                                    <i class="fa-regular fa-mailbox-flag-up fa-fw"></i>
+                                    CONTACT US
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a class="has-dropdown" href="#" onclick="&#34;return" false;&#34;>
+                                    <i class="fa-regular fa-link fa-fw"></i>
+                                    LINKS
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/guildmagesforumtw">
+                                                    GUILDMAGES&#39; FORUM 粉專
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/TainanMonkeyKing">
+                                                    台南猴王的耍猴日常
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/Pignosemtgworld">
+                                                    豬鼻子的MTG世界
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://dominarialibrary.com">
+                                                    多明納里亞圖書館
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807">
+                                                    龍尊與荒野騎士的玄境之談
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="http://76vezffd.blogspot.com/">
+                                                    塞克斯的MTG日誌
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100068751771443">
+                                                    約力昂大叔 UNCLE YORION
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=61558862427620">
+                                                    KAPPA THE GATHERING
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="http://mysticzonetw.blogspot.com/">
+                                                    MYSTIC ZONE
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://linktr.ee/sparkdouble">
+                                                    SPARK DOUBLE PODCAST
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/UncleJund">
+                                                    勇德大叔的日常
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100063848411689">
+                                                    鳥不喇基
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/MagicTheGathering.ct">
+                                                    魔法風雲會粉專
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://facebook.com/profile.php?id=61567687550022">
+                                                    下水道鱷魚
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083415367398">
+                                                    紅的喜氣
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://whitecat2.pixnet.net/blog">
+                                                    貓羽的文字日誌
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083345574225">
+                                                    寬麵的遊戲頻道
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/">
+                            <span>
+                                HOME
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/categories">
+                            <span>
+                                CATEGORIES
+                            </span>
+                            
+                                <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/about">
+                            <span>
+                                ABOUT US
+                            </span>
+                            
+                                <i class="fa-regular fa-user fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/Contact-Us">
+                            <span>
+                                CONTACT US
+                            </span>
+                            
+                                <i class="fa-regular fa-mailbox-flag-up fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" navbar-data-toggle="submenu-Links">
+                            <span>
+                                LINKS
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-Links">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/guildmagesforumtw">GUILDMAGES&#39; FORUM 粉專</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/TainanMonkeyKing">台南猴王的耍猴日常</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/Pignosemtgworld">豬鼻子的MTG世界</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://dominarialibrary.com">多明納里亞圖書館</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807">龍尊與荒野騎士的玄境之談</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="http://76vezffd.blogspot.com/">塞克斯的MTG日誌</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100068751771443">約力昂大叔 UNCLE YORION</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=61558862427620">KAPPA THE GATHERING</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="http://mysticzonetw.blogspot.com/">MYSTIC ZONE</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://linktr.ee/sparkdouble">SPARK DOUBLE PODCAST</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/UncleJund">勇德大叔的日常</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100063848411689">鳥不喇基</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/MagicTheGathering.ct">魔法風雲會粉專</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://facebook.com/profile.php?id=61567687550022">下水道鱷魚</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083415367398">紅的喜氣</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://whitecat2.pixnet.net/blog">貓羽的文字日誌</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083345574225">寬麵的遊戲頻道</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    
+                    
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">38</div>
+        <div class="label text-third-text-color text-sm">Tags</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">30</div>
+        <div class="label text-third-text-color text-sm">Categories</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">275</div>
+        <div class="label text-third-text-color text-sm">Posts</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
+
+		<div class="article-title relative w-full">
+			
+			
+			
+			<img src="https://media.wizards.com/2023/images/daily/4slfxf8289r9.png" alt="依夏蘭迷窟標準初探" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75">
+			
+			<div class="w-full flex items-center absolute bottom-0 justify-start">
+				<h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color">依夏蘭迷窟標準初探</h1>
+			</div>
+			
+		</div>
+
+		
+			
+			
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			
+				<a href="/tags/cephille/,/tags/jrumtg/,/tags/jerobamtg/" class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+					<img src="/images/logo.jpg">
+				</a>
+			
+			<div class="info flex flex-col justify-between">
+				
+					
+					<ul class="name text-default-text-color text-lg font-semibold flex">
+						
+							&nbsp;&nbsp;
+							<a href="/tags/cephille/" class="author flex items-center">
+								豬鼻子的mtg世界
+							</a>
+							
+							&nbsp;&amp;&nbsp;
+							<a href="/tags/jrumtg/" class="author flex items-center">
+								Jru
+							</a>
+							
+							&nbsp;&amp;&nbsp;
+							<a href="/tags/jerobamtg/" class="author flex items-center">
+								跳鼠
+							</a>
+							
+						</ul>
+					
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2023-11-23 12:17:46</span>
+        <span class="mobile">2023-11-23 12:17:46</span>
+        <span class="hover-info">Created</span>
+    </span>
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/construct/">Construct</a>&nbsp;
+                        </li>
+                    
+                    
+                
+                    
+                        
+                            <li>></li>
+                        
+                        <li>
+                            <a href="/categories/construct/standard/">Standard</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-keyboard"></i>&nbsp;<span>4.6k Words</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>15 Mins</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<h2 id="Before-We-Start"><a href="#Before-We-Start" class="headerlink" title="Before We Start"></a>Before We Start</h2><p>新系列上市最振奮人心的莫過開發新套牌了，這次依夏蘭迷窟又能給標準注入怎麼樣的新血呢？ 讓我們來點腦力激盪，看看新系列的標準構築吧！</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://media.wizards.com/2023/images/daily/4slfxf8289r9.png" alt="封面"></p>
+<hr>
+<h2 id="套牌介紹"><a href="#套牌介紹" class="headerlink" title="套牌介紹"></a>套牌介紹</h2><h3 id="昆托力歷險"><a href="#昆托力歷險" class="headerlink" title="昆托力歷險"></a>昆托力歷險</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5985720#paper">昆托力歷險牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/wpXVrX3.jpg" alt="昆托力歷險"></p>
+<p>以<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/238/quintorius-kand">昆托力康德</a>的觸發式異能為核心的構築，從放逐區施放咒語就能吸兩滴血的能力與歷險搭配良好，歷險本身就是個強力異能了，從中選取優質單卡可以保證套牌穩定性，即使昆托力不在場上套牌也有充足的運作能力。另外<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/157/virtue-of-courage-embereth-blaze">勇氣之美德</a>與昆托力可以形成互相回饋的配合，不過由於搭配限制性較高，所以不敢放多，還是以泛用單卡為主體來構築。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/FIMeyZI.jpg" alt="昆托力歷險"></p>
+<h3 id="紅黑挖墳"><a href="#紅黑挖墳" class="headerlink" title="紅黑挖墳"></a>紅黑挖墳</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5985737#paper">紅黑挖墳牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/b7lJ47h.jpg" alt="紅黑挖墳"></p>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/171/trumpeting-carnosaur">長吼食肉龍</a>的偽魂力異能除了是個去除外，也是個主動堆墳，加上自己強力的進場異能，幾乎就是把「挖墳目標」幾個字寫在自己臉上了，這裡選用<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dmu/87/the-cruelty-of-gix">基克斯暴行錄</a>作為主要挖墳手段，加上<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/vow/232/bloodtithe-harvester">血稅收集官</a>的血滴、<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/snc/102/big-score">大幹一票</a>等棄牌手段，以及最強的挖墳目標<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mom/137/etali-primal-conqueror-etali-primal-sickness">始霸埃泰力</a>，再配上一些適合作為棄牌肥料與前期曲線潤滑套牌的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/snc/97/tenacious-underdog">頑強敗犬</a>，整合成了這套紅黑挖墳。因為這套有著一些加速能力，有時不用執著於挖墳，湊到足夠費用正拍也是可行的。如果想拚更高的上限也可以考慮加入<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mom/94/breach-the-multiverse">洞穿多重宇宙</a>，集去除、抽棄、打點於一身的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dmu/121/the-elder-dragon-war">長老龍之戰</a>也是個不錯的可用潤滑元件。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/erlnNrl.jpg" alt="紅黑挖墳"></p>
+<h3 id="藍黑中速"><a href="#藍黑中速" class="headerlink" title="藍黑中速"></a>藍黑中速</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5985729#paper">藍黑中速牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/lUWIuFr.jpg" alt="藍黑中速"></p>
+<p>這系列的神都有著「死去時以背面重新回場」的能力（無論自己當前是正面或反面），而<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mom/231/invasion-of-amonkhet-lazotep-convert">進軍阿芒凱</a>的背面又是「作為墳場任一生物的複製品進場」，也就是說若你的進軍阿芒凱轉化時選擇當本系列的神的複製品進場，不管怎麼死都能重新再當神的複製品進場一次，對手想要破除這個輪迴就得想辦法把墳場中的神放逐、或是用放逐等不會進墳場的解牌才行。因為想盡可能發揮<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/67/ojer-pakpatiq-deepest-epoch-temple-of-cyclical-time">深邃紀時巴帕提尊神（藍神）</a>的價值，招的部分盡可能選用適合彈回（Rebound）為前提的瞬間。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/WHbxX9q.jpg" alt="藍黑中速"></p>
+<p>更多關於雙面牌的規則介紹可參考此文章：<a href="https://guildmagesforum.tw/DFC-Copy/">轉化式雙面牌與複製效應</a></p>
+<h3 id="格利極中速"><a href="#格利極中速" class="headerlink" title="格利極中速"></a>格利極中速</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5985726#paper">格利極中速牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/KOyptns.jpg" alt="格利極中速"></p>
+<p>上面藍黑中速的再改造版，維持了<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mom/231/invasion-of-amonkhet-lazotep-convert">進軍阿芒凱</a>與神的搭配主題，由於混了紅色，可以使用格利極最招牌的賺牌生物<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/snc/178/corpse-appraiser">鑑屍客</a>以及堪稱<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/neo/141/fable-of-the-mirror-breaker-reflection-of-kiki-jiki">破鏡奇譚</a>再世的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/239/saheeli-the-suns-brilliance">烈陽綻輝莎希莉</a>，生物的選用也以最大化善用ETB為前提。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/JCA6IUK.jpg" alt="格利極中速"></p>
+<h3 id="格利極落墳"><a href="#格利極落墳" class="headerlink" title="格利極落墳"></a>格利極落墳</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5985685#paper">格利極落墳牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/EoJ29kF.jpg" alt="格利極落墳"></p>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/222/the-ancient-one">遠古祖神</a>有著2費8&#x2F;8的身材，但卻不見得能夠滿足參與攻防的條件，那該怎麼辦呢？<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/snc/206/ob-nixilis-the-adversary">魔頭歐尼希茲</a>覺得好吃，催命8後即使開了-7的大招都還有剩。不過當然不可能只把遠古祖神作為純粹的肥料，能夠參與戰鬥還是最理想的，這套強化了自磨堆墳的能力，目標是讓遠古祖神、<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/121/souls-of-the-lost">失落者靈魂</a>、<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/222/cruel-somnophage-cant-wake-up"> 殘忍噬懼怪</a>快速變成合格的強力威脅。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/oaJa6LF.jpg" alt="格利極落墳"></p>
+<h3 id="黑綠豆莖收成節"><a href="#黑綠豆莖收成節" class="headerlink" title="黑綠豆莖收成節"></a>黑綠豆莖收成節</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5985763#paper">黑綠豆莖收成節牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/KSdBKOi.jpg" alt="黑綠豆莖收成節"></p>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/195/up-the-beanstalk">爬上豆莖</a>跟<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mid/200/storm-the-festival">衝擊收成節</a>都好賺好想玩，該怎麼取捨呢？ 我全都要！</p>
+<p>這兩者的交集為5費，因此套牌自然是盡可能增加強力5費永久物的密度，套牌費用這麼笨重想當然不會只靠慢慢的正常下地，要有些Ramp加速的能力，這裡採用<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lcc/261/topiary-stomper">綠雕跺地獸</a>&amp;<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mom/194/invasion-of-zendikar-awakened-skyclave">進軍贊迪卡</a>的經典加速套裝，2費曲線靠<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/snc/97/tenacious-underdog">頑強敗犬</a>來填充，低費強交換能力與不怕死的性質比較適合幫我們渡過前期，<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/231/mosswood-dreadknight-dread-whispers">蘚木林恐懼騎士</a>雖然是個優質黑綠2費曲線，但想要發揮它的價值會傾向2回做歷險痛血抽牌，這樣自己場面是空的，容易陷入血量危機中，這套的生物曲線與一般黑綠不同，前期會有個比較大的空窗區，生物還是能盡早站場比較好，在這點上頑強敗犬稱職得多。</p>
+<p>如果覺得這套5費那票主力傳奇生物造價太高，<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/snc/165/workshop-warchief">車間戰酋長</a>是個不錯的經濟版替換選項，在部分對局的表現甚至優於目前牌表。另外要注意，爬上豆莖是施放大於等於5費的咒語時抽牌，用衝擊收成節將5費的永久物放進戰場是不會觸發爬上豆莖的抽牌能力的。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/wHQKZDH.jpg" alt="黑綠豆莖收成節"></p>
+<h3 id="黑綠操縱比賽"><a href="#黑綠操縱比賽" class="headerlink" title="黑綠操縱比賽"></a>黑綠操縱比賽</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5992995#paper">黑綠操縱比賽節牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/enCOFpN.jpg" alt="黑綠操縱比賽"></p>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/208/pugnacious-hammerskull">好鬥顱鎚龍</a>綠色3費6&#x2F;6的身材，簡直是<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/snc/145/fight-rigging">操縱比賽</a>的絕配，加上原有的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/snc/95/shakedown-heavy">搜探壯漢</a>、<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/one/82/archfiend-of-the-dross">深沼翼邪鬼</a>，現在黑綠色組4費以內就有12隻6攻生物了，確實操縱比賽是個理論上對手有去除就能壓住的打法，但當觸發打點密度高到這程度後，對手壓力也不小，只要漏了一次去除就有可能瞬間升天。</p>
+<p>大獎的部分目前選用<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/212/the-skullspore-nexus">骨孢連結點</a>與<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/115/virtue-of-persistence-locthwain-scorn">毅力之美德</a>，骨孢連結點與高力量生物思路十分契合，產出Token具有恐龍類別也能協助好鬥顱鎚龍規避副作用，毅力之美德則是靠低費歷險的特性來提升套牌運作穩定度。此外具有彈性施放費用的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/one/175/nissa-ascended-animist">昇華物靈師妮莎</a>也是穩定的好選項，如果想拚更高的爆發性上限則是可以考慮<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/one/189/tyrranax-rex">霸蛛暴龍</a>。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/gHw5ySy.jpg" alt="黑綠操縱比賽"></p>
+<h3 id="黑綠加碼"><a href="#黑綠加碼" class="headerlink" title="黑綠加碼"></a>黑綠加碼</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5989365#paper">黑綠加碼牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/eelQaMY.jpg" alt="黑綠加碼"></p>
+<p>依夏蘭迷窟本質上也是個神器環境，無論是神器產出源或是消耗口都非常多，這套使用了大量能夠產出神器或生物Token的打點，透過<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/193/tough-cookie">勇敢餅人</a>轉換成戰鬥力，或是作為<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/126/tarrians-journal-the-tomb-of-aclazotz">塔理安的日誌</a>、<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/80/back-for-seconds">返身助力</a>、<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/82/beseech-the-mirror">懇求魔鏡</a>的肥料來維持資源體系的運作，<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/129/visage-of-dread-dread-osseosaur">可怖頭顱骨</a>這類ETB用完後就擺在場上的神器可以透過這種再就業的方式發揮額外價值。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/gwM5MtZ.jpg" alt="黑綠加碼"></p>
+<h3 id="黑白加碼"><a href="#黑白加碼" class="headerlink" title="黑白加碼"></a>黑白加碼</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5989369#paper">黑白加碼牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/WtlpGJ9.jpg" alt="黑白加碼"></p>
+<p>與上面的黑綠加碼概念十分接近，不過在這裡更加強調橫向展開的能力，比起上面使用<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/193/tough-cookie">勇敢餅人</a>轉換出額外威脅的打法，更接近傳統以犧牲作為資源引擎的中速，<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/82/beseech-the-mirror">懇求魔鏡</a>在這裡徹底的工具箱化了，黑白色組的4費牌功能非常全面，無論威脅、去除、賺牌都可以找到最頂級的選項，讀者也可以根據自己的喜好調整工具箱內容，甚至是增加懇求魔鏡的數量。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/YLBGbak.jpg" alt="黑白加碼"></p>
+<h3 id="白藍閃現"><a href="#白藍閃現" class="headerlink" title="白藍閃現"></a>白藍閃現</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5985700#paper">白藍閃現牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/SWFycXi.jpg" alt="白藍閃現"></p>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mom/224/errant-and-giada">流芳與吉婭妲</a>一直是個很吸引我的節奏向Draw Go思路核心元件，但套牌想最大程度活用他時遇到的最直觀問題就是「低費解牌不夠多」，艾卓荒野的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/39/werefox-bodyguard">半狐保鏢</a>大幅的改善了此問題，而這系列終於補上這思路的最後一塊不起眼的拼圖：<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/36/spring-loaded-sawblades-bladewheel-chariot">壓簧鋸輪</a>，雖然是個有條件的去除，但相對於限定攻擊中的生物，已橫置的生物在大多情境算是比較寬鬆的條件了，打5的射程也沒什麼好挑剔的了。另外以神器化煉是有可能實現的，除了吃掉另一個壓簧鋸輪外，<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/280/restless-anchorage">不息錨岸</a>&amp;<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/one/254/mirrex">秘羅荒境</a>也都有產出神器Token的能力，當然以這套的節奏來看這化煉是非常低效的動作，不會是你的主要遊戲計畫，就是偶爾有機會玩一下的附加選項。</p>
+<p>仔細觀察這套的牌表，可以發現其中士兵相關料的佔比不低，也可以考慮往更士兵流的方向構築，並將部份地牌改為<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/bro/262/fortified-beachhead">築防灘頭</a>來提升威脅能力。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/lxJaWaJ.jpg" alt="白藍閃現"></p>
+<h3 id="白藍控制"><a href="#白藍控制" class="headerlink" title="白藍控制"></a>白藍控制</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5985780#paper">白藍控制牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/qANJM82.jpg" alt="白藍控制"></p>
+<p>依夏蘭迷窟是個對白藍控制極不友善的系列，<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/269/cavern-of-souls">靈魂洞窟</a>提升對康牌抗性，<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/232/kutzil-malamet-exemplar">豹族模範庫琪</a>&amp;<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/165/scytheclaw-raptor">鐮爪迅猛龍</a>更是赤裸裸的表現了對控制的惡意，尤其白藍色組的低費去除相對貧弱，原本比較高效又沒副作用的去除有很高比率是把條件建立在「攻擊中的生物」，這兩個生物一進來原有的去除體系就崩一半了。</p>
+<p>不過好在這麼傳統的控制在現在已經十分罕見了，雖然出了如此高效的針對牌，但預計環境上用量也不會太大，而且這系列也給了白藍控制兩個十分關鍵的補強：變身地<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/280/restless-anchorage">不息錨岸</a> &amp; 正殺<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/14/get-lost">速速退離</a>，多了變身地後等於直接增加4個終結手，那就可以把原有的終結手部分位置換給更多的招，速速退離送對手兩個地圖的副作用在限制賽很恐怖，但在構築賽就不是太大的問題，地圖起動限定巫術時機讓對手的行動較容易預測，相對於<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mid/18/fateful-absence">命定空棺</a>給的線索可能直接多抽一個威脅，勘察也比較不容易讓對手產生額外的威脅。</p>
+<p>這副牌是基於現有牌表調整而來，因為上述新控制仇恨牌調整了解牌的比例，原有牌表與解說可以參考此文章：<a href="https://guildmagesforum.tw/Standard-UW-Control/">標準套牌推薦：經典白藍控制</a>。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/s22jTEP.jpg" alt="白藍控制"></p>
+<h3 id="紅神快攻"><a href="#紅神快攻" class="headerlink" title="紅神快攻"></a>紅神快攻</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5992971#paper">紅神快攻牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/0wahxVa.jpg" alt="紅神快攻"></p>
+<p>以<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/158/ojer-axonil-deepest-might-temple-of-power">深邃勇力安雄理尊神</a>為賣點的紅色快攻，為了發揮新紅神的價值，大量增加了燒的比率，能夠持續造成傷害的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/vow/149/chandra-dressed-to-kill">盛裝茜卓</a>也做為主力投入使用。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/sx4wkbK.jpg" alt="紅神快攻"></p>
+<h3 id="純紅中速"><a href="#純紅中速" class="headerlink" title="純紅中速"></a>純紅中速</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5985712#paper">純紅中速牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/ZhooEJG.jpg" alt="純紅中速"></p>
+<p>本來標準內就有<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/vow/149/chandra-dressed-to-kill">盛裝茜卓</a>、<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/one/138/koth-fire-of-resistance">志士烈火寇斯</a>這類鼓勵你往資源向純紅發展的單卡，這系列又給了紅色<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/171/trumpeting-carnosaur">長吼食肉龍</a>&amp;<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/134/bonehoard-dracosaur">聚骨駭威龍</a>兩張紅色優質生物，在資源、去除、威脅能力上都有顯著提升，因為這兩隻剛好都是恐龍，也放了一張<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/269/cavern-of-souls">靈魂洞窟</a>些微對康牌的抗性，不過靈魂洞窟非必要品，改成其他地也沒問題。不過純紅的去除射程上限終究是個罩門，希望補強這方面的話備牌可以考慮換入幾張<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dmu/234/karns-sylex">卡恩的同兆</a>。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/JIzfPho.jpg" alt="純紅中速"></p>
+<h3 id="紅綠洞窟"><a href="#紅綠洞窟" class="headerlink" title="紅綠洞窟"></a>紅綠洞窟</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5989350#paper">紅綠洞窟牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/1Oy2Hbl.jpg" alt="紅綠洞窟"></p>
+<p>雖然洞窟是依夏蘭迷窟主打的機制之一，但老實說無論是質還是量都十分匱乏，沒有回報大到讓你願意整副牌以洞窟為主題運作的誘因，因此這裡的解法是選用其中較優質的洞窟配套單卡，並組出適合他運作的牌組。這裡看上的是<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/181/cosmium-confluence">宇金交匯</a>，這張卡可以Ramp也可以立刻製造出大型威脅，找出來的洞窟後續還有機會重新轉化成資源，算是效能比較好的卡了，正好跟地相關的巫術中還有一張也是能創造出強力威脅的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mom/187/glistening-dawn">油亮曙光</a>，而<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/snc/101/arcane-bombardment">秘法轟炸</a>則是串聯起整副牌的運作思路，前期透過去除、抽濾、加速來苟活，並使用油亮曙光、宇金交匯、<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mid/131/burn-down-the-house">焚燬房屋</a>做為定場手段與終結者，這些大招都是瞬間&#x2F;巫術類別，因此秘法轟炸可以反覆利用他們。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/ozfgbFj.jpg" alt="紅綠洞窟"></p>
+<h3 id="白綠歐佐晶岩"><a href="#白綠歐佐晶岩" class="headerlink" title="白綠歐佐晶岩"></a>白綠歐佐晶岩</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5989359#paper">白綠歐佐晶岩牌表連結</a><br><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/u5dM17U.jpg" alt="白綠歐佐晶岩"></p>
+<p>套牌主體秉持著神器鱗甲的思路，這類套牌最怕的就是想拚一波大的把打手拼命灌大後被對面瞬間殺了，甚至於<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mom/198/ozolith-the-shattered-spire">破碎尖塔歐佐晶岩</a>的起動還是巫術時機，<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/232/kutzil-malamet-exemplar">豹族模範庫琪</a>的保護能力在這方面毫無疑問是最頂級的，對手在你的回合連咒語都不能施放了，鱗甲思路的生物毫無疑問會比原始身材大，也容易發揮豹族模範庫琪&amp;<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/240/sovereign-okinec-ahau">豹王歐奇尼亞豪</a>的灌大回報異能，不過由於這套的骨架是神器鱗甲快攻，對於非神器的中高費曲線容忍度有限，因此目前僅少量投入使用，能否提高用量還是要再經實驗證明。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/MlsjHhv.jpg" alt="白綠歐佐晶岩"></p>
+<h3 id="藍綠人魚"><a href="#藍綠人魚" class="headerlink" title="藍綠人魚"></a>藍綠人魚</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5988422#paper">藍綠人魚牌表連結</a></p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/u4TUggg.jpg" alt="藍綠人魚"></p>
+<p>剛提到靈魂洞窟，那不能不提這次受到靈魂洞窟重印而獲得補強的種族套牌，是的，人魚又回來了。這次依夏蘭一次補足了標準內各法術力曲線的人魚，從一費的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/normal/front/4/c/4ce4b7bc-636b-4723-a7c1-2c859f333492.jpg?1699044377">岩洞井斥候</a>、二費勘查主題得核心傳奇生物<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/normal/front/5/e/5e6f4aba-3500-4fb7-ab78-02f63c03778a.jpg?1699044562">水流通導師妮坎琪</a>、還有勘查獲得穿透回報的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/normal/front/6/e/6e0fe81c-b8ef-49ff-8743-f03d0220cb9e.jpg?1699043829">潛窟人魚</a>、以及伸縮自如地勘查的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/normal/front/6/8/68e633d3-47e2-48c5-9be3-574ce5023bf7.jpg?1699044435">玉光探窟員</a>作為核心的生物群；四費曲線則嘗試帶了<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/normal/front/3/2/32fd8b7c-baf3-4d3d-be6f-044a917b11a0.jpg?1699044623">遊蕩王座</a>來嘗試讓每一個人魚進場或觸發式異能加倍。此外，這個構築也嘗試帶上<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/normal/front/e/2/e2449311-a705-4a31-a345-a36d436ae561.jpg?1699043597">繁根林朝聖</a>來派出源源不絕的1&#x2F;1辟邪人魚衍生物，再搭配上DMU的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/normal/front/4/e/4ec464dc-b1dd-4e45-b093-c3ad65a74050.jpg?1673306934">伏特里亞補邪師</a>補上人魚領主的位置，並可以用他的異能讓你中後期過剩的人魚衍生物變成對手結算非生物威脅時惱人的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/large/front/9/7/97a6c6c9-dd26-4ce7-850f-0b3fc49245bd.jpg?1592713367">力之釘</a>；值得注意的是繁根林朝聖這張結界上的敘述是每當一個或多個非衍生物人魚成為橫置時就會觸發派出衍生物的效果，那這樣在標準構築中就有很多玩法了，除了顯而易見的生物攻擊而橫置外，你還可以靠搭載載具、或使用MOM具有召集異能的牌來讓你的生物主動躺下來。載具的部分在這副套牌中選用了<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/normal/front/9/4/94b6881a-b00e-4e90-92e6-602ed8e0e090.jpg?1699043964">地底縱帆船</a>，除了搭載1來觸發結界派出衍生物的效果以外，還可以因載具攻擊而讓搭載它的生物勘查，同樣呼應這副套牌的另一個主題。另一方面，召集的部分則選用了<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/normal/front/9/6/9678966b-65f1-405c-b8db-5f2d4f434933.jpg?1682203503">西風歌者</a>以及<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/normal/front/5/0/508b8650-c283-4e54-abdc-32ec2fb1ee34.jpg?1682203285">思緒聚合</a>這兩張藍色到召集牌，西風歌者可以讓你變大但被對手地面生物攔住的巨大人魚、或是繁根林朝聖派出的人魚在召集後放上飛行指示物來獲得穿透能力；或是用思緒聚合瞬間抽二並在有結界在場的情況下再賺一次人魚衍生物。</p>
+<p>最後，畢竟這副套牌是比較偏鋪場型的種族套牌，所以還是較怕<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/large/front/3/2/32e29c7d-ed4b-4eff-b3c2-d99e5b63ef8d.jpg?1682202915">烈日墮威</a>這類的掃場牌，因此在靈活卡位上先帶了四張<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/large/front/3/f/3f2d6a21-ea77-484b-9e3a-1bd49806f907.jpg?1664410347">人間消失</a>作為干擾。地牌的部分因為有充分的勘查源所以只先放了22地，當有水流通導師妮坎琪在場時還可以讓你每次勘查到地牌時改為放進場ramp，在高費曲線不多的情況下預設是起手2地以上就能運作的構築方式。當然，這只是一個初步的雛形，實際強度與微調仍有賴玩家進行實測！</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/YqfscBV.jpg"></p>
+<h3 id="純白天使"><a href="#純白天使" class="headerlink" title="純白天使"></a>純白天使</h3><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.mtggoldfish.com/deck/5986428#paper">純白天使牌表連結</a></p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/bq9JQsi.png" alt="純白天使"></p>
+<p>不知為何在《依夏蘭迷窟》復刻的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/large/front/5/9/59adbd35-9959-4a0f-babf-46ea3c15f018.jpg">華輝天使</a>為標準天使套牌補上了核心戰將，以純白中速<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/large/front/5/6/5649ee5a-4485-40a2-96d1-2e061905a71e.jpg">止戈為武</a>、<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/large/front/c/e/ce295f1e-fb31-4275-a5d3-8c6f29afff40.jpg">撒拉模範</a>體系為基底，結合<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/large/front/7/a/7ab4c264-107f-4f21-bf87-1e0a68c65e88.jpg">希望聖源吉婭妲</a>、<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/large/front/1/b/1b6ef5f5-4058-4f89-a573-9e2da87a9f2e.jpg">鋼鐵熾天使</a>、<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/large/front/8/4/84e1cc7d-e645-4b0e-b117-63f93528ed12.jpg">散恩女武神</a>、<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/large/front/d/2/d2704743-2e23-40b9-a367-c73d2db45afc.jpg">月主教長師</a>等天使補血組合，並嘗試性的投入<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/large/front/b/7/b7c7a54e-4df6-4745-8bae-aeefda934d82.jpg">晨光騎士</a>與<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cards.scryfall.io/large/front/7/e/7e784d3d-0c6d-4ce5-beb5-edd2adb32385.jpg">進軍多明納里亞</a>補強回血效果。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/b6jDyW5.png"></p>
+<h3 id="紅綠恐龍"><a href="#紅綠恐龍" class="headerlink" title="紅綠恐龍"></a>紅綠恐龍</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.imgur.com/ClK4SJM.png"></p>
+<p>請參考Guildmages’ Forum上的另一篇文章：<a href="https://guildmagesforum.tw/Standard-Gruul-Dinosaurs/">蠻野重跺：標準古魯恐龍</a></p>
+<hr>
+<h2 id="享受全新標準！"><a href="#享受全新標準！" class="headerlink" title="享受全新標準！"></a>享受全新標準！</h2><p>本篇文章旨在提供標準新思路，列舉套牌優先選擇了當前mtggoldfish的Meta統計較難看見的牌型，若讀者在當前標準環境沒有感興趣的牌型，希望這篇文章可以幫你找到心儀的套牌，又或者是提供你一些嶄新的靈感，如果覺得牌表中有哪些細節不合理或是可以再優化的，就大膽的嘗試創新吧！ 無論是開發新套牌或是對細節持續改良，都是構築賽制的醍醐味之一。</p>
+
+    <style>.tooltip span{display:none;color:#000}.mtgcard{max-width:300px!important}.tooltip span img{float:left;margin:0}.tooltip:hover span{display:block;position:absolute;top:0;left:0;z-index:1000;margin-top:12px;margin-left:32px;overflow:hidden;padding:8px}.tooltip{text-decoration:none;position:relative;display:inline;opacity:1;z-index:unset}</style>
+  <style>.mtable{padding:16px 16px 32px 16px;border:1px solid #000;box-shadow:7px 5px 5px rgba(0,0,0,.2);min-width:240px;background:unset}.crow{display:flex;width:100%;align-items:baseline}.ccount{width:2em;min-width:1rem}.cname{width:100%;min-width:160px}.ccost{width:5em;min-width:3rem}.tooltip span{display:none;color:#000}.mtgcard{max-width:300px!important}.tooltip span img{float:left;margin:0}.tooltip:hover span{display:block;position:absolute;top:0;left:0;z-index:1000;margin-top:12px;margin-left:32px;overflow:hidden;padding:8px}@media (min-width:900px){.mtable{display:flex;max-width:900px}.mblock{margin-right:30px}.mdeck,.msideboard{width:50%}}.tooltip{text-decoration:none;position:relative;display:inline;opacity:1;z-index:unset}</style>
+		</div>
+
+		
+			
+			
+			
+			
+			<div class="article-footer flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+				<div class="info flex flex-col justify-between">
+					
+						
+
+						
+							<div class="author-container">
+								<div class="item">
+									<div class="avatar-column">
+										<a href="/tags/cephille/" class="author flex items-center name text-default-text-color text-lg font-semibold flex">
+											<div class="avatar flex-shrink-0p-[1px]">
+												<img src="/images/cephille-avatar.png">
+											</div>
+										</a>
+									</div>
+									<div class="author-intro items-center">
+										<div class="author-name">
+											<a href="/tags/cephille/" class="text-default-text-color font-semibold p-10px">
+												豬鼻子的mtg世界
+											</a>
+										</div>
+										
+										<div>
+											
+												<div class="page-template-content markdown-body">
+													aka <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/Pignosemtgworld">豬鼻子的mtg世界</a>，為網站共同創辦人之一。
+												</div>
+											
+												<div class="page-template-content markdown-body">
+													喜歡所有MTG的競爭級別賽制，構築與限制賽都打。
+												</div>
+											
+												<div class="page-template-content markdown-body">
+													希望能透過這個網站讓更多喜歡 MTG 的玩家們一同聚集並分享各自的想法。
+												</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						
+							<div class="author-container">
+								<div class="item">
+									<div class="avatar-column">
+										<a href="/tags/jrumtg/" class="author flex items-center name text-default-text-color text-lg font-semibold flex">
+											<div class="avatar flex-shrink-0p-[1px]">
+												<img src="https://i.imgur.com/JoQEQJA.png">
+											</div>
+										</a>
+									</div>
+									<div class="author-intro items-center">
+										<div class="author-name">
+											<a href="/tags/jrumtg/" class="text-default-text-color font-semibold p-10px">
+												Jru
+											</a>
+										</div>
+										
+										<div>
+											
+												<div class="page-template-content markdown-body">
+													構築與限制賽皆打，構築有玩賽制 : 標準、先驅、近代、EDH（海怪禁單挑、官禁多人休閒向），薪傳與純普也有研究但身邊沒環境。
+												</div>
+											
+												<div class="page-template-content markdown-body">
+													主力賽制為標準，喜歡打重視去除與資源的慢節奏套牌。
+												</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						
+							<div class="author-container">
+								<div class="item">
+									<div class="avatar-column">
+										<a href="/tags/jerobamtg/" class="author flex items-center name text-default-text-color text-lg font-semibold flex">
+											<div class="avatar flex-shrink-0p-[1px]">
+												<img src="https://i.imgur.com/pOT6HX2.jpeg">
+											</div>
+										</a>
+									</div>
+									<div class="author-intro items-center">
+										<div class="author-name">
+											<a href="/tags/jerobamtg/" class="text-default-text-color font-semibold p-10px">
+												跳鼠
+											</a>
+										</div>
+										
+										<div>
+											
+												<div class="page-template-content markdown-body">
+													休閒玩家，喜歡構築娛樂主題套牌，再拿它們參加比賽，享受被META洗臉的過程。
+												</div>
+											
+												<div class="page-template-content markdown-body">
+													構築限制皆有接觸，構築有玩賽制︰標準、先驅、近代、指揮官（多人休閒官禁、單人海怪禁）
+												</div>
+											
+												<div class="page-template-content markdown-body">
+													構築傾向上偏好中速及種族套牌，著重有來有往的互動遊戲體驗。
+												</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						
+					
+				</div>
+			</div>
+		
+
+		
+		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+			<div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> 依夏蘭迷窟標準初探</li>
+        <li><strong>Author:</strong> 豬鼻子的mtg世界 &amp; Jru &amp; 跳鼠</li>
+        <li><strong>Created at
+                :</strong> 2023-11-23 12:17:46</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2025-08-12 13:56:37
+            </li>
+        
+        <li>
+            <strong>Link:</strong> https://guildmagesforum.tw/LCI-Standard-Preliminary/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+
+            
+                This work is licensed under <a class="license" target="_blank" rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a>.
+            
+        </li>
+    </ul>
+</div>
+
+		</div>
+		
+
+		
+  <div class="recommended-article px-2 sm:px-6 md:px-8">
+   <div class="recommended-desktop">
+    <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>或許你會喜歡</span>
+    </div>
+    <div class="recommended-article-group"><a class="recommended-article-item" href="/OTJ-Standard-Preliminary/" title="光雷驛鏢客標準初探" rel="bookmark">
+  <img src="https://media.wizards.com/2024/images/daily/e2Wn82hgjad2-1920x1080.jpg" alt="光雷驛鏢客標準初探" class="!max-w-none">
+  <span class="title">光雷驛鏢客標準初探</span>
+</a><a class="recommended-article-item" href="/MKM-Standard-Preliminary/" title="卡洛夫莊園謀殺案標準初探" rel="bookmark">
+  <img src="https://media.wizards.com/2024/images/daily/B0wjj9QMXlAt.png" alt="卡洛夫莊園謀殺案標準初探" class="!max-w-none">
+  <span class="title">卡洛夫莊園謀殺案標準初探</span>
+</a><a class="recommended-article-item" href="/Modern-Mono-Blue-Merfolk/" title="讓對手康不了的閃現套牌：純藍人魚" rel="bookmark">
+  <img src="https://i.imgur.com/qL4J3xX.jpg" alt="讓對手康不了的閃現套牌：純藍人魚" class="!max-w-none">
+  <span class="title">讓對手康不了的閃現套牌：純藍人魚</span>
+</a><a class="recommended-article-item" href="/LCI-multicolors/" title="依夏蘭迷窟（LCI）限制賽介紹 — 多色、無色、地" rel="bookmark">
+  <img src="https://i.imgur.com/sC7dAsF.png" alt="依夏蘭迷窟（LCI）限制賽介紹 — 多色、無色、地" class="!max-w-none">
+  <span class="title">依夏蘭迷窟（LCI）限制賽介紹 — 多色、無色、地</span>
+</a><a class="recommended-article-item" href="/LCI-Blue/" title="依夏蘭迷窟（LCI）限制賽介紹 — 藍色" rel="bookmark">
+  <img src="https://i.imgur.com/sjtcFUD.png" alt="依夏蘭迷窟（LCI）限制賽介紹 — 藍色" class="!max-w-none">
+  <span class="title">依夏蘭迷窟（LCI）限制賽介紹 — 藍色</span>
+</a><a class="recommended-article-item" href="/MIT-6-Review/" title="豬鼻子的MIT#6準備與賽報：蘇勒台中速" rel="bookmark">
+  <img src="https://i.postimg.cc/BZFs1QT9/Master-of-Waves-Mt-G-Art.jpg" alt="豬鼻子的MIT#6準備與賽報：蘇勒台中速" class="!max-w-none">
+  <span class="title">豬鼻子的MIT#6準備與賽報：蘇勒台中速</span>
+</a></div>
+   </div>
+   <div class="recommended-mobile">
+   <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>或許你會喜歡</span>
+   </div>
+   <div class="recommended-article-group"><a class="recommended-article-item" href="/OTJ-Standard-Preliminary/" title="光雷驛鏢客標準初探" rel="bookmark">
+  <img src="https://media.wizards.com/2024/images/daily/e2Wn82hgjad2-1920x1080.jpg" alt="光雷驛鏢客標準初探" class="!max-w-none">
+  <span class="title">光雷驛鏢客標準初探</span>
+</a><a class="recommended-article-item" href="/MKM-Standard-Preliminary/" title="卡洛夫莊園謀殺案標準初探" rel="bookmark">
+  <img src="https://media.wizards.com/2024/images/daily/B0wjj9QMXlAt.png" alt="卡洛夫莊園謀殺案標準初探" class="!max-w-none">
+  <span class="title">卡洛夫莊園謀殺案標準初探</span>
+</a><a class="recommended-article-item" href="/Modern-Mono-Blue-Merfolk/" title="讓對手康不了的閃現套牌：純藍人魚" rel="bookmark">
+  <img src="https://i.imgur.com/qL4J3xX.jpg" alt="讓對手康不了的閃現套牌：純藍人魚" class="!max-w-none">
+  <span class="title">讓對手康不了的閃現套牌：純藍人魚</span>
+</a><a class="recommended-article-item" href="/LCI-multicolors/" title="依夏蘭迷窟（LCI）限制賽介紹 — 多色、無色、地" rel="bookmark">
+  <img src="https://i.imgur.com/sC7dAsF.png" alt="依夏蘭迷窟（LCI）限制賽介紹 — 多色、無色、地" class="!max-w-none">
+  <span class="title">依夏蘭迷窟（LCI）限制賽介紹 — 多色、無色、地</span>
+</a></div>
+   </div>
+  </div>
+
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="prev" rel="prev" href="/Whats-Wrong-Modern/">
+					<span class="left arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-left"></i>
+					</span>
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">最近的近代怎麼了？</span>
+						<span class="post-nav-item">Prev posts</span>
+					</span>
+				</a>
+			</div>
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/Standard-Gruul-Dinosaurs/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">蠻野重跺：標準古魯恐龍</span>
+						<span class="post-nav-item">Next posts</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+
+
+		
+		<div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+			<div class="comments-container mt-10 w-full">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        Comments
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>import{init}from"/js/libs/waline.mjs";function loadWaline(){init({el:"#waline",serverURL:"https://mtg-blog-comment.vercel.app/",lang:"zh-TW",dark:'body[class~="dark-mode"]',reaction:!1,requiredMeta:["nick","mail"],emoji:[]})}"undefined"!=typeof swup?loadWaline():window.addEventListener("DOMContentLoaded",loadWaline)</script>
+
+
+
+        
+    
+</div>
+
+		</div>
+		
+	</div>
+
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">On this page</div>
+		<div class="page-title">依夏蘭迷窟標準初探</div>
+		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Before-We-Start"><span class="nav-number">1.</span> <span class="nav-text">Before We Start</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A5%97%E7%89%8C%E4%BB%8B%E7%B4%B9"><span class="nav-number">2.</span> <span class="nav-text">套牌介紹</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%98%86%E6%89%98%E5%8A%9B%E6%AD%B7%E9%9A%AA"><span class="nav-number">2.1.</span> <span class="nav-text">昆托力歷險</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B4%85%E9%BB%91%E6%8C%96%E5%A2%B3"><span class="nav-number">2.2.</span> <span class="nav-text">紅黑挖墳</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%97%8D%E9%BB%91%E4%B8%AD%E9%80%9F"><span class="nav-number">2.3.</span> <span class="nav-text">藍黑中速</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%BC%E5%88%A9%E6%A5%B5%E4%B8%AD%E9%80%9F"><span class="nav-number">2.4.</span> <span class="nav-text">格利極中速</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%BC%E5%88%A9%E6%A5%B5%E8%90%BD%E5%A2%B3"><span class="nav-number">2.5.</span> <span class="nav-text">格利極落墳</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BB%91%E7%B6%A0%E8%B1%86%E8%8E%96%E6%94%B6%E6%88%90%E7%AF%80"><span class="nav-number">2.6.</span> <span class="nav-text">黑綠豆莖收成節</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BB%91%E7%B6%A0%E6%93%8D%E7%B8%B1%E6%AF%94%E8%B3%BD"><span class="nav-number">2.7.</span> <span class="nav-text">黑綠操縱比賽</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BB%91%E7%B6%A0%E5%8A%A0%E7%A2%BC"><span class="nav-number">2.8.</span> <span class="nav-text">黑綠加碼</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BB%91%E7%99%BD%E5%8A%A0%E7%A2%BC"><span class="nav-number">2.9.</span> <span class="nav-text">黑白加碼</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%99%BD%E8%97%8D%E9%96%83%E7%8F%BE"><span class="nav-number">2.10.</span> <span class="nav-text">白藍閃現</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%99%BD%E8%97%8D%E6%8E%A7%E5%88%B6"><span class="nav-number">2.11.</span> <span class="nav-text">白藍控制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B4%85%E7%A5%9E%E5%BF%AB%E6%94%BB"><span class="nav-number">2.12.</span> <span class="nav-text">紅神快攻</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B4%94%E7%B4%85%E4%B8%AD%E9%80%9F"><span class="nav-number">2.13.</span> <span class="nav-text">純紅中速</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B4%85%E7%B6%A0%E6%B4%9E%E7%AA%9F"><span class="nav-number">2.14.</span> <span class="nav-text">紅綠洞窟</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%99%BD%E7%B6%A0%E6%AD%90%E4%BD%90%E6%99%B6%E5%B2%A9"><span class="nav-number">2.15.</span> <span class="nav-text">白綠歐佐晶岩</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%97%8D%E7%B6%A0%E4%BA%BA%E9%AD%9A"><span class="nav-number">2.16.</span> <span class="nav-text">藍綠人魚</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B4%94%E7%99%BD%E5%A4%A9%E4%BD%BF"><span class="nav-number">2.17.</span> <span class="nav-text">純白天使</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B4%85%E7%B6%A0%E6%81%90%E9%BE%8D"><span class="nav-number">2.18.</span> <span class="nav-text">紅綠恐龍</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%AB%E5%8F%97%E5%85%A8%E6%96%B0%E6%A8%99%E6%BA%96%EF%BC%81"><span class="nav-number">3.</span> <span class="nav-text">享受全新標準！</span></a></li></ol>
+
+	</div>
+</div>
+	</div>
+	
+</div>
+
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+            <div class="customize-info my-1">Guildmages' Forum 魔風集會所的部分內容是威世智 (Wizards of the Coast) 同好內容政策允許的非官方同好內容。 <br> 本網站所提供之魔法風雲會 (Magic the Gathering, MTG) 文字和圖形資訊，包括卡片圖像、魔法力符號和部分卡片資訊的中文翻譯，版權均為孩之寶集團的子公司威世智所有。 <br> Guildmages' Forum 魔風集會所並不由威世智製作、背書、支持，亦不隸屬於該公司。 <br> 上述聲明以外的所有內容均屬於 2023 © Guildmages' Forum 魔風集會所以及其協力創作者們。</div>
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2023</span>
+              -
+            
+            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration:0.5s;color:#f54545"></i>&nbsp;&nbsp;<a href="/">Guildmages&#39; Forum Staff</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        275 posts in total
+                    </span>
+                    
+                        <span>
+                            1097.4k words in total
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://events.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">VISITOR COUNT</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">TOTAL PAGE VIEWS</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">POWERED BY <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewbox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io" rel="external nofollow noopener noreferrer">Hexo</a></span>
+            <span class="text-sm lg:block">THEME&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine" rel="external nofollow noopener noreferrer">Redefine v2.8.2</a></span>
+        </div>
+        
+        
+            <div>
+                Blog up for <span class="odometer" id="runtime_days"></span> days <span class="odometer" id="runtime_hours"></span> hrs <span class="odometer" id="runtime_minutes"></span> Min <span class="odometer" id="runtime_seconds"></span> Sec
+            </div>
+        
+        
+            <script data-swup-reload-script>try{function odometer_init(){document.querySelectorAll(".odometer").forEach(e=>{new Odometer({el:e,format:"( ddd).dd",duration:200})})}odometer_init()}catch(e){}</script>
+        
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
+
+		
+		
+		<li class="go-comment">
+			<i class="fa-regular fa-comments"></i>
+		</li>
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		
+		
+		<li class="right-bottom-tools rss flex justify-center items-center">
+			<a class="flex justify-center items-center" href="/atom.xml" target="_blank">
+				<i class="fa-regular fa-rss"></i>
+			</a>
+		</li>
+		
+
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="arrow-up fas fa-arrow-up"></i>
+			<span class="percent"></span>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container">
+	<img src>
+</div>
+
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Search..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+</main>
+
+
+
+<script src="/js/build/libs/Swup.min.js"></script>
+
+<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>const swup=new Swup({plugins:[new SwupScriptsPlugin({optin:!0}),new SwupProgressPlugin,new SwupScrollPlugin({offset:80}),new SwupSlideTheme({mainElement:".main-content-body"}),new SwupPreloadPlugin],containers:["#swup"]})</script>
+
+
+
+
+	
+<script src="/js/build/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/build/utils.js" type="module"></script>
+
+<script src="/js/build/main.js" type="module"></script>
+
+<script src="/js/build/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/build/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/build/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/build/layouts/categoryList.js" type="module"></script>
+
+
+
+    
+<script src="/js/build/tools/localSearch.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/runtime.js"></script>
+
+    
+<script src="/js/build/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/build/libs/Typed.min.js"></script>
+
+  
+<script src="/js/build/plugins/typed.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+    
+<script src="/js/build/tools/tocToggle.js" type="module" data-swup-reload-script></script>
+
+<script src="/js/build/layouts/toc.js" type="module" data-swup-reload-script></script>
+
+<script src="/js/build/plugins/tabs.js" type="module" data-swup-reload-script></script>
+
+
+
+
+<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script></script>
+
+
+<script src="/js/build/layouts/essays.js" type="module" data-swup-reload-script></script>
+
+
+
+    
+<script src="/js/build/libs/pangu.min.js"></script>
+
+<script src="/js/build/plugins/pangu.js"></script>
+
+
+
+
+	
+</body>
+
+</html>

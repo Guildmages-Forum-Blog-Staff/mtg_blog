@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="MTG 中文網站, Guildmages Forum, mtg blog, mtg decktech, mtg 近代, mtg 先驅, mtg, mtg pioneer, mtg modern, 魔風集會所">
+    
+    <meta name="author" content="Guildmages&#39; Forum Staff">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    
+    
+    <link rel="canonical" href="https://guildmagesforum.tw/how-phasing-works/">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+    
+        
+        <meta name="description" content="Guildmages’ Forum 魔風集會所是一個繁體中文的部落格，致力於推廣魔法風雲會競技型賽制。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="躍離是如何運作的？">
+<meta property="og:url" content="https://guildmagesforum.tw/How-Phasing-Works/index.html">
+<meta property="og:site_name" content="Guildmages&#39; Forum 魔風集會所">
+<meta property="og:description" content="Guildmages’ Forum 魔風集會所是一個繁體中文的部落格，致力於推廣魔法風雲會競技型賽制。">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://guildmagesforum.tw/images/logo.webp">
+<meta property="article:published_time" content="2025-02-26T02:39:21.000Z">
+<meta property="article:modified_time" content="2025-08-12T05:56:37.175Z">
+<meta property="article:author" content="Jru">
+<meta property="article:tag" content="JruMTG">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://guildmagesforum.tw/images/logo.webp">
+    
+    
+        
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-JFWD3SG42T"></script>
+        <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-JFWD3SG42T")</script>
+    
+    
+    <link rel="icon" type="image/png" href="/images/logo.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.jpg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/logo.jpg">
+    
+    
+    <title>
+        
+            躍離是如何運作的？ | Guildmages&#39; Forum 魔風集會所
+        
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    
+    
+    
+    
+    
+    
+    
+        
+<script src="/js/build/libs/anime.min.js"></script>
+
+    
+
+    <script id="hexo-configurations">window.config={hostname:"guildmagesforum.tw",root:"/",language:"en",path:"search.xml"},window.theme={articles:{style:{font_size:"18px",line_height:1.5,image_border_radius:"14px",image_alignment:"center",image_caption:!1,link_icon:!1,delete_mask:!1,title_alignment:"left",headings_top_spacing:{h1:"3.2rem",h2:"2.4rem",h3:"1.9rem",h4:"1.6rem",h5:"1.4rem",h6:"1.3rem"}},word_count:{enable:!0,count:!0,min2read:!0},author_label:{enable:!1,auto:!1,list:[]},code_block:{copy:!0,style:"mac",highlight_theme:{light:"github",dark:"vs2015"},font:{enable:!1,family:null,url:null}},toc:{enable:!0,max_depth:6,number:!0,expand:!0,init_open:!0},copyright:{enable:!0,default:"cc_by_nc_sa"},lazyload:!0,pangu_js:!0,recommendation:{enable:!0,title:"或許你會喜歡",limit:6,mobile_limit:4,placeholder:"/images/wallhaven-wqery6-light.webp",skip_dirs:[]}},colors:{primary:"#A31F34",secondary:null,default_mode:"light"},global:{fonts:{chinese:{enable:!1,family:null,url:null},english:{enable:!1,family:null,url:null},title:{enable:!1,family:null,url:null}},content_max_width:"1000px",sidebar_width:"210px",hover:{shadow:!0,scale:!1},scroll_progress:{bar:!0,percentage:!0},website_counter:{url:"https://events.vercount.one/js",enable:!0,site_pv:!0,site_uv:!0,post_pv:!0},single_page:!0,preloader:{enable:!0,custom_message:null},open_graph:{enable:!0,image:"/images/logo.webp",description:null},google_analytics:{enable:!0,id:"G-JFWD3SG42T"}},home_banner:{enable:!0,style:"fixed",image:{light:"/images/wallhaven-wqery6-light.webp",dark:"/images/wallhaven-wqery6-dark.webp"},title:"Welcome to Guildmages' Forum!",subtitle:{text:["各路旅法師的集散地","讓玩家額外有個 +1/+1 指示物","釋放各路玩家的限制","盡情享受遊戲","不瘋魔不成活"],hitokoto:{enable:!1,show_author:!1,api:"https://v1.hitokoto.cn"},typing_speed:100,backing_speed:50,starting_delay:500,backing_delay:1500,loop:!0,smart_backspace:!0},text_color:{light:"#fff",dark:"#d1d1b6"},text_style:{title_size:"2.8rem",subtitle_size:"1.5rem",line_height:1.2},custom_font:{enable:!1,family:null,url:null},social_links:{enable:!1,style:"default",links:{github:null,instagram:null,zhihu:null,twitter:null,email:null},qrs:{weixin:null}}},plugins:{feed:{enable:!0},aplayer:{enable:!1,type:"fixed",audios:[{name:null,artist:null,url:null,cover:null,lrc:null}]},mermaid:{enable:!1,version:"11.4.1"}},version:"2.8.2",navbar:{auto_hide:!0,color:{left:"#f78736",right:"#367df7",transparency:35},width:{home:"1200px",pages:"1000px"},links:{Home:{path:"/",icon:"fa-regular fa-house"},Categories:{path:"/categories",icon:"fa-regular fa-folder"},"About Us":{path:"/about",icon:"fa-regular fa-user"},"Contact Us":{path:"/Contact-Us",icon:"fa-regular fa-mailbox-flag-up"},Links:{icon:"fa-regular fa-link",submenus:{"Guildmages' Forum 粉專":"https://www.facebook.com/guildmagesforumtw","台南猴王的耍猴日常":"https://www.facebook.com/TainanMonkeyKing","豬鼻子的mtg世界":"https://www.facebook.com/Pignosemtgworld","多明納里亞圖書館":"https://dominarialibrary.com","龍尊與荒野騎士的玄境之談":"https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807","塞克斯的MTG日誌":"http://76vezffd.blogspot.com/","約力昂大叔 Uncle Yorion":"https://www.facebook.com/profile.php?id=100068751771443","Kappa The Gathering":"https://www.facebook.com/profile.php?id=61558862427620","Mystic Zone":"http://mysticzonetw.blogspot.com/","Spark Double Podcast":"https://linktr.ee/sparkdouble","勇德大叔的日常":"https://www.facebook.com/UncleJund","鳥不喇基":"https://www.facebook.com/profile.php?id=100063848411689","魔法風雲會粉專":"https://www.facebook.com/MagicTheGathering.ct","下水道鱷魚":"https://facebook.com/profile.php?id=61567687550022","紅的喜氣":"https://www.facebook.com/profile.php?id=100083415367398","貓羽的文字日誌":"https://whitecat2.pixnet.net/blog","寬麵的遊戲頻道":"https://www.facebook.com/profile.php?id=100083345574225"}}},search:{enable:!0,preload:!0}},page_templates:{friends_column:2,tags_style:"blur"},home:{sidebar:{enable:!0,position:"left",first_item:"info",announcement:null,show_on_mobile:!0,links:{Categories:{path:"/categories",icon:"fa-regular fa-folder"},"About Us":{path:"/about",icon:"fa-regular fa-user"},"Contact Us":{path:"/Contact-Us",icon:"fa-regular fa-mailbox-flag-up"}}},article_date_format:"auto",excerpt_length:200,categories:{enable:!0,limit:3},tags:{enable:!0,limit:3}},footerStart:"2023/8/23 00:00:00"},window.lang_ago={second:"%s seconds ago",minute:"%s minutes ago",hour:"%s hours ago",day:"%s days ago",week:"%s weeks ago",month:"%s months ago",year:"%s years ago"},window.data={masonry:!1}</script>
+    
+    
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Guildmages' Forum 魔風集會所" type="application/atom+xml">
+</head>
+
+
+
+<body>
+	<div class="progress-bar-container">
+	
+	<span class="scroll-progress-bar"></span>
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	
+	
+	
+	
+</div>
+
+<style>:root{--preloader-background-color:#fff;--preloader-text-color:#000}@media (prefers-color-scheme:dark){:root{--preloader-background-color:#202124;--preloader-text-color:#fff}}@media (prefers-color-scheme:light){:root{--preloader-background-color:#fff;--preloader-text-color:#000}}@media (max-width:600px){.ml13{font-size:2.6rem!important}}.preloader{display:flex;flex-direction:column;gap:1rem;align-items:center;justify-content:center;position:fixed;padding:12px;top:0;right:0;bottom:0;left:0;width:100vw;height:100vh;background-color:var(--preloader-background-color);z-index:1100;transition:opacity .2s ease-in-out}.ml13{font-size:3.2rem;color:var(--preloader-text-color);letter-spacing:-1px;font-weight:500;font-family:Chillax-Variable,sans-serif;text-align:center}.ml13 .word{display:inline-flex;flex-wrap:wrap;white-space:nowrap}.ml13 .letter{display:inline-block;line-height:1em}</style>
+
+<div class="preloader">
+    <h2 class="ml13">
+        Guildmages&#39; Forum 魔風集會所
+    </h2>
+    <script>
+        var textWrapper = document.querySelector('.ml13');
+        // Split text into words
+        var words = textWrapper.textContent.trim().split(' ');
+        words = ['Guildmages\'', 'Forum', '魔風集會所']
+
+        // Clear the existing content
+        textWrapper.innerHTML = '';
+
+        // Wrap each word and its letters in spans
+        words.forEach(function(word) {
+            var wordSpan = document.createElement('span');
+            wordSpan.classList.add('word');
+            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
+            textWrapper.appendChild(wordSpan);
+            if ( word === "Forum" ) {
+                textWrapper.appendChild(document.createElement('br'));
+            }
+            else {
+                textWrapper.appendChild(document.createTextNode(' '));
+            }
+        });
+
+        var animation = anime.timeline({ loop: true })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [20, 0],
+                translateZ: 0,
+                opacity: [0, 1],
+                filter: ['blur(5px)', 'blur(0px)'],
+                easing: "easeOutExpo",
+                duration: 1200,
+                delay: (el, i) => 300 + 20 * i,
+            })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [0, -20],
+                opacity: [1, 0],
+                filter: ['blur(0px)', 'blur(5px)'],
+                easing: "easeInExpo",
+                duration: 1000,
+                delay: (el, i) => 15 * i,
+                complete: function() {
+                    hidePreloader();
+                }
+            }, '-=700');
+
+
+        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
+
+        // If the theme status is not found in local storage, check the preferred color scheme
+        if (themeStatus === undefined || themeStatus === null) {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                themeStatus = 'dark';
+            } else {
+                themeStatus = 'light';
+            }
+        }
+
+        // Now you can use the themeStatus variable in your code
+        if (themeStatus) {
+            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
+            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
+        } else {
+            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
+            document.documentElement.style.setProperty('--preloader-text-color', '#000');
+        }
+
+        window.addEventListener('load', function () {
+            setTimeout(hidePreloader, 5000); // Call hidePreloader after 5000 milliseconds if not already called by animation
+        });
+
+        function hidePreloader() {
+            var preloader = document.querySelector('.preloader');
+            preloader.style.opacity = '0';
+            setTimeout(function () {
+                preloader.style.display = 'none';
+            }, 200);
+        }
+    </script>
+</div>
+
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <style>.centered-text{text-align:center;margin:0;line-height:1.5}</style>
+    <div class="navbar-content transition-navbar">
+        <div class="left">
+            
+            <a class="logo-title centered-text" href="/">
+                
+                Guildmages&#39; Forum<br>
+                魔風集會所
+                
+            </a>
+        </div>
+
+        <div class="right">
+            
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/">
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    HOME
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/categories">
+                                    <i class="fa-regular fa-folder fa-fw"></i>
+                                    CATEGORIES
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/about">
+                                    <i class="fa-regular fa-user fa-fw"></i>
+                                    ABOUT US
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/Contact-Us">
+                                    <i class="fa-regular fa-mailbox-flag-up fa-fw"></i>
+                                    CONTACT US
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a class="has-dropdown" href="#" onclick="&#34;return" false;&#34;>
+                                    <i class="fa-regular fa-link fa-fw"></i>
+                                    LINKS
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/guildmagesforumtw">
+                                                    GUILDMAGES&#39; FORUM 粉專
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/TainanMonkeyKing">
+                                                    台南猴王的耍猴日常
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/Pignosemtgworld">
+                                                    豬鼻子的MTG世界
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://dominarialibrary.com">
+                                                    多明納里亞圖書館
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807">
+                                                    龍尊與荒野騎士的玄境之談
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="http://76vezffd.blogspot.com/">
+                                                    塞克斯的MTG日誌
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100068751771443">
+                                                    約力昂大叔 UNCLE YORION
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=61558862427620">
+                                                    KAPPA THE GATHERING
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="http://mysticzonetw.blogspot.com/">
+                                                    MYSTIC ZONE
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://linktr.ee/sparkdouble">
+                                                    SPARK DOUBLE PODCAST
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/UncleJund">
+                                                    勇德大叔的日常
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100063848411689">
+                                                    鳥不喇基
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/MagicTheGathering.ct">
+                                                    魔法風雲會粉專
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://facebook.com/profile.php?id=61567687550022">
+                                                    下水道鱷魚
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083415367398">
+                                                    紅的喜氣
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://whitecat2.pixnet.net/blog">
+                                                    貓羽的文字日誌
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083345574225">
+                                                    寬麵的遊戲頻道
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/">
+                            <span>
+                                HOME
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/categories">
+                            <span>
+                                CATEGORIES
+                            </span>
+                            
+                                <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/about">
+                            <span>
+                                ABOUT US
+                            </span>
+                            
+                                <i class="fa-regular fa-user fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/Contact-Us">
+                            <span>
+                                CONTACT US
+                            </span>
+                            
+                                <i class="fa-regular fa-mailbox-flag-up fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" navbar-data-toggle="submenu-Links">
+                            <span>
+                                LINKS
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-Links">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/guildmagesforumtw">GUILDMAGES&#39; FORUM 粉專</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/TainanMonkeyKing">台南猴王的耍猴日常</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/Pignosemtgworld">豬鼻子的MTG世界</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://dominarialibrary.com">多明納里亞圖書館</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807">龍尊與荒野騎士的玄境之談</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="http://76vezffd.blogspot.com/">塞克斯的MTG日誌</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100068751771443">約力昂大叔 UNCLE YORION</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=61558862427620">KAPPA THE GATHERING</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="http://mysticzonetw.blogspot.com/">MYSTIC ZONE</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://linktr.ee/sparkdouble">SPARK DOUBLE PODCAST</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/UncleJund">勇德大叔的日常</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100063848411689">鳥不喇基</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/MagicTheGathering.ct">魔法風雲會粉專</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://facebook.com/profile.php?id=61567687550022">下水道鱷魚</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083415367398">紅的喜氣</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://whitecat2.pixnet.net/blog">貓羽的文字日誌</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083345574225">寬麵的遊戲頻道</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    
+                    
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">38</div>
+        <div class="label text-third-text-color text-sm">Tags</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">30</div>
+        <div class="label text-third-text-color text-sm">Categories</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">275</div>
+        <div class="label text-third-text-color text-sm">Posts</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
+
+		<div class="article-title relative w-full">
+			
+			
+			
+			<img src="https://i.meee.com.tw/0PYLB5a.png" alt="躍離是如何運作的？" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75">
+			
+			<div class="w-full flex items-center absolute bottom-0 justify-start">
+				<h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color">躍離是如何運作的？</h1>
+			</div>
+			
+		</div>
+
+		
+			
+			
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			
+				<a href="/tags/jrumtg/" class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+					<img src="https://i.imgur.com/JoQEQJA.png">
+				</a>
+			
+			<div class="info flex flex-col justify-between">
+				
+					
+					<ul class="name text-default-text-color text-lg font-semibold flex">
+						
+							&nbsp;&nbsp;
+							<a href="/tags/jrumtg/" class="author flex items-center">
+								Jru
+							</a>
+							
+						</ul>
+					
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2025-02-26 10:39:21</span>
+        <span class="mobile">2025-02-26 10:39:21</span>
+        <span class="hover-info">Created</span>
+    </span>
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/mtg-rules/">MTG Rules</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-keyboard"></i>&nbsp;<span>7.5k Words</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>26 Mins</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p><strong>躍離（Phases Out）</strong> 在MTG歷史中是一個元祖級別的機制，但因為其複雜的運作規則，容易在遊戲中產生令人疑惑的情境，因此官方曾一度決定放棄這個機制，改用其他運作更直觀的寫法來執行讓永久物暫時從場上消失的效果。自1997年的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/sets/wth">晴空號傳說</a>系列後，躍離陷入了近20年的沉寂，下一次登場是 Commander 2017 的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/2x2/32/teferis-protection">泰菲力的庇護</a>，不過指揮官產品在設計上本來就比較放得開，畢竟不會影響官方常規的競爭賽制，對機制複雜性的接受度也相對高。真正開創躍離新時代的則是核心系列2021中登場的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/m21/75/teferi-master-of-time">弄時宗師泰菲力</a>，這意味著躍離重新進入標準系列的設計選項之中，當然，一同回歸大眾視野的還有躍離那堆反直覺的規則問題，這次我們就來看看躍離究竟是怎麼一回事？</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/Ey9kEOr.png" alt="躍離"></p>
+<hr>
+<h2 id="躍離是甚麼？"><a href="#躍離是甚麼？" class="headerlink" title="躍離是甚麼？"></a>躍離是甚麼？</h2><p>躍離&#x2F;躍回是永久物的一種狀態屬性，正常情況下永久物都是躍回的，當一個永久物躍離時，就會將它視為不存在來進行處理。</p>
+<ul>
+<li>110.5. 永久物的狀態是它的物理狀況。狀態包括四類，每一類都有兩種可能的情況： 橫置&#x2F;未橫置 、 倒轉&#x2F;未倒轉 、 牌面朝下&#x2F;牌面朝上 、 <font color="#FF0000">躍離&#x2F;躍回</font> 。每個永久物的每類狀態總是會屬於這些情況之一。</li>
+<li>702.26b 若永久物躍離，其狀態改為「已躍離」。除了特別提到已躍離永久物的規則或效應外，遊戲會把已躍離的永久物<font color="#FF0000">視同不存在</font>一般進行處理。它既不會對遊戲中的其他東西產生影響，也不會受其影響。躍離的永久物會移出戰鬥。</li>
+<li>702.26c 如果一個永久物躍回，則其狀態改為「已躍回」。遊戲再一次將之視同存在於遊戲之中。</li>
+</ul>
+<p>雖然說是視為不存在，但躍離的永久物並沒有真正離場，因此無論是躍離或躍回，都不會導致區域變換觸發異能被觸發。</p>
+<ul>
+<li><p>702.26d 即使一個永久物躍離，會被視同不在戰場上及不在其操控者的操控下一般進行處理，但時間跳躍事件實際上並不會使得永久物所在的區域或操控權的歸屬發生改變。當永久物躍回或躍離時，並不會觸發區域變換觸發異能。衍生物躍離期間依然存在於戰場上。一個永久物躍離期間，其上的指示物和貼紙依然存在。檢查已躍回的永久物歷史的效應不會把此時間跳躍事件當作導致該永久物離開或進入戰場，或是使其操控權發生改變的事件來處理。</p>
+<blockquote>
+<p>此規則中提及的 <strong>時間跳躍事件</strong> ，可以先簡單理解為 <strong>躍離／躍回事件</strong> ，關於時間跳躍會在本文後續進行解說。</p>
+</blockquote>
+</li>
+<li><p>702.26e 如果一個由咒語或異能結算產生的持續性效應改變任何物體的特徵或操控者，已躍離的永久物不會包含在受影響的物體集合中。這包含特指該永久物的持續性效應，除非該效應同時也特別指該已躍離的永久物。</p>
+</li>
+</ul>
+<p>讓我們來看看一張實際的躍離範例牌：</p>
+<img class="mtgcard w-full" lazyload src="/images/loading.svg" data-src="https://cards.scryfall.io/large/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1654566768">
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/neo/61/march-of-swirling-mist">漩霧行進</a>：至多X個目標生物躍離。（它們於躍離期間視作不存在。各永久物會於其操控者下一個重置步驟重置之前躍回。）</p>
+</blockquote>
+<p>漩霧行進在後文中將是我們的模範勞模，單純的躍離生物效應都將以它做代表（牌張效果也簡化為 <strong>目標生物躍離</strong> ）。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/ixOTkL2.png" alt="基本規則"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/2xm/292/sundering-titan">裂地泰坦</a>：當裂地泰坦進戰場或離開戰場時，為每種基本地類別各選擇一個地，然後消滅這些地。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/neo/61/march-of-swirling-mist">漩霧行進</a>：目標生物躍離。</p>
+</blockquote>
+<p>雖然裂地泰坦進場或離場時都會產生觸發式異能，但躍離並不會造成區域移動，因此裂地泰坦在躍離&#x2F;躍回時皆不會觸發自己的異能。</p>
+<p>同理，假設你躍離了一個Token，這個Token也可以正常躍回，而不會消失，因為它從未離場。</p>
+<hr>
+<h2 id="何時躍回？"><a href="#何時躍回？" class="headerlink" title="何時躍回？"></a>何時躍回？</h2><p>上面提到了躍離的永久物可以躍回（Phases In），那麼具體是甚麼時候躍回呢？ 答案是重置步驟的第一動作，先來讓我們看看重置步驟（Untap Step）的具體流程：</p>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>502. 重置步驟（Untap Step）</p>
+
+    </div>
+    <div class="notel-content">
+      <ul>
+<li>502.1. 首先，主動玩家操控的所有已躍回且具有時間跳躍異能的永久物躍離，且<font color="#FF0000">躍離時由主動玩家操控的所有已躍離永久物躍回</font>。這些均同時發生。此回合動作不使用堆疊。參見規則702.26，「時間跳躍」。</li>
+<li>502.2. 其次，如果當前是白晝，且上一個回合的主動玩家沒有在該回合中施放任何咒語，則成為黑夜。如果當前是黑夜，且上一個回合的主動玩家在該回合中施放了兩個或更多咒語，則成為白晝。如果目前既非白晝也非黑夜，則此檢查不會發生，而且當前仍然既非白晝也非黑夜。此回合動作不使用堆疊。參見規則728，「白晝與黑夜」。</li>
+<li>502.3. 然後，主動玩家決定哪些由其操控的永久物會重置。然後該玩家將它們同時重置。此回合動作不使用堆疊。正常情況下，一位玩家的所有永久物都會重置，但某些效應可以讓玩家的某些永久物無法重置。</li>
+</ul>
+<p>另外，重置步驟不會有異能上堆疊，也不會有玩家獲得優先權，如果滿足了任何觸發式異能的條件，都會等到之後玩家將獲得優先權之前上堆疊（通常就是維持步驟）。</p>
+<blockquote>
+<p>更多關於回合結構中各階段&#x2F;步驟規則，請參閱往期文章：<a href="https://guildmagesforum.tw/Round-Process/#%E9%87%8D%E7%BD%AE%E6%AD%A5%E9%A9%9F%EF%BC%88Untap-Step%EF%BC%89">回合流程詳解</a></p>
+</blockquote>
+
+    </div>
+  </div>
+
+<p>可以看到重置步驟最優先的動作就是<font color="#FF0000">將躍離永久物躍回</font>，之後是處理晝夜切換，最後才是重置永久物，這也是為何躍離的永久物在躍回時可以正常重置。如果當回合因故跳過重置步驟，那麼也無法將永久物躍回，就如同你被跳過抽牌步驟時就不會抽一張牌一樣。</p>
+<p>這裡的另一個重點是，能躍回的永久物必須是<font color="#FF0000">躍離時由主動玩家操控</font>，跟這個永久物擁有者是誰無關，在誰的操控下躍離，就在那個玩家的重置步驟躍回。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/Wd17csg.png" alt="晝夜"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mid/7/brutal-cathar-moonrage-brute">護教蠻兵</a>：當此生物進戰場或轉化為護教蠻兵時，放逐目標由對手操控的生物，直到此生物離開戰場為止。晝形。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mid/7/brutal-cathar-moonrage-brute?back">月怒蠻狼</a>：夜形。（護教蠻兵的背面）<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/neo/61/march-of-swirling-mist">漩霧行進</a>：目標生物躍離。</p>
+</blockquote>
+<p>假設當前是對手的回合，且為黑夜，下一回合是我的回合，已經確定會轉為白晝，我有一個橫置時被躍離的月怒蠻狼（背面），當輪到我的回合時，該如何處理這個狼人？</p>
+<p>從上面的回合流程解析就可以看出，結果會是：月怒蠻狼以背面橫置躍回 ⇾ 晝夜切換，狼人轉化成正面的護教蠻兵（轉化成正面時的異能等待上堆疊） ⇾ 重置所有永久物。</p>
+<hr>
+<h2 id="躍離與時間跳躍（Phasing）"><a href="#躍離與時間跳躍（Phasing）" class="headerlink" title="躍離與時間跳躍（Phasing）"></a>躍離與時間跳躍（Phasing）</h2><p>前面在引用規則條目時，曾多次出現 <strong>時間跳躍</strong> 這個詞，那這究竟是甚麼？ 時間跳躍其實是一個關鍵字異能，也可以說是躍離之母，時間跳躍是一個建立在躍離／躍回之上的應用機制。如果你仔細觀察規則編號，會發現其實定義躍離的規則條目，大多都只是時間跳躍下的子條目而已。</p>
+<p>不過時間跳躍是個非常冷門的機制，今後估計也不會再出現了，反倒是作為底層系統的躍離在之後被玩出各種新應用，所以這裡也沒打算介紹時間跳躍太多，讓我們簡單看看它有甚麼規則就好。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/fKT7gEe.png" alt="Phasing"></p>
+<ul>
+<li>702.26a 時間跳躍屬於靜止式異能，會影響重置步驟的規則。在每位玩家的重置步驟中，主動玩家重置其永久物之前，由該玩家操控、且具時間跳躍異能的所有已躍回永久物「躍離」。同時，所有於躍離時由該玩家操控的所有已躍離永久物「躍回」。</li>
+<li>702.26m 如果一個效應使玩家略過其重置步驟，則該回合中不會發生時間跳躍事件。</li>
+<li>702.26p 同一永久物或玩家上的多個時間跳躍異能並無意義。</li>
+</ul>
+<hr>
+<h2 id="靈氣與武具的間接躍離"><a href="#靈氣與武具的間接躍離" class="headerlink" title="靈氣與武具的間接躍離"></a>靈氣與武具的間接躍離</h2><p>躍離有一個著名的特例情境，就是當一個身上有貼附靈氣、武具的生物被躍離時，這些靈氣、武具也會連同生物一同躍離，這被稱為間接躍離，具體規則如下：</p>
+<ul>
+<li>702.26g 當永久物躍離時，貼附於其上的所有靈氣、武具及工事也同時躍離。這種躍離方式稱為「間接」躍離。間接躍離的靈氣、武具或工事不會自己躍回，而是與其所貼附的永久物一同躍回。</li>
+<li>702.26h 如果一個物件將要同時以直接和間接兩種方式同時躍離，則它只會間接躍離。</li>
+<li>702.26i 直接躍離的靈氣、武具或工事躍回時仍然貼附於它躍離時所貼附的物體或玩家之上，只要該物件仍在相同的區域中或該玩家仍在遊戲中。否則，該靈氣、武具或工事以未貼附的狀態躍回。並進行對應的狀態動作。（參見規則704.5m及704.5n。）</li>
+<li>702.26j 因一個永久物成為貼附或未貼附於某物件或玩家上而觸發的異能，不會因該永久物躍離或躍回而觸發。</li>
+</ul>
+<blockquote>
+<p>PS：<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/search?as=grid&order=name&q=type:fortification+(game:paper)">工事（Fortification）</a>是個極其冷門的副類別，基本上可無視。</p>
+</blockquote>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/jbalJj0.png" alt="靈氣"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/neo/25/light-paws-emperors-voice">帝皇玉音輕腳</a>：被靈氣結附的生物。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/khm/25/rune-of-sustenance">堅韌符文</a>：只要所結附的永久物是生物，它便具有繫命異能。（以下簡稱白符文）<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mid/77/spectral-adversary">幽魂仇敵</a>：當幽魂仇敵進戰場時，你可以支付{1}{U}任意次數。當你支付此費用一次或數次時，根據該數量在幽魂仇敵上放置等量的+1&#x2F;+1指示物，然後至多等量的其他目標神器，生物和／或結界躍離。</p>
+</blockquote>
+<p>目前輕腳身上結附著一個白符文，如果使用幽魂仇敵的異能單獨躍離生物&#x2F;靈氣，或者兩者一同躍離，結果如下：</p>
+<ul>
+<li>1.只躍離白符文：<br>輕腳會暫時失去白符文給的繫命，直到白符文躍回才重新獲得繫命，如果在白符文躍回之前輕腳因故離場，那麼白符文躍回時會因為未貼附而進入墳場。</li>
+<li>2.只躍離輕腳：<br>白符文會一同被間接躍離，直到輕腳躍回才跟著躍回。</li>
+<li>3.兩者一同躍離：<br>根據上列 702.26h 規則，這時白符文會被算做間接躍離，之後的處理同狀況 2 。</li>
+</ul>
+<hr>
+<h2 id="躍離與一次性效應"><a href="#躍離與一次性效應" class="headerlink" title="躍離與一次性效應"></a>躍離與一次性效應</h2><p>接著讓我們開始進入今天的重頭戲，廢話不多說我們直接上範例：</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/Tdqe1Mm.png" alt="一次性效應"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/j25/169/banisher-priest">逐令僧侶</a>：當逐令僧侶進戰場時，放逐目標由對手操控的生物，直到逐令僧侶離開戰場為止。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/neo/61/march-of-swirling-mist">漩霧行進</a>：目標生物躍離。</p>
+</blockquote>
+<ul>
+<li>1.逐令僧侶ETB目標是我的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/10e/268/grizzly-bears">灰棕熊</a>，回應ETB先躍離逐令僧侶。</li>
+<li>2.逐令僧侶已放逐我的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/10e/268/grizzly-bears">灰棕熊</a>，這時再將逐令僧侶躍離。</li>
+</ul>
+<p>以上這兩個情境是否能避免灰棕熊被放逐，或者成功救出灰棕熊？ 要回答這個問題，我們要先分析逐令僧侶的異能是如何執行的。</p>
+<ul>
+<li>610.1. 一次性效應只作一次事且不具時限。例如造成傷害、消滅永久物、派出一個衍生物、以及將一個物件從一個區域移到另一個區域。</li>
+<li>610.3. 一些一次性效應使得一個物件改變區域<font color="#FF0000">「直到」</font>某個<font color="#FF0000">特定事件發生</font>。在該事件發生後，另一個一次性效應立即被創造。後者效應將該物件移回原來的區域。</li>
+</ul>
+<p>逐令僧侶的異能屬於上述的一次性效應，該異能結算後就會放逐目標生物，直到<font color="#FF0000">逐令僧侶離開戰場</font>為止。反過來說就是只要逐令僧侶還沒離開戰場，這個放逐生物的效應就不會終止，躍離顯然不算離場，因此這題無論是情境 1 或情境 2 答案都一樣，灰棕熊會持續被放逐。</p>
+<p>順便補充一下，情境 1 假設改成回應逐令僧侶的ETB，使用<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dsk/110/murder">謀殺</a>先將逐令僧侶去除，當ETB結算時我的灰棕熊並不會被放逐，甚至從未離場，這是基於以下規則所致：</p>
+<ul>
+<li>610.3b 如果正在結算的觸發式異能創造了上述前者導致物件改變區域的一次性效應，且該特定事件在該異能觸發之後、但在一次性效應將要發生之前<font color="#FF0000">特定事件</font>已經發生，則該物件不會改變區域。</li>
+</ul>
+<hr>
+<h2 id="躍離與持續性效應"><a href="#躍離與持續性效應" class="headerlink" title="躍離與持續性效應"></a>躍離與持續性效應</h2><p>理解了上面一次性效應範例的解說後，再讓我們看看另一個看似流程一樣，實則截然不同的情境：</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/otmYwEP.png" alt="持續性效應"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dft/212/loot-the-pathfinder">尋路爛寶</a>：一個有起動式異能的生物。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/81/tishanas-tidebinder">提莎娜的縛潮師</a>：當提莎娜的縛潮師進戰場時，反擊至多一個目標起動式或觸發式異能。如果以此法反擊神器、生物或鵬洛客的異能，則於提莎娜的縛潮師仍在戰場上的時段內，該永久物失去所有異能。（以下簡稱人魚）<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/neo/61/march-of-swirling-mist">漩霧行進</a>：目標生物躍離。</p>
+</blockquote>
+<ul>
+<li>1.爛寶因人魚失去所有異能中，躍離爛寶。</li>
+<li>2.爛寶因人魚失去所有異能中，躍離人魚。</li>
+<li>3.爛寶起動異能被人魚回應ETB，在該ETB結算前回應，先行躍離人魚。</li>
+</ul>
+<p>以上三種情境是否會讓爛寶恢復異能？ 這題乍看之下跟上面<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/j25/169/banisher-priest">逐令僧侶</a>的範例一模一樣，不過要注意，人魚的寫法屬於一種持續性效應，跟一次性效應是不同的。</p>
+<ul>
+<li>611.1. 一個持續性效應在指定時限中或無限期地，影響物體的特徵、影響物體的操控權、或影響玩家或遊戲的規則。</li>
+<li>611.2b 一些由咒語或異能的結算所產生的持續性效應的時段使用 <strong>“for as long as”</strong> 描述。如果該時段從未開始過，則該效應沒有任何效果。類似地，如果該效應在它最先生效的一刻之前便已經結束，且在該咒語或異能的結算過程中沒有再度開始，則該效應沒有任何效果。它不會開始並馬上結束，也不會永遠生效。</li>
+<li>702.26f 影響已躍離永久物的持續性效應的時限，可能在該永久物躍離的期間過期。對於這種情況，該永久物躍回時已不再受該些持續性效應影響。需特別指出的是，<font color="#FF0000">時限中包括著 <strong>“for as long as”</strong> ，且以該永久物為追踪對象的效應（參見規則611.2b）會在該永久物躍離時結束，因為該些效應無法查看到該永久物了。</font><blockquote>
+<p><strong>“for as long as”</strong> 特地使用原文強調，而非使用中文翻譯，原因是這段敘述的中文翻譯並不統一，例如同樣是“doesn’t untap during its controller’s untap step for as long as you control this creature”，<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/m20/57/zht/%E5%9C%B0%E5%9F%8E%E9%81%8A%E9%AD%82">地城遊魂</a>和<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/m14/73/zht/%E6%BD%AE%E7%B8%9B%E6%B3%95%E5%B8%AB">潮縛法師</a>的中文文本寫法就不一樣。</p>
+</blockquote>
+</li>
+</ul>
+<p>702.26f 是躍離規則中最困難，也十分容易在實戰中產生困擾的一條。關於這條規則，筆者也覺得描述得並不理想，十分容易解讀錯誤或理解困難，讓我們配合此題情境，一步步拆解這條規則該如何解讀。</p>
+<p>有一個永久物<font color="#FF0000">（人魚）</font>，它具有一個時限中包括著 “for as long as”的持續性效應<font color="#FF0000">（於提莎娜的縛潮師仍在戰場上的時段內，該永久物失去所有異能）</font>，這個效應追蹤的對象是該永久物<font color="#FF0000">（人魚需持續在場）</font>，只要人魚還在場上，這個效應就追蹤得到來源，並且持續發揮效用<font color="#FF0000">（讓爛寶失去異能）</font>，至於爛寶是否在場，反而不是這個效應追蹤的目標。在人魚躍離的那一瞬間，這個持續性效應會因為無法追蹤到來源而結束，即使之後人魚躍回也不會恢復。</p>
+<p>現在可以回頭回答一開始的問題了：</p>
+<ul>
+<li><p>1.爛寶因人魚失去所有異能中，躍離爛寶：<br>爛寶躍回後依舊是失去所有異能。</p>
+</li>
+<li><p>2.爛寶因人魚失去所有異能中，躍離人魚：<br>人魚躍離瞬間爛寶異能恢復，人魚躍回後爛寶依舊有異能。</p>
+</li>
+<li><p>3.爛寶起動異能被人魚回應ETB，在該ETB結算前回應，先行躍離人魚：<br>爛寶不會失去異能，人魚躍回後爛寶依舊有異能。</p>
+</li>
+</ul>
+<blockquote>
+<p>PS：因為爛寶從未離場，所以哪怕它躍離過，也會記得自己起動過哪些<a href="https://guildmagesforum.tw/DFT-mechanism/#%E7%AB%AD%E7%B5%95%EF%BC%88Exhaust%EF%BC%89">竭絕</a>異能。</p>
+</blockquote>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/mEQL4M7.png" alt="叛行"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/m20/124/act-of-treason">叛行</a>：獲得目標生物的操控權直到回合結束。重置該生物。它獲得敏捷異能直到回合結束。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/neo/61/march-of-swirling-mist">漩霧行進</a>：目標生物躍離。</p>
+</blockquote>
+<p>假設玩家A使用叛行，獲得了玩家B的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/10e/268/grizzly-bears">灰棕熊</a>操控權，並且使其橫置（或許是宣告攻擊造成的），然後在結束步驟開始前就躍離了灰棕熊，這個灰棕熊會在甚麼時候、於哪位玩家的操控下、以橫置或非橫置的狀態躍回？</p>
+<p>叛行的改變操控權是持續性效應的一種，會在玩家A的本回合結束時終止，但因為灰棕熊還在躍離中，所以灰棕熊此時依舊不在場上。而永久物躍回的依據，是看它 <strong>躍離時的操控者</strong> 是誰？而非它的擁有者，因為灰棕熊是在玩家A的操控下躍離的，因此輪到玩家B回合時灰棕熊還不會躍回，要等到玩家A的下一個重置步驟時才會躍回。</p>
+<ul>
+<li>502.1.（重置步驟） 首先，主動玩家操控的所有已躍回且具有時間跳躍異能的永久物躍離，且躍離時由主動玩家操控的所有已躍離永久物躍回。</li>
+<li>702.26f 影響已躍離永久物的持續性效應的時限，可能在該永久物躍離的期間過期。對於這種情況，該永久物躍回時已不再受該些持續性效應影響。</li>
+</ul>
+<p>當灰棕熊躍回時，會是橫置狀態，因為這就是它躍離前最後的紀錄，然而此時改變控制權的持續性效應已經結束了，灰棕熊的控制權會交還給玩家B，當下還在重置步驟的 502.1 而已，要等到遊戲進度前進到重置步驟的 502.3 時，永久物才會重置。</p>
+<p>總結一下：玩家A躍離橫置的灰棕熊後，這個灰棕熊會在下個玩家A的重置步驟躍回，此時由玩家B操控，依舊橫置中，不考慮外部效應干預的話，要等到玩家B自己的重置步驟才會重置。</p>
+<hr>
+<h2 id="躍離直到指定時刻"><a href="#躍離直到指定時刻" class="headerlink" title="躍離直到指定時刻"></a>躍離直到指定時刻</h2><p>躍離若是沒有特別描述，都是在重置步驟躍回，但有少數的特例會指定躍離的永久物到某個指定時刻才能躍回：</p>
+<ul>
+<li>610.4. 一些一次性效應使得一個永久物躍離「直到」某個特定事件發生。在該事件發生後，另一個一次性效應立即被創造。後者效應使得此永久物躍回。</li>
+<li>610.4a 以此法躍離的永久物不因玩家重置步驟（參見規則502.1）中的回合動作之故而躍回。其他效應仍然可能使得其躍回。如果以此法躍離的永久物因另一個效應之故而躍回，上述後者一次性動作不會發生，即使該永久物再次躍離。</li>
+</ul>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/YVeK4qI.png" alt="指揮官"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/cmm/364/yuriko-the-tigers-shadow">虎影百合子</a>：對手的指揮官。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/2xm/100/oubliette">密牢囚禁</a>：當密牢囚禁進戰場時，目標生物躍離，直到密牢囚禁離開戰場。於該生物以此法躍回時，將它橫置。 </p>
+</blockquote>
+<p>假設我使用密牢囚禁躍離了對手的虎影百合子，因為躍離不會造成區域移動，對手沒有辦法讓她回到指揮官區，更慘的是，密牢囚禁會將生物躍離直到自己離開戰場，只要對手不能解掉密牢囚禁，他這盤遊戲就沒有指揮官能用了。</p>
+<details class="blue" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>密牢囚禁小故事 </summary>
+              <div class="content">
+              <p>關於<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/2xm/100/oubliette">密牢囚禁</a>還有個有趣的歷史故事，這張卡誕生於<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/arn/31/oubliette">阿拉伯之夜</a>系列，它在最初設計時其實跟躍離完全沒關係，躍離那時也還沒誕生，文本自然與現版本天差地別，是在躍離誕生一段時間後，官方才意識到密牢囚禁的運作模式似乎可以等效成躍離，於是修改了密牢囚禁的運作原理，這也讓它成為了最遠古的躍離牌。</p><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/f7wRZqr.png" alt="阿拉伯之夜"></p>
+              </div>
+            </details>
+
+
+
+
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/cMQfG5d.png" alt="超脫時間"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/uds/13/opalescence">蛋白石光輝</a>：所有其他非靈氣結界額外具有生物類別，且基礎力量與防禦力等同於其總魔法力值。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mh2/23/out-of-time">超脫時間</a>：當超脫時間進戰場時，重置所有生物，然後將它們躍離直到超脫時間離開戰場為止。每有一個生物以此法躍離，便在超脫時間上放置一個計時指示物。<br>消逝（在你的維持開始時，從此結界上移去一個計時指示物。當移去最後一個時，將它犧牲。）</p>
+</blockquote>
+<p>我在場上有蛋白石光輝的情況下讓超脫時間進場，超脫時間ETB觸發，躍離所有生物，這也包含了成為結界生物的它自己，這個躍離的時限是到超脫時間自己離開戰場為止，但是尷尬的來了……躍離中的超脫時間根本沒有離場的方法，也就是說這是個比放逐還要難救回來的掃場。</p>
+<p>或許有人會想到<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/vis/46/time-and-tide">光陰似箭</a>這張老牌，確實它可以將躍離中的生物躍回，然而蛋白石光輝只能影響場上的結界，超脫時間躍離後就不再受蛋白石光輝影響，它只是個結界而不是結界生物，因此哪怕是<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/vis/46/time-and-tide">光陰似箭</a>都沒轍。</p>
+<hr>
+<h2 id="多人遊戲下的躍離"><a href="#多人遊戲下的躍離" class="headerlink" title="多人遊戲下的躍離"></a>多人遊戲下的躍離</h2><p>簡單補充一下在多人遊戲中產生的躍離特例：</p>
+<ul>
+<li>702.26k 由離開遊戲的玩家擁有的已躍離永久物同樣會離開遊戲。這不會導致因區域改變而觸發的異能觸發。參見規則800.4。</li>
+<li>702.26n 在多人遊戲中，玩家一旦離開遊戲，遊戲規則可能導致已躍離永久物離開遊戲或被放逐。 （參見規則800.4a和800.4c。）如果一個已躍離永久物是在某已離開遊戲的玩家之操控下躍離的，該永久物於本應是該玩家的下一個回合開始後的下一個重置步驟中躍回。<blockquote>
+<p>這個702.26n甚麼時候會用上呢？ 假設玩家 A <a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/m20/124/act-of-treason">叛行</a>玩家 B 的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/cmm/364/yuriko-the-tigers-shadow">虎影百合子</a>後將其躍離，但是在百合子躍回前就輸掉遊戲了，那麼百合子躍回的時機就會改到，本應是玩家 A 回合順位之後的任一回合，當遊戲經過重置步驟時躍回，無論這是哪位玩家的回合。</p>
+</blockquote>
+</li>
+</ul>
+<hr>
+<h2 id="小試身手"><a href="#小試身手" class="headerlink" title="小試身手"></a>小試身手</h2><h3 id="練習一"><a href="#練習一" class="headerlink" title="練習一"></a>練習一</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/QaQXNwv.png" alt="奪心魔"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/clb/728/mind-flayer">奪心魔</a>：當奪心魔進戰場時，於你操控奪心魔的時段內，獲得目標生物的操控權。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/neo/61/march-of-swirling-mist">漩霧行進</a>：目標生物躍離。</p>
+</blockquote>
+<p>當下奪心魔已經抓走<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/10e/268/grizzly-bears">灰棕熊</a>：</p>
+<ul>
+<li>1.躍離奪心魔。</li>
+<li>2.躍離灰棕熊。</li>
+</ul>
+<details class="blue" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>練習一解答 </summary>
+              <div class="content">
+              <ul><li>1.躍離奪心魔：<br>灰棕熊還給主人，奪心魔躍回無事發生。</li><li>2.躍離灰棕熊：<br>灰棕熊躍回後依舊被奪心魔奪走操控權。</li></ul>
+              </div>
+            </details>
+
+
+
+
+
+<h3 id="練習二"><a href="#練習二" class="headerlink" title="練習二"></a>練習二</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/RZxDTGC.png" alt="蝙蝠"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/102/deep-cavern-bat">深窟蝙蝠</a>：當深窟蝙蝠進戰場時，檢視目標對手的手牌。你可以放逐其中一張非地牌，直到深窟蝙蝠離開戰場為止。<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/neo/61/march-of-swirling-mist">漩霧行進</a>：目標生物躍離。</p>
+</blockquote>
+<ul>
+<li>1.回應放逐手牌ETB先躍離深窟蝙蝠。</li>
+<li>2.深窟蝙蝠已放逐手牌，這時再將它躍離。</li>
+</ul>
+<details class="blue" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>練習二解答 </summary>
+              <div class="content">
+              <ul><li>1.回應放逐手牌ETB先躍離深窟蝙蝠：<br>能看手牌，能放逐手牌，直到深窟蝙蝠離場為止。</li><li>2.深窟蝙蝠已放逐手牌，這時再將它躍離：<br>手牌依舊放逐中。</li></ul>
+              </div>
+            </details>
+
+
+
+
+
+<h3 id="練習三"><a href="#練習三" class="headerlink" title="練習三"></a>練習三</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/MRgnG0Q.png" alt="Blitz"></p>
+<blockquote>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/snc/165/workshop-warchief">車間戰酋長</a>：急襲{4}{G}{G}（如果你支付此咒語的急襲費用來施放之，則它獲得敏捷與「當此生物死去時，抽一張牌。」在下一個結束步驟開始時，將它犧牲。）<br><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/snc/62/slip-out-the-back">悄聲離開</a>：在目標生物上放置一個+1&#x2F;+1指示物。令它躍離。</p>
+</blockquote>
+<p>假設我以急襲來施放車間戰酋長，並在結束步驟前使用悄聲離開使它躍離，那麼躍回後的車間戰酋長是否會在之後的結束步驟自動犧牲？ 死去時能抽牌嗎？</p>
+<details class="blue" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>練習三解答 </summary>
+              <div class="content">
+              <p>使用急襲費用施放所成的永久物，會自帶一個延遲觸發式異能 <strong>「下一個結束步驟開始時，將它犧牲」</strong> ，不過要注意的是，這個觸發式異能並不是車間戰酋長自己的異能，哪怕你讓車間戰酋長失去所有異能，這個犧牲效果還是會觸發，可以理解為急襲咒語幫你在遊戲中設定了一個定時器，只要遊戲進行到指定時刻這個延遲觸發式異能就會觸發，即使此時車間戰酋長已經躍離而不在場上，也不會將犧牲遞延到之後的結束步驟再度觸發，這意味著你可以用躍離保住急襲的生物不會自動切腹。</p><p>此外用急襲施放的永久物會額外獲得 <strong>「當此永久物死去時，抽一張牌」</strong> 這條異能，只要這個永久物沒有離場過，它就會一直擁有這條異能，因此當車間戰酋長躍回後，仍然是一個進死去時會抽牌的生物。急襲異能＆悄聲離開都是同一個系列的牌，相信在當時的限制賽應該造成過不少呼叫裁判解惑的事件。</p>
+              </div>
+            </details>
+
+
+
+<hr>
+<h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h2><p>躍離回歸標準後，在 AFR ~ DMU 這一年半的時間內，老威非常積極的拿躍離設計各種新牌，確實躍離相對於使用放逐的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/jmp/97/cloudshift">雲移</a>類效應，能做出不太一樣的功能性差異，但是躍離產生的各種反直覺問題也確實困擾了不少人，或許是因為這原因，在 DMU 的 <a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dmu/59/the-phasing-of-zhalfir">賽費爾躍離紀</a> &amp; <a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dmu/147/temporal-firestorm">歷時極焰暴</a> 後，老威暫時沒有在標準設計新的躍離牌了（魔戒系列倒是還有個<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/ltr/211/king-of-the-oathbreakers">毀諾者之王</a>）。</p>
+<p>不過就像<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dom/249/zhalfirin-void">賽費爾</a>被<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/m21/75/teferi-master-of-time">泰菲力</a>躍離了許久後，突然又飛回來了一樣，可以預期總有一天躍離也會再度回歸標準賽制，先了解一下躍離在幹嘛總是沒壞處的。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/W3cDEEM.png" alt="END"></p>
+
+    <style>.tooltip span{display:none;color:#000}.mtgcard{max-width:300px!important}.tooltip span img{float:left;margin:0}.tooltip:hover span{display:block;position:absolute;top:0;left:0;z-index:1000;margin-top:12px;margin-left:32px;overflow:hidden;padding:8px}.tooltip{text-decoration:none;position:relative;display:inline;opacity:1;z-index:unset}</style>
+  <style>.mtable{padding:16px 16px 32px 16px;border:1px solid #000;box-shadow:7px 5px 5px rgba(0,0,0,.2);min-width:240px;background:unset}.crow{display:flex;width:100%;align-items:baseline}.ccount{width:2em;min-width:1rem}.cname{width:100%;min-width:160px}.ccost{width:5em;min-width:3rem}.tooltip span{display:none;color:#000}.mtgcard{max-width:300px!important}.tooltip span img{float:left;margin:0}.tooltip:hover span{display:block;position:absolute;top:0;left:0;z-index:1000;margin-top:12px;margin-left:32px;overflow:hidden;padding:8px}@media (min-width:900px){.mtable{display:flex;max-width:900px}.mblock{margin-right:30px}.mdeck,.msideboard{width:50%}}.tooltip{text-decoration:none;position:relative;display:inline;opacity:1;z-index:unset}</style>
+		</div>
+
+		
+			
+			
+			
+			
+			<div class="article-footer flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+				<div class="info flex flex-col justify-between">
+					
+						
+
+						
+							<div class="author-container">
+								<div class="item">
+									<div class="avatar-column">
+										<a href="/tags/jrumtg/" class="author flex items-center name text-default-text-color text-lg font-semibold flex">
+											<div class="avatar flex-shrink-0p-[1px]">
+												<img src="https://i.imgur.com/JoQEQJA.png">
+											</div>
+										</a>
+									</div>
+									<div class="author-intro items-center">
+										<div class="author-name">
+											<a href="/tags/jrumtg/" class="text-default-text-color font-semibold p-10px">
+												Jru
+											</a>
+										</div>
+										
+										<div>
+											
+												<div class="page-template-content markdown-body">
+													構築與限制賽皆打，構築有玩賽制 : 標準、先驅、近代、EDH（海怪禁單挑、官禁多人休閒向），薪傳與純普也有研究但身邊沒環境。
+												</div>
+											
+												<div class="page-template-content markdown-body">
+													主力賽制為標準，喜歡打重視去除與資源的慢節奏套牌。
+												</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						
+					
+				</div>
+			</div>
+		
+
+		
+		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+			<div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> 躍離是如何運作的？</li>
+        <li><strong>Author:</strong> Jru</li>
+        <li><strong>Created at
+                :</strong> 2025-02-26 10:39:21</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2025-08-12 13:56:37
+            </li>
+        
+        <li>
+            <strong>Link:</strong> https://guildmagesforum.tw/How-Phasing-Works/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+
+            
+                This work is licensed under <a class="license" target="_blank" rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a>.
+            
+        </li>
+    </ul>
+</div>
+
+		</div>
+		
+
+		
+  <div class="recommended-article px-2 sm:px-6 md:px-8">
+   <div class="recommended-desktop">
+    <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>或許你會喜歡</span>
+    </div>
+    <div class="recommended-article-group"><a class="recommended-article-item" href="/What-is-Dependency/" title="什麼是從屬關係" rel="bookmark">
+  <img src="https://media.wizards.com/2018/images/daily/c4rd4r7_9CleBJNchb.jpg" alt="什麼是從屬關係" class="!max-w-none">
+  <span class="title">什麼是從屬關係</span>
+</a><a class="recommended-article-item" href="/Beginners-Guide/" title="MTG新手入坑指南" rel="bookmark">
+  <img src="https://i.meee.com.tw/jMNOt22.jpg" alt="MTG新手入坑指南" class="!max-w-none">
+  <span class="title">MTG新手入坑指南</span>
+</a><a class="recommended-article-item" href="/What-does-End-this-Turn-Mean/" title="「結束本回合」是甚麼意思？" rel="bookmark">
+  <img src="https://i.meee.com.tw/3UCgcK2.png" alt="「結束本回合」是甚麼意思？" class="!max-w-none">
+  <span class="title">「結束本回合」是甚麼意思？</span>
+</a><a class="recommended-article-item" href="/Round-Process/" title="回合流程詳解" rel="bookmark">
+  <img src="https://i.meee.com.tw/vpjZjS4.png" alt="回合流程詳解" class="!max-w-none">
+  <span class="title">回合流程詳解</span>
+</a><a class="recommended-article-item" href="/Layer/" title="Layer：持續性效應的互動" rel="bookmark">
+  <img src="https://i.meee.com.tw/i99FcrX.png" alt="Layer：持續性效應的互動" class="!max-w-none">
+  <span class="title">Layer：持續性效應的互動</span>
+</a><a class="recommended-article-item" href="/How-to-Describe-an-Object/" title="如何描述一個物件？" rel="bookmark">
+  <img src="https://i.imgur.com/rlgVpG8.jpg" alt="如何描述一個物件？" class="!max-w-none">
+  <span class="title">如何描述一個物件？</span>
+</a></div>
+   </div>
+   <div class="recommended-mobile">
+   <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>或許你會喜歡</span>
+   </div>
+   <div class="recommended-article-group"><a class="recommended-article-item" href="/What-is-Dependency/" title="什麼是從屬關係" rel="bookmark">
+  <img src="https://media.wizards.com/2018/images/daily/c4rd4r7_9CleBJNchb.jpg" alt="什麼是從屬關係" class="!max-w-none">
+  <span class="title">什麼是從屬關係</span>
+</a><a class="recommended-article-item" href="/Beginners-Guide/" title="MTG新手入坑指南" rel="bookmark">
+  <img src="https://i.meee.com.tw/jMNOt22.jpg" alt="MTG新手入坑指南" class="!max-w-none">
+  <span class="title">MTG新手入坑指南</span>
+</a><a class="recommended-article-item" href="/What-does-End-this-Turn-Mean/" title="「結束本回合」是甚麼意思？" rel="bookmark">
+  <img src="https://i.meee.com.tw/3UCgcK2.png" alt="「結束本回合」是甚麼意思？" class="!max-w-none">
+  <span class="title">「結束本回合」是甚麼意思？</span>
+</a><a class="recommended-article-item" href="/Round-Process/" title="回合流程詳解" rel="bookmark">
+  <img src="https://i.meee.com.tw/vpjZjS4.png" alt="回合流程詳解" class="!max-w-none">
+  <span class="title">回合流程詳解</span>
+</a></div>
+   </div>
+  </div>
+
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="prev" rel="prev" href="/Standard-Boros-Vehicle/">
+					<span class="left arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-left"></i>
+					</span>
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">鐵膽賽車：標準紅白載具</span>
+						<span class="post-nav-item">Prev posts</span>
+					</span>
+				</a>
+			</div>
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/Standard-Selesnya-Sunmare/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">鐵騎馬鞍：標準白綠日魘</span>
+						<span class="post-nav-item">Next posts</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+
+
+		
+		<div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+			<div class="comments-container mt-10 w-full">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        Comments
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>import{init}from"/js/libs/waline.mjs";function loadWaline(){init({el:"#waline",serverURL:"https://mtg-blog-comment.vercel.app/",lang:"zh-TW",dark:'body[class~="dark-mode"]',reaction:!1,requiredMeta:["nick","mail"],emoji:[]})}"undefined"!=typeof swup?loadWaline():window.addEventListener("DOMContentLoaded",loadWaline)</script>
+
+
+
+        
+    
+</div>
+
+		</div>
+		
+	</div>
+
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">On this page</div>
+		<div class="page-title">躍離是如何運作的？</div>
+		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BA%8D%E9%9B%A2%E6%98%AF%E7%94%9A%E9%BA%BC%EF%BC%9F"><span class="nav-number">2.</span> <span class="nav-text">躍離是甚麼？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%95%E6%99%82%E8%BA%8D%E5%9B%9E%EF%BC%9F"><span class="nav-number">3.</span> <span class="nav-text">何時躍回？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BA%8D%E9%9B%A2%E8%88%87%E6%99%82%E9%96%93%E8%B7%B3%E8%BA%8D%EF%BC%88Phasing%EF%BC%89"><span class="nav-number">4.</span> <span class="nav-text">躍離與時間跳躍（Phasing）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9D%88%E6%B0%A3%E8%88%87%E6%AD%A6%E5%85%B7%E7%9A%84%E9%96%93%E6%8E%A5%E8%BA%8D%E9%9B%A2"><span class="nav-number">5.</span> <span class="nav-text">靈氣與武具的間接躍離</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BA%8D%E9%9B%A2%E8%88%87%E4%B8%80%E6%AC%A1%E6%80%A7%E6%95%88%E6%87%89"><span class="nav-number">6.</span> <span class="nav-text">躍離與一次性效應</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BA%8D%E9%9B%A2%E8%88%87%E6%8C%81%E7%BA%8C%E6%80%A7%E6%95%88%E6%87%89"><span class="nav-number">7.</span> <span class="nav-text">躍離與持續性效應</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BA%8D%E9%9B%A2%E7%9B%B4%E5%88%B0%E6%8C%87%E5%AE%9A%E6%99%82%E5%88%BB"><span class="nav-number">8.</span> <span class="nav-text">躍離直到指定時刻</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%9A%E4%BA%BA%E9%81%8A%E6%88%B2%E4%B8%8B%E7%9A%84%E8%BA%8D%E9%9B%A2"><span class="nav-number">9.</span> <span class="nav-text">多人遊戲下的躍離</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B0%8F%E8%A9%A6%E8%BA%AB%E6%89%8B"><span class="nav-number">10.</span> <span class="nav-text">小試身手</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B7%B4%E7%BF%92%E4%B8%80"><span class="nav-number">10.1.</span> <span class="nav-text">練習一</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B7%B4%E7%BF%92%E4%BA%8C"><span class="nav-number">10.2.</span> <span class="nav-text">練習二</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B7%B4%E7%BF%92%E4%B8%89"><span class="nav-number">10.3.</span> <span class="nav-text">練習三</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B5%90%E8%AA%9E"><span class="nav-number">11.</span> <span class="nav-text">結語</span></a></li></ol>
+
+	</div>
+</div>
+	</div>
+	
+</div>
+
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+            <div class="customize-info my-1">Guildmages' Forum 魔風集會所的部分內容是威世智 (Wizards of the Coast) 同好內容政策允許的非官方同好內容。 <br> 本網站所提供之魔法風雲會 (Magic the Gathering, MTG) 文字和圖形資訊，包括卡片圖像、魔法力符號和部分卡片資訊的中文翻譯，版權均為孩之寶集團的子公司威世智所有。 <br> Guildmages' Forum 魔風集會所並不由威世智製作、背書、支持，亦不隸屬於該公司。 <br> 上述聲明以外的所有內容均屬於 2023 © Guildmages' Forum 魔風集會所以及其協力創作者們。</div>
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2023</span>
+              -
+            
+            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration:0.5s;color:#f54545"></i>&nbsp;&nbsp;<a href="/">Guildmages&#39; Forum Staff</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        275 posts in total
+                    </span>
+                    
+                        <span>
+                            1097.4k words in total
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://events.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">VISITOR COUNT</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">TOTAL PAGE VIEWS</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">POWERED BY <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewbox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io" rel="external nofollow noopener noreferrer">Hexo</a></span>
+            <span class="text-sm lg:block">THEME&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine" rel="external nofollow noopener noreferrer">Redefine v2.8.2</a></span>
+        </div>
+        
+        
+            <div>
+                Blog up for <span class="odometer" id="runtime_days"></span> days <span class="odometer" id="runtime_hours"></span> hrs <span class="odometer" id="runtime_minutes"></span> Min <span class="odometer" id="runtime_seconds"></span> Sec
+            </div>
+        
+        
+            <script data-swup-reload-script>try{function odometer_init(){document.querySelectorAll(".odometer").forEach(e=>{new Odometer({el:e,format:"( ddd).dd",duration:200})})}odometer_init()}catch(e){}</script>
+        
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
+
+		
+		
+		<li class="go-comment">
+			<i class="fa-regular fa-comments"></i>
+		</li>
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		
+		
+		<li class="right-bottom-tools rss flex justify-center items-center">
+			<a class="flex justify-center items-center" href="/atom.xml" target="_blank">
+				<i class="fa-regular fa-rss"></i>
+			</a>
+		</li>
+		
+
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="arrow-up fas fa-arrow-up"></i>
+			<span class="percent"></span>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container">
+	<img src>
+</div>
+
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Search..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+</main>
+
+
+
+<script src="/js/build/libs/Swup.min.js"></script>
+
+<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>const swup=new Swup({plugins:[new SwupScriptsPlugin({optin:!0}),new SwupProgressPlugin,new SwupScrollPlugin({offset:80}),new SwupSlideTheme({mainElement:".main-content-body"}),new SwupPreloadPlugin],containers:["#swup"]})</script>
+
+
+
+
+	
+<script src="/js/build/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/build/utils.js" type="module"></script>
+
+<script src="/js/build/main.js" type="module"></script>
+
+<script src="/js/build/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/build/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/build/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/build/layouts/categoryList.js" type="module"></script>
+
+
+
+    
+<script src="/js/build/tools/localSearch.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/runtime.js"></script>
+
+    
+<script src="/js/build/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/build/libs/Typed.min.js"></script>
+
+  
+<script src="/js/build/plugins/typed.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+    
+<script src="/js/build/tools/tocToggle.js" type="module" data-swup-reload-script></script>
+
+<script src="/js/build/layouts/toc.js" type="module" data-swup-reload-script></script>
+
+<script src="/js/build/plugins/tabs.js" type="module" data-swup-reload-script></script>
+
+
+
+
+<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script></script>
+
+
+<script src="/js/build/layouts/essays.js" type="module" data-swup-reload-script></script>
+
+
+
+    
+<script src="/js/build/libs/pangu.min.js"></script>
+
+<script src="/js/build/plugins/pangu.js"></script>
+
+
+
+
+	
+</body>
+
+</html>

@@ -1,0 +1,2728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="MTG 中文網站, Guildmages Forum, mtg blog, mtg decktech, mtg 近代, mtg 先驅, mtg, mtg pioneer, mtg modern, 魔風集會所">
+    
+    <meta name="author" content="Guildmages&#39; Forum Staff">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    
+    
+    <link rel="canonical" href="https://guildmagesforum.tw/layer/">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+    
+        
+        <meta name="description" content="Guildmages’ Forum 魔風集會所是一個繁體中文的部落格，致力於推廣魔法風雲會競技型賽制。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Layer：持續性效應的互動">
+<meta property="og:url" content="https://guildmagesforum.tw/Layer/index.html">
+<meta property="og:site_name" content="Guildmages&#39; Forum 魔風集會所">
+<meta property="og:description" content="Guildmages’ Forum 魔風集會所是一個繁體中文的部落格，致力於推廣魔法風雲會競技型賽制。">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://guildmagesforum.tw/images/logo.webp">
+<meta property="article:published_time" content="2024-12-02T02:57:43.000Z">
+<meta property="article:modified_time" content="2025-07-06T11:55:27.000Z">
+<meta property="article:author" content="Jru">
+<meta property="article:tag" content="JruMTG">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://guildmagesforum.tw/images/logo.webp">
+    
+    
+        
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-JFWD3SG42T"></script>
+        <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-JFWD3SG42T")</script>
+    
+    
+    <link rel="icon" type="image/png" href="/images/logo.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.jpg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/logo.jpg">
+    
+    
+    <title>
+        
+            Layer：持續性效應的互動 | Guildmages&#39; Forum 魔風集會所
+        
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    
+    
+    
+    
+    
+    
+    
+        
+<script src="/js/build/libs/anime.min.js"></script>
+
+    
+
+    <script id="hexo-configurations">window.config={hostname:"guildmagesforum.tw",root:"/",language:"en",path:"search.xml"},window.theme={articles:{style:{font_size:"18px",line_height:1.5,image_border_radius:"14px",image_alignment:"center",image_caption:!1,link_icon:!1,delete_mask:!1,title_alignment:"left",headings_top_spacing:{h1:"3.2rem",h2:"2.4rem",h3:"1.9rem",h4:"1.6rem",h5:"1.4rem",h6:"1.3rem"}},word_count:{enable:!0,count:!0,min2read:!0},author_label:{enable:!1,auto:!1,list:[]},code_block:{copy:!0,style:"mac",highlight_theme:{light:"github",dark:"vs2015"},font:{enable:!1,family:null,url:null}},toc:{enable:!0,max_depth:6,number:!0,expand:!0,init_open:!0},copyright:{enable:!0,default:"cc_by_nc_sa"},lazyload:!0,pangu_js:!0,recommendation:{enable:!0,title:"或許你會喜歡",limit:6,mobile_limit:4,placeholder:"/images/wallhaven-wqery6-light.webp",skip_dirs:[]}},colors:{primary:"#A31F34",secondary:null,default_mode:"light"},global:{fonts:{chinese:{enable:!1,family:null,url:null},english:{enable:!1,family:null,url:null},title:{enable:!1,family:null,url:null}},content_max_width:"1000px",sidebar_width:"210px",hover:{shadow:!0,scale:!1},scroll_progress:{bar:!0,percentage:!0},website_counter:{url:"https://events.vercount.one/js",enable:!0,site_pv:!0,site_uv:!0,post_pv:!0},single_page:!0,preloader:{enable:!0,custom_message:null},open_graph:{enable:!0,image:"/images/logo.webp",description:null},google_analytics:{enable:!0,id:"G-JFWD3SG42T"}},home_banner:{enable:!0,style:"fixed",image:{light:"/images/wallhaven-wqery6-light.webp",dark:"/images/wallhaven-wqery6-dark.webp"},title:"Welcome to Guildmages' Forum!",subtitle:{text:["各路旅法師的集散地","讓玩家額外有個 +1/+1 指示物","釋放各路玩家的限制","盡情享受遊戲","不瘋魔不成活"],hitokoto:{enable:!1,show_author:!1,api:"https://v1.hitokoto.cn"},typing_speed:100,backing_speed:50,starting_delay:500,backing_delay:1500,loop:!0,smart_backspace:!0},text_color:{light:"#fff",dark:"#d1d1b6"},text_style:{title_size:"2.8rem",subtitle_size:"1.5rem",line_height:1.2},custom_font:{enable:!1,family:null,url:null},social_links:{enable:!1,style:"default",links:{github:null,instagram:null,zhihu:null,twitter:null,email:null},qrs:{weixin:null}}},plugins:{feed:{enable:!0},aplayer:{enable:!1,type:"fixed",audios:[{name:null,artist:null,url:null,cover:null,lrc:null}]},mermaid:{enable:!1,version:"11.4.1"}},version:"2.8.2",navbar:{auto_hide:!0,color:{left:"#f78736",right:"#367df7",transparency:35},width:{home:"1200px",pages:"1000px"},links:{Home:{path:"/",icon:"fa-regular fa-house"},Categories:{path:"/categories",icon:"fa-regular fa-folder"},"About Us":{path:"/about",icon:"fa-regular fa-user"},"Contact Us":{path:"/Contact-Us",icon:"fa-regular fa-mailbox-flag-up"},Links:{icon:"fa-regular fa-link",submenus:{"Guildmages' Forum 粉專":"https://www.facebook.com/guildmagesforumtw","台南猴王的耍猴日常":"https://www.facebook.com/TainanMonkeyKing","豬鼻子的mtg世界":"https://www.facebook.com/Pignosemtgworld","多明納里亞圖書館":"https://dominarialibrary.com","龍尊與荒野騎士的玄境之談":"https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807","塞克斯的MTG日誌":"http://76vezffd.blogspot.com/","約力昂大叔 Uncle Yorion":"https://www.facebook.com/profile.php?id=100068751771443","Kappa The Gathering":"https://www.facebook.com/profile.php?id=61558862427620","Mystic Zone":"http://mysticzonetw.blogspot.com/","Spark Double Podcast":"https://linktr.ee/sparkdouble","勇德大叔的日常":"https://www.facebook.com/UncleJund","鳥不喇基":"https://www.facebook.com/profile.php?id=100063848411689","魔法風雲會粉專":"https://www.facebook.com/MagicTheGathering.ct","下水道鱷魚":"https://facebook.com/profile.php?id=61567687550022","紅的喜氣":"https://www.facebook.com/profile.php?id=100083415367398","貓羽的文字日誌":"https://whitecat2.pixnet.net/blog","寬麵的遊戲頻道":"https://www.facebook.com/profile.php?id=100083345574225"}}},search:{enable:!0,preload:!0}},page_templates:{friends_column:2,tags_style:"blur"},home:{sidebar:{enable:!0,position:"left",first_item:"info",announcement:null,show_on_mobile:!0,links:{Categories:{path:"/categories",icon:"fa-regular fa-folder"},"About Us":{path:"/about",icon:"fa-regular fa-user"},"Contact Us":{path:"/Contact-Us",icon:"fa-regular fa-mailbox-flag-up"}}},article_date_format:"auto",excerpt_length:200,categories:{enable:!0,limit:3},tags:{enable:!0,limit:3}},footerStart:"2023/8/23 00:00:00"},window.lang_ago={second:"%s seconds ago",minute:"%s minutes ago",hour:"%s hours ago",day:"%s days ago",week:"%s weeks ago",month:"%s months ago",year:"%s years ago"},window.data={masonry:!1}</script>
+    
+    
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Guildmages' Forum 魔風集會所" type="application/atom+xml">
+</head>
+
+
+
+<body>
+	<div class="progress-bar-container">
+	
+	<span class="scroll-progress-bar"></span>
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	
+	
+	
+	
+</div>
+
+<style>:root{--preloader-background-color:#fff;--preloader-text-color:#000}@media (prefers-color-scheme:dark){:root{--preloader-background-color:#202124;--preloader-text-color:#fff}}@media (prefers-color-scheme:light){:root{--preloader-background-color:#fff;--preloader-text-color:#000}}@media (max-width:600px){.ml13{font-size:2.6rem!important}}.preloader{display:flex;flex-direction:column;gap:1rem;align-items:center;justify-content:center;position:fixed;padding:12px;top:0;right:0;bottom:0;left:0;width:100vw;height:100vh;background-color:var(--preloader-background-color);z-index:1100;transition:opacity .2s ease-in-out}.ml13{font-size:3.2rem;color:var(--preloader-text-color);letter-spacing:-1px;font-weight:500;font-family:Chillax-Variable,sans-serif;text-align:center}.ml13 .word{display:inline-flex;flex-wrap:wrap;white-space:nowrap}.ml13 .letter{display:inline-block;line-height:1em}</style>
+
+<div class="preloader">
+    <h2 class="ml13">
+        Guildmages&#39; Forum 魔風集會所
+    </h2>
+    <script>
+        var textWrapper = document.querySelector('.ml13');
+        // Split text into words
+        var words = textWrapper.textContent.trim().split(' ');
+        words = ['Guildmages\'', 'Forum', '魔風集會所']
+
+        // Clear the existing content
+        textWrapper.innerHTML = '';
+
+        // Wrap each word and its letters in spans
+        words.forEach(function(word) {
+            var wordSpan = document.createElement('span');
+            wordSpan.classList.add('word');
+            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
+            textWrapper.appendChild(wordSpan);
+            if ( word === "Forum" ) {
+                textWrapper.appendChild(document.createElement('br'));
+            }
+            else {
+                textWrapper.appendChild(document.createTextNode(' '));
+            }
+        });
+
+        var animation = anime.timeline({ loop: true })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [20, 0],
+                translateZ: 0,
+                opacity: [0, 1],
+                filter: ['blur(5px)', 'blur(0px)'],
+                easing: "easeOutExpo",
+                duration: 1200,
+                delay: (el, i) => 300 + 20 * i,
+            })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [0, -20],
+                opacity: [1, 0],
+                filter: ['blur(0px)', 'blur(5px)'],
+                easing: "easeInExpo",
+                duration: 1000,
+                delay: (el, i) => 15 * i,
+                complete: function() {
+                    hidePreloader();
+                }
+            }, '-=700');
+
+
+        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
+
+        // If the theme status is not found in local storage, check the preferred color scheme
+        if (themeStatus === undefined || themeStatus === null) {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                themeStatus = 'dark';
+            } else {
+                themeStatus = 'light';
+            }
+        }
+
+        // Now you can use the themeStatus variable in your code
+        if (themeStatus) {
+            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
+            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
+        } else {
+            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
+            document.documentElement.style.setProperty('--preloader-text-color', '#000');
+        }
+
+        window.addEventListener('load', function () {
+            setTimeout(hidePreloader, 5000); // Call hidePreloader after 5000 milliseconds if not already called by animation
+        });
+
+        function hidePreloader() {
+            var preloader = document.querySelector('.preloader');
+            preloader.style.opacity = '0';
+            setTimeout(function () {
+                preloader.style.display = 'none';
+            }, 200);
+        }
+    </script>
+</div>
+
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <style>.centered-text{text-align:center;margin:0;line-height:1.5}</style>
+    <div class="navbar-content transition-navbar">
+        <div class="left">
+            
+            <a class="logo-title centered-text" href="/">
+                
+                Guildmages&#39; Forum<br>
+                魔風集會所
+                
+            </a>
+        </div>
+
+        <div class="right">
+            
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/">
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    HOME
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/categories">
+                                    <i class="fa-regular fa-folder fa-fw"></i>
+                                    CATEGORIES
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/about">
+                                    <i class="fa-regular fa-user fa-fw"></i>
+                                    ABOUT US
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/Contact-Us">
+                                    <i class="fa-regular fa-mailbox-flag-up fa-fw"></i>
+                                    CONTACT US
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a class="has-dropdown" href="#" onclick="&#34;return" false;&#34;>
+                                    <i class="fa-regular fa-link fa-fw"></i>
+                                    LINKS
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/guildmagesforumtw">
+                                                    GUILDMAGES&#39; FORUM 粉專
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/TainanMonkeyKing">
+                                                    台南猴王的耍猴日常
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/Pignosemtgworld">
+                                                    豬鼻子的MTG世界
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://dominarialibrary.com">
+                                                    多明納里亞圖書館
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807">
+                                                    龍尊與荒野騎士的玄境之談
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="http://76vezffd.blogspot.com/">
+                                                    塞克斯的MTG日誌
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100068751771443">
+                                                    約力昂大叔 UNCLE YORION
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=61558862427620">
+                                                    KAPPA THE GATHERING
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="http://mysticzonetw.blogspot.com/">
+                                                    MYSTIC ZONE
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://linktr.ee/sparkdouble">
+                                                    SPARK DOUBLE PODCAST
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/UncleJund">
+                                                    勇德大叔的日常
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100063848411689">
+                                                    鳥不喇基
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/MagicTheGathering.ct">
+                                                    魔法風雲會粉專
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://facebook.com/profile.php?id=61567687550022">
+                                                    下水道鱷魚
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083415367398">
+                                                    紅的喜氣
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://whitecat2.pixnet.net/blog">
+                                                    貓羽的文字日誌
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083345574225">
+                                                    寬麵的遊戲頻道
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/">
+                            <span>
+                                HOME
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/categories">
+                            <span>
+                                CATEGORIES
+                            </span>
+                            
+                                <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/about">
+                            <span>
+                                ABOUT US
+                            </span>
+                            
+                                <i class="fa-regular fa-user fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/Contact-Us">
+                            <span>
+                                CONTACT US
+                            </span>
+                            
+                                <i class="fa-regular fa-mailbox-flag-up fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" navbar-data-toggle="submenu-Links">
+                            <span>
+                                LINKS
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-Links">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/guildmagesforumtw">GUILDMAGES&#39; FORUM 粉專</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/TainanMonkeyKing">台南猴王的耍猴日常</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/Pignosemtgworld">豬鼻子的MTG世界</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://dominarialibrary.com">多明納里亞圖書館</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807">龍尊與荒野騎士的玄境之談</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="http://76vezffd.blogspot.com/">塞克斯的MTG日誌</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100068751771443">約力昂大叔 UNCLE YORION</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=61558862427620">KAPPA THE GATHERING</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="http://mysticzonetw.blogspot.com/">MYSTIC ZONE</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://linktr.ee/sparkdouble">SPARK DOUBLE PODCAST</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/UncleJund">勇德大叔的日常</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100063848411689">鳥不喇基</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/MagicTheGathering.ct">魔法風雲會粉專</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://facebook.com/profile.php?id=61567687550022">下水道鱷魚</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083415367398">紅的喜氣</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://whitecat2.pixnet.net/blog">貓羽的文字日誌</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083345574225">寬麵的遊戲頻道</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    
+                    
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">38</div>
+        <div class="label text-third-text-color text-sm">Tags</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">30</div>
+        <div class="label text-third-text-color text-sm">Categories</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">275</div>
+        <div class="label text-third-text-color text-sm">Posts</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
+
+		<div class="article-title relative w-full">
+			
+			
+			
+			<img src="https://i.meee.com.tw/i99FcrX.png" alt="Layer：持續性效應的互動" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75">
+			
+			<div class="w-full flex items-center absolute bottom-0 justify-start">
+				<h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color">Layer：持續性效應的互動</h1>
+			</div>
+			
+		</div>
+
+		
+			
+			
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			
+				<a href="/tags/jrumtg/" class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+					<img src="https://i.imgur.com/JoQEQJA.png">
+				</a>
+			
+			<div class="info flex flex-col justify-between">
+				
+					
+					<ul class="name text-default-text-color text-lg font-semibold flex">
+						
+							&nbsp;&nbsp;
+							<a href="/tags/jrumtg/" class="author flex items-center">
+								Jru
+							</a>
+							
+						</ul>
+					
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-12-02 10:57:43</span>
+        <span class="mobile">2024-12-02 10:57:43</span>
+        <span class="hover-info">Created</span>
+    </span>
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/mtg-rules/">MTG Rules</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-keyboard"></i>&nbsp;<span>20.6k Words</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>72 Mins</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<h2 id="Before-We-Start"><a href="#Before-We-Start" class="headerlink" title="Before We Start"></a>Before We Start</h2><p>本次的主題是大名鼎鼎的 <strong>Layer（層）</strong> ，Layer的功能正如<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://blogs.magicjudges.org/rules/cr/">MTG.CR</a>中對此章節的命名<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://blogs.magicjudges.org/rules/cr613/">「持續性效應的互動」</a>一樣，是用來定義持續性效應是如何作用於一個物件的。</p>
+<p>Layer的規則十分嚴謹，應用場合也極廣，甚至可以說是MTG規則能有如此嚴謹度的根基之一。但也因為其嚴謹性與牽涉知識較多，導致Layer的規則文本並不是那麼好閱讀，甚至在一部分玩家中已經樹立起了「這是無法被理解的東西」的形象，不過其實Layer的底層規則非常簡潔，只要有耐心順著它的架構，一層一層的走下去，你會發現Layer的邏輯並沒有想像中的複雜。</p>
+<p>在先前的幾篇規則文中，我們已經零星的介紹了一些Layer的部分規則，並提供了該規則的細節解說與範例。本文中我們將從頭開始介紹Layer是如何運作的，對於先前已介紹過的規則會簡略帶過，若是覺得其中引用的部分規則較難理解，請參閱往期文章。</p>
+<details class="blue" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>往期回顧 </summary>
+              <div class="content">
+              <ul><li><a href="https://guildmagesforum.tw/What-is-Copiable-Value/">可複製特徵</a></li><li><a href="https://guildmagesforum.tw/Characteristic-Defining-Ability/">特徵定義異能</a></li><li><a href="https://guildmagesforum.tw/What-is-Time-Stamp/">時間印記</a></li><li><a href="https://guildmagesforum.tw/What-is-Dependency/">從屬關係</a></li></ul>
+              </div>
+            </details>
+
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/moJBtFz.png" alt="封面"></p>
+<hr>
+<h2 id="為甚麼需要Layer"><a href="#為甚麼需要Layer" class="headerlink" title="為甚麼需要Layer"></a>為甚麼需要Layer</h2><p>MTG的可操作元素相當多，和一票TCG遊戲相比，相信也是名列前茅的等級。場面物件數無上限、多種牌張類別、物件內多種屬性等，都注定了MTG特別容易產生複雜的卡牌互動，面對這無窮無盡的組合情境，用單卡判例是不可能處理的，為此MTG需要一套<strong>嚴謹的底層邏輯架構</strong>，當卡牌互動出現規則疑問時，只要照著這套邏輯執行，便能得出具有<strong>一致性</strong>的正確答案。或許在某些較複雜的情境中，可能會導出難理解或反直覺的答案，但Layer系統可以確保全程是邏輯一致的，不會有兩張相同敘述的效果的牌，卻「因為他們是不同的卡」而得出不同的結論。</p>
+<hr>
+<h2 id="Layer規則定義"><a href="#Layer規則定義" class="headerlink" title="Layer規則定義"></a>Layer規則定義</h2><p>首先來介紹一下Layer最基本的規則定義，這一段會重點引用規則原文。筆者也清楚這些規則條文並不是很好消化，因此<strong>後面會用比較簡單的人話再講解一遍</strong>。</p>
+<p>Layer是用來確認一個物件特徵的規則，其運作方式正如其名，將一個物件的各屬性分門別類一層層排好。接著讓我們來看看當持續性效應作用於一個物件上時，Layer究竟是如何運作的？</p>
+<p>在討論持續性效應如何作用前，我們要先確認這個物件的原始特徵。對於一張牌來說，就是牌上所印的特徵；對於Token或咒語與牌的複製來說，這表示創造它的效應對其定義的特徵。你可以把這些該物件的原始特徵想像為 <strong>第0層</strong> <font color="#AAAAAA">（這是便於理解的說法，正式規則上並無此術語）</font> ，這個第0層確認後就不會再變化了，之後任何持續性效應嘗試修改該物件特徵時，以一系列分層的形式按照以下順序生效：</p>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>Layer各層定義</p>
+
+    </div>
+    <div class="notel-content">
+      <p>Layer總共有七層（以1~7表示），其中某些層還可以細分成子層（以a、b..表示）</p>
+<ul>
+<li>層1：影響<a href="https://guildmagesforum.tw/What-is-Copiable-Value/">可複製特徵值</a>的規則和效應生效。<ul>
+<li>層1a：可複製效應生效。</li>
+<li>層1b：牌面朝下的咒語和永久物的特徵相關規則生效。</li>
+</ul>
+</li>
+<li>層2：改變操控權的效應生效。</li>
+<li>層3：改變敘述的效應生效。</li>
+<li>層4：改變類別的效應生效。這包括改變物件的牌類別、副類別、超類別。</li>
+<li>層5：改變顏色的效應生效。</li>
+<li>層6：添加異能的效應、關鍵字指示物、移除異能的效應、令對象不能具有某異能的效應生效。</li>
+<li>層7：改變力量和&#x2F;或防禦力的效應生效。<ul>
+<li>層7a：定義力量、防禦力的<a href="https://guildmagesforum.tw/Characteristic-Defining-Ability/">特徵定義異能</a>所產生的效應生效。</li>
+<li>層7b：將力量、防禦力設定為一個特定的數字或數值的效應生效。提及生物的基礎力量、防禦力的效應在此層生效。</li>
+<li>層7c：影響力量、防禦力（但不將力量、防禦力設定為一個特定的數字或數值）的效應和指示物生效。</li>
+<li>層7d：交換生物的力量和防禦力的效應生效。</li>
+</ul>
+</li>
+</ul>
+<h3 id="層1a：可複製效應"><a href="#層1a：可複製效應" class="headerlink" title="層1a：可複製效應"></a>層1a：可複製效應</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/jgzudFc.png" alt="Layer_1a"></p>
+<blockquote>
+<p>成為XX複製品的效應作用於此層。</p>
+</blockquote>
+<h3 id="層1b：面朝下相關效應"><a href="#層1b：面朝下相關效應" class="headerlink" title="層1b：面朝下相關效應"></a>層1b：面朝下相關效應</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/9t7cIoz.png" alt="Layer_1b"></p>
+<blockquote>
+<p>面朝下的永久物自帶的特徵被獨立了一層出來，並且高於一般的複製效應，可複製特徵最高檢查到1b層為止。</p>
+</blockquote>
+<h3 id="層2：改變操控權的效應"><a href="#層2：改變操控權的效應" class="headerlink" title="層2：改變操控權的效應"></a>層2：改變操控權的效應</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/vbIGZgg.png" alt="Layer_2"></p>
+<h3 id="層3：改變敘述的效應"><a href="#層3：改變敘述的效應" class="headerlink" title="層3：改變敘述的效應"></a>層3：改變敘述的效應</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/SZuXd5P.png" alt="Layer_3"></p>
+<h3 id="層4：改變類別的效應"><a href="#層4：改變類別的效應" class="headerlink" title="層4：改變類別的效應"></a>層4：改變類別的效應</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/eeIMHeZ.png" alt="Layer_4"></p>
+<h3 id="層5：改變顏色的效應"><a href="#層5：改變顏色的效應" class="headerlink" title="層5：改變顏色的效應"></a>層5：改變顏色的效應</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/Ac3oBVW.png" alt="Layer_5"></p>
+<h3 id="層6：添加、移除異能的效應"><a href="#層6：添加、移除異能的效應" class="headerlink" title="層6：添加、移除異能的效應"></a>層6：添加、移除異能的效應</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/aZ9SE7Q.png" alt="Layer_6"></p>
+<blockquote>
+<p>關鍵字指示物也作用於這層。</p>
+</blockquote>
+<h3 id="層7a：定義力量、防禦力的特徵定義異能"><a href="#層7a：定義力量、防禦力的特徵定義異能" class="headerlink" title="層7a：定義力量、防禦力的特徵定義異能"></a>層7a：定義力量、防禦力的特徵定義異能</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/4al7xTv.png" alt="Layer_7a"></p>
+<blockquote>
+<p>右下角力量或防禦力數值用★表示。</p>
+</blockquote>
+<h3 id="層7b：設定力量、防禦力為指定數值"><a href="#層7b：設定力量、防禦力為指定數值" class="headerlink" title="層7b：設定力量、防禦力為指定數值"></a>層7b：設定力量、防禦力為指定數值</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/9RHY4xM.png" alt="Layer_7b"></p>
+<blockquote>
+<p>此層會確定這個物件的基礎力量、防禦力，如<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/232/kutzil-malamet-exemplar">豹族模範庫琪</a>這類檢查基礎力量、防禦力的牌，看的就是7b層決定的數值。</p>
+</blockquote>
+<h3 id="層7c：增減力量、防禦力"><a href="#層7c：增減力量、防禦力" class="headerlink" title="層7c：增減力量、防禦力"></a>層7c：增減力量、防禦力</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/kRLeowV.png" alt="Layer_7c"></p>
+<h3 id="層7d：交換力量、防禦力"><a href="#層7d：交換力量、防禦力" class="headerlink" title="層7d：交換力量、防禦力"></a>層7d：交換力量、防禦力</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/w1UXr4s.png" alt="Layer_7d"></p>
+
+    </div>
+  </div>
+
+<p>除了上述的各層基本定義外，Layer還有以下規則，現在還看不懂也沒關係，後面章節會有更詳細的解釋與範例：</p>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>Layer附加規則</p>
+
+    </div>
+    <div class="notel-content">
+      <ul>
+<li><p>613.3 在層2~6中，特徵定義異能所產生的效應首先生效，然後所有其他順序按照時間印記順序生效。</p>
+<blockquote>
+<p>實際上這條有關特徵定義異能的規則，目前只有4、5層會遇到。</p>
+</blockquote>
+</li>
+<li><p>613.5 遊戲持續並自動依照分層系統所決定的順序令持續性效應生效。所有對物件的特徵所作出的更改均立刻完成。</p>
+</li>
+<li><p>613.6 如果一個效應將在多個層&#x2F;副層中生效，效應的各個部分分別在它們對應的層中生效。如果一個效應開始在一個層&#x2F;副層中生效，它將繼續對同樣的物件在其他適用的層&#x2F;副層中生效，即使產生該效應的異能在此過程中被移除。</p>
+</li>
+<li><p>613.7 在同一層或副層中，一般情況下使用<a href="https://guildmagesforum.tw/What-is-Time-Stamp/">時間印記</a>系統來決定效應生效的順序。一個具有較早時間印記的效應在具有較晚時間印記的效應之前生效。</p>
+</li>
+<li><p>613.8 在一個層或副層中，有時會使用<a href="https://guildmagesforum.tw/What-is-Dependency/">從屬關係</a>來決定效應生效的順序。如果存在從屬關係，它將覆蓋時間印記系統。</p>
+</li>
+<li><p>613.9 一個持續性效應可以涵蓋另一個。有時一個效應的結果將決定另一個效應是否生效或該效應的內容。</p>
+</li>
+</ul>
+
+    </div>
+  </div>
+
+
+<hr>
+<h2 id="Layer該如何分析？"><a href="#Layer該如何分析？" class="headerlink" title="Layer該如何分析？"></a>Layer該如何分析？</h2><p>直接看規則原文，可能看完也看不懂這是在講啥，所以這裡總結一個簡易的Layer解讀方式，順便介紹一下後續文章會怎麼解析Layer。</p>
+<h3 id="按照層順序依序生效"><a href="#按照層順序依序生效" class="headerlink" title="按照層順序依序生效"></a>按照層順序依序生效</h3><p>一個物件的原始特徵我們姑且稱為第0層，後續有效應對它做任何特徵更改，都是發生在1~7層，在原始特徵之上做更動，每一層的定義參考上列章節。</p>
+<p>現在有個效應要修改一個物件的特徵了，我們首先要釐清這個效應作用於哪一層，一個效應也可能同時修改多層資訊，讓我們以<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woc/128/kenriths-transformation">肯理斯化身</a>為例：<br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/NmTWxBM.png"><br>先按照上述的各層定義，將肯理斯化身的效應填入表格內：</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">肯理斯化身</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">成為麋鹿</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">成為綠色</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">失去所有異能</td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center">成為3&#x2F;3</td>
+</tr>
+</tbody></table>
+<p>搞清楚一個效應作用在哪幾層之後，我們就可以開始套用這些效用了，Layer的原理從第1a層開始→第7d層結束，一層一層的讓這層發生的效應生效。以肯理斯化身的範例來講，生效順序就是 4→5→6→7b。</p>
+<p>按照順序生效是Layer最為重要的觀念，因為某些效應可能只對滿足特定條件的對象生效，而前面層的修改就可能改變這個條件的適用範圍，讓我們繼續沿用上面範例，假設肯理斯化身是貼在我的西瓦巨龍上，並且我場上還有枯葉王侯，這時作用於西瓦巨龍上的效應如下：<br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/gDw22Tn.png" alt="範例"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/fdn/206/shivan-dragon">西瓦巨龍</a></strong> ：<br>被靈氣結附的生物。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woc/128/kenriths-transformation">肯理斯化身</a></strong> ：<br>所結附的生物失去所有異能，且是基礎力量與防禦力為3&#x2F;3的綠色麋鹿生物。（它會失去其他牌張類別和生物類別。）<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/fdn/668/wilt-leaf-liege">枯葉王侯</a></strong> ：<br>由你操控的其他綠色生物得+1&#x2F;+1。</p>
+</blockquote>
+<p>讓我們把肯理斯化身＆枯葉王侯的效應填入表格：</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">肯理斯化身</th>
+<th align="center">枯葉王侯</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">成為麋鹿</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">成為綠色</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">失去所有異能</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center">成為3&#x2F;3</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7c</td>
+<td align="center"></td>
+<td align="center">其他綠色生物得+1&#x2F;+1</td>
+</tr>
+</tbody></table>
+<p>按照順序執行的結果，是在第5層西瓦巨龍先被改為綠色，之後在7c層因為西瓦巨龍是綠色，所以才會受到+1&#x2F;+1效應的影響。接下來的所有Layer解題邏輯，都離不開這個重要觀念！</p>
+<p>另外順便介紹一下，後續解析Layer問題時的說明方式。每一題我都會將相關效應整理成表格方便讀者分析Layer現況，而標題欄我原則上是以「效應來源」來命名的，以上一範例為例，這些效應其實都是作用於西瓦巨龍身上的，但如果只寫一個西瓦巨龍，可能會看不出這個效應來自哪裡，所以我還是將效應來源作為表格標題。（部分不適合這樣介紹的特殊題目會單獨處理）</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">來源A</th>
+<th align="center">來源B</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">效應A1</td>
+<td align="center">效應B1</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">效應A2</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center"></td>
+<td align="center">效應B2</td>
+</tr>
+</tbody></table>
+<h3 id="同一層按照時間印記順序生效"><a href="#同一層按照時間印記順序生效" class="headerlink" title="同一層按照時間印記順序生效"></a>同一層按照時間印記順序生效</h3><p>有時同一層會有多個效應一起生效，這時就要比這些效應的<a href="https://guildmagesforum.tw/What-is-Time-Stamp/">時間印記</a>了。時間印記說白了就是這個效應生效的時間點，越早生效的效應越先適用，但也代表它會被比較晚生效的效應覆蓋。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/CMwXB4K.png" alt="時間印記"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/ima/50/diminish">縮小</a></strong> ：<br>目標生物的基礎力量與防禦力為1&#x2F;1直到回合結束。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/stx/238/square-up">四方陣勢</a></strong> ：<br>目標生物的基礎力量與防禦力為4&#x2F;4直到回合結束。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">縮小</th>
+<th align="center">四方陣勢</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">7b</td>
+<td align="center">成為1&#x2F;1</td>
+<td align="center">成為4&#x2F;4</td>
+</tr>
+</tbody></table>
+<p>以縮小＆四方陣勢來說，他們都是作用於7b層的設定攻防值效應，兩者的生效順序會依照時間印記來決定，如果兩者作用於同一隻生物，縮小先生效、四方陣勢後生效，那因為四方陣勢有最新的時間印記，那麼這個生物就會是4&#x2F;4。</p>
+<h3 id="同一層有時從屬關係會蓋過時間印記"><a href="#同一層有時從屬關係會蓋過時間印記" class="headerlink" title="同一層有時從屬關係會蓋過時間印記"></a>同一層有時從屬關係會蓋過時間印記</h3><p>有時候同一層的多個效應並不是獨立運作，一個效應適用後，另一個效應的「生效對象、生效內容、敘述、存在」會因此發生改變，這種時候這兩個效應之間就有了<a href="https://guildmagesforum.tw/What-is-Dependency/">從屬關係</a>，簡單來說就是假設A先適用後B會因此受影響，那就是先適用A再適用B。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/c7dRp7I.png" alt="從屬關係"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/bbd/241/mycosynth-lattice">構生菌格柵</a></strong> ：<br>所有永久物均額外具有神器此類別的。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/arc/6/march-of-the-machines">器械進擊</a></strong> ：<br>每個非生物的神器都是神器生物，力量與防禦力各等同於其總魔法力值。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">構生菌格柵</th>
+<th align="center">器械進擊</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">永久物額外是神器</td>
+<td align="center">非生物的神器是神器生物</td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center"></td>
+<td align="center">成為N&#x2F;N</td>
+</tr>
+</tbody></table>
+<p>在這個範例中就可以看到，雖然兩者都是第4層的類別修改效應，但因為構生菌格柵會導致器械進擊的作用對象發生改變，所以兩個效應間有從屬關係，無論時間印記順序，都是構生菌格柵先把所有永久物灌上神器類別，器械進擊再把這些非生物神器變成神器生物。</p>
+<p><a href="https://guildmagesforum.tw/What-is-Dependency/">從屬關係</a>確實可以說是Layer中最難的一環，這段看不懂就直接跳過也無訪。</p>
+<h3 id="小試身手"><a href="#小試身手" class="headerlink" title="小試身手"></a>小試身手</h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/wm7yhFB.png" alt="範例1"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/25/regal-bunnicorn">莊嚴獨角兔</a></strong> ：<br>莊嚴獨角兔的力量和防禦力各等同於由你操控的非地永久物數量。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/twoe/17/wicked-cursed">倒楣鬼角色（靈氣）衍生物</a></strong> ：<br>所結附的生物是1&#x2F;1。</p>
+</blockquote>
+<p>玩過WOE限制賽可能多少都會體驗過的情境，如果莊嚴獨角兔被貼上倒楣鬼角色，攻防會變成多少？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">莊嚴獨角兔</th>
+<th align="center">倒楣鬼角色（靈氣）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">7a</td>
+<td align="center">★為非地永久物數量</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center"></td>
+<td align="center">成為1&#x2F;1</td>
+</tr>
+</tbody></table>
+<p>可以看到兩者定義攻防的效應處在不同層，莊嚴獨角兔的是7a層的<a href="https://guildmagesforum.tw/Characteristic-Defining-Ability/">特徵定義異能（CDA）</a>，倒楣鬼角色則是在7b層，按層依序處理下來，最後生效的會是倒楣鬼角色，因此無論當下★為多少，最後莊嚴獨角兔都是個1&#x2F;1生物。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/jgSYPUQ.png" alt="範例2"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/m20/312/siege-mastodon">攻城乳齒象</a></strong> ：<br>3&#x2F;5生物。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/a25/75/twisted-image">扭曲影像</a></strong> ：<br>將目標生物之力量與防禦力互換直到回合結束。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/bbd/218/auger-spree">鑽法無歇</a></strong> ：<br>目標生物得+4&#x2F;-4直到回合結束。</p>
+</blockquote>
+<p>目前攻城乳齒象的數值為3&#x2F;5，先對它施放一張扭曲影像，使其力量&#x2F;防禦力互換，變成5&#x2F;3，接著再對攻城乳齒象施放鑽法無歇，使它+4&#x2F;-4，這麼一來攻城乳齒象的力量&#x2F;防禦力會變為多少？ 會因為防禦力變0而死去嗎？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">扭曲影像</th>
+<th align="center">鑽法無歇</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">7c</td>
+<td align="center"></td>
+<td align="center">+4&#x2F;-4</td>
+</tr>
+<tr>
+<td align="center">7d</td>
+<td align="center">力量&#x2F;防禦力交換</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>如果直接對著5&#x2F;3做+4&#x2F;-4計算，那攻城乳齒象當然是涼透了，但我們要注意，這實際上是兩個持續性效應嘗試作用於攻城乳齒象，必須要套用Layer才能得出正確答案，因為鑽法無歇的+4&#x2F;-4在7c層，而扭曲影像的力量&#x2F;防禦力交換在7d層，所以按照層順序依序處理會變成這樣：</p>
+<ul>
+<li>攻城乳齒象原始數值為3&#x2F;5。</li>
+<li>7c層經過+4&#x2F;-4變為7&#x2F;1。</li>
+<li>7d層處理力量&#x2F;防禦力交換，變為1&#x2F;7。</li>
+</ul>
+<p>這兩題的答案乍看之下可能有點反直覺，因為這些都是影響力量&#x2F;防禦力的效應，如果對於Layer系統沒有概念時，大多人會直覺性的對當下數字做運算，進而得出錯誤結果，或是對兩個效應間的關係毫無頭緒（如莊嚴獨角兔這題一樣）。但只要把這些效應分層排好再按順序處理，相信也很好理解為甚麼答案會變成這樣。處理Layer問題時最重要的就是釐清每個效應屬於哪層，只要把這些效應分類好了，再按順序依次執行，大多問題就能解開了。</p>
+<p>剛剛的範例僅僅是處理力量&#x2F;防禦力相關，只能算是個簡單的開胃菜，接著讓我們進入主菜，看看在各種情境下Layer系統將會如何運作？</p>
+<hr>
+<h2 id="Layer規則範例"><a href="#Layer規則範例" class="headerlink" title="Layer規則範例"></a>Layer規則範例</h2><h3 id="鏡身影-載具"><a href="#鏡身影-載具" class="headerlink" title="鏡身影 + 載具"></a><font color="#FF0000">鏡身影 + 載具</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/Po0EH21.png" alt="載具"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/j22/62/mirror-image">鏡身影</a></strong> ：<br>你可以使鏡身影當成任一由你操控之生物的複製品來進入戰場。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/80/subterranean-schooner">地底縱帆船</a></strong> ：<br>一個載具。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/kld/146/blossoming-defense">防禦全開</a></strong> ：<br>直到回合結束，目標由你操控的生物得+2&#x2F;+2且獲得辟邪異能。</p>
+</blockquote>
+<p>目前我有一個已經透過搭載成為生物的地底縱帆船，並且這回合被防禦全開上過Buff，然後讓鏡身影選擇作為地底縱帆船的複製品進場，這樣進場時會是個生物嗎？ 防禦全開的影響會不會一起複製過去？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">鏡身影</th>
+<th align="center">地底縱帆船</th>
+<th align="center">防禦全開</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1a</td>
+<td align="center">複製生物</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center"></td>
+<td align="center">成為神器生物（搭載）</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">辟邪</td>
+</tr>
+<tr>
+<td align="center">7c</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">+2&#x2F;+2</td>
+</tr>
+</tbody></table>
+<p>可以看到搭載只是作用在第4層，讓他額外獲得生物類別，防禦全開在更後面的層，然而複製效應只會看到第1層的<a href="https://guildmagesforum.tw/What-is-Copiable-Value/">可複製特徵</a>，因此那怕原版的地底縱帆船是個生物，鏡身影複製後依然是非生物狀態，想要讓它變成生物還要重新起動一次搭載異能。防禦全開的影響也是完全複製不到。<br>（這題的情境把鏡身影換成派出複製品Token、把載具換成變身地，也會得到一樣的結果）</p>
+<h3 id="鏡身影-竊冠甌柯"><a href="#鏡身影-竊冠甌柯" class="headerlink" title="鏡身影 + 竊冠甌柯"></a><font color="#FF0000">鏡身影 + 竊冠甌柯</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/vD5Dew4.png" alt="魔戒OKO"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/eld/197/oko-thief-of-crowns">竊冠甌柯</a></strong> ：<br>[+1]：目標神器或生物失去所有異能，且成為基礎力量與防禦力為3&#x2F;3的綠色麋鹿生物。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/ltr/246/the-one-ring">至尊魔戒</a></strong> ：<br>一個非生物傳奇神器。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/j22/62/mirror-image">鏡身影</a></strong> ：<br>你可以使鏡身影當成任一由你操控之生物的複製品來進入戰場。</p>
+</blockquote>
+<p>我的場上有個至尊魔戒，被竊冠甌柯的[+1]變成麋鹿生物了，之後讓鏡身影做為這個麋鹿魔戒的複製品進場，結果會如何？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">竊冠甌柯[+1]</th>
+<th align="center">鏡身影</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1a</td>
+<td align="center"></td>
+<td align="center">複製生物</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">成為麋鹿生物</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">成為綠色</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">失去所有異能</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center">成為3&#x2F;3</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>從上一案例就可以得知，雖然OKO的[+1]做了很多事，但沒有一個是修改到可複製特徵的，因此鏡身影進場後會是原版的至尊魔戒。但我們要注意，至尊魔戒是個傳奇永久物，而OKO的[+1]並不會動到卡名與超類別（傳奇），因此這時你操控著兩個同名的傳奇永久物，必須依照傳奇規則，選擇一個留在場上並將另一個送入墳場。</p>
+<h3 id="鏡身影-永續無瑕體"><a href="#鏡身影-永續無瑕體" class="headerlink" title="鏡身影 + 永續無瑕體"></a><font color="#FF0000">鏡身影 + 永續無瑕體</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/3dDzve0.png" alt="永續體"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/j22/62/mirror-image">鏡身影</a></strong> ：<br>你可以使鏡身影當成任一由你操控之生物的複製品來進入戰場。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dsk/6/enduring-innocence">永續無瑕體</a></strong> ：<br>當永續無瑕體死去時，若它是生物，則將它在其擁有者的操控下移回戰場。它是結界。（移回後它便不再是生物。）</p>
+</blockquote>
+<p>目前鏡身影是永續無瑕體的複製體，當鏡身影死亡時，會觸發永續無瑕體的死亡異能，變成結界回到場上，那麼這時的鏡身影會是甚麼狀態？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">鏡身影</th>
+<th align="center">永續無瑕體</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">0</td>
+<td align="center">本體為0&#x2F;0生物</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1a</td>
+<td align="center">複製生物</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center"></td>
+<td align="center">成為結界</td>
+</tr>
+</tbody></table>
+<p>首先你依舊可以讓鏡身影作為其他你操控生物的複製品進場，對象生物的異能理所當然的也都會複製到，這是作用在第1層的效應，接著處理到永續無瑕體給的第4層效應，這會使鏡身影變成一個結界，失去原有的生物類別。</p>
+<p>這題還有個有趣的延伸，假設鏡身影回場時，你沒有其他生物可以複製了，那鏡身影會不會因為自己是0&#x2F;0生物而死去？ 答案是不會，確實鏡身影沒複製到其他生物的話，就是個0&#x2F;0沒錯，但隨後在第4層它失去的生物類別，既然不是生物，那就不會因為防禦力為0而死去，它會變成一個毫無功能的結界站在場上<font color="#AAAAAA">（好啦，硬要說的話姑且是個犧牲肥料）</font>。</p>
+<h3 id="進軍阿芒凱-永續無瑕體"><a href="#進軍阿芒凱-永續無瑕體" class="headerlink" title="進軍阿芒凱 + 永續無瑕體"></a><font color="#FF0000">進軍阿芒凱 + 永續無瑕體</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/OqoVvcm.png" alt="阿芒凱永續體"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mom/231/invasion-of-amonkhet-lazotep-convert">進軍阿芒凱</a></strong> ：<br>一個戰役，背面為拉佐特變節者。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mom/231/invasion-of-amonkhet-lazotep-convert">拉佐特變節者</a></strong> ：<br>你可以讓拉佐特變節者當成墳場中任一生物牌的複製品來進入戰場，但它是4&#x2F;4黑色殭屍，且仍具有原本類別。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dsk/6/enduring-innocence">永續無瑕體</a></strong> ：<br>當永續無瑕體死去時，若它是生物，則將它在其擁有者的操控下移回戰場。它是結界。（移回後它便不再是生物。）</p>
+</blockquote>
+<p>我有一個拉佐特變節者，選擇作為永續無瑕體的複製品進場，接著它死去，觸發永續無瑕體的死亡異能，變成結界回到場上。</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">進軍阿芒凱</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">成為結界</td>
+</tr>
+</tbody></table>
+<p>轉化式雙面牌進場時，除非有特殊的效應指定它會以背面進場，否則一律是以正面進場，因此它進場時會是個進軍阿芒凱，並且觸發進軍阿芒凱的ETB異能。</p>
+<p>因為永續無瑕體死亡異能的關係，進軍阿芒凱會成為結界並失去原本類別，也就是說「戰役～圍攻」這些類別都不見了，戰役進場時自帶布防指示物是戰役類別給予的效應，如果失去戰役類別自然也沒了這項能力，因此這個進軍阿芒凱進場時不會帶有任何布防指示物。</p>
+<h3 id="拉佐特變節者-鏡身影"><a href="#拉佐特變節者-鏡身影" class="headerlink" title="拉佐特變節者 + 鏡身影"></a><font color="#FF0000">拉佐特變節者 + 鏡身影</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/1WmLZnn.png" alt="1a修改"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mom/231/invasion-of-amonkhet-lazotep-convert">拉佐特變節者</a></strong> ：<br>你可以讓拉佐特變節者當成墳場中任一生物牌的複製品來進入戰場，但它是4&#x2F;4黑色殭屍，且仍具有原本類別。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/fdn/496/inspiring-overseer">勵志監管使</a></strong> ：<br>拉佐特變節者複製的對象生物。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/j22/62/mirror-image">鏡身影</a></strong> ：<br>你可以使鏡身影當成任一由你操控之生物的複製品來進入戰場。</p>
+</blockquote>
+<p>假設我讓拉佐特變節者作為勵志監管使的複製品進場，再用鏡身影去複製拉佐特變節者，鏡身影最終的複製結果為何？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">拉佐特變節者</th>
+<th align="center">鏡身影</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1a</td>
+<td align="center">複製生物，但它是4&#x2F;4黑色殭屍，且仍具有原本類別</td>
+<td align="center">複製生物</td>
+</tr>
+</tbody></table>
+<p>這題好像跟最開始的那兩個複製問題差不多，但這次的情況有點不一樣，拉佐特變節者的修改類別、顏色、攻防值並不是作用在第4、5、7b層的，而是在第1層直接修改了這個物件的<a href="https://guildmagesforum.tw/What-is-Copiable-Value/">可複製特徵</a>，因此後面鏡身影在複製拉佐特變節者時，也會使用這個被修改過的可複製特徵。</p>
+<p>所以，鏡身影會做為一個名為勵志監管使，4&#x2F;4黑色殭屍&#x2F;天使&#x2F;僧侶的生物，具飛行異能，且進場仍會觸發抽一張牌、補一點血的效果。</p>
+<h3 id="複製-面朝下"><a href="#複製-面朝下" class="headerlink" title="複製 + 面朝下"></a><font color="#FF0000">複製 + 面朝下</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/i1DRAaB.png" alt="面朝下"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mkm/140/pyrotechnic-performer">煙火表演者</a></strong> ：<br><a href="https://guildmagesforum.tw/MKM-mechanism/#%E5%81%BD%E8%A3%9D%EF%BC%88Disguise%EF%BC%89">偽裝</a> <font color="#FF0000">{R}</font> （你可以牌面朝下地施放此牌並支付{3}，將其當成2&#x2F;2、具守護{2}的生物。可隨時支付其偽裝費用使其翻回正面。）<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/m19/60/metamorphic-alteration">擬形變幻</a></strong> ：<br>於擬形變幻進戰場時，選擇一個生物。所結附的生物是所選生物的複製品。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/one/82/archfiend-of-the-dross">深沼翼邪鬼</a></strong> ：<br>擬形變幻複製的對象生物。</p>
+</blockquote>
+<p>對手有個以偽裝施放，目前還面朝下的煙火表演者，我在他身上結附一個擬形變幻，並選擇讓它成為我的深沼翼邪鬼複製品，那麼這個煙火表演者現在狀態如何？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">煙火表演者</th>
+<th align="center">擬形變幻</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1a</td>
+<td align="center"></td>
+<td align="center">複製生物</td>
+</tr>
+<tr>
+<td align="center">1b</td>
+<td align="center">偽裝</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>因為擬形變幻的效果，煙火表演者確實會成為深沼翼邪鬼的複製品沒錯，這是作用在1a層的效應。然而後面1b層還有另一個效應，是將它變成偽裝所定義特徵的生物（無色、2&#x2F;2、守護{2}），因為1b層在1a層之上，所以最後這個生物的可複製特徵就是2&#x2F;2無色生物，你再讓其他生物去複製它，得到的還是2&#x2F;2無色生物。</p>
+<p>這個生物目前的實際狀況為「面朝下的深沼翼邪鬼」，因為它已經成為了深沼翼邪鬼的複製品，所以失去了煙火表演者原有的偽裝費用，沒辦法用偽裝的能力翻為面朝上，不過如果你用<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mkm/124/expose-the-culprit">暴露罪犯</a>之類的牌強行把這個永久物翻為面朝上，那麼它就會是個深沼翼邪鬼，因為1b層的偽裝效應已經終止了，但1a層的複製效應還在運作中。</p>
+<h3 id="操控權轉移"><a href="#操控權轉移" class="headerlink" title="操控權轉移"></a><font color="#FF0000">操控權轉移</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/svrRGfg.png" alt="NTR"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/rna/42/mass-manipulation">全面操弄</a></strong> ：<br>獲得X個目標生物和／或鵬洛客的操控權。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/rvr/99/act-of-treason">叛行</a></strong> ：<br>獲得目標生物的操控權直到回合結束。重置該生物。它獲得敏捷異能直到回合結束。</p>
+</blockquote>
+<p>在一盤多人遊戲中，玩家A有某隻生物，玩家B用全面操弄獲得了它的操控權，但之後玩家C也用叛行把這生物搶過去，那麼等這回合結束叛行效應終止後，這個生物操控權會屬於玩家A還玩家B？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">全面操弄</th>
+<th align="center">叛行</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">2</td>
+<td align="center">玩家B獲得操控權</td>
+<td align="center">玩家C獲得操控權</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center"></td>
+<td align="center">敏捷</td>
+</tr>
+</tbody></table>
+<p>在玩家C使用叛行把生物搶走後，玩家B全面操弄的效應其實並未終止，兩者都在第2層持續作用中，只是因為玩家C的叛行有更新的時間印記，因此蓋過了玩家B的全面操弄。等到叛行效應終止後，第2層上就只剩下全面操弄還在作用了，因此生物的操控權會轉到玩家B手上。</p>
+<h3 id="敘述文字改變"><a href="#敘述文字改變" class="headerlink" title="敘述文字改變"></a><font color="#FF0000">敘述文字改變</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/kZhnPG7.png" alt="曲解心意"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/10e/93/mind-bend">曲解心意</a></strong> ：<br>更改目標永久物的規則敘述文字；將其中一種顏色文字全部更改為另一種，或是將一種基本地類別文字全部更改為另一種。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/80/subterranean-schooner">堅毅女王琳登</a></strong> ：<br>每當一個由你操控的白色生物攻擊時，你獲得1點生命。</p>
+</blockquote>
+<p>假設使用曲解心意，把堅毅女王琳登異能描述中的白色改成黑色，結果如下：</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">曲解心意</th>
+<th align="center">堅毅女王琳登</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">0</td>
+<td align="center"></td>
+<td align="center">白色生物攻擊觸發異能</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">白色→黑色</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Final</td>
+<td align="center"></td>
+<td align="center">黑色生物攻擊觸發異能</td>
+</tr>
+</tbody></table>
+<p>其實這題就算沒有Layer觀念多半也沒什麼影響，只是因為修改規則敘述文字的效應太罕見了，所以還是介紹一下它在Layer中運作的方式。</p>
+<h3 id="十會盟地脈-虛色"><a href="#十會盟地脈-虛色" class="headerlink" title="十會盟地脈 + 虛色"></a><font color="#FF0000">十會盟地脈 + 虛色</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/nBwWiFk.png" alt="虛色"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mkm/217/leyline-of-the-guildpact">十會盟地脈</a></strong> ：<br>每個由你操控的非地永久物均是五色。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mh3/174/thief-of-existence">竊生惡體</a></strong> ：<br>虛色（此牌沒有顏色）。</p>
+</blockquote>
+<p>當我方場上同時有十會盟地脈＆竊生惡體時，竊生惡體的顏色究竟是無色還五色？ 兩者進場的先後順序會不會改變結果？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">十會盟地脈</th>
+<th align="center">竊生惡體</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">5</td>
+<td align="center">非地永久物均是五色</td>
+<td align="center">虛色（此牌沒有顏色）</td>
+</tr>
+</tbody></table>
+<p>這兩個效應都是第5層的改變顏色效應，所以看起來貌似是要比時間印記？ 然而要注意的是，虛色是屬於定義顏色的一種<a href="https://guildmagesforum.tw/Characteristic-Defining-Ability/">特徵定義異能（CDA）</a>，在同一層的效應中，CDA會優先於一般效應生效，因此無論兩者的進場先後順序（又或者說時間印記順序），最後竊生惡體的顏色都會被改為五色。</p>
+<blockquote>
+<ul>
+<li>613.3 在層2~6中，特徵定義異能所產生的效應首先生效，然後所有其他順序按照時間印記順序生效。</li>
+</ul>
+</blockquote>
+<h3 id="關鍵字指示物-失去異能"><a href="#關鍵字指示物-失去異能" class="headerlink" title="關鍵字指示物 + 失去異能"></a><font color="#FF0000">關鍵字指示物 + 失去異能</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/xaPpz1N.png" alt="Layer6"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/iko/15/helica-glider">曲枝飛鼠</a></strong> ：<br>曲枝飛鼠進戰場時上面依你的選擇有一個飛行指示物或一個先攻指示物。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/iko/57/mystic-subdual">神秘破壞</a></strong> ：<br>所結附的生物得-2&#x2F;-0且失去所有異能。（合變無法讓此生物獲得新異能。它可以藉由其他方式獲得異能。）</p>
+</blockquote>
+<p>假設曲枝飛鼠進場時獲得了一個飛行指示物，之後被結附上神秘破壞，這樣它還有飛行異能嗎？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">曲枝飛鼠</th>
+<th align="center">神秘破壞</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">6</td>
+<td align="center">飛行指示物</td>
+<td align="center">失去所有異能</td>
+</tr>
+<tr>
+<td align="center">7c</td>
+<td align="center"></td>
+<td align="center">-2&#x2F;-0</td>
+</tr>
+</tbody></table>
+<p>雖然很多人經驗上會覺得指示物是個最後才生效也很難被蓋掉的東西，但其實關鍵字指示物的作用位置跟一般的賦予異能沒什麼差別，都是在第6層生效，因此曲枝飛鼠的飛行還在不在，取決於飛行指示物＆神秘破壞的時間印記，因為在這題的情境中神秘破壞擁有比較新的時間印記，所以最後曲枝飛鼠會失去飛行異能。</p>
+<p>但假設這之後你用了其他效應給曲枝飛鼠放上一個先攻指示物，那麼它就會有先攻異能，因為這個先攻指示物的時間印記要晚於神秘破壞，神秘破壞沒辦法洗掉這個效應。</p>
+<h3 id="腥紅之月-約格莫夫之墓烏爾博格"><a href="#腥紅之月-約格莫夫之墓烏爾博格" class="headerlink" title="腥紅之月 + 約格莫夫之墓烏爾博格"></a><font color="#FF0000">腥紅之月 + 約格莫夫之墓烏爾博格</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/9Qy4REK.png" alt="血月"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/2xm/118/blood-moon">腥紅之月</a></strong> ：<br>非基本地都是山脈。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tsr/287/urborg-tomb-of-yawgmoth">約格莫夫之墓烏爾博格</a></strong> ：<br>每個地均額外具有沼澤此地類別。以下簡稱「約墓」。</p>
+</blockquote>
+<p>腥紅之月最經典的範例之一，當腥紅之月與約墓同時在場時，場上的地類別為何？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">腥紅之月</th>
+<th align="center">約格莫夫之墓</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">非基本地都是山脈</td>
+<td align="center">地額外是沼澤</td>
+</tr>
+</tbody></table>
+<p>雖然兩者都是第4層的類別改變效應，但約墓本身也是腥紅之月的作用對象，腥紅之月的效果生效後，會使約墓原本的效應消失，因此這兩個效應有<a href="https://guildmagesforum.tw/What-is-Dependency/">從屬關係</a>，約墓從屬於腥紅之月，會優先處理腥紅之月的效應，而等到腥紅之月生效以後，約墓的能力也就沒了，因此地不會額外獲得沼澤類別。</p>
+<blockquote>
+<ul>
+<li>613.8a 如果一個效應（a）與另一個效應在同一層（或副層）中生效；（b）生效的順序將改變第一個效應的敘述或存在、改變它將生效的對象、或改變它將生效的內容；以及（c）這兩個效應都是或都不是特徵定義異能，則第一個效應「從屬於」第二個效應。否則，這兩個效應不從屬於彼此。</li>
+</ul>
+</blockquote>
+<h3 id="薑餅怪人-化蛙術"><a href="#薑餅怪人-化蛙術" class="headerlink" title="薑餅怪人 + 化蛙術"></a><font color="#FF0000">薑餅怪人 + 化蛙術</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/AM3ACHe.png" alt="薑餅"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/246/gingerbrute">薑餅怪人</a></strong> ：<br>{1}：薑餅怪人本回合只能被具敏捷異能的生物阻擋。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/clu/103/turn-to-frog">化蛙術</a></strong> ：<br>直到回合結束，目標生物失去所有異能，且成為基礎力量與防禦力為1&#x2F;1的藍色蛙。</p>
+</blockquote>
+<p>假設我的薑餅怪人本回合已經啟動過「只能被敏捷生物阻擋」的異能了，宣告攻擊後對手對薑餅怪人使用了化蛙術，使它失去所有異能，那麼這個薑餅怪人能被沒敏捷的生物阻擋嗎？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">薑餅怪人</th>
+<th align="center">化蛙術</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center"></td>
+<td align="center">成為蛙</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center"></td>
+<td align="center">成為藍色</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center"></td>
+<td align="center">失去所有異能</td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center"></td>
+<td align="center">成為1&#x2F;1</td>
+</tr>
+<tr>
+<td align="center">other</td>
+<td align="center">只能被敏捷生物阻擋</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>化蛙術雖然會做的事很多，但在這題我們只要關注「失去所有異能」這條就好，其他層的影響先忽略。</p>
+<p>這題最重要的觀念，就是有效應在影響某一物件時，作用原理究竟是不是 <strong>「讓該物件獲得某一異能」</strong> ，假設是讓它獲得某一異能，那就屬於第6層的效應，會與化蛙術比時間印記來決定哪個效應勝出。但薑餅怪人的寫法並不是給它一個異能，就只是產生一個作用於它身上的效應，因此在這個案例中，即使薑餅怪人失去所有異能了，它還是只能被具敏捷異能的生物阻擋。</p>
+<p>具體要判斷一個效應會不會賦予異能時，可以看看這條規則：</p>
+<blockquote>
+<ul>
+<li>113.1a 異能可以是物體上令其影響遊戲的特徵。一個物件的異能由其規則敘述或創造它的效應所定義。規則或效應也可以賦予物體異能。異能產生效應。</li>
+</ul>
+<p>（賦予異能的效果通常使用字詞：「has、have、gains、gain」，中文則是用「具有、獲得」）</p>
+</blockquote>
+<h3 id="鋼樑鎮毆擊棍-化蛙術"><a href="#鋼樑鎮毆擊棍-化蛙術" class="headerlink" title="鋼樑鎮毆擊棍 + 化蛙術"></a><font color="#FF0000">鋼樑鎮毆擊棍 + 化蛙術</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/vUOmsGX.png" alt="武具"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/fdn/552/bear-cub">幼熊</a></strong> ：<br>無異能2&#x2F;2生物。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mom/131/beamtown-beatstick">鋼樑鎮毆擊棍</a></strong> ：<br>佩帶此武具的生物得+1&#x2F;+0且具有威懾異能。<br>每當佩帶此武具的生物對任一玩家或戰役造成戰鬥傷害時，派出一個珍寶衍生物。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/clu/103/turn-to-frog">化蛙術</a></strong> ：<br>直到回合結束，目標生物失去所有異能，且成為基礎力量與防禦力為1&#x2F;1的藍色蛙。</p>
+</blockquote>
+<p>幼熊佩帶鋼樑鎮毆擊棍後，被化蛙術變成了藍色青蛙，那麼現在幼熊的攻防是多少？ 還有沒有「威懾」與「打到玩家、戰役生珍寶」的能力在？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">幼熊（因武具獲得）</th>
+<th align="center">鋼樑鎮毆擊棍</th>
+<th align="center">化蛙術</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">成為蛙</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">成為藍色</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">威懾</td>
+<td align="center"></td>
+<td align="center">失去所有異能</td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">成為1&#x2F;1</td>
+</tr>
+<tr>
+<td align="center">7c</td>
+<td align="center">+1&#x2F;+0</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">other</td>
+<td align="center"></td>
+<td align="center">打到玩家、戰役生珍寶</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>先從簡單的開始，幼熊原始攻防為2&#x2F;2，但會在7b層被化蛙術設定為1&#x2F;1，之後在7c層因為武具而+1&#x2F;+0，因此最後的結果是2&#x2F;1，到這邊相信不會有甚麼疑慮。</p>
+<p>重頭戲是武具的另外兩條能力，一樣先從下面這條規則來判斷這效應是不是賦予異能：</p>
+<blockquote>
+<ul>
+<li>113.1a 異能可以是物體上令其影響遊戲的特徵。一個物件的異能由其規則敘述或創造它的效應所定義。規則或效應也可以賦予物體異能。異能產生效應。</li>
+</ul>
+<p>（賦予異能的效果通常使用字詞：「has、have、gains、gain」，中文則是用「具有、獲得」）</p>
+</blockquote>
+<p>可以發現，鋼樑鎮毆擊棍的能力，確實是讓佩帶的生物「獲得威懾異能」，這是一個作用於第6層的效應，與化蛙術的「失去所有異能」一樣，這時就要比時間印記了，武具的時間印記為佩帶的時機點，在這題的情境中擁有較早的時間印記，因此會被化蛙術給蓋掉，幼熊將不具有威懾異能。不過如果你把武具卸裝後又重新佩帶，就會更新時間印記，這樣即使化蛙術還在生效中，也能重新讓幼熊獲得威懾異能。</p>
+<ul>
+<li>613.7e 每當一個靈氣、武具貼附於一個物件或玩家上時，該靈氣、武具得到新的時間印記。</li>
+</ul>
+<p>至於鋼樑鎮毆擊棍的另一條能力「每當佩帶此武具的生物對任一玩家或戰役造成戰鬥傷害時，派出一個珍寶衍生物」，這並不是賦予佩帶生物的異能，而是這個武具自己的能力，因此不管怎麼無效佩帶生物的異能，都影響不到這條。</p>
+<blockquote>
+<p>其實本來舉例時想用<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/2xm/297/sword-of-fire-and-ice">熾寒劍</a>這種大家都比較熟的反雙色保護劍，但這傢伙的規則文本字有夠多，表格怎麼調排版都會爆掉。</p>
+</blockquote>
+<h3 id="永世陰謀家祖爾-提莎娜的縛潮師"><a href="#永世陰謀家祖爾-提莎娜的縛潮師" class="headerlink" title="永世陰謀家祖爾 + 提莎娜的縛潮師"></a><font color="#FF0000">永世陰謀家祖爾 + 提莎娜的縛潮師</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/I8jzeAQ.png" alt="祖爾"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dmu/228/zur-eternal-schemer">永世陰謀家祖爾</a></strong> ：<br>由你操控的結界生物具有死觸、繫命與辟邪異能。<br>{1} <font color="#FFC000">{W}</font> ：目標由你操控的非靈氣結界成為基礎力量與基礎防禦力各等同於其魔法力值的生物，且仍具有原本類別。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dsk/194/overlord-of-the-hauntwoods">凶林霸主</a></strong> ：<br>隱現4～{1} <font color="#00B050">{G}{G}</font> （如果你支付此咒語的隱現費用來施放之，則它進場時上面有四個計時指示物，且直到移去最後一個為止都不是生物。在你的結束步驟開始時，從其上移去一個計時指示物。）<br>每當凶林霸主進場或攻擊時，派出一個已橫置，無色，名稱為Everywhere的衍生地，且是所有基本地類別。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/lci/81/tishanas-tidebinder">提莎娜的縛潮師</a></strong> ：<br>當提莎娜的縛潮師進戰場時，反擊至多一個目標起動式或觸發式異能。如果以此法反擊神器，生物或鵬洛客的異能，則於提莎娜的縛潮師仍在戰場上的時段內，該永久物失去所有異能。</p>
+</blockquote>
+<p>凶林霸主是使用隱現施放，目前還是非生物狀態，以此為前提衍伸出以下兩個問題：</p>
+<ul>
+<li><ol>
+<li>祖爾以凶林霸主為目標起動異能時，被回應閃現縛潮師，祖爾繼續回應縛潮師的ETB，又一次對凶林霸主起動異能，最後整個堆疊解完時凶林霸主的特徵？</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>祖爾已成功將凶林霸主變成生物，凶林霸主攻擊觸發異能時，被回應閃現縛潮師，導致凶林霸主失去異能，此時凶林霸主的特徵？</li>
+</ol>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">永世陰謀家祖爾</th>
+<th align="center">凶林霸主</th>
+<th align="center">提莎娜的縛潮師</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">非靈氣結界額外是生物</td>
+<td align="center">不是生物（隱現）</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">結界生物具有死觸、繫命、辟邪</td>
+<td align="center"></td>
+<td align="center">失去所有異能</td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center">成為N&#x2F;N</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<ul>
+<li><strong>1. 縛潮師康祖爾：</strong></li>
+</ul>
+<p>解堆疊開始，首先祖爾的異能結算，將凶林霸主變成5&#x2F;5生物，因為此時祖爾的能力都健在，所以凶林霸主當然有死觸、繫命、辟邪，但之後當縛潮師ETB結算時，祖爾失去所有異能，自然也就沒辦法幫凶林霸主灌這些異能了，不過凶林霸主自己的攻擊觸發異能不受影響。</p>
+<blockquote>
+<p>補充說明一下，雖然上方表格將「結界生物具有死觸、繫命、辟邪」放在祖爾的第6層內，但這是指祖爾的異能對其他結界生物產生效應時的位置，對於祖爾自己來說，這異能就是第0層的原始特徵。</p>
+</blockquote>
+<ul>
+<li><strong>2. 縛潮師康凶林霸主：</strong></li>
+</ul>
+<p>祖爾的能力會賦予凶林霸主死觸、繫命、辟邪，縛潮師則是令凶林霸主失去異能，這兩者都作用於第6層，所以這時要比時間印記，而祖爾這效應的來源是他的靜止式異能，其時間印記等同祖爾的進場時間，因此結論是縛潮師擁有較新的時間印記，凶林霸主將失去所有異能，變成5&#x2F;5的無異能生物。</p>
+<blockquote>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/jPDz3pv.png" alt="霸主"></p>
+</blockquote>
+<h3 id="莊嚴獨角兔-褪除武裝"><a href="#莊嚴獨角兔-褪除武裝" class="headerlink" title="莊嚴獨角兔 + 褪除武裝"></a><font color="#FF0000">莊嚴獨角兔 + 褪除武裝</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/ctoYXWd.png" alt="CDA"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/25/regal-bunnicorn">莊嚴獨角兔</a></strong> ：<br>莊嚴獨角兔的力量和防禦力各等同於由你操控的非地永久物數量。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mh2/39/dress-down">褪除武裝</a></strong> ：<br>生物均失去所有異能。</p>
+</blockquote>
+<p>來看看莊嚴獨角兔這類定義力量&#x2F;防禦力為★的<a href="https://guildmagesforum.tw/Characteristic-Defining-Ability/">特徵定義異能（CDA）</a>，碰上失去異能的效應時會發生甚麼？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">莊嚴獨角兔</th>
+<th align="center">褪除武裝</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">6</td>
+<td align="center"></td>
+<td align="center">失去所有異能</td>
+</tr>
+<tr>
+<td align="center">7a</td>
+<td align="center">★為非地永久物數量</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>CDA是一種異能，會受失去異能的效應影響，無論莊嚴獨角兔當前★數值為多少，只要褪除武裝在場，莊嚴獨角兔會因為失去CDA而成為0&#x2F;0，然後直接死去。</p>
+<ul>
+<li>208.2a 有些牌具有特徵定義異能，其根據一些狀態設定它的力量和&#x2F;或防禦力。 此類異能在所有地方均生效，即使在遊戲外。如果該異能需要使用的數字不能確定，則以0來代替。</li>
+</ul>
+<h3 id="飲咒蛇-褪除武裝"><a href="#飲咒蛇-褪除武裝" class="headerlink" title="飲咒蛇 + 褪除武裝"></a><font color="#FF0000">飲咒蛇 + 褪除武裝</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/MDdEQBj.png" alt="飲咒蛇"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mh1/168/hexdrinker">飲咒蛇</a></strong> ：<br>等級8+：6&#x2F;6、反一切保護。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mh2/39/dress-down">褪除武裝</a></strong> ：<br>生物均失去所有異能。</p>
+</blockquote>
+<p>目前場上有一個已經升至LV8的飲咒蛇，之後褪除武裝進場，飲咒蛇會被如何影響？</p>
+<p>先補充個先備知識，升級牌的等級異能屬於靜止式異能的一種，升級牌會根據目前所在等級，讓基礎力量&#x2F;防禦力成為指定的數值，並具有對應的異能，這些當然也在Layer系統的管轄範圍內。</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">飲咒蛇</th>
+<th align="center">褪除武裝</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">6</td>
+<td align="center">反一切保護</td>
+<td align="center">失去所有異能</td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center">成為6&#x2F;6</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>在第6層有兩種添加、移除異能的效應要作用於飲咒蛇，且這兩者會產生<a href="https://guildmagesforum.tw/What-is-Dependency/">從屬關係</a>，結論而言是褪除武裝的「失去所有異能」效應會勝出，無論這兩個效應的時間印記為何，最後飲咒蛇都會失去所有異能，這也包含了之後將在7b層生效的設定攻防異能，因此只要褪除武裝進場後，飲咒蛇就注定是個沒有異能的2&#x2F;1生物。</p>
+<h3 id="巧手竊猴勒格文-褪除武裝"><a href="#巧手竊猴勒格文-褪除武裝" class="headerlink" title="巧手竊猴勒格文 + 褪除武裝"></a><font color="#FF0000">巧手竊猴勒格文 + 褪除武裝</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/JQgm7aA.png" alt="Dash"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mh2/138/ragavan-nimble-pilferer">巧手竊猴勒格文</a></strong> ：<br>掩襲{1} <font color="#FF0000">{R}</font> （你可以支付此咒語的掩襲費用來施放它。如果你如此作，則它獲得敏捷異能，且在下個結束步驟開始時便需從戰場移回其擁有者手上。）<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mh2/39/dress-down">褪除武裝</a></strong> ：<br>生物均失去所有異能。</p>
+</blockquote>
+<p>如果在場上已有褪除武裝的情況下，用掩襲施放巧手竊猴勒格文會如何？</p>
+<p>褪除武裝只管的到戰場上的生物，不會讓你手牌上的勒格文失去用掩襲施放的能力，並且勒格文打到玩家時觸發的能力毫無疑問會被褪除武裝給消除，這兩點相信應該沒什麼爭議，所以後面就省略了。</p>
+<p>掩襲同時包含了三個異能，其中一個是自己的替代性費用施放規則，另外兩個則是：</p>
+<ul>
+<li>如果你選擇支付此咒語的掩襲費用，則在下個結束步驟開始時，將此咒語成為的永久物移回其擁有者手上。</li>
+<li>只要支付了此永久物的掩襲費用，它便獲得敏捷。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">巧手竊猴勒格文</th>
+<th align="center">褪除武裝</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">6</td>
+<td align="center">敏捷（來自掩襲）</td>
+<td align="center">失去所有異能</td>
+</tr>
+<tr>
+<td align="center">Other</td>
+<td align="center">結束時回手</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>將這些效應填進表格後，看起來是不是問題就簡單很多了？ </p>
+<p>首先掩襲賦予的敏捷異能＆褪除武裝的失去異能都在第6層，並且兩者為<a href="https://guildmagesforum.tw/What-is-Dependency/">從屬關係</a>，無論掩襲的勒格文進場 &#x2F; 褪除武裝進場先後順序為何，勒格文都會失去敏捷。</p>
+<p>那麼「結束步驟開始時回手」這個效應呢？ 其實用掩襲施放時，是創造一個這永久物結束步驟時回手的 <strong>延遲觸發式異能</strong> ，這個效應並非勒格文自身的異能，甚至不屬於Layer的七層內管轄的效應，所以完全不受褪除武裝影響。</p>
+<p>結論是，如果你在有褪除武裝的情況下掩襲勒格文，它將沒有敏捷與原本的異能，但結束步驟開始時還是要回手。</p>
+<h3 id="紅月賢者-竊冠甌柯"><a href="#紅月賢者-竊冠甌柯" class="headerlink" title="紅月賢者 + 竊冠甌柯"></a><font color="#FF0000">紅月賢者 + 竊冠甌柯</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/hzmHZLD.png" alt="紅月OKO"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tsr/175/magus-of-the-moon">紅月賢者</a></strong> ：<br>非基本地都是山脈。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/eld/197/oko-thief-of-crowns">竊冠甌柯</a></strong> ：<br>[+1]：目標神器或生物失去所有異能，且成為基礎力量與防禦力為3&#x2F;3的綠色麋鹿生物。</p>
+</blockquote>
+<p>這又是個關於Layer的經典題目。如果場上的紅月賢者被OKO的 [+1] 變成麋鹿，那麼紅月賢者的「非基本地都是山脈」效應會不會消失？ 對Layer不熟的玩家肯定會直覺認為，OKO都說「失去所有異能」了，那當然是消失了阿！</p>
+<p>但這題之所以會是經典，就是因為答案是很反直覺的：紅月賢者效應依舊存在，讓我們來看看為何會變成這樣？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">紅月賢者</th>
+<th align="center">竊冠甌柯[+1]</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">非基本地都是山脈</td>
+<td align="center">成為麋鹿生物</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center"></td>
+<td align="center">成為綠色</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center"></td>
+<td align="center">失去所有異能</td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center"></td>
+<td align="center">成為3&#x2F;3</td>
+</tr>
+</tbody></table>
+<p>看完表格相信你已經發現了，紅月賢者的能力作用在第4層，而失去所有異能則是在第6層，因此第4層的效應會先生效，將非基本地變成山脈，接著才是6層的失去所有異能生效，然而這時已經來不及阻止紅月賢者了。這題將OKO換成其他讓生物失去異能的牌也不影響結果（如<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/clu/103/turn-to-frog">化蛙術</a>、<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mh2/39/dress-down">褪除武裝</a>等）。</p>
+<h3 id="腥紅之月-荒野之魂艾莎婭"><a href="#腥紅之月-荒野之魂艾莎婭" class="headerlink" title="腥紅之月 + 荒野之魂艾莎婭"></a><font color="#FF0000">腥紅之月 + 荒野之魂艾莎婭</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/31ip8gF.png" alt="艾莎婭"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/2xm/118/blood-moon">腥紅之月</a></strong> ：<br>非基本地都是山脈。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/znr/179/ashaya-soul-of-the-wild">荒野之魂艾莎婭</a></strong> ：<br>荒野之魂艾莎婭的力量和防禦力各等同於由你操控的地數量。<br>由你操控且非衍生物的生物都是樹林地，且仍具有原本類別。</p>
+</blockquote>
+<p>這個範例在<a href="https://guildmagesforum.tw/What-is-Dependency/">從屬關係</a>的文章時就已出現過一次，然而那時只給出了結論，並未做完整講解，這次就讓我們把它澈底講清楚。</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">腥紅之月</th>
+<th align="center">荒野之魂艾莎婭</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">非基本地都是山脈</td>
+<td align="center">非Token生物額外是樹林地</td>
+</tr>
+<tr>
+<td align="center">7a</td>
+<td align="center"></td>
+<td align="center">★為你操控的地數量</td>
+</tr>
+</tbody></table>
+<p>現在有兩個位於第4層的類別修改效應要生效，原本這應該會是看時間印記，但艾莎婭的異能會把自己變成地，這會導致腥紅之月的效應生效對象發生變化，兩個效應因此有了從屬關係， <strong>腥紅之月從屬於艾莎婭</strong> ，也就是艾莎婭的讓生物額外有樹林地類別效應會先適用，接著才是腥紅之月的效應適用。</p>
+<p>基本地類別都有個特性，就是獲得這類別時會自動獲得「橫置：加一點對應顏色魔法力」的異能，艾莎婭這種賦予額外類別的能力處理起來相對簡單，就是在原有的類別與能力上追加新東西而已，但腥紅之月的寫法就偷渡了一條很麻煩的規則了，當你讓一塊地 <strong>「成為」</strong> 指定的基本地類別時，這整張牌會失去原本的異能與 <strong>地類別</strong> 。具體規則如下：</p>
+<blockquote>
+<ul>
+<li>305.7 若一個效應將地的類別改為一種或數種基本地類別，該地便不再擁有原本之地類別。它失去所有原本的規則敘述、地類別以及任何影響該地的可複製效應所帶來的異能，且獲得新的基本地類所對應的魔法力異能。由其他效應賦予此地的異能並不會因此移除。改變地的副類別不會增加或移除該地可能擁有的牌張類別（例如生物）或超類別（例如基本、傳奇、雪境）。如果地額外得到原有地類別以外的其他地類別，則它會保留原本的地類別與規則敘述，並且得到新的地類別及魔法力異能。</li>
+</ul>
+</blockquote>
+<p>雖然這之中看起來牽涉到第6層的異能增減效應，但這些並非作用於第6層，而是第4層的改變類別效應中的一個特例！</p>
+<p>讓我們繼續解Layer，目前解到第4層的現況是：<br>艾莎婭把你的非Token生物都額外灌上樹林地類別。<br>腥紅之月把非基本地都變成山脈，這些地也包括你的所有非Token生物。<br>你被變成山脈的這些生物都會失去原有的能力，包含艾莎婭本人。但這種成為某基本地類別的寫法只會蓋掉原有的地類別，生物類別依舊存在。<br><font color="#FF0000">結論：你的非Token生物都是山脈地生物（Layer第4層的效應此時已經全部解完了，並不會因為艾莎婭失去異能而到回前面流程變成無限迴圈）。</font></p>
+<p>還沒結束，艾莎婭還有一個7a層的定義自己力量&#x2F;防禦力的CDA要處理，但還記得前面因為腥紅之月的關係，讓她失去所有異能了嗎？ 這代表現在艾莎婭失去了定義自己力量&#x2F;防禦力的能力，根據下列規則，這種情況★將會被設定為0。而腥紅之月又沒有剝奪她的生物類別，因此她最終會成為一個0&#x2F;0的地生物，既然是生物那就會因為防禦力為0而死去！</p>
+<blockquote>
+<ul>
+<li>208.2a 有些牌具有特徵定義異能，其根據一些狀態設定它的力量和&#x2F;或防禦力。 此類異能在所有地方均生效，即使在遊戲外。如果該異能需要使用的數字不能確定，則以0來代替。</li>
+</ul>
+</blockquote>
+<p>正常來說這題因為艾莎婭的死去就到此結束了，艾莎婭的效應消失，場面回到只有腥紅之月時的狀態。但好玩的來了，那麼如果艾莎婭上有個+1&#x2F;+1指示物之類的，讓她把前面的Layer解完後不會因此死去呢？ 那麼前面第4層的效應就將持續適用，你的所有生物（包含之後進場的）都會成為地生物，副類別為原有的生物類別+山脈，失去所有異能並獲得山脈的產紅色法力異能。</p>
+<h3 id="腥紅之月-艾莎婭-根徑滌淨師"><a href="#腥紅之月-艾莎婭-根徑滌淨師" class="headerlink" title="腥紅之月 + 艾莎婭 + 根徑滌淨師"></a><font color="#FF0000">腥紅之月 + 艾莎婭 + 根徑滌淨師</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/qYb0IJ9.png" alt="根徑滌淨師"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/2xm/118/blood-moon">腥紅之月</a></strong> ：<br>非基本地都是山脈。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/znr/179/ashaya-soul-of-the-wild">荒野之魂艾莎婭</a></strong> ：<br>荒野之魂艾莎婭的力量和防禦力各等同於由你操控的地數量。<br>由你操控且非衍生物的生物都是樹林地，且仍具有原本類別。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/brc/24/rootpath-purifier">根徑滌淨師</a></strong> ：<br>由你操控的地和你牌庫中的地牌都是基本。</p>
+</blockquote>
+<p>上一題的延伸，如果現在你的場上還多了個根徑滌淨師會如何？ 其實這題雖然物件變多了，但解題反而變簡單了。</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">腥紅之月</th>
+<th align="center">荒野之魂艾莎婭</th>
+<th align="center">根徑滌淨師</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">非基本地是山脈</td>
+<td align="center">非Token生物額外是樹林地</td>
+<td align="center">地是基本地</td>
+</tr>
+<tr>
+<td align="center">7a</td>
+<td align="center"></td>
+<td align="center">★為你操控的地數量</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>現在第4層有三種改變類別效應，而且互為從屬關係，如果按照適用順序，最後會是：<br>1.艾莎婭：你的非Token生物都額外灌上樹林地類別。<br>2.根徑滌淨師：因為你的生物是地了，所以可以被他影響，額外擁有基本超類別。<br>3.腥紅之月：因為你的地都有基本類別，因此脫離了腥紅之月適用範圍。</p>
+<blockquote>
+<p>如果想問為何最後順序會是這樣，可以回顧<a href="https://guildmagesforum.tw/What-is-Dependency/">從屬關係</a>文章中的規則定義：如果效應A先應用後，會改變效應B將生效的對象，則效應B從屬於效應A。</p>
+</blockquote>
+<p>因此最後你的非Token生物就是額外獲得基本地-樹林類別，並獲得了樹林的橫置產綠色法力異能，而腥紅之月則因為你的根徑滌淨師，對你產生不了甚麼影響了。</p>
+<h3 id="百勝戰車格拉茲-背叛毒刺瓦絲卡"><a href="#百勝戰車格拉茲-背叛毒刺瓦絲卡" class="headerlink" title="百勝戰車格拉茲 + 背叛毒刺瓦絲卡"></a><font color="#FF0000">百勝戰車格拉茲 + 背叛毒刺瓦絲卡</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/ky2hiPD.png" alt="戰車"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/one/229/graaz-unstoppable-juggernaut">百勝戰車格拉茲</a></strong> ：<br>由你操控的攻城巨車每次戰鬥若能攻擊，則必須攻擊。<br>由你操控的攻城巨車不能被牆阻擋。<br>由你操控的其他生物之基礎力量與防禦力為5&#x2F;3，且額外具有攻城巨車此生物類別。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/one/115/vraska-betrayals-sting">背叛毒刺瓦絲卡</a></strong> ：<br>[-2]：目標生物成為具「{橫置}，犧牲此神器：加一點任意顏色的魔法力」的珍寶神器，且失去所有其他牌張類別和異能。</p>
+</blockquote>
+<p>我方有一個百勝戰車格拉茲，現在它中了背叛毒刺瓦絲卡的[-2]，那麼由我操控的其他生物是否還是5&#x2F;3、額外具有攻城巨車類別？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">百勝戰車格拉茲</th>
+<th align="center">背叛毒刺瓦絲卡[-2]</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">其他生物額外有攻城巨車類別</td>
+<td align="center">成為珍寶，失去其他類別</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center"></td>
+<td align="center">失去所有異能</td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center">其他生物成為5&#x2F;3</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>「由你操控的攻城巨車每次戰鬥若能攻擊，則必須攻擊。」、「由你操控的攻城巨車不能被牆阻擋。」這兩條根Layer比較沒關係，他們不是改變物件特徵，而是改變戰鬥規則，而且「失去所有異能」後這些效應自然也都不存在了。</p>
+<p>如果還記得上面<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tsr/175/magus-of-the-moon">血月人</a>+<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/eld/197/oko-thief-of-crowns">OKO</a>的案例，就會知道類別改變的第4層生效順序先於「失去所有異能」的第6層，所以我的其他生物依舊有攻城巨車類別，但照理說處理完第6層的「失去所有異能」後，第7層的「其他生物成為5&#x2F;3」應該就不見了對吧？</p>
+<p>這題答案很反直覺的，你的其他生物依舊會是5&#x2F;3，這是因為這題的情境碰到了一個相對少用的規則：</p>
+<blockquote>
+<ul>
+<li>613.6 如果一個效應將在多個層&#x2F;副層中生效，效應的各個部分分別在它們對應的層中生效。如果一個效應開始在一個層&#x2F;副層中生效，它將繼續對同樣的物件在其他適用的層&#x2F;副層中生效，即使產生該效應的異能在此過程中被移除。</li>
+</ul>
+</blockquote>
+<p>簡單的說，百勝戰車格拉茲的「由你操控的其他生物之基礎力量與防禦力為5&#x2F;3，且額外具有攻城巨車此生物類別。」雖然動了複數層，但整段話是一個完整個效應，而根據規則613.6，一個效應只要在某一層開始生效，這個效應對其他層的影響也會適用，在這題中最先適用的會是戰車的第4層效應（瓦絲卡的[-2]雖然也作用於第4層，但這個作用於戰車的忠誠異能的時間印記，肯定是晚於戰車進場的時間印記的），戰車第4層效應生效的瞬間，就把其他層的事情一起做完了，因此即使後面有「失去所有異能」的效應也來不及阻止它。</p>
+<h3 id="合變-失去異能"><a href="#合變-失去異能" class="headerlink" title="合變 + 失去異能"></a><font color="#FF0000">合變 + 失去異能</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/QIqbojg.png" alt="合變1"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/iko/47/dreamtail-heron">夢翎蒼鷺</a></strong> ：<br>合變{3}{U}。每當此生物合變時，抽一張牌。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/iko/57/mystic-subdual">神秘破壞</a></strong> ：<br>所結附的生物得-2&#x2F;-0且失去所有異能。（合無法讓此生物獲得新異能。它可以藉由其他方式獲得異能。）</p>
+</blockquote>
+<p>目前我有一隻<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/fdn/552/bear-cub">幼熊</a>，上面被貼了一個神秘破壞，之後讓夢翎蒼鷺合變於幼熊，並選擇夢翎蒼鷺在頂部，合變後的結果是甚麼？ 能觸發夢翎蒼鷺的合變時抽一張牌嗎？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">夢翎蒼鷺</th>
+<th align="center">神秘破壞</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1a</td>
+<td align="center">合變</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center"></td>
+<td align="center">失去所有異能</td>
+</tr>
+<tr>
+<td align="center">7c</td>
+<td align="center"></td>
+<td align="center">-2&#x2F;-0</td>
+</tr>
+<tr>
+<td align="center">Other</td>
+<td align="center">合變時抽一</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>一個生物合變造成特徵變化時，是作用在第1a層，改變這個物件的<a href="https://guildmagesforum.tw/What-is-Copiable-Value/">可複製特徵</a>，也就是說後續任何作用在Layer上的效應，肯定都會蓋過它合變後的特徵。</p>
+<p>以這題來說，合變的結果會是一個1&#x2F;4沒有任何異能的夢翎蒼鷺，合變時也不會觸發抽牌的異能。</p>
+<p>這題意在點出合變在Layer中的基本運作原理，有了這個觀念，才能面對下一題的合變經典範例。</p>
+<blockquote>
+<p>從<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/iko/57/mystic-subdual">神秘破壞</a>後面括號內的提示文字就可以看出，這張卡的設計用意就是在提醒玩家合變的運作原理。</p>
+</blockquote>
+<h3 id="撼世妮莎-碎晶狂獸"><a href="#撼世妮莎-碎晶狂獸" class="headerlink" title="撼世妮莎 + 碎晶狂獸"></a><font color="#FF0000">撼世妮莎 + 碎晶狂獸</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/Ci3bLel.png" alt="合變2"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/war/169/nissa-who-shakes-the-world">撼世妮莎</a></strong> ：<br>[+1]：在至多一個目標由你操控且非生物的地上放置三個+1&#x2F;+1指示物。將之重置。它成為0&#x2F;0，具警戒與敏捷異能的元素生物，且仍然是地。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/fdn/291/forest">樹林</a></strong> ：<br>基本地 ～樹林<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/iko/155/gemrazer">碎晶狂獸</a></strong> ：<br>合變{1} <font color="#00B050">{G}{G}</font> 。</p>
+</blockquote>
+<p>這是一道在當年的標準頻繁出現的Layer經典問題，在筆者MTG生涯中看過的<font color="#AAAAAA">（非EDH賽制）</font>實戰常見規則問題中，這題的難度應該是毫無懸念的Top3以內。</p>
+<p>撼世妮莎使用[+1]將一個基本樹林變成地生物，再讓碎晶狂獸合變於樹林，碎晶狂獸選擇合變於頂部或底部時，這個生物分別會有甚麼特徵？</p>
+<p>由於這題不包含任何失去異能類的效應，因此這個生物有警戒、敏捷、延勢、踐踏、合變時觸發的異能後續就不重複贅述了。</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">撼世妮莎[+1]</th>
+<th align="center">碎晶狂獸</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1a</td>
+<td align="center"></td>
+<td align="center">合變</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">地額外是元素生物</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">獲得警戒、敏捷</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center">成為0&#x2F;0</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7c</td>
+<td align="center">三個+1&#x2F;+1指示物</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<ul>
+<li><strong>問題1：碎晶狂獸合變於頂部時，這個生物的最終力量&#x2F;防禦力？</strong></li>
+</ul>
+<p>對於Layer沒觀念的玩家而言，會很自然的認為是一個4&#x2F;4的生物上面有3個+1&#x2F;+1指示物，所以答案是7&#x2F;7。</p>
+<p>然而讓我們回頭看看有那些持續性效應作用於這個生物，會發現4&#x2F;4是1a層由合變修改的可複製特徵，在他的上面的7b層，還有個撼世妮莎的「它成為0&#x2F;0」效應在，也就是說經過7b層後他就是個0&#x2F;0，然後於7c層+1&#x2F;+1指示物生效，最後會是個3&#x2F;3！ （0&#x2F;0生物上有3個+1&#x2F;+1指示物）</p>
+<ul>
+<li><strong>問題2：碎晶狂獸合變於上、下時，這個生物的類別？ 以及是否具有橫置產綠色魔法力的能力？</strong></li>
+</ul>
+<p>這兩個問題實際上都是在問這個生物目前的類別，因為樹林能擁有「橫置：產一點綠色魔法力」這條異能，是由基本地類別的類別規則賦予的，只要有樹林類別就會自動得到這條能力，反之一個樹林失去樹林類別時會自動失去這條能力。</p>
+<p>目前嘗試修改類別的效應一共有兩個，一個是碎晶狂獸合變在上時的1a層類別特徵修改，另一個是撼世妮莎[+1]在第4層的「它成為元素生物，且仍然是地」。關於類別修改的規則有點長，先給出簡易結論：</p>
+<p>1.如果一個物件某類別被移除，這類別底下的副類別會一同被移除。<br>2.如果一個效應讓某物件成為A類別，但仍然有原本類別，那就是 <strong>在當下類別上追加A類別</strong> 。</p>
+<blockquote>
+<p>具體完整規則如下：</p>
+<ul>
+<li>205.1a 有些效應會改變物件的牌張類別。在大多數情況下，新的牌張類別會取代所有原本的類別。但是，具有瞬間或巫術牌張類別的物件會保留該類別。指示物、貼紙、效應，以及該物件上所標記的傷害仍然保留，即使它們對新的類別沒有任何意義。同樣的，當物件的副類別改變時，新的副類別會取代相對應的同類副類別（生物類別、地類別、神器類別、結界類別、鵬洛客類別，或咒語類別）。 <strong>如果一個物件的牌張類別被移除，該物件的所有副類別只有在它同樣屬於該物件現有牌張類別的情況下保留；否則它們會在該物件的牌張類別被移除的過程中同樣被移除。</strong> 移除物件的副類別不會影響到該物件的牌張類別。</li>
+<li>205.1b 有些效果會改變物件的牌張類別、超類別，或副類別，但仍保留其原先的某些牌張類別、超類別或副類別。在此情況下，所有該物件原本的類別、超類別與副類別均會保留。此規則適用於諸如 <strong>「且仍具有原本類別」</strong> 的效應（譯註：中文版中此敘述有另一種譯法：「額外具有[類別]此類」），或註明該物件「仍是[類別]」。有些效應令物件成為「神器生物」；此效應同樣允許該物件保留所有原有的牌張類別與副類別。有些效應會讓物件成為「[生物類別]神器生物」；此效應同樣允許該物件保留所有原有的牌張類別與生物類別之外的副類別，但原有的生物類別會被替換。</li>
+</ul>
+</blockquote>
+<p>現在可以回答原本的問題了：</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">碎晶狂獸在上</th>
+<th align="center">碎晶狂獸在下</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1a</td>
+<td align="center">碎晶狂獸：生物～野獸</td>
+<td align="center">樹林：基本地～樹林</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">額外是生物～元素</td>
+<td align="center">額外是生物～元素</td>
+</tr>
+<tr>
+<td align="center">Final</td>
+<td align="center">生物～元素&#x2F;野獸</td>
+<td align="center">基本地生物～元素&#x2F;樹林</td>
+</tr>
+</tbody></table>
+<p>當碎晶狂獸在上時，會因為失去樹林類別而同時失去樹林的魔法力異能。而撼世妮莎[+1]的那句「且仍然是地」，只是代表說會在不改變現有類別的情況下追加類別，但在1a層合變修改特徵後它就已經不是地了，因此撼世妮莎[+1]並不會讓它保有地類別。</p>
+<h3 id="同謀-氣蘊四體１"><a href="#同謀-氣蘊四體１" class="headerlink" title="同謀 + 氣蘊四體１"></a><font color="#FF0000">同謀 + 氣蘊四體１</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/2QnhONt.png" alt="氣蘊四體1"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/acr/88/conspiracy">同謀</a></strong> ：<br>於同謀進場時，選擇一種生物類別。<br>由你擁有且不在場的生物，由你操控的生物咒語，以及由你操控的生物都是這個類別。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tsr/215/life-and-limb">氣蘊四體</a></strong> ：<br>所有樹林與所有腐生物都是1&#x2F;1綠色腐生物生物和樹林地，且仍具有原本類別。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dmr/24/savannah-lions">草原雄獅</a></strong> ：<br>一個白色貓。</p>
+</blockquote>
+<p>目前我方場上無生物、無樹林地，僅有同謀（類別宣言腐生物）+氣蘊四體，現在一個草原雄獅進場，草原雄獅的特徵將如何變化？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">同謀</th>
+<th align="center">氣蘊四體</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">生物是腐生物</td>
+<td align="center">樹林&amp;腐生物是腐生物<font color="#AAAAAA">生物</font>+樹林<font color="#AAAAAA">地</font>，且仍具有原本類別</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center"></td>
+<td align="center">成為綠色</td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center"></td>
+<td align="center">成為1&#x2F;1</td>
+</tr>
+</tbody></table>
+<p>同謀＆氣蘊四體都是作用於第4層的效應，不過仔細觀察會發現，如果先應用了同謀的效應，將草原雄獅的類別變為腐生物，這時會使草原雄獅也變成氣蘊四體的作用對象，因此這兩個效應有<a href="https://guildmagesforum.tw/What-is-Dependency/">從屬關係</a>（氣蘊四體從屬於同謀），會先適用同謀的效應，接著氣蘊四體才生效。</p>
+<p>目前經過第4層後草原雄獅是：地生物～腐生物&#x2F;樹林。並隨後在第5層改為綠色，在第7b層變為1&#x2F;1。</p>
+<h3 id="同謀-氣蘊四體２"><a href="#同謀-氣蘊四體２" class="headerlink" title="同謀 + 氣蘊四體２"></a><font color="#FF0000">同謀 + 氣蘊四體２</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/vFx0Ois.png" alt="氣蘊四體2"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/acr/88/conspiracy">同謀</a></strong> ：<br>於同謀進場時，選擇一種生物類別。<br>由你擁有且不在場的生物，由你操控的生物咒語，以及由你操控的生物都是這個類別。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tsr/215/life-and-limb">氣蘊四體</a></strong> ：<br>所有樹林與所有腐生物都是1&#x2F;1綠色腐生物生物和樹林地，且仍具有原本類別。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dmr/24/savannah-lions">草原雄獅</a></strong> ：<br>一個白色貓。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/fdn/291/forest">樹林</a></strong> ：<br>基本地 ～樹林</p>
+</blockquote>
+<p>接續上一題，同樣的情境，但我的場上多了一個基本樹林的話，會發生甚麼改變嗎？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">同謀</th>
+<th align="center">氣蘊四體</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">生物是腐生物</td>
+<td align="center">樹林&amp;腐生物是腐生物<font color="#AAAAAA">生物</font>+樹林<font color="#AAAAAA">地</font>，且仍具有原本類別</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center"></td>
+<td align="center">成為綠色</td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center"></td>
+<td align="center">成為1&#x2F;1</td>
+</tr>
+</tbody></table>
+<p>在上一題的解答中我們已經得知氣蘊四體從屬於同謀了，但是多了樹林後情況會發生劇變。假設樹林先應用氣蘊四體後，會使得它成為生物，成為生物後就代表它也成為同謀的效果適用對象了，所以同謀從屬於氣蘊四體也成立。</p>
+<p>現在兩個效應互相從屬於對方，這種像是無限迴圈的情況該怎麼解？ 這時就該這條規則出馬了：</p>
+<blockquote>
+<ul>
+<li>613.8b 一個從屬於一個或數個其他效應的效應等待直到這些效應都已生效。如果多個從屬效應將同時生效，它們將按照相對的時間印記順序生效。如果多個從屬效應形成從屬循環，則忽略此規則且這些在從屬循環中的效應將按照時間印記順序生效。</li>
+</ul>
+</blockquote>
+<p>現在這情況正是613.8b中提到的 <strong>「從屬循環」</strong> ，發生從屬循環時，從屬關係將消失，這兩個效應只依據<a href="https://guildmagesforum.tw/What-is-Time-Stamp/">時間印記</a>決定生效順序。讓我們分別假設兩種時間印記的順序來解題：</p>
+<ul>
+<li><strong>情境1. 同謀→氣蘊四體</strong></li>
+</ul>
+<p>這個時間印記就等同上題中的情境，所以草原雄獅的經歷與上一題相同。至於樹林，它在同謀生效時還不是個生物，因此不受同謀影響，後續的變化就單純是氣蘊四體提供的了。</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">草原雄獅</th>
+<th align="center">樹林</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4（同謀）</td>
+<td align="center">生物～腐生物</td>
+<td align="center"><font color="#FF0000">不適用</font></td>
+</tr>
+<tr>
+<td align="center">4（氣蘊四體）</td>
+<td align="center">地生物～腐生物&#x2F;樹林</td>
+<td align="center">基本地生物～腐生物&#x2F;樹林</td>
+</tr>
+<tr>
+<td align="center">5（氣蘊四體）</td>
+<td align="center">成為綠色</td>
+<td align="center">成為綠色</td>
+</tr>
+<tr>
+<td align="center">7b（氣蘊四體）</td>
+<td align="center">成為1&#x2F;1</td>
+<td align="center">成為1&#x2F;1</td>
+</tr>
+</tbody></table>
+<ul>
+<li><strong>情境2. 氣蘊四體→同謀</strong></li>
+</ul>
+<p>那麼現在情況反過來，讓氣蘊四體先生效，結果會如何變化？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">草原雄獅</th>
+<th align="center">樹林</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4（氣蘊四體）</td>
+<td align="center"><font color="#FF0000">不適用</font></td>
+<td align="center">基本地生物～腐生物&#x2F;樹林</td>
+</tr>
+<tr>
+<td align="center">5（氣蘊四體）</td>
+<td align="center"><font color="#FF0000">不適用</font></td>
+<td align="center">成為綠色</td>
+</tr>
+<tr>
+<td align="center">7b（氣蘊四體）</td>
+<td align="center"><font color="#FF0000">不適用</font></td>
+<td align="center">成為1&#x2F;1</td>
+</tr>
+<tr>
+<td align="center">4（同謀）</td>
+<td align="center">生物～腐生物</td>
+<td align="center">基本地生物～腐生物&#x2F;樹林</td>
+</tr>
+</tbody></table>
+<p><font color="#AAAAAA"> 此時內心覺得「我看了三小」的，你是正常人。</font></p>
+<p>此時最先生效的是氣蘊四體於第4層的類別修改效應，基本樹林會被改為「基本地生物～腐生物&#x2F;樹林」，而草原雄獅因為尚未被同謀修改類別，還是個貓，所以不適用氣蘊四體的效應，到這裡相信還好理解。但是為甚麼下一步就跳到氣蘊四體的第5層了？ 另一個同處於第4層的同謀去哪了？ 再讓我們回顧一下前面這條規則：</p>
+<blockquote>
+<ul>
+<li>613.6 如果一個效應將在多個層&#x2F;副層中生效，效應的各個部分分別在它們對應的層中生效。如果一個效應開始在一個層&#x2F;副層中生效，它將繼續對同樣的物件在其他適用的層&#x2F;副層中生效，即使產生該效應的異能在此過程中被移除。</li>
+</ul>
+</blockquote>
+<p>氣蘊四體是在一個效應內修改三個Layer，因此當這個效應其中一層開始運作後，它對其他層的影響也將適用，由於此時草原雄獅並不是個樹林或腐生物，還在氣蘊四體的作用對象外，因此氣蘊四體的效應完全不適用於草原雄獅。等到輪到同謀的效果生效時，氣蘊四體的影響對象已經確定了，同謀此時才修改草原雄獅類別也來不及了。</p>
+<h3 id="獻力神-蛋白石光輝"><a href="#獻力神-蛋白石光輝" class="headerlink" title="獻力神 + 蛋白石光輝"></a><font color="#FF0000">獻力神 + 蛋白石光輝</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/pv7osx5.png" alt="結界神"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/cmm/29/heliod-sun-crowned">日冠赫利歐德</a></strong> ：<br>只要你的白色獻力小於五，赫利歐德便不是生物。（以下簡稱白神）<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/uds/13/opalescence">蛋白石光輝</a></strong> ：<br>所有其他非靈氣結界額外具有生物類別，且基礎力量與防禦力等同於其總魔法力值。</p>
+</blockquote>
+<p>當白神與蛋白石光輝同時在場時，白神會不會有生物類別？ 攻防會是多少？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">日冠赫利歐德</th>
+<th align="center">蛋白石光輝</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">白色獻力&lt;5時不是生物</td>
+<td align="center">結界額外是生物</td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center"></td>
+<td align="center">成為N&#x2F;N</td>
+</tr>
+</tbody></table>
+<p>白神的「獻力&lt;5時不是生物」&amp; 蛋白石光輝的「結界額外是生物 」都屬於第4層的改變類別效應，並且兩者沒有<a href="https://guildmagesforum.tw/What-is-Dependency/">從屬關係</a>，先適用哪個效應並不會影響另一個效應，因此這兩個效應單純是比<a href="https://guildmagesforum.tw/What-is-Time-Stamp/">時間印記</a>，時間印記早的先生效，但會被後生效的蓋過去。</p>
+<p>如果白神先進場，那麼蛋白石光輝的效應將勝出，白神注定是生物。<br>如果蛋白石光輝先進場，那麼白神的「獻力&lt;5時不是生物」效應將勝出，在你白色獻力&lt;5時，白神會失去生物類別。</p>
+<p>但無論白神&amp;蛋白石光輝的進場順序為何，蛋白石光輝的設定攻防能力都會生效，因此白神的攻防一律變成其魔法力值的數值。</p>
+<h3 id="獻力神-謙卑"><a href="#獻力神-謙卑" class="headerlink" title="獻力神 + 謙卑"></a><font color="#FF0000">獻力神 + 謙卑</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/qEg2xTr.png" alt="結界神2"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/cmm/29/heliod-sun-crowned">日冠赫利歐德</a></strong> ：<br>只要你的白色獻力小於五，赫利歐德便不是生物。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tpr/16/humility">謙卑</a></strong> ：<br>所有生物均失去所有異能，且基礎力量與防禦力為1&#x2F;1。</p>
+</blockquote>
+<p>這題也是獻力神的經典題，總之不廢話先上表格：</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">日冠赫利歐德</th>
+<th align="center">謙卑</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center">白色獻力&lt;5時不是生物</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center"></td>
+<td align="center">生物失去所有異能</td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center"></td>
+<td align="center">成為1&#x2F;1</td>
+</tr>
+</tbody></table>
+<p>再來讓我們試著回答以下三個問題：</p>
+<ul>
+<li><p>1.白神在場，此時謙卑進場，並且白獻力&lt;5：<br>因為白神此時不是生物，壓根就不屬於謙卑的作用對象，因此謙卑無影響。</p>
+</li>
+<li><p>2.白神在場，白獻力≥5，此時謙卑進場：<br>此時白神是生物了，因此會被謙卑影響，變成1&#x2F;1無異能的生物。</p>
+</li>
+<li><p>3.接續上題結果，此時白獻力降低至&lt;5的程度：<br>這才是獻力神這題經典的部分，因為此時的白神已經因為謙卑失去所有異能了，所以會讓人疑惑是不是連檢查獻力的能力都失去了？<br>其實把Layer表格填完後答案就已經出來了，檢查獻力的能力是第4層的改變類別效應，早在第6層的失去異能之前就已經生效了。所以這題的答案，就是很單純的隨時檢查獻力來決定白神是不是生物，如果是生物就會受謙卑影響，跟謙卑甚麼時候、在白神是不是生物時進場都沒有關係。</p>
+</li>
+</ul>
+<h3 id="謙卑-祀煉基定"><a href="#謙卑-祀煉基定" class="headerlink" title="謙卑 + 祀煉基定"></a><font color="#FF0000">謙卑 + 祀煉基定</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/xmkkV40.png" alt="基定"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tpr/16/humility">謙卑</a></strong> ：<br>所有生物均失去所有異能，且基礎力量與防禦力為1&#x2F;1。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/akh/14/gideon-of-the-trials">祀煉基定</a></strong> ：<br>[0]：直到回合結束，祀煉基定成為4&#x2F;4，具不滅異能的人類／士兵生物，且仍然是鵬洛客。防止本回合中將對他造成的所有傷害。</p>
+</blockquote>
+<p>在場上有謙卑的情況下，祀煉基定使用[0]成為生物後會變成怎樣的生物？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">謙卑</th>
+<th align="center">祀煉基定[0]</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center"></td>
+<td align="center">額外是人類／士兵生物</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">生物失去所有異能</td>
+<td align="center">不滅</td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center">成為1&#x2F;1</td>
+<td align="center">成為4&#x2F;4</td>
+</tr>
+<tr>
+<td align="center">other</td>
+<td align="center"></td>
+<td align="center">防止傷害</td>
+</tr>
+</tbody></table>
+<p>最先生效的是祀煉基定於第4層的類別修改效應，它在此時變成了生物，因此也變成了謙卑的作用對象，不過可以發現，祀煉基定變身時賦予自己異能和攻防值的效應，都跟謙卑作用於同一層，因此兩者要比時間印記，在這題中因為是謙卑先進場的，所以擁有較新時間印記的祀煉基定異能會勝出，結果論來講謙卑不會對基定構成甚麼干擾。</p>
+<p>但是此時若是把謙卑離場後又重新回戰場，換成讓謙卑擁有較新的時間印記，那麼祀煉基定就會變成沒有異能的1&#x2F;1鵬洛客生物。</p>
+<p>至於「防止本回合中將對他造成的所有傷害」這個效應，它並非修改祀煉基定的特徵，就只是產生一個作用於基定身上的效應而已，這並不屬於Layer的範圍之內，因此即使基定失去的異能，這個效應也會持續保護著基定。</p>
+<h3 id="謙卑-蛋白石光輝"><a href="#謙卑-蛋白石光輝" class="headerlink" title="謙卑 + 蛋白石光輝"></a><font color="#FF0000">謙卑 + 蛋白石光輝</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/OSsOzUO.png" alt="謙卑"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tpr/16/humility">謙卑</a></strong> ：<br>所有生物均失去所有異能，且基礎力量與防禦力為1&#x2F;1。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/uds/13/opalescence">蛋白石光輝</a></strong> ：<br>所有其他非靈氣結界額外具有生物類別，且基礎力量與防禦力等同於其總魔法力值。</p>
+</blockquote>
+<p>歡迎來到Layer最經典的題目，任何一個探討Layer的專欄都注定繞不開 <strong>謙卑+蛋白石光輝</strong> 這題。儘管有關謙卑的問題經常被描述成不是裁判根本看不懂的洪水猛獸，但經過上面的範例轟炸後，再回頭來看這題或許會覺得意外的輕鬆。</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">謙卑</th>
+<th align="center">蛋白石光輝</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center"></td>
+<td align="center">其他非靈氣結界額外是生物</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">生物失去所有異能</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center">成為1&#x2F;1</td>
+<td align="center">成為N&#x2F;N</td>
+</tr>
+</tbody></table>
+<p>最先開始生效的蛋白石光輝於第4層的效應，讓所有其他非靈氣結界額外具有生物類別，這代表謙卑也因此變成生物了。</p>
+<p>接著第6層，謙卑讓生物失去所有異能的效應生效，這包含了謙卑自己。要強調的一點是，這層的效應此時已經解完並生效了，並不會發生謙卑因為自己失去異能，而導致失去「生物失去所有異能」這種無限迴圈現象。</p>
+<p>最後是第7b層，這裡同時有兩個效應想要設定生物的基礎力量&#x2F;防禦力，謙卑想設為1&#x2F;1、蛋白石光輝想設為N&#x2F;N，這兩個效應誰會勝出就是單純的看時間印記了，假設謙卑是後進場的那個，有較新的時間印記，那麼結果就是： <strong>「蛋白石光輝外的所有生物、結界都變成無異能1&#x2F;1生物」</strong></p>
+<p>你問為甚麼都在第6層失去所有異能了，這兩個效應都還能在7b層生效？ 讓我們再回顧一下這條規則：</p>
+<blockquote>
+<ul>
+<li>613.6 如果一個效應將在多個層&#x2F;副層中生效，效應的各個部分分別在它們對應的層中生效。如果一個效應開始在一個層&#x2F;副層中生效，它將繼續對同樣的物件在其他適用的層&#x2F;副層中生效，即使產生該效應的異能在此過程中被移除。</li>
+</ul>
+</blockquote>
+<p>可以看到不管是謙卑還蛋白石光輝，都是在同一條效應中同時動到複數層，一旦效應開始生效了，對其他層的改動就確定生效，即使中間經過異能移除也不影響。</p>
+<h3 id="謙卑-蛋白石光輝X2"><a href="#謙卑-蛋白石光輝X2" class="headerlink" title="謙卑 + 蛋白石光輝X2"></a><font color="#FF0000">謙卑 + 蛋白石光輝X2</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/gu1l5fw.png" alt="謙卑2"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tpr/16/humility">謙卑</a></strong> ：<br>所有生物均失去所有異能，且基礎力量與防禦力為1&#x2F;1。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/uds/13/opalescence">蛋白石光輝</a>×2</strong> ：<br>所有其他非靈氣結界額外具有生物類別，且基礎力量與防禦力等同於其總魔法力值。</p>
+</blockquote>
+<p>來把上一題進階一下，蛋白石光輝不會影響自己，所以情況比較單純，但如果有兩個蛋白石光輝在互相影響對方時呢？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">謙卑</th>
+<th align="center">蛋白石光輝</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center"></td>
+<td align="center"><strong>其他</strong> 非靈氣結界額外是生物</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">生物失去所有異能</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center">成為1&#x2F;1</td>
+<td align="center">成為N&#x2F;N</td>
+</tr>
+</tbody></table>
+<p>如同上一題所述，最早生效的效應是蛋白石光輝於第4層的類別更改效應，所以即使蛋白石光輝被改為生物類別，導致它會在第6層被謙卑影響失去所有異能，也不影響類別已經修改完畢了，場上所有的生物與結界都會變成無異能生物。</p>
+<p>因為前述613.6規則的關係，7b層設定力量&#x2F;防禦力的能力也能正常運作，那麼現在問題就是力量&#x2F;防禦力究竟會被設為1&#x2F;1還N&#x2F;N了？ </p>
+<ul>
+<li>如果謙卑擁有最新的時間印記，那麼所有生物都是1&#x2F;1。</li>
+<li>如果謙卑擁有最舊的時間印記，那麼所有生物都是N&#x2F;N。</li>
+<li>如果時間印記是 蛋白石光輝A → 謙卑 → 蛋白石光輝B，這時好玩的來了，按照時間印記順序來適用效果，首先蛋白石光輝A生效，這裡不重要；接著謙卑生效，所有生物都成為1&#x2F;1，最後蛋白石光輝B生效，將 <strong>它以外</strong> 的生物設定為N&#x2F;N，然而蛋白石光輝B不會設定它自己的力量&#x2F;防禦力，因此它最後被設定的數值為謙卑的1&#x2F;1。</li>
+</ul>
+<h3 id="謙卑-蛋白石光輝-迷醉傍晚"><a href="#謙卑-蛋白石光輝-迷醉傍晚" class="headerlink" title="謙卑 + 蛋白石光輝 + 迷醉傍晚"></a><font color="#FF0000">謙卑 + 蛋白石光輝 + 迷醉傍晚</font></h3><p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/I3Iw99D.png" alt="迷醉傍晚"></p>
+<blockquote>
+<p>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/tpr/16/humility">謙卑</a></strong> ：<br>所有生物均失去所有異能，且基礎力量與防禦力為1&#x2F;1。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/uds/13/opalescence">蛋白石光輝</a></strong> ：<br>所有其他非靈氣結界額外具有生物類別，且基礎力量與防禦力等同於其總魔法力值。<br>● <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/sld/122/enchanted-evening">迷醉傍晚</a></strong> ：<br>所有永久物額外具有結界此類別。</p>
+</blockquote>
+<p>在Layer的最後就讓我們用這個最搞人的案例收尾吧～</p>
+<p>假設目前場上有這三個東西，<a href="https://guildmagesforum.tw/What-is-Time-Stamp/">時間印記</a>順序為謙卑→蛋白石光輝→迷醉傍晚，這時全場的永久物會被如何影響？</p>
+<table>
+<thead>
+<tr>
+<th align="center">Layer</th>
+<th align="center">謙卑</th>
+<th align="center">蛋白石光輝</th>
+<th align="center">迷醉傍晚</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">4</td>
+<td align="center"></td>
+<td align="center">其他非靈氣結界額外是生物</td>
+<td align="center">永久物額外是結界</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">生物失去所有異能</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7b</td>
+<td align="center">成為1&#x2F;1</td>
+<td align="center">成為N&#x2F;N</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>最先開始生效的是第4層的改變類別效應，因為迷醉傍晚的「永久物額外是結界」生效後，會改變蛋白石光輝的「其他非靈氣結界額外是生物」效應適用對象，因此這兩個效應間有<a href="https://guildmagesforum.tw/What-is-Dependency/">從屬關係</a>，無論時間印記為何，固定由迷醉傍晚先生效。第4層處理完後 <strong>所有非靈氣永久物都會額外是結界生物</strong> 。</p>
+<p>這之後發生的事就和前面範例一樣了，不過因為這次我們假設的時間印記是蛋白石光輝較新，因此在7b層最後生效的效應是「基礎力量與防禦力等同於其總魔法力值」。</p>
+<p>讓我們整理一下最終結果是甚麼：</p>
+<ul>
+<li>所有永久物都是結界。</li>
+<li>蛋白石光輝以外的非靈氣結界額外是N&#x2F;N生物，N為其魔法力值。</li>
+<li>生物失去所有異能。</li>
+</ul>
+<p>對，是所有永久物，所以連地都會變成0&#x2F;0生物而死去。</p>
+<hr>
+<h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h2><p>Layer專欄至此終於完結灑花啦～～～</p>
+<p>其實Layer問題通常最難的是在第一步，沒有邏輯思路時不知道該從何下手，以及對層的順序沒概念時，會疑惑某個效應的改動會不會影響到另一個效應？ 今後遇到Layer時，只要像上面的範例一樣，把各種效應按照層的定義分類好放入表格內，相信大多數問題都能迎刃而解。</p>
+<details class="blue" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>Layer各層定義 </summary>
+              <div class="content">
+              <p>層1a：可複製效應<br>層1b：面朝下相關效應<br>層2：改變操控權的效應<br>層3：改變敘述的效應<br>層4：改變類別的效應<br>層5：改變顏色的效應<br>層6：添加、移除異能的效應<br>層7a：定義力量、防禦力的特徵定義異能<br>層7b：設定力量、防禦力為指定數值<br>層7c：增減力量、防禦力<br>層7d：交換力量、防禦力</p>
+              </div>
+            </details>
+
+
+<p>本來在寫完上一篇<a href="https://guildmagesforum.tw/What-is-Dependency/">從屬關係</a>後，預計要在一個月內就把Layer專欄寫完，但實際動筆後才發現這遠比我想像的艱鉅。自己懂是一回事，要怎麼講解又是另外一回事了，加上這段時間內標準系列的高頻率更新，身為重度標準玩家的我幾乎把自由時間都砸在組牌→測牌→改牌的無止盡循環裡了，最後擱了半年才把這篇文章完成。</p>
+<p>目前其實還囤了不少想寫的規則文主題，只是不太想在Layer還沒搞定時就先讓別的主題插隊。對於今後規則文的預定計畫是：會重新提升規則文的更新頻率，相對的每篇文章都是聚焦在比較小範圍的規則中，若讀者有好奇的規則問題也歡迎向<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/guildmagesforumtw">魔風集會所FB粉絲頁</a>提案，或許哪天就會成為規則文主題的靈感來源了。</p>
+
+    <style>.tooltip span{display:none;color:#000}.mtgcard{max-width:300px!important}.tooltip span img{float:left;margin:0}.tooltip:hover span{display:block;position:absolute;top:0;left:0;z-index:1000;margin-top:12px;margin-left:32px;overflow:hidden;padding:8px}.tooltip{text-decoration:none;position:relative;display:inline;opacity:1;z-index:unset}</style>
+  <style>.mtable{padding:16px 16px 32px 16px;border:1px solid #000;box-shadow:7px 5px 5px rgba(0,0,0,.2);min-width:240px;background:unset}.crow{display:flex;width:100%;align-items:baseline}.ccount{width:2em;min-width:1rem}.cname{width:100%;min-width:160px}.ccost{width:5em;min-width:3rem}.tooltip span{display:none;color:#000}.mtgcard{max-width:300px!important}.tooltip span img{float:left;margin:0}.tooltip:hover span{display:block;position:absolute;top:0;left:0;z-index:1000;margin-top:12px;margin-left:32px;overflow:hidden;padding:8px}@media (min-width:900px){.mtable{display:flex;max-width:900px}.mblock{margin-right:30px}.mdeck,.msideboard{width:50%}}.tooltip{text-decoration:none;position:relative;display:inline;opacity:1;z-index:unset}</style>
+		</div>
+
+		
+			
+			
+			
+			
+			<div class="article-footer flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+				<div class="info flex flex-col justify-between">
+					
+						
+
+						
+							<div class="author-container">
+								<div class="item">
+									<div class="avatar-column">
+										<a href="/tags/jrumtg/" class="author flex items-center name text-default-text-color text-lg font-semibold flex">
+											<div class="avatar flex-shrink-0p-[1px]">
+												<img src="https://i.imgur.com/JoQEQJA.png">
+											</div>
+										</a>
+									</div>
+									<div class="author-intro items-center">
+										<div class="author-name">
+											<a href="/tags/jrumtg/" class="text-default-text-color font-semibold p-10px">
+												Jru
+											</a>
+										</div>
+										
+										<div>
+											
+												<div class="page-template-content markdown-body">
+													構築與限制賽皆打，構築有玩賽制 : 標準、先驅、近代、EDH（海怪禁單挑、官禁多人休閒向），薪傳與純普也有研究但身邊沒環境。
+												</div>
+											
+												<div class="page-template-content markdown-body">
+													主力賽制為標準，喜歡打重視去除與資源的慢節奏套牌。
+												</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						
+					
+				</div>
+			</div>
+		
+
+		
+		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+			<div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> Layer：持續性效應的互動</li>
+        <li><strong>Author:</strong> Jru</li>
+        <li><strong>Created at
+                :</strong> 2024-12-02 10:57:43</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2025-07-06 19:55:27
+            </li>
+        
+        <li>
+            <strong>Link:</strong> https://guildmagesforum.tw/Layer/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+
+            
+                This work is licensed under <a class="license" target="_blank" rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a>.
+            
+        </li>
+    </ul>
+</div>
+
+		</div>
+		
+
+		
+  <div class="recommended-article px-2 sm:px-6 md:px-8">
+   <div class="recommended-desktop">
+    <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>或許你會喜歡</span>
+    </div>
+    <div class="recommended-article-group"><a class="recommended-article-item" href="/What-is-Dependency/" title="什麼是從屬關係" rel="bookmark">
+  <img src="https://media.wizards.com/2018/images/daily/c4rd4r7_9CleBJNchb.jpg" alt="什麼是從屬關係" class="!max-w-none">
+  <span class="title">什麼是從屬關係</span>
+</a><a class="recommended-article-item" href="/What-is-Time-Stamp/" title="什麼是時間印記" rel="bookmark">
+  <img src="https://i.postimg.cc/pxbqm3Mb/Diminish.jpg" alt="什麼是時間印記" class="!max-w-none">
+  <span class="title">什麼是時間印記</span>
+</a><a class="recommended-article-item" href="/Characteristic-Defining-Ability/" title="特徵定義異能 CDA" rel="bookmark">
+  <img src="https://i.imgur.com/e5CFofZ.jpg" alt="特徵定義異能 CDA" class="!max-w-none">
+  <span class="title">特徵定義異能 CDA</span>
+</a><a class="recommended-article-item" href="/How-does-Urzas-Saga-Become-Blood-Moons-Friend/" title="血月如何從克撒傳的天敵變隊友" rel="bookmark">
+  <img src="https://i.meee.com.tw/Kp73t7c.png" alt="血月如何從克撒傳的天敵變隊友" class="!max-w-none">
+  <span class="title">血月如何從克撒傳的天敵變隊友</span>
+</a><a class="recommended-article-item" href="/What-is-Copiable-Value/" title="什麼是可複製特徵" rel="bookmark">
+  <img src="https://i.imgur.com/cggbVm7.jpg" alt="什麼是可複製特徵" class="!max-w-none">
+  <span class="title">什麼是可複製特徵</span>
+</a><a class="recommended-article-item" href="/Beginners-Guide/" title="MTG新手入坑指南" rel="bookmark">
+  <img src="https://i.meee.com.tw/jMNOt22.jpg" alt="MTG新手入坑指南" class="!max-w-none">
+  <span class="title">MTG新手入坑指南</span>
+</a></div>
+   </div>
+   <div class="recommended-mobile">
+   <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>或許你會喜歡</span>
+   </div>
+   <div class="recommended-article-group"><a class="recommended-article-item" href="/What-is-Dependency/" title="什麼是從屬關係" rel="bookmark">
+  <img src="https://media.wizards.com/2018/images/daily/c4rd4r7_9CleBJNchb.jpg" alt="什麼是從屬關係" class="!max-w-none">
+  <span class="title">什麼是從屬關係</span>
+</a><a class="recommended-article-item" href="/What-is-Time-Stamp/" title="什麼是時間印記" rel="bookmark">
+  <img src="https://i.postimg.cc/pxbqm3Mb/Diminish.jpg" alt="什麼是時間印記" class="!max-w-none">
+  <span class="title">什麼是時間印記</span>
+</a><a class="recommended-article-item" href="/Characteristic-Defining-Ability/" title="特徵定義異能 CDA" rel="bookmark">
+  <img src="https://i.imgur.com/e5CFofZ.jpg" alt="特徵定義異能 CDA" class="!max-w-none">
+  <span class="title">特徵定義異能 CDA</span>
+</a><a class="recommended-article-item" href="/How-does-Urzas-Saga-Become-Blood-Moons-Friend/" title="血月如何從克撒傳的天敵變隊友" rel="bookmark">
+  <img src="https://i.meee.com.tw/Kp73t7c.png" alt="血月如何從克撒傳的天敵變隊友" class="!max-w-none">
+  <span class="title">血月如何從克撒傳的天敵變隊友</span>
+</a></div>
+   </div>
+  </div>
+
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="prev" rel="prev" href="/Standard-Dimir-Faeries/">
+					<span class="left arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-left"></i>
+					</span>
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">仙華惡戲：標準藍黑仙靈</span>
+						<span class="post-nav-item">Prev posts</span>
+					</span>
+				</a>
+			</div>
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/Deep-Dive-Reid-Duke-Dimir-Midrange/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">Deep Dive — 跟著 Reid Duke 學習藍黑中速</span>
+						<span class="post-nav-item">Next posts</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+
+
+		
+		<div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+			<div class="comments-container mt-10 w-full">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        Comments
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>import{init}from"/js/libs/waline.mjs";function loadWaline(){init({el:"#waline",serverURL:"https://mtg-blog-comment.vercel.app/",lang:"zh-TW",dark:'body[class~="dark-mode"]',reaction:!1,requiredMeta:["nick","mail"],emoji:[]})}"undefined"!=typeof swup?loadWaline():window.addEventListener("DOMContentLoaded",loadWaline)</script>
+
+
+
+        
+    
+</div>
+
+		</div>
+		
+	</div>
+
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">On this page</div>
+		<div class="page-title">Layer：持續性效應的互動</div>
+		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Before-We-Start"><span class="nav-number">1.</span> <span class="nav-text">Before We Start</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%82%BA%E7%94%9A%E9%BA%BC%E9%9C%80%E8%A6%81Layer"><span class="nav-number">2.</span> <span class="nav-text">為甚麼需要Layer</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Layer%E8%A6%8F%E5%89%87%E5%AE%9A%E7%BE%A9"><span class="nav-number">3.</span> <span class="nav-text">Layer規則定義</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%A41a%EF%BC%9A%E5%8F%AF%E8%A4%87%E8%A3%BD%E6%95%88%E6%87%89"><span class="nav-number">3.1.</span> <span class="nav-text">層1a：可複製效應</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%A41b%EF%BC%9A%E9%9D%A2%E6%9C%9D%E4%B8%8B%E7%9B%B8%E9%97%9C%E6%95%88%E6%87%89"><span class="nav-number">3.2.</span> <span class="nav-text">層1b：面朝下相關效應</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%A42%EF%BC%9A%E6%94%B9%E8%AE%8A%E6%93%8D%E6%8E%A7%E6%AC%8A%E7%9A%84%E6%95%88%E6%87%89"><span class="nav-number">3.3.</span> <span class="nav-text">層2：改變操控權的效應</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%A43%EF%BC%9A%E6%94%B9%E8%AE%8A%E6%95%98%E8%BF%B0%E7%9A%84%E6%95%88%E6%87%89"><span class="nav-number">3.4.</span> <span class="nav-text">層3：改變敘述的效應</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%A44%EF%BC%9A%E6%94%B9%E8%AE%8A%E9%A1%9E%E5%88%A5%E7%9A%84%E6%95%88%E6%87%89"><span class="nav-number">3.5.</span> <span class="nav-text">層4：改變類別的效應</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%A45%EF%BC%9A%E6%94%B9%E8%AE%8A%E9%A1%8F%E8%89%B2%E7%9A%84%E6%95%88%E6%87%89"><span class="nav-number">3.6.</span> <span class="nav-text">層5：改變顏色的效應</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%A46%EF%BC%9A%E6%B7%BB%E5%8A%A0%E3%80%81%E7%A7%BB%E9%99%A4%E7%95%B0%E8%83%BD%E7%9A%84%E6%95%88%E6%87%89"><span class="nav-number">3.7.</span> <span class="nav-text">層6：添加、移除異能的效應</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%A47a%EF%BC%9A%E5%AE%9A%E7%BE%A9%E5%8A%9B%E9%87%8F%E3%80%81%E9%98%B2%E7%A6%A6%E5%8A%9B%E7%9A%84%E7%89%B9%E5%BE%B5%E5%AE%9A%E7%BE%A9%E7%95%B0%E8%83%BD"><span class="nav-number">3.8.</span> <span class="nav-text">層7a：定義力量、防禦力的特徵定義異能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%A47b%EF%BC%9A%E8%A8%AD%E5%AE%9A%E5%8A%9B%E9%87%8F%E3%80%81%E9%98%B2%E7%A6%A6%E5%8A%9B%E7%82%BA%E6%8C%87%E5%AE%9A%E6%95%B8%E5%80%BC"><span class="nav-number">3.9.</span> <span class="nav-text">層7b：設定力量、防禦力為指定數值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%A47c%EF%BC%9A%E5%A2%9E%E6%B8%9B%E5%8A%9B%E9%87%8F%E3%80%81%E9%98%B2%E7%A6%A6%E5%8A%9B"><span class="nav-number">3.10.</span> <span class="nav-text">層7c：增減力量、防禦力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%A47d%EF%BC%9A%E4%BA%A4%E6%8F%9B%E5%8A%9B%E9%87%8F%E3%80%81%E9%98%B2%E7%A6%A6%E5%8A%9B"><span class="nav-number">3.11.</span> <span class="nav-text">層7d：交換力量、防禦力</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Layer%E8%A9%B2%E5%A6%82%E4%BD%95%E5%88%86%E6%9E%90%EF%BC%9F"><span class="nav-number">4.</span> <span class="nav-text">Layer該如何分析？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8C%89%E7%85%A7%E5%B1%A4%E9%A0%86%E5%BA%8F%E4%BE%9D%E5%BA%8F%E7%94%9F%E6%95%88"><span class="nav-number">4.1.</span> <span class="nav-text">按照層順序依序生效</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%8C%E4%B8%80%E5%B1%A4%E6%8C%89%E7%85%A7%E6%99%82%E9%96%93%E5%8D%B0%E8%A8%98%E9%A0%86%E5%BA%8F%E7%94%9F%E6%95%88"><span class="nav-number">4.2.</span> <span class="nav-text">同一層按照時間印記順序生效</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%8C%E4%B8%80%E5%B1%A4%E6%9C%89%E6%99%82%E5%BE%9E%E5%B1%AC%E9%97%9C%E4%BF%82%E6%9C%83%E8%93%8B%E9%81%8E%E6%99%82%E9%96%93%E5%8D%B0%E8%A8%98"><span class="nav-number">4.3.</span> <span class="nav-text">同一層有時從屬關係會蓋過時間印記</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%8F%E8%A9%A6%E8%BA%AB%E6%89%8B"><span class="nav-number">4.4.</span> <span class="nav-text">小試身手</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Layer%E8%A6%8F%E5%89%87%E7%AF%84%E4%BE%8B"><span class="nav-number">5.</span> <span class="nav-text">Layer規則範例</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%8F%A1%E8%BA%AB%E5%BD%B1-%E8%BC%89%E5%85%B7"><span class="nav-number">5.1.</span> <span class="nav-text">鏡身影 + 載具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%8F%A1%E8%BA%AB%E5%BD%B1-%E7%AB%8A%E5%86%A0%E7%94%8C%E6%9F%AF"><span class="nav-number">5.2.</span> <span class="nav-text">鏡身影 + 竊冠甌柯</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%8F%A1%E8%BA%AB%E5%BD%B1-%E6%B0%B8%E7%BA%8C%E7%84%A1%E7%91%95%E9%AB%94"><span class="nav-number">5.3.</span> <span class="nav-text">鏡身影 + 永續無瑕體</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%B2%E8%BB%8D%E9%98%BF%E8%8A%92%E5%87%B1-%E6%B0%B8%E7%BA%8C%E7%84%A1%E7%91%95%E9%AB%94"><span class="nav-number">5.4.</span> <span class="nav-text">進軍阿芒凱 + 永續無瑕體</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8B%89%E4%BD%90%E7%89%B9%E8%AE%8A%E7%AF%80%E8%80%85-%E9%8F%A1%E8%BA%AB%E5%BD%B1"><span class="nav-number">5.5.</span> <span class="nav-text">拉佐特變節者 + 鏡身影</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A4%87%E8%A3%BD-%E9%9D%A2%E6%9C%9D%E4%B8%8B"><span class="nav-number">5.6.</span> <span class="nav-text">複製 + 面朝下</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%93%8D%E6%8E%A7%E6%AC%8A%E8%BD%89%E7%A7%BB"><span class="nav-number">5.7.</span> <span class="nav-text">操控權轉移</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%98%E8%BF%B0%E6%96%87%E5%AD%97%E6%94%B9%E8%AE%8A"><span class="nav-number">5.8.</span> <span class="nav-text">敘述文字改變</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%81%E6%9C%83%E7%9B%9F%E5%9C%B0%E8%84%88-%E8%99%9B%E8%89%B2"><span class="nav-number">5.9.</span> <span class="nav-text">十會盟地脈 + 虛色</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%97%9C%E9%8D%B5%E5%AD%97%E6%8C%87%E7%A4%BA%E7%89%A9-%E5%A4%B1%E5%8E%BB%E7%95%B0%E8%83%BD"><span class="nav-number">5.10.</span> <span class="nav-text">關鍵字指示物 + 失去異能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%85%A5%E7%B4%85%E4%B9%8B%E6%9C%88-%E7%B4%84%E6%A0%BC%E8%8E%AB%E5%A4%AB%E4%B9%8B%E5%A2%93%E7%83%8F%E7%88%BE%E5%8D%9A%E6%A0%BC"><span class="nav-number">5.11.</span> <span class="nav-text">腥紅之月 + 約格莫夫之墓烏爾博格</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%96%91%E9%A4%85%E6%80%AA%E4%BA%BA-%E5%8C%96%E8%9B%99%E8%A1%93"><span class="nav-number">5.12.</span> <span class="nav-text">薑餅怪人 + 化蛙術</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%8B%BC%E6%A8%91%E9%8E%AE%E6%AF%86%E6%93%8A%E6%A3%8D-%E5%8C%96%E8%9B%99%E8%A1%93"><span class="nav-number">5.13.</span> <span class="nav-text">鋼樑鎮毆擊棍 + 化蛙術</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B0%B8%E4%B8%96%E9%99%B0%E8%AC%80%E5%AE%B6%E7%A5%96%E7%88%BE-%E6%8F%90%E8%8E%8E%E5%A8%9C%E7%9A%84%E7%B8%9B%E6%BD%AE%E5%B8%AB"><span class="nav-number">5.14.</span> <span class="nav-text">永世陰謀家祖爾 + 提莎娜的縛潮師</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%8E%8A%E5%9A%B4%E7%8D%A8%E8%A7%92%E5%85%94-%E8%A4%AA%E9%99%A4%E6%AD%A6%E8%A3%9D"><span class="nav-number">5.15.</span> <span class="nav-text">莊嚴獨角兔 + 褪除武裝</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A3%B2%E5%92%92%E8%9B%87-%E8%A4%AA%E9%99%A4%E6%AD%A6%E8%A3%9D"><span class="nav-number">5.16.</span> <span class="nav-text">飲咒蛇 + 褪除武裝</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B7%A7%E6%89%8B%E7%AB%8A%E7%8C%B4%E5%8B%92%E6%A0%BC%E6%96%87-%E8%A4%AA%E9%99%A4%E6%AD%A6%E8%A3%9D"><span class="nav-number">5.17.</span> <span class="nav-text">巧手竊猴勒格文 + 褪除武裝</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B4%85%E6%9C%88%E8%B3%A2%E8%80%85-%E7%AB%8A%E5%86%A0%E7%94%8C%E6%9F%AF"><span class="nav-number">5.18.</span> <span class="nav-text">紅月賢者 + 竊冠甌柯</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%85%A5%E7%B4%85%E4%B9%8B%E6%9C%88-%E8%8D%92%E9%87%8E%E4%B9%8B%E9%AD%82%E8%89%BE%E8%8E%8E%E5%A9%AD"><span class="nav-number">5.19.</span> <span class="nav-text">腥紅之月 + 荒野之魂艾莎婭</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%85%A5%E7%B4%85%E4%B9%8B%E6%9C%88-%E8%89%BE%E8%8E%8E%E5%A9%AD-%E6%A0%B9%E5%BE%91%E6%BB%8C%E6%B7%A8%E5%B8%AB"><span class="nav-number">5.20.</span> <span class="nav-text">腥紅之月 + 艾莎婭 + 根徑滌淨師</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%99%BE%E5%8B%9D%E6%88%B0%E8%BB%8A%E6%A0%BC%E6%8B%89%E8%8C%B2-%E8%83%8C%E5%8F%9B%E6%AF%92%E5%88%BA%E7%93%A6%E7%B5%B2%E5%8D%A1"><span class="nav-number">5.21.</span> <span class="nav-text">百勝戰車格拉茲 + 背叛毒刺瓦絲卡</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%88%E8%AE%8A-%E5%A4%B1%E5%8E%BB%E7%95%B0%E8%83%BD"><span class="nav-number">5.22.</span> <span class="nav-text">合變 + 失去異能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%92%BC%E4%B8%96%E5%A6%AE%E8%8E%8E-%E7%A2%8E%E6%99%B6%E7%8B%82%E7%8D%B8"><span class="nav-number">5.23.</span> <span class="nav-text">撼世妮莎 + 碎晶狂獸</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%8C%E8%AC%80-%E6%B0%A3%E8%98%8A%E5%9B%9B%E9%AB%94%EF%BC%91"><span class="nav-number">5.24.</span> <span class="nav-text">同謀 + 氣蘊四體１</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%8C%E8%AC%80-%E6%B0%A3%E8%98%8A%E5%9B%9B%E9%AB%94%EF%BC%92"><span class="nav-number">5.25.</span> <span class="nav-text">同謀 + 氣蘊四體２</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%8D%BB%E5%8A%9B%E7%A5%9E-%E8%9B%8B%E7%99%BD%E7%9F%B3%E5%85%89%E8%BC%9D"><span class="nav-number">5.26.</span> <span class="nav-text">獻力神 + 蛋白石光輝</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%8D%BB%E5%8A%9B%E7%A5%9E-%E8%AC%99%E5%8D%91"><span class="nav-number">5.27.</span> <span class="nav-text">獻力神 + 謙卑</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AC%99%E5%8D%91-%E7%A5%80%E7%85%89%E5%9F%BA%E5%AE%9A"><span class="nav-number">5.28.</span> <span class="nav-text">謙卑 + 祀煉基定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AC%99%E5%8D%91-%E8%9B%8B%E7%99%BD%E7%9F%B3%E5%85%89%E8%BC%9D"><span class="nav-number">5.29.</span> <span class="nav-text">謙卑 + 蛋白石光輝</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AC%99%E5%8D%91-%E8%9B%8B%E7%99%BD%E7%9F%B3%E5%85%89%E8%BC%9DX2"><span class="nav-number">5.30.</span> <span class="nav-text">謙卑 + 蛋白石光輝X2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AC%99%E5%8D%91-%E8%9B%8B%E7%99%BD%E7%9F%B3%E5%85%89%E8%BC%9D-%E8%BF%B7%E9%86%89%E5%82%8D%E6%99%9A"><span class="nav-number">5.31.</span> <span class="nav-text">謙卑 + 蛋白石光輝 + 迷醉傍晚</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B5%90%E8%AA%9E"><span class="nav-number">6.</span> <span class="nav-text">結語</span></a></li></ol>
+
+	</div>
+</div>
+	</div>
+	
+</div>
+
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+            <div class="customize-info my-1">Guildmages' Forum 魔風集會所的部分內容是威世智 (Wizards of the Coast) 同好內容政策允許的非官方同好內容。 <br> 本網站所提供之魔法風雲會 (Magic the Gathering, MTG) 文字和圖形資訊，包括卡片圖像、魔法力符號和部分卡片資訊的中文翻譯，版權均為孩之寶集團的子公司威世智所有。 <br> Guildmages' Forum 魔風集會所並不由威世智製作、背書、支持，亦不隸屬於該公司。 <br> 上述聲明以外的所有內容均屬於 2023 © Guildmages' Forum 魔風集會所以及其協力創作者們。</div>
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2023</span>
+              -
+            
+            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration:0.5s;color:#f54545"></i>&nbsp;&nbsp;<a href="/">Guildmages&#39; Forum Staff</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        275 posts in total
+                    </span>
+                    
+                        <span>
+                            1097.4k words in total
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://events.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">VISITOR COUNT</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">TOTAL PAGE VIEWS</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">POWERED BY <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewbox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io" rel="external nofollow noopener noreferrer">Hexo</a></span>
+            <span class="text-sm lg:block">THEME&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine" rel="external nofollow noopener noreferrer">Redefine v2.8.2</a></span>
+        </div>
+        
+        
+            <div>
+                Blog up for <span class="odometer" id="runtime_days"></span> days <span class="odometer" id="runtime_hours"></span> hrs <span class="odometer" id="runtime_minutes"></span> Min <span class="odometer" id="runtime_seconds"></span> Sec
+            </div>
+        
+        
+            <script data-swup-reload-script>try{function odometer_init(){document.querySelectorAll(".odometer").forEach(e=>{new Odometer({el:e,format:"( ddd).dd",duration:200})})}odometer_init()}catch(e){}</script>
+        
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
+
+		
+		
+		<li class="go-comment">
+			<i class="fa-regular fa-comments"></i>
+		</li>
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		
+		
+		<li class="right-bottom-tools rss flex justify-center items-center">
+			<a class="flex justify-center items-center" href="/atom.xml" target="_blank">
+				<i class="fa-regular fa-rss"></i>
+			</a>
+		</li>
+		
+
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="arrow-up fas fa-arrow-up"></i>
+			<span class="percent"></span>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container">
+	<img src>
+</div>
+
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Search..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+</main>
+
+
+
+<script src="/js/build/libs/Swup.min.js"></script>
+
+<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>const swup=new Swup({plugins:[new SwupScriptsPlugin({optin:!0}),new SwupProgressPlugin,new SwupScrollPlugin({offset:80}),new SwupSlideTheme({mainElement:".main-content-body"}),new SwupPreloadPlugin],containers:["#swup"]})</script>
+
+
+
+
+	
+<script src="/js/build/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/build/utils.js" type="module"></script>
+
+<script src="/js/build/main.js" type="module"></script>
+
+<script src="/js/build/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/build/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/build/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/build/layouts/categoryList.js" type="module"></script>
+
+
+
+    
+<script src="/js/build/tools/localSearch.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/runtime.js"></script>
+
+    
+<script src="/js/build/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/build/libs/Typed.min.js"></script>
+
+  
+<script src="/js/build/plugins/typed.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+    
+<script src="/js/build/tools/tocToggle.js" type="module" data-swup-reload-script></script>
+
+<script src="/js/build/layouts/toc.js" type="module" data-swup-reload-script></script>
+
+<script src="/js/build/plugins/tabs.js" type="module" data-swup-reload-script></script>
+
+
+
+
+<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script></script>
+
+
+<script src="/js/build/layouts/essays.js" type="module" data-swup-reload-script></script>
+
+
+
+    
+<script src="/js/build/libs/pangu.min.js"></script>
+
+<script src="/js/build/plugins/pangu.js"></script>
+
+
+
+
+	
+</body>
+
+</html>

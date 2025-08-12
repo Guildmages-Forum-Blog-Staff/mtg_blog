@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="MTG 中文網站, Guildmages Forum, mtg blog, mtg decktech, mtg 近代, mtg 先驅, mtg, mtg pioneer, mtg modern, 魔風集會所">
+    
+    <meta name="author" content="Guildmages&#39; Forum Staff">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    
+    
+    <link rel="canonical" href="https://guildmagesforum.tw/introduction-of-cube-cobra/">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+    
+        
+        <meta name="description" content="Guildmages’ Forum 魔風集會所是一個繁體中文的部落格，致力於推廣魔法風雲會競技型賽制。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cube設計 - Cube Cobra介紹">
+<meta property="og:url" content="https://guildmagesforum.tw/Introduction-of-Cube-Cobra/index.html">
+<meta property="og:site_name" content="Guildmages&#39; Forum 魔風集會所">
+<meta property="og:description" content="Guildmages’ Forum 魔風集會所是一個繁體中文的部落格，致力於推廣魔法風雲會競技型賽制。">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://guildmagesforum.tw/images/logo.webp">
+<meta property="article:published_time" content="2025-04-08T13:30:00.000Z">
+<meta property="article:modified_time" content="2025-08-12T05:56:37.176Z">
+<meta property="article:author" content="大蘭斯">
+<meta property="article:tag" content="dalance">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://guildmagesforum.tw/images/logo.webp">
+    
+    
+        
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-JFWD3SG42T"></script>
+        <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-JFWD3SG42T")</script>
+    
+    
+    <link rel="icon" type="image/png" href="/images/logo.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.jpg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/logo.jpg">
+    
+    
+    <title>
+        
+            Cube設計 - Cube Cobra介紹 | Guildmages&#39; Forum 魔風集會所
+        
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    
+    
+    
+    
+    
+    
+    
+        
+<script src="/js/build/libs/anime.min.js"></script>
+
+    
+
+    <script id="hexo-configurations">window.config={hostname:"guildmagesforum.tw",root:"/",language:"en",path:"search.xml"},window.theme={articles:{style:{font_size:"18px",line_height:1.5,image_border_radius:"14px",image_alignment:"center",image_caption:!1,link_icon:!1,delete_mask:!1,title_alignment:"left",headings_top_spacing:{h1:"3.2rem",h2:"2.4rem",h3:"1.9rem",h4:"1.6rem",h5:"1.4rem",h6:"1.3rem"}},word_count:{enable:!0,count:!0,min2read:!0},author_label:{enable:!1,auto:!1,list:[]},code_block:{copy:!0,style:"mac",highlight_theme:{light:"github",dark:"vs2015"},font:{enable:!1,family:null,url:null}},toc:{enable:!0,max_depth:6,number:!0,expand:!0,init_open:!0},copyright:{enable:!0,default:"cc_by_nc_sa"},lazyload:!0,pangu_js:!0,recommendation:{enable:!0,title:"或許你會喜歡",limit:6,mobile_limit:4,placeholder:"/images/wallhaven-wqery6-light.webp",skip_dirs:[]}},colors:{primary:"#A31F34",secondary:null,default_mode:"light"},global:{fonts:{chinese:{enable:!1,family:null,url:null},english:{enable:!1,family:null,url:null},title:{enable:!1,family:null,url:null}},content_max_width:"1000px",sidebar_width:"210px",hover:{shadow:!0,scale:!1},scroll_progress:{bar:!0,percentage:!0},website_counter:{url:"https://events.vercount.one/js",enable:!0,site_pv:!0,site_uv:!0,post_pv:!0},single_page:!0,preloader:{enable:!0,custom_message:null},open_graph:{enable:!0,image:"/images/logo.webp",description:null},google_analytics:{enable:!0,id:"G-JFWD3SG42T"}},home_banner:{enable:!0,style:"fixed",image:{light:"/images/wallhaven-wqery6-light.webp",dark:"/images/wallhaven-wqery6-dark.webp"},title:"Welcome to Guildmages' Forum!",subtitle:{text:["各路旅法師的集散地","讓玩家額外有個 +1/+1 指示物","釋放各路玩家的限制","盡情享受遊戲","不瘋魔不成活"],hitokoto:{enable:!1,show_author:!1,api:"https://v1.hitokoto.cn"},typing_speed:100,backing_speed:50,starting_delay:500,backing_delay:1500,loop:!0,smart_backspace:!0},text_color:{light:"#fff",dark:"#d1d1b6"},text_style:{title_size:"2.8rem",subtitle_size:"1.5rem",line_height:1.2},custom_font:{enable:!1,family:null,url:null},social_links:{enable:!1,style:"default",links:{github:null,instagram:null,zhihu:null,twitter:null,email:null},qrs:{weixin:null}}},plugins:{feed:{enable:!0},aplayer:{enable:!1,type:"fixed",audios:[{name:null,artist:null,url:null,cover:null,lrc:null}]},mermaid:{enable:!1,version:"11.4.1"}},version:"2.8.2",navbar:{auto_hide:!0,color:{left:"#f78736",right:"#367df7",transparency:35},width:{home:"1200px",pages:"1000px"},links:{Home:{path:"/",icon:"fa-regular fa-house"},Categories:{path:"/categories",icon:"fa-regular fa-folder"},"About Us":{path:"/about",icon:"fa-regular fa-user"},"Contact Us":{path:"/Contact-Us",icon:"fa-regular fa-mailbox-flag-up"},Links:{icon:"fa-regular fa-link",submenus:{"Guildmages' Forum 粉專":"https://www.facebook.com/guildmagesforumtw","台南猴王的耍猴日常":"https://www.facebook.com/TainanMonkeyKing","豬鼻子的mtg世界":"https://www.facebook.com/Pignosemtgworld","多明納里亞圖書館":"https://dominarialibrary.com","龍尊與荒野騎士的玄境之談":"https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807","塞克斯的MTG日誌":"http://76vezffd.blogspot.com/","約力昂大叔 Uncle Yorion":"https://www.facebook.com/profile.php?id=100068751771443","Kappa The Gathering":"https://www.facebook.com/profile.php?id=61558862427620","Mystic Zone":"http://mysticzonetw.blogspot.com/","Spark Double Podcast":"https://linktr.ee/sparkdouble","勇德大叔的日常":"https://www.facebook.com/UncleJund","鳥不喇基":"https://www.facebook.com/profile.php?id=100063848411689","魔法風雲會粉專":"https://www.facebook.com/MagicTheGathering.ct","下水道鱷魚":"https://facebook.com/profile.php?id=61567687550022","紅的喜氣":"https://www.facebook.com/profile.php?id=100083415367398","貓羽的文字日誌":"https://whitecat2.pixnet.net/blog","寬麵的遊戲頻道":"https://www.facebook.com/profile.php?id=100083345574225"}}},search:{enable:!0,preload:!0}},page_templates:{friends_column:2,tags_style:"blur"},home:{sidebar:{enable:!0,position:"left",first_item:"info",announcement:null,show_on_mobile:!0,links:{Categories:{path:"/categories",icon:"fa-regular fa-folder"},"About Us":{path:"/about",icon:"fa-regular fa-user"},"Contact Us":{path:"/Contact-Us",icon:"fa-regular fa-mailbox-flag-up"}}},article_date_format:"auto",excerpt_length:200,categories:{enable:!0,limit:3},tags:{enable:!0,limit:3}},footerStart:"2023/8/23 00:00:00"},window.lang_ago={second:"%s seconds ago",minute:"%s minutes ago",hour:"%s hours ago",day:"%s days ago",week:"%s weeks ago",month:"%s months ago",year:"%s years ago"},window.data={masonry:!1}</script>
+    
+    
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Guildmages' Forum 魔風集會所" type="application/atom+xml">
+</head>
+
+
+
+<body>
+	<div class="progress-bar-container">
+	
+	<span class="scroll-progress-bar"></span>
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	
+	
+	
+	
+</div>
+
+<style>:root{--preloader-background-color:#fff;--preloader-text-color:#000}@media (prefers-color-scheme:dark){:root{--preloader-background-color:#202124;--preloader-text-color:#fff}}@media (prefers-color-scheme:light){:root{--preloader-background-color:#fff;--preloader-text-color:#000}}@media (max-width:600px){.ml13{font-size:2.6rem!important}}.preloader{display:flex;flex-direction:column;gap:1rem;align-items:center;justify-content:center;position:fixed;padding:12px;top:0;right:0;bottom:0;left:0;width:100vw;height:100vh;background-color:var(--preloader-background-color);z-index:1100;transition:opacity .2s ease-in-out}.ml13{font-size:3.2rem;color:var(--preloader-text-color);letter-spacing:-1px;font-weight:500;font-family:Chillax-Variable,sans-serif;text-align:center}.ml13 .word{display:inline-flex;flex-wrap:wrap;white-space:nowrap}.ml13 .letter{display:inline-block;line-height:1em}</style>
+
+<div class="preloader">
+    <h2 class="ml13">
+        Guildmages&#39; Forum 魔風集會所
+    </h2>
+    <script>
+        var textWrapper = document.querySelector('.ml13');
+        // Split text into words
+        var words = textWrapper.textContent.trim().split(' ');
+        words = ['Guildmages\'', 'Forum', '魔風集會所']
+
+        // Clear the existing content
+        textWrapper.innerHTML = '';
+
+        // Wrap each word and its letters in spans
+        words.forEach(function(word) {
+            var wordSpan = document.createElement('span');
+            wordSpan.classList.add('word');
+            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
+            textWrapper.appendChild(wordSpan);
+            if ( word === "Forum" ) {
+                textWrapper.appendChild(document.createElement('br'));
+            }
+            else {
+                textWrapper.appendChild(document.createTextNode(' '));
+            }
+        });
+
+        var animation = anime.timeline({ loop: true })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [20, 0],
+                translateZ: 0,
+                opacity: [0, 1],
+                filter: ['blur(5px)', 'blur(0px)'],
+                easing: "easeOutExpo",
+                duration: 1200,
+                delay: (el, i) => 300 + 20 * i,
+            })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [0, -20],
+                opacity: [1, 0],
+                filter: ['blur(0px)', 'blur(5px)'],
+                easing: "easeInExpo",
+                duration: 1000,
+                delay: (el, i) => 15 * i,
+                complete: function() {
+                    hidePreloader();
+                }
+            }, '-=700');
+
+
+        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
+
+        // If the theme status is not found in local storage, check the preferred color scheme
+        if (themeStatus === undefined || themeStatus === null) {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                themeStatus = 'dark';
+            } else {
+                themeStatus = 'light';
+            }
+        }
+
+        // Now you can use the themeStatus variable in your code
+        if (themeStatus) {
+            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
+            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
+        } else {
+            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
+            document.documentElement.style.setProperty('--preloader-text-color', '#000');
+        }
+
+        window.addEventListener('load', function () {
+            setTimeout(hidePreloader, 5000); // Call hidePreloader after 5000 milliseconds if not already called by animation
+        });
+
+        function hidePreloader() {
+            var preloader = document.querySelector('.preloader');
+            preloader.style.opacity = '0';
+            setTimeout(function () {
+                preloader.style.display = 'none';
+            }, 200);
+        }
+    </script>
+</div>
+
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <style>.centered-text{text-align:center;margin:0;line-height:1.5}</style>
+    <div class="navbar-content transition-navbar">
+        <div class="left">
+            
+            <a class="logo-title centered-text" href="/">
+                
+                Guildmages&#39; Forum<br>
+                魔風集會所
+                
+            </a>
+        </div>
+
+        <div class="right">
+            
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/">
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    HOME
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/categories">
+                                    <i class="fa-regular fa-folder fa-fw"></i>
+                                    CATEGORIES
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/about">
+                                    <i class="fa-regular fa-user fa-fw"></i>
+                                    ABOUT US
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/Contact-Us">
+                                    <i class="fa-regular fa-mailbox-flag-up fa-fw"></i>
+                                    CONTACT US
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a class="has-dropdown" href="#" onclick="&#34;return" false;&#34;>
+                                    <i class="fa-regular fa-link fa-fw"></i>
+                                    LINKS
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/guildmagesforumtw">
+                                                    GUILDMAGES&#39; FORUM 粉專
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/TainanMonkeyKing">
+                                                    台南猴王的耍猴日常
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/Pignosemtgworld">
+                                                    豬鼻子的MTG世界
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://dominarialibrary.com">
+                                                    多明納里亞圖書館
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807">
+                                                    龍尊與荒野騎士的玄境之談
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="http://76vezffd.blogspot.com/">
+                                                    塞克斯的MTG日誌
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100068751771443">
+                                                    約力昂大叔 UNCLE YORION
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=61558862427620">
+                                                    KAPPA THE GATHERING
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="http://mysticzonetw.blogspot.com/">
+                                                    MYSTIC ZONE
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://linktr.ee/sparkdouble">
+                                                    SPARK DOUBLE PODCAST
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/UncleJund">
+                                                    勇德大叔的日常
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100063848411689">
+                                                    鳥不喇基
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/MagicTheGathering.ct">
+                                                    魔法風雲會粉專
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://facebook.com/profile.php?id=61567687550022">
+                                                    下水道鱷魚
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083415367398">
+                                                    紅的喜氣
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://whitecat2.pixnet.net/blog">
+                                                    貓羽的文字日誌
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083345574225">
+                                                    寬麵的遊戲頻道
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/">
+                            <span>
+                                HOME
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/categories">
+                            <span>
+                                CATEGORIES
+                            </span>
+                            
+                                <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/about">
+                            <span>
+                                ABOUT US
+                            </span>
+                            
+                                <i class="fa-regular fa-user fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/Contact-Us">
+                            <span>
+                                CONTACT US
+                            </span>
+                            
+                                <i class="fa-regular fa-mailbox-flag-up fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" navbar-data-toggle="submenu-Links">
+                            <span>
+                                LINKS
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-Links">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/guildmagesforumtw">GUILDMAGES&#39; FORUM 粉專</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/TainanMonkeyKing">台南猴王的耍猴日常</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/Pignosemtgworld">豬鼻子的MTG世界</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://dominarialibrary.com">多明納里亞圖書館</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807">龍尊與荒野騎士的玄境之談</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="http://76vezffd.blogspot.com/">塞克斯的MTG日誌</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100068751771443">約力昂大叔 UNCLE YORION</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=61558862427620">KAPPA THE GATHERING</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="http://mysticzonetw.blogspot.com/">MYSTIC ZONE</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://linktr.ee/sparkdouble">SPARK DOUBLE PODCAST</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/UncleJund">勇德大叔的日常</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100063848411689">鳥不喇基</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/MagicTheGathering.ct">魔法風雲會粉專</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://facebook.com/profile.php?id=61567687550022">下水道鱷魚</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083415367398">紅的喜氣</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://whitecat2.pixnet.net/blog">貓羽的文字日誌</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083345574225">寬麵的遊戲頻道</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    
+                    
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">38</div>
+        <div class="label text-third-text-color text-sm">Tags</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">30</div>
+        <div class="label text-third-text-color text-sm">Categories</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">275</div>
+        <div class="label text-third-text-color text-sm">Posts</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
+
+		<div class="article-title relative w-full">
+			
+			
+			
+			<img src="https://i.meee.com.tw/z5P3HxZ.jpg" alt="Cube設計 - Cube Cobra介紹" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75">
+			
+			<div class="w-full flex items-center absolute bottom-0 justify-start">
+				<h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color">Cube設計 - Cube Cobra介紹</h1>
+			</div>
+			
+		</div>
+
+		
+			
+			
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			
+				<a href="/tags/dalance/" class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+					<img src="/images/dalance-avatar.jpeg">
+				</a>
+			
+			<div class="info flex flex-col justify-between">
+				
+					
+					<ul class="name text-default-text-color text-lg font-semibold flex">
+						
+							&nbsp;&nbsp;
+							<a href="/tags/dalance/" class="author flex items-center">
+								大蘭斯
+							</a>
+							
+						</ul>
+					
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2025-04-08 21:30</span>
+        <span class="mobile">2025-04-08 21:30</span>
+        <span class="hover-info">Created</span>
+    </span>
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/limited/">Limited</a>&nbsp;
+                        </li>
+                    
+                    
+                
+                    
+                        
+                            <li>></li>
+                        
+                        <li>
+                            <a href="/categories/limited/cube/">Cube</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-keyboard"></i>&nbsp;<span>4.8k Words</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>17 Mins</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<p>本篇是延伸介紹 <strong>Cube</strong> 的文章，邀請喜歡輪抽體驗的讀者先從<a href="https://guildmagesforum.tw/What-is-Cube/">什麼是 CUBE - 你的第一個 Cube</a>讀起唷。</p>
+<h2 id="CubeCobra是什麼"><a href="#CubeCobra是什麼" class="headerlink" title="CubeCobra是什麼"></a>CubeCobra是什麼</h2><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cubecobra.com/landing">Cube Cobra</a>是一個管理維護Cube的平台（以下或稱Cobra），設計者可以在上面維護跟分享自己的Cube。在以前要做Cube，設計者要把大量的牌放在桌上來找靈感；在數位時代下可以利用製表軟體來輔助設計；如今，你也可以利用各種Deck Builder網站來建立Cube。<br>這次要介紹的Cube Cobra具備強大的功能，使得設計與管理Cube變得更加直覺且高效，用過一次就回不去了。</p>
+<blockquote>
+<p>更早期的Cube做法可能更加粗暴，可以參考前美國國家冠軍玩家Kyle Rose的經驗，有興趣的讀者可以去Youtube搜尋 This History of Cube Drafts…as told by me on my stream! 就能找到他的這則影片（粗口注意！！！），他只用便當盒就做出了他的Cube。</p>
+</blockquote>
+<p>此外這是Magic Cube專欄，本文也會盡可能的補充跟Magic與Cube相關的知識，也同時讓讀者盡快地對Cobra的功能有初步的了解。</p>
+<hr>
+<h3 id="使用工具的動機"><a href="#使用工具的動機" class="headerlink" title="使用工具的動機"></a>使用工具的動機</h3><p>在Cube設計上面設計者想要透過工具達成以下目的：</p>
+<ol>
+<li>每張牌都是有用的，讓玩家願意抽它。</li>
+<li>每張牌至少能夠適用於一種以上的套牌。</li>
+<li>每個雙色主題都可以得到支持。</li>
+<li>Cube有合適的Mana曲線。<br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/p9JUZQo.png" alt="image"><br>在這邊簡單補充幾種套牌Archetype：分別是快攻、中速、控制和組合技，在輪抽中裡面常見的套牌都是中速或快攻。而在Cube中，如果設計者想要提供組合技或者控制就要在對應的Mana Curve中，加上足夠的牌讓玩家可以抽。<br>例如足夠多的低費牌和戰鬥詭計可以用來支持快攻、同樣的足夠的妨礙咒語、移除和終結者可以讓控制的計畫成型，組合技亦同。</li>
+</ol>
+<p>接著會介紹Cobra功能是怎麼滿足設計者的需求的。</p>
+<hr>
+<h3 id="製作第一個Cube"><a href="#製作第一個Cube" class="headerlink" title="製作第一個Cube"></a>製作第一個Cube</h3><p>建立Cube有兩種方法，手動建立、與Clone（複製現有Cube）</p>
+<h4 id="方法一：以一個FDN系列單卡Cube（Foundation-Set-singletone-Cube）為例"><a href="#方法一：以一個FDN系列單卡Cube（Foundation-Set-singletone-Cube）為例" class="headerlink" title="方法一：以一個FDN系列單卡Cube（Foundation Set singletone Cube）為例"></a>方法一：以一個FDN系列單卡Cube（Foundation Set singletone Cube）為例</h4><blockquote>
+<p>手動建立段落感謝 cephille 提供</p>
+</blockquote>
+<ol>
+<li>Scryfall上搜尋對應的系列，如本次示範，選擇”set:dft”。</li>
+<li>把圖片預覽（Image）改成純文字預覽（Checklst），並依自己的需求把全部卡牌複製下來。<blockquote>
+<p>Scryfall在checklist介面沒辦法直接匯出，就到空白處把需要的卡牌整列複製下來就好；也有可能有更簡便的方法，也歡迎大家嘗試後分享囉！</p>
+</blockquote>
+</li>
+</ol>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/MUJzrCs.png" alt="image"></p>
+<ol start="3">
+<li>貼到待編輯的介面，如Microsoft Excel、Google試算表等，然後只複製卡名（Name）的那一欄。</li>
+</ol>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/Rb7osQy.png" alt="image"></p>
+<ol start="4">
+<li><p>在Cube Cobra創建一個新的Cube（Creat A New Cube），這個步驟必須先註冊自己的Cube Cobra帳號後並登入。有趣的是，創新Cube還需要回答簡單的魔風小知識，答錯可是建不成的XD<br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/qvh6L7c.png" alt="image"><br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/cZPUkFh.png" alt="image"></p>
+</li>
+<li><p>進到新建立的Cube裡 List &gt; Import&#x2F;Export &gt; Paste Text ，然後回到步驟4裡，把所有卡名複製過來貼上，接著點選”Add Cards”，<del>美味蟹堡就完成了</del> 就建立好我們的單卡Cube了。</p>
+<blockquote>
+<p>如果要加入<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/sets/spg">SPG</a>、或舊系列的額外系列牌張（如WOE的魅附奇譚（WOT）、STX的秘典（STA）等）該系列開得到的單卡的話，就比照上面的方法，依序加入該Cube中。<br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/4mUHwC3.png" alt="image"><br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/56AKUQW.png" alt="image"><br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/tWPWTyF.png" alt="image"><br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/xkCHGj8.png" alt="image"></p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<h4 id="方法二：複製別人的"><a href="#方法二：複製別人的" class="headerlink" title="方法二：複製別人的"></a>方法二：複製別人的</h4><p>選一個你喜歡的Cube，這邊以<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cubecobra.com/cube/list/van">Vanilla Cube</a>為例：</p>
+<ol>
+<li>到<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cubecobra.com/cube/list/van">Vanilla Cube</a> 頁面<br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/rXbYNA9.png" alt="image"></li>
+<li>點右上的List<br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/HTioEfi.png" alt="image"></li>
+<li>點Export，然後選擇Clone<br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/pvGXgfu.png" alt="image"></li>
+</ol>
+<p>你就可以得到一份Vanilla Cube的備份了，在你的備份內你可以盡情修改不會影響到原Cube。</p>
+<hr>
+<h3 id="List-列表"><a href="#List-列表" class="headerlink" title="List 列表"></a>List 列表</h3><p>設計中最常接觸到的就是List頁面，這是設計過程當中會盯最久的頁面，也是與其他人交流的地方，以下介紹List的功能。</p>
+<h4 id="List-Add-card-加牌"><a href="#List-Add-card-加牌" class="headerlink" title="List - Add card 加牌"></a>List - Add card 加牌</h4><p>加牌進去有三種方式，</p>
+<ol>
+<li>是直接在對話框裡面輸入。</li>
+<li>在Import&#x2F;Export點Paste然後大量輸入。</li>
+<li>Maybeboard點擊單卡中把牌再點”Move To Mainboard”。</li>
+</ol>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/MN7k2v7.png" alt="image"><br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/5yynbJK.png" alt="image"><br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/eMBZ7Yi.png" alt="image"></p>
+<h4 id="List-Remove-移除"><a href="#List-Remove-移除" class="headerlink" title="List - Remove 移除"></a>List - Remove 移除</h4><p>在”Card to Remove”輸入框輸入牌名即可移除，或者點開牌的資訊頁面選”Remove from cube”</p>
+<h4 id="List-ChangeList"><a href="#List-ChangeList" class="headerlink" title="List ChangeList"></a>List ChangeList</h4><p>特別注意當你對List進行修改的時候，修改並不會馬上儲存下來，Cobra使用了ChangeList來讓你看這個批次修改了哪些東西。<br>你可以在修改之後按下”Save Changes”儲存，或者”Discard All”丟棄，你也可以點卡名左邊的”X”來把這個變更撤銷掉。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/4U3sHyk.png" alt="image"></p>
+<hr>
+<h4 id="List-Maybeboard-備牌"><a href="#List-Maybeboard-備牌" class="headerlink" title="List - Maybeboard 備牌"></a>List - Maybeboard 備牌</h4><p>實用的功能，在修改Cube中要選擇牌是件麻煩事，Maybeboard給你一個候選的區域可以讓你放備牌，可以把考慮中要加入或者刪除的牌先放在這邊。</p>
+<hr>
+<h4 id="List-Modify-修改"><a href="#List-Modify-修改" class="headerlink" title="List - Modify 修改"></a>List - Modify 修改</h4><p>點下List中的單卡會打開的資訊窗，這邊可以修改單卡的資訊，能夠修改的資訊相當的多，包含了顏色、擁有狀態、卡面版本。</p>
+<ol>
+<li><p><strong>顏色</strong>：牌上的顏色是可以修改的，目的是可以讓一些牌在分類的時候分到你期望的顏色去，例如歷險牌 <a class="tooltip" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/woe/229/imodanes-recruiter-train-troops?utm_source=api">Imodane's Recruiter//Train Troops<span><img class="mtgcard" lazyload src="/images/loading.svg" data-src="https://cards.scryfall.io/large/front/4/d/4dbaa855-3f8e-42e6-8ec8-5ffbc5c8acf0.jpg?1692939679"></span></a>，會被預設作為Boros，但設計者也可以只把它標記成紅色。</p>
+</li>
+<li><p><strong>Status</strong>：牌的狀態，這邊是這張牌的擁有狀態，我會用這個來追踨是否有這張牌，好作為買牌下單的參考。以下是狀態介紹：</p>
+<ul>
+<li>Not Owned：沒有</li>
+<li>Owned：已擁有</li>
+<li>Ordered：已下單</li>
+<li>Proxied：代牌 </li>
+<li>Bororwed：借來的</li>
+</ul>
+<p>事後也可以用Sort來追蹤牌的購買狀態或者是否已經整理進Cube裡了。</p>
+</li>
+<li><p><strong>tag</strong>：一開始容易忽略但意外強大的功能，以下面一段文章來介紹。</p>
+</li>
+</ol>
+<hr>
+<h4 id="List-Modify-Tag"><a href="#List-Modify-Tag" class="headerlink" title="List - Modify - Tag"></a>List - Modify - Tag</h4><p>設計者可以在這邊打上自訂的tag，tag是很強力的工具，設計者可以用tag去描述牌的特性，之後透過tag，設計者可以將Cube的組成與分布看得更加清楚。要寫上什麼tag並沒有強制的規定，端看Cube設計而定，要寫得多準確也沒有硬性的規定，只要方便你能夠tag你感興趣的特性即可。</p>
+<p>舉個例子</p>
+<p>常見的 <a class="tooltip" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/afc/86/merfolk-looter">掠奪人魚<span><img class="mtgcard" lazyload src="/images/loading.svg" data-src="https://cards.scryfall.io/large/front/6/d/6d740928-bf61-4420-a403-63097538b97d.jpg?1631586315"></span></a> ，可以怎麼標記tag呢？</p>
+<ul>
+<li>如果你有人魚主題，也可以加上”merfolk”</li>
+<li>如果你的抽二主題在乎抽牌，可以加上”draw”</li>
+<li>如果你有瘋魔主題所以要棄牌，可以加上”discrd”</li>
+<li>如果你覺得這樣子兩個tag很麻煩，也可以加上”loot”就好</li>
+</ul>
+<blockquote>
+<p>“對於還是不知道該怎麼做的人，有沒有可以抄tag的地方？”</p>
+</blockquote>
+<p>答案是有的，還記得之前提及的Scryfall嗎？<br>Scryfall提供一個由社群支持的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://tagger.scryfall.com/">Scryfall Tagger</a>站，用來標記每張牌的特性。</p>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://tagger.scryfall.com/card/afc/86">掠奪人魚的tagger</a></p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/OYl68c0.png" alt="image"></p>
+<p>tagger會列出掠奪人魚的特性，掠奪人魚在tagger上特性直接被標成loot了，在特性的旁邊也可以看到有類似功能的牌，有些是相似的牌，有些則是上位牌。<br>找牌沒有想法的時候來看看tagger，有時也會有不同的收穫。</p>
+<blockquote>
+<p>此外tagger也有針對美術風格做標記，推薦給喜歡某些美術的玩家 例如 <a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://tagger.scryfall.com/tags/artwork/zettai-ryoiki">絕對領域</a></p>
+</blockquote>
+<hr>
+<h4 id="Sort-排序"><a href="#Sort-排序" class="headerlink" title="Sort 排序"></a>Sort 排序</h4><p>排序功能，CubeCobra可以使用四種卡的特性來排序，你可以按照自己感興趣的方式來排序，以下介紹幾種常用的。</p>
+<p><strong>Color &#x2F; Color Category</strong><br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/VEtkdRA.png" alt="image"><br>這是預設的分類，多色那邊也會按公會色來分組，之後再用Mana分小群，群內則用字母順序來排序。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/YXaTfm1.png" alt="image"></p>
+<p>這是我用來整理Cube的時候用的，在最後要出試玩Cube版本的時候，要把Cobra上面的卡表轉換成紙本的Cube，這時我會把紙牌按顏色分開，之後再用Mana數量來排序，再來跟Cobra上面的List對照，不要讓少牌或者放錯牌打擾你美好的測試時光。</p>
+<img class="mtgcard w-full" lazyload src="/images/loading.svg" data-src="https://cards.scryfall.io/large/front/c/0/c0b18b09-b1ff-479d-bd1c-cb8620a34fe4.jpg?1562933704">
+<img class="mtgcard w-full" lazyload src="/images/loading.svg" data-src="https://cards.scryfall.io/large/front/0/e/0e4f3eff-ac99-41e2-9003-9630cdb3ae23.jpg?1562898282">
+<blockquote>
+<p>兩張長那麼像是要怎麼不搞錯！！<br>延伸閱讀：<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://articles.starcitygames.com/articles/scg-daily-time-spiral-through-the-lens-of-its-forebears-5/">Kai Budde 搞錯morph的牌，最後在PT輸掉的軼事</a></p>
+</blockquote>
+<p><strong>Color &#x2F; Tag</strong><br>如果之前有準備好tag的話，在這邊就可以收到tag帶來的設計助益，如第一篇文提及的：「如果在Cube中找不到你的雙色主題，那他就不是你的主題」。用tag可以去檢查主題在顏色裡的分布，確認主題真的有被支持，後面還會介紹更好的工具來分析tag。</p>
+<p><strong>Color &#x2F; ELO</strong><br>這個可以觀察各色的<a href="###ELO">ELO</a>分布，ELO是前人測試完留下的分數，雖然在不同的環境下牌會有不同的能力，但是有個基礎參考總是比較方便，期待會有一天在看到一張低ELO牌的時候我們會有信心說：</p>
+<blockquote>
+<p>「This card is fine, learn to play」</p>
+</blockquote>
+<p><strong>Color &#x2F; Power</strong><br>用來評估環境的速度。端看你喜歡小兵互打然後漸漸變化的戰局，還是風雲驟變一下子大軍壓境帶來壓力的玩法。</p>
+<p><strong>Color &#x2F; Toughness</strong><br>可以用來評估移除牌的作用，如果整個Cube生物防禦都只有1&#x2F;2的話，那麼 <a class="tooltip" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/mkm/144/shock">Shock<span><img class="mtgcard" lazyload src="/images/loading.svg" data-src="https://cards.scryfall.io/large/front/2/9/298747bb-eb40-4b58-bb22-4ac2bc1d795c.jpg?1706241920"></span></a> 跟 <a class="tooltip" target="_blank" rel="external nofollow noopener noreferrer" href="https://scryfall.com/card/dsk/110/murder">Murder<span><img class="mtgcard" lazyload src="/images/loading.svg" data-src="https://cards.scryfall.io/large/front/2/c/2c249609-9cf7-46f1-b94c-9329add966bb.jpg?1726286259"></span></a> 其實是等價的，在設計移除的時候不妨考慮一下這點來思考移除的射程。</p>
+<hr>
+<h3 id="ELO"><a href="#ELO" class="headerlink" title="ELO"></a>ELO</h3><p>ELO是用來做排名的一種數學系統，在Cobra用來指稱輪抽當中單卡的強度，如果你對Cobra怎麼處理ELO有興趣可以參考下面文章。</p>
+<p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cubecobra.com/content/article/6008b17565264010480a4a84">DraftBot 與 ELO</a></p>
+<p>ELO可以透過玩家的pick順序輸出參考分數，但這只有在比較的二張卡在同一個輪抽池子裡面才有參考價值；例如新系列的牌推出時，被放進Cube並且輪抽測試的機會比舊牌要少很多，所以ELO分數也相較沒有說服力。</p>
+<p>知道Cobra的ELO限制之後，如果想知道在系列中的單卡強度該怎麼辦呢？可以參考<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.17lands.com/card_data">17lands</a>。<br>17lands是一個讓玩家把輪抽和對戰紀錄作成資料再分析並且視覺化的網站，可以從這裡找到各系列單卡在該系列的表現。</p>
+<hr>
+<h4 id="Filter-篩選器"><a href="#Filter-篩選器" class="headerlink" title="Filter 篩選器"></a>Filter 篩選器</h4><p>可以讓你過濾List內牌的功能，語法可以參照<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cubecobra.com/filters">這裡</a><br>自從發現這個可以利用filter來打tag之後，深深覺得Cobra實在太強大了。<br>例如我想要關注我的Cube裡面的delirium牌夠不夠，我可以在filter輸入以下指令來找</p>
+<blockquote>
+<p>o:delirium(找出牌中的文字框有delirium的牌)</p>
+</blockquote>
+<p>前面提到的Cobra修改牌張資訊除了點單卡還可以點上面的Label，以上圖的Green為例，我想要把這些生物都打上delirium的tag的話，先下完指令。</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/x26FGVh.png" alt="image"></p>
+<p>再點開Label，也就是圖中的Creature</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/SpsyAR7.png" alt="image"></p>
+<p>在tag處輸入delirium後再按Apply to all就能對這些牌打上delirium tag了</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/XVesRRK.png" alt="image"></p>
+<p>之後就可以用delirium tag來搜尋牌了！<br><img lazyload src="/images/loading.svg" data-src="https://i.meee.com.tw/flrBHoN.png" alt="image"></p>
+<blockquote>
+<p>用tag而不用o來找的原因是：當你有複合類別咒語的時候，你可以把它當成一種可以支持delirium的牌並且打上tag，但是o:做不到這件事情。</p>
+</blockquote>
+<hr>
+<p>打完各色主題的tag後，接著可以檢查tag的漏網之魚。filter一樣可以提供查詢的方法。</p>
+<blockquote>
+<p>tags&#x3D;0 (找出牌的tag數量為零者，即為沒有tag的)</p>
+</blockquote>
+<p>這樣子就不會漏了，這時候也可以留意如果主題都filter過一輪也打過tag了，這時候還沒有tag的牌就值得注意了，這些牌可能和你的主題不相關，可以考慮把這些牌給換掉。</p>
+<img class="mtgcard w-full" lazyload src="/images/loading.svg" data-src="https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736">
+
+<blockquote>
+<p>當然這也是一個找灰棕熊的快捷方法，愛熊幫的學起來！！</p>
+</blockquote>
+<p>此外有一個類似項目也可檢查：</p>
+<blockquote>
+<p>tags&#x3D;1 (找出牌的tag數量為1者)</p>
+</blockquote>
+<p>在打完tag後，tags&#x3D;1的牌可能也是值得留意一下的，這些牌可能只支持單個主題，變成某個主題的專武，這通常發生在某主題太弱，所以加單卡來增強。但是專武一多就沒有搶pick的樂趣了，這在設計上會讓輪抽體驗變差。</p>
+<p>Filter讓設計者修飾與確認Cube的小細節更加方便。</p>
+<hr>
+<h3 id="History-歷史"><a href="#History-歷史" class="headerlink" title="History 歷史"></a>History 歷史</h3><p>Cube的修改歷史，Cobra這裡不能像版本控管一樣回到舊版或作diff（比對） &#x2F; branch（分支）實在非常可惜。期望可以在修改過程中定版、或者分支合併之類的功能。</p>
+<blockquote>
+<p>以上是軟體工程師的murmur，但其實Cobra的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/dekkerglen">站長</a>本身也是AWS的工程師啊啊啊啊！！！</p>
+</blockquote>
+<hr>
+<h3 id="Playtest-測試"><a href="#Playtest-測試" class="headerlink" title="Playtest 測試"></a>Playtest 測試</h3><p>測試Cube的地方，有提供和AI抽，或者和玩家抽的功能，抽的過程會回饋到ELO系統去，設計者可以自己抽一下看看各個主題組起來會長成什麼樣子。要和朋友線上測試的話，目前也有支援<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://draftmancer.com/">DraftMancer</a>。</p>
+<hr>
+<h3 id="Analysis-分析"><a href="#Analysis-分析" class="headerlink" title="Analysis 分析"></a>Analysis 分析</h3><p>Cobra最強大的地方，提供圖表和表格的分析，讓你從統計數據上更加理解你的Cube。</p>
+<p>先說對支持主題最重要的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://magic.wizards.com/en/news/making-magic/few-more-words-rd-2016-11-07">asfan</a>，在Maro的文章有提到asfan是設計Magic系列輪抽會檢查的指標。</p>
+<h4 id="Analysis-Asfan"><a href="#Analysis-Asfan" class="headerlink" title="Analysis - Asfan"></a>Analysis - Asfan</h4><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://magic.wizards.com/en/news/making-magic/few-more-words-rd-2016-11-07">asfan</a>是一包中會開到幾張XX的期望值，這裡預設是一包15張，例如每包都有一張非基本地的話，非基本地的asfan就是1，在這裡可以看tag的asfan，這也是一個主題是否真的在你的Cube裡的重要指標。<br>如果主題有delirium，就要在asfan上看的到足夠的delirium tag。<br>asfan的值沒有標準答案，以一個10個主題的Cube，用一包15張卡來計算的話，每個主題約有 15 &#x2F; 10 &#x3D; 1.5的期望值，可以用這個作基準來調整。</p>
+<h4 id="Analysis-Token"><a href="#Analysis-Token" class="headerlink" title="Analysis - Token"></a>Analysis - Token</h4><p>貼心功能，可以列出你Cube裡面所需要的token、和產出token的牌名。</p>
+<h4 id="Analysis-Recommender-建議器"><a href="#Analysis-Recommender-建議器" class="headerlink" title="Analysis - Recommender 建議器"></a>Analysis - Recommender 建議器</h4><p>強大功能，對於背後秘辛可以參考作者的訪談<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.youtube.com/watch?v=46-dy991j9k">Better Design with Cube Cobra</a>，簡單說就是Cobra會用AI來找出你Cube的核心，並且依照核心找出適合你的牌，所以在你少牌或想換牌的時候，你可以來Recommender找找，很有可能就是你要的牌。</p>
+<p>在核心牌的排序當中，越後面的牌可能就是越不適合你的牌，在Cut牌的時候也可以考慮這些牌，</p>
+<p><strong>但是AI並不能完全掌握Magic，所以你有把握的話也可以不理這個Recommender。</strong></p>
+<hr>
+<h3 id="CubeCora-功能介紹-Content"><a href="#CubeCora-功能介紹-Content" class="headerlink" title="CubeCora 功能介紹 Content"></a>CubeCora 功能介紹 Content</h3><p>Cobra還有社群的功能，可以在這裡挖到不少寶。<br>Browse &#x2F; Article &#x2F; Podcast &#x2F; Video</p>
+<h3 id="CubeCora-功能介紹-Cube搜尋"><a href="#CubeCora-功能介紹-Cube搜尋" class="headerlink" title="CubeCora 功能介紹 - Cube搜尋"></a>CubeCora 功能介紹 - Cube搜尋</h3><p>搜尋功能不是很直觀，請使用 Lucky Paper的<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://luckypaper.co/resources/cube-map/">Cube MAP</a>。</p>
+<p>Lucky Paper是Cube Cobra的索引站，這裡提供用模糊比對的方式來尋找Cube。<br>在Cube Map中，每一個點都是一個Cube，點和點的距離越近表示越相似，在Map上的絕對位置沒什麼意義，所以當你的Cube被索引在上面的時候你也可以看看你的鄰居長什麼樣子，用Map來看大家的Cube是怎麼分布是件很有趣的事情。</p>
+<p><strong>注意</strong>：這個索引幾個月才會更新一次，所以看不到你的Cube表示你的Cube還太<del>嫩</del>年輕。</p>
+<p>喜歡分析資料的同學我把<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://data.luckypaper.co/cube-map/2024-12-30/cube-map.csv">raw data</a>放這裡你可以自己玩，注意索引日期會變，可以自己換URL內的日期。<br>我會看一些follower高的Cube作參考，也會找一些相似自己牌庫大小的Cube看人家怎麼設計。</p>
+<h3 id="CubeCora-功能介紹-Cards"><a href="#CubeCora-功能介紹-Cards" class="headerlink" title="CubeCora 功能介紹 Cards"></a>CubeCora 功能介紹 Cards</h3><p>不太常用的區塊。</p>
+<h4 id="Search-Syntax／Search-Cards-介紹"><a href="#Search-Syntax／Search-Cards-介紹" class="headerlink" title="Search Syntax／Search Cards 介紹"></a>Search Syntax／Search Cards 介紹</h4><p><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cubecobra.com/filters">Cobra 搜尋語法</a></p>
+<p>Cobra搜尋做的沒有Scryfall那麼來的方便，Cobra只有提供兩種特別資料</p>
+<ol>
+<li><strong>ELO</strong>：舉例<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://cubecobra.com/tool/card/eb6d8d1c-8d23-4273-9c9b-f3b71eb0e105">漂念精</a>的ELO約是1390，是優於常人的強度；ELO 1200是平均的卡，1300是優秀，1600非常強力了。</li>
+<li><strong>單卡與其他牌的關係</strong>：頁面下面會有三列大數據的分析資料，可以作為選牌參考，分別是<ul>
+<li>Often Drafted With：常常會和什麼一起抽</li>
+<li>Often Cubed With：常常和什麼一起放進Cube</li>
+<li>Synergistic Cards：機制上和什麼牌可以協同</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="Top-Cards"><a href="#Top-Cards" class="headerlink" title="Top Cards"></a>Top Cards</h3><p>牌張使用的統計，看看就好。</p>
+<hr>
+<h3 id="Package-套件"><a href="#Package-套件" class="headerlink" title="Package 套件"></a>Package 套件</h3><p>可以將<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://mtg.fandom.com/wiki/Cycle">循環卡</a>加入套件，點擊一下就能將整個套件添加到Cube中。例如，我可以將神器地製作成一個套件，然後在這裡點一下，就能一鍵加入Cube。</p>
+<p>期望的改善是能在系列中預先打包雙色主題，這樣在選擇雙色主題時，可以直接將相關牌納入，而不必手動複製貼上。此外，也可以參考 <strong>Jumpstart</strong> 的設計，將主題製作成 20 張的小包，玩家可以抓取兩個小包，組成一副 40 張的限制賽Deck。Cobra上已有玩家設計這樣的Cube，但目前套件功能尚未提供這類資源。</p>
+<p><del>另外，目前執行速度真的很慢，體驗不佳。</del></p>
+<h3 id="Overview-預覽"><a href="#Overview-預覽" class="headerlink" title="Overview 預覽"></a>Overview 預覽</h3><p>這裡是介紹你的Cube內容的地方，通常會放置主題的介紹、Combo或特殊規則，並且支援 <strong>Markdown</strong> 語法。許多有趣的Cube都會撰寫詳細的介紹，讓玩家能夠快速理解Cube的設計理念。</p>
+<p>預覽就像Cube的手冊頁面，一份清楚的文件可以大幅減少新手理解的時間，加快理解Cube的速度，提升遊戲體驗。</p>
+<h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h2><p>二十一世紀的Cube設計者在工具輔助下，能更快將構想實現，使Cube的構築與修改變得更為高效，並能清楚掌握設計上的盲點，做到「見樹又見林」。透過 <strong>Cobra</strong>，設計者能滿足大部分的設計需求，而 AI 演算法則提供更輕鬆的方式來探索 <strong>Magic</strong> 的龐大牌池。</p>
+<p>相信在閱讀本文後，你也會認同 <strong>Cobra</strong> 是Cube設計的最佳工具，能幫助你更迅速地穿梭於Cube這座巨大神秘島嶼。</p>
+<p>下篇我們將探討各種輪抽方式，再會！</p>
+
+    <style>.tooltip span{display:none;color:#000}.mtgcard{max-width:300px!important}.tooltip span img{float:left;margin:0}.tooltip:hover span{display:block;position:absolute;top:0;left:0;z-index:1000;margin-top:12px;margin-left:32px;overflow:hidden;padding:8px}.tooltip{text-decoration:none;position:relative;display:inline;opacity:1;z-index:unset}</style>
+  <style>.mtable{padding:16px 16px 32px 16px;border:1px solid #000;box-shadow:7px 5px 5px rgba(0,0,0,.2);min-width:240px;background:unset}.crow{display:flex;width:100%;align-items:baseline}.ccount{width:2em;min-width:1rem}.cname{width:100%;min-width:160px}.ccost{width:5em;min-width:3rem}.tooltip span{display:none;color:#000}.mtgcard{max-width:300px!important}.tooltip span img{float:left;margin:0}.tooltip:hover span{display:block;position:absolute;top:0;left:0;z-index:1000;margin-top:12px;margin-left:32px;overflow:hidden;padding:8px}@media (min-width:900px){.mtable{display:flex;max-width:900px}.mblock{margin-right:30px}.mdeck,.msideboard{width:50%}}.tooltip{text-decoration:none;position:relative;display:inline;opacity:1;z-index:unset}</style>
+		</div>
+
+		
+			
+			
+			
+			
+			<div class="article-footer flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+				<div class="info flex flex-col justify-between">
+					
+						
+
+						
+							<div class="author-container">
+								<div class="item">
+									<div class="avatar-column">
+										<a href="/tags/dalance/" class="author flex items-center name text-default-text-color text-lg font-semibold flex">
+											<div class="avatar flex-shrink-0p-[1px]">
+												<img src="/images/dalance-avatar.jpeg">
+											</div>
+										</a>
+									</div>
+									<div class="author-intro items-center">
+										<div class="author-name">
+											<a href="/tags/dalance/" class="text-default-text-color font-semibold p-10px">
+												大蘭斯
+											</a>
+										</div>
+										
+										<div>
+											
+												<div class="page-template-content markdown-body">
+													遊戲游牧民玩家，喜歡遊走在各種遊戲並且樂在其中，走了一圈發現最愛還是MTG跟李察·加菲，平時玩Arena的輪抽、標準與先驅。看到Cube之後決定在這裡待一會兒，看看會燃燒出什麼樣的火花。
+												</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						
+					
+				</div>
+			</div>
+		
+
+		
+		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+			<div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> Cube設計 - Cube Cobra介紹</li>
+        <li><strong>Author:</strong> 大蘭斯</li>
+        <li><strong>Created at
+                :</strong> 2025-04-08 21:30:00</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2025-08-12 13:56:37
+            </li>
+        
+        <li>
+            <strong>Link:</strong> https://guildmagesforum.tw/Introduction-of-Cube-Cobra/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+
+            
+                This work is licensed under <a class="license" target="_blank" rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a>.
+            
+        </li>
+    </ul>
+</div>
+
+		</div>
+		
+
+		
+  <div class="recommended-article px-2 sm:px-6 md:px-8">
+   <div class="recommended-desktop">
+    <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>或許你會喜歡</span>
+    </div>
+    <div class="recommended-article-group"><a class="recommended-article-item" href="/What-is-Cube/" title="什麼是CUBE - 你的第一個Cube" rel="bookmark">
+  <img src="https://cards.scryfall.io/art_crop/front/3/d/3d946df5-f206-4241-bb55-97db67dc793c.jpg" alt="什麼是CUBE - 你的第一個Cube" class="!max-w-none">
+  <span class="title">什麼是CUBE - 你的第一個Cube</span>
+</a><a class="recommended-article-item" href="/OTJ-OTP/" title="光雷驛鏢客（OTJ）限制賽介紹 — 號外新聞（OTP）" rel="bookmark">
+  <img src="https://i.postimg.cc/QNzc61f7/image.png" alt="光雷驛鏢客（OTJ）限制賽介紹 — 號外新聞（OTP）" class="!max-w-none">
+  <span class="title">光雷驛鏢客（OTJ）限制賽介紹 — 號外新聞（OTP）</span>
+</a><a class="recommended-article-item" href="/How-to-Get-Advance-in-Limited-Draft/" title="關於新手如何在限制賽中進步 — 輪抽賽篇" rel="bookmark">
+  <img src="https://i.imgur.com/SlBNO1P.jpeg" alt="關於新手如何在限制賽中進步 — 輪抽賽篇" class="!max-w-none">
+  <span class="title">關於新手如何在限制賽中進步 — 輪抽賽篇</span>
+</a><a class="recommended-article-item" href="/Modern-Mono-Blue-Merfolk/" title="讓對手康不了的閃現套牌：純藍人魚" rel="bookmark">
+  <img src="https://i.imgur.com/qL4J3xX.jpg" alt="讓對手康不了的閃現套牌：純藍人魚" class="!max-w-none">
+  <span class="title">讓對手康不了的閃現套牌：純藍人魚</span>
+</a><a class="recommended-article-item" href="/Modern-Esper-Murktide-w-Echo/" title="艾斯波龍侯 — 亙古回聲再臨" rel="bookmark">
+  <img src="https://i.meee.com.tw/tarl2xT.png" alt="艾斯波龍侯 — 亙古回聲再臨" class="!max-w-none">
+  <span class="title">艾斯波龍侯 — 亙古回聲再臨</span>
+</a><a class="recommended-article-item" href="/Standard-Domain-ft-Progenitus/" title="標準 Domain Ramp Feat. 祖神獸" rel="bookmark">
+  <img src="https://i.meee.com.tw/rdBnyEE.png" alt="標準 Domain Ramp Feat. 祖神獸" class="!max-w-none">
+  <span class="title">標準 Domain Ramp Feat. 祖神獸</span>
+</a></div>
+   </div>
+   <div class="recommended-mobile">
+   <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>或許你會喜歡</span>
+   </div>
+   <div class="recommended-article-group"><a class="recommended-article-item" href="/What-is-Cube/" title="什麼是CUBE - 你的第一個Cube" rel="bookmark">
+  <img src="https://cards.scryfall.io/art_crop/front/3/d/3d946df5-f206-4241-bb55-97db67dc793c.jpg" alt="什麼是CUBE - 你的第一個Cube" class="!max-w-none">
+  <span class="title">什麼是CUBE - 你的第一個Cube</span>
+</a><a class="recommended-article-item" href="/OTJ-OTP/" title="光雷驛鏢客（OTJ）限制賽介紹 — 號外新聞（OTP）" rel="bookmark">
+  <img src="https://i.postimg.cc/QNzc61f7/image.png" alt="光雷驛鏢客（OTJ）限制賽介紹 — 號外新聞（OTP）" class="!max-w-none">
+  <span class="title">光雷驛鏢客（OTJ）限制賽介紹 — 號外新聞（OTP）</span>
+</a><a class="recommended-article-item" href="/How-to-Get-Advance-in-Limited-Draft/" title="關於新手如何在限制賽中進步 — 輪抽賽篇" rel="bookmark">
+  <img src="https://i.imgur.com/SlBNO1P.jpeg" alt="關於新手如何在限制賽中進步 — 輪抽賽篇" class="!max-w-none">
+  <span class="title">關於新手如何在限制賽中進步 — 輪抽賽篇</span>
+</a><a class="recommended-article-item" href="/Modern-Mono-Blue-Merfolk/" title="讓對手康不了的閃現套牌：純藍人魚" rel="bookmark">
+  <img src="https://i.imgur.com/qL4J3xX.jpg" alt="讓對手康不了的閃現套牌：純藍人魚" class="!max-w-none">
+  <span class="title">讓對手康不了的閃現套牌：純藍人魚</span>
+</a></div>
+   </div>
+  </div>
+
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="prev" rel="prev" href="/MIT-8-Review/">
+					<span class="left arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-left"></i>
+					</span>
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">哩哩扣扣的賽前準備和MIT#8隨想</span>
+						<span class="post-nav-item">Prev posts</span>
+					</span>
+				</a>
+			</div>
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/Interview-Kuo-Tzu-Ching/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">臺灣玩家專訪－郭子敬</span>
+						<span class="post-nav-item">Next posts</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+
+
+		
+		<div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+			<div class="comments-container mt-10 w-full">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        Comments
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>import{init}from"/js/libs/waline.mjs";function loadWaline(){init({el:"#waline",serverURL:"https://mtg-blog-comment.vercel.app/",lang:"zh-TW",dark:'body[class~="dark-mode"]',reaction:!1,requiredMeta:["nick","mail"],emoji:[]})}"undefined"!=typeof swup?loadWaline():window.addEventListener("DOMContentLoaded",loadWaline)</script>
+
+
+
+        
+    
+</div>
+
+		</div>
+		
+	</div>
+
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">On this page</div>
+		<div class="page-title">Cube設計 - Cube Cobra介紹</div>
+		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#CubeCobra%E6%98%AF%E4%BB%80%E9%BA%BC"><span class="nav-number">1.</span> <span class="nav-text">CubeCobra是什麼</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%B7%A5%E5%85%B7%E7%9A%84%E5%8B%95%E6%A9%9F"><span class="nav-number">1.1.</span> <span class="nav-text">使用工具的動機</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A3%BD%E4%BD%9C%E7%AC%AC%E4%B8%80%E5%80%8BCube"><span class="nav-number">1.2.</span> <span class="nav-text">製作第一個Cube</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%B8%80%EF%BC%9A%E4%BB%A5%E4%B8%80%E5%80%8BFDN%E7%B3%BB%E5%88%97%E5%96%AE%E5%8D%A1Cube%EF%BC%88Foundation-Set-singletone-Cube%EF%BC%89%E7%82%BA%E4%BE%8B"><span class="nav-number">1.2.1.</span> <span class="nav-text">方法一：以一個FDN系列單卡Cube（Foundation Set singletone Cube）為例</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%BA%8C%EF%BC%9A%E8%A4%87%E8%A3%BD%E5%88%A5%E4%BA%BA%E7%9A%84"><span class="nav-number">1.2.2.</span> <span class="nav-text">方法二：複製別人的</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#List-%E5%88%97%E8%A1%A8"><span class="nav-number">1.3.</span> <span class="nav-text">List 列表</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#List-Add-card-%E5%8A%A0%E7%89%8C"><span class="nav-number">1.3.1.</span> <span class="nav-text">List - Add card 加牌</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#List-Remove-%E7%A7%BB%E9%99%A4"><span class="nav-number">1.3.2.</span> <span class="nav-text">List - Remove 移除</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#List-ChangeList"><span class="nav-number">1.3.3.</span> <span class="nav-text">List ChangeList</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#List-Maybeboard-%E5%82%99%E7%89%8C"><span class="nav-number">1.3.4.</span> <span class="nav-text">List - Maybeboard 備牌</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#List-Modify-%E4%BF%AE%E6%94%B9"><span class="nav-number">1.3.5.</span> <span class="nav-text">List - Modify 修改</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#List-Modify-Tag"><span class="nav-number">1.3.6.</span> <span class="nav-text">List - Modify - Tag</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Sort-%E6%8E%92%E5%BA%8F"><span class="nav-number">1.3.7.</span> <span class="nav-text">Sort 排序</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ELO"><span class="nav-number">1.4.</span> <span class="nav-text">ELO</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Filter-%E7%AF%A9%E9%81%B8%E5%99%A8"><span class="nav-number">1.4.1.</span> <span class="nav-text">Filter 篩選器</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#History-%E6%AD%B7%E5%8F%B2"><span class="nav-number">1.5.</span> <span class="nav-text">History 歷史</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Playtest-%E6%B8%AC%E8%A9%A6"><span class="nav-number">1.6.</span> <span class="nav-text">Playtest 測試</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Analysis-%E5%88%86%E6%9E%90"><span class="nav-number">1.7.</span> <span class="nav-text">Analysis 分析</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Analysis-Asfan"><span class="nav-number">1.7.1.</span> <span class="nav-text">Analysis - Asfan</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Analysis-Token"><span class="nav-number">1.7.2.</span> <span class="nav-text">Analysis - Token</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Analysis-Recommender-%E5%BB%BA%E8%AD%B0%E5%99%A8"><span class="nav-number">1.7.3.</span> <span class="nav-text">Analysis - Recommender 建議器</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CubeCora-%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%B4%B9-Content"><span class="nav-number">1.8.</span> <span class="nav-text">CubeCora 功能介紹 Content</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CubeCora-%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%B4%B9-Cube%E6%90%9C%E5%B0%8B"><span class="nav-number">1.9.</span> <span class="nav-text">CubeCora 功能介紹 - Cube搜尋</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CubeCora-%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%B4%B9-Cards"><span class="nav-number">1.10.</span> <span class="nav-text">CubeCora 功能介紹 Cards</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Search-Syntax%EF%BC%8FSearch-Cards-%E4%BB%8B%E7%B4%B9"><span class="nav-number">1.10.1.</span> <span class="nav-text">Search Syntax／Search Cards 介紹</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Top-Cards"><span class="nav-number">1.11.</span> <span class="nav-text">Top Cards</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Package-%E5%A5%97%E4%BB%B6"><span class="nav-number">1.12.</span> <span class="nav-text">Package 套件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Overview-%E9%A0%90%E8%A6%BD"><span class="nav-number">1.13.</span> <span class="nav-text">Overview 預覽</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B5%90%E8%AA%9E"><span class="nav-number">2.</span> <span class="nav-text">結語</span></a></li></ol>
+
+	</div>
+</div>
+	</div>
+	
+</div>
+
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+            <div class="customize-info my-1">Guildmages' Forum 魔風集會所的部分內容是威世智 (Wizards of the Coast) 同好內容政策允許的非官方同好內容。 <br> 本網站所提供之魔法風雲會 (Magic the Gathering, MTG) 文字和圖形資訊，包括卡片圖像、魔法力符號和部分卡片資訊的中文翻譯，版權均為孩之寶集團的子公司威世智所有。 <br> Guildmages' Forum 魔風集會所並不由威世智製作、背書、支持，亦不隸屬於該公司。 <br> 上述聲明以外的所有內容均屬於 2023 © Guildmages' Forum 魔風集會所以及其協力創作者們。</div>
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2023</span>
+              -
+            
+            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration:0.5s;color:#f54545"></i>&nbsp;&nbsp;<a href="/">Guildmages&#39; Forum Staff</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        275 posts in total
+                    </span>
+                    
+                        <span>
+                            1097.4k words in total
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://events.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">VISITOR COUNT</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">TOTAL PAGE VIEWS</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">POWERED BY <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewbox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io" rel="external nofollow noopener noreferrer">Hexo</a></span>
+            <span class="text-sm lg:block">THEME&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine" rel="external nofollow noopener noreferrer">Redefine v2.8.2</a></span>
+        </div>
+        
+        
+            <div>
+                Blog up for <span class="odometer" id="runtime_days"></span> days <span class="odometer" id="runtime_hours"></span> hrs <span class="odometer" id="runtime_minutes"></span> Min <span class="odometer" id="runtime_seconds"></span> Sec
+            </div>
+        
+        
+            <script data-swup-reload-script>try{function odometer_init(){document.querySelectorAll(".odometer").forEach(e=>{new Odometer({el:e,format:"( ddd).dd",duration:200})})}odometer_init()}catch(e){}</script>
+        
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
+
+		
+		
+		<li class="go-comment">
+			<i class="fa-regular fa-comments"></i>
+		</li>
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		
+		
+		<li class="right-bottom-tools rss flex justify-center items-center">
+			<a class="flex justify-center items-center" href="/atom.xml" target="_blank">
+				<i class="fa-regular fa-rss"></i>
+			</a>
+		</li>
+		
+
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="arrow-up fas fa-arrow-up"></i>
+			<span class="percent"></span>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container">
+	<img src>
+</div>
+
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Search..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+</main>
+
+
+
+<script src="/js/build/libs/Swup.min.js"></script>
+
+<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>const swup=new Swup({plugins:[new SwupScriptsPlugin({optin:!0}),new SwupProgressPlugin,new SwupScrollPlugin({offset:80}),new SwupSlideTheme({mainElement:".main-content-body"}),new SwupPreloadPlugin],containers:["#swup"]})</script>
+
+
+
+
+	
+<script src="/js/build/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/build/utils.js" type="module"></script>
+
+<script src="/js/build/main.js" type="module"></script>
+
+<script src="/js/build/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/build/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/build/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/build/layouts/categoryList.js" type="module"></script>
+
+
+
+    
+<script src="/js/build/tools/localSearch.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/runtime.js"></script>
+
+    
+<script src="/js/build/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/build/libs/Typed.min.js"></script>
+
+  
+<script src="/js/build/plugins/typed.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+    
+<script src="/js/build/tools/tocToggle.js" type="module" data-swup-reload-script></script>
+
+<script src="/js/build/layouts/toc.js" type="module" data-swup-reload-script></script>
+
+<script src="/js/build/plugins/tabs.js" type="module" data-swup-reload-script></script>
+
+
+
+
+<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script></script>
+
+
+<script src="/js/build/layouts/essays.js" type="module" data-swup-reload-script></script>
+
+
+
+    
+<script src="/js/build/libs/pangu.min.js"></script>
+
+<script src="/js/build/plugins/pangu.js"></script>
+
+
+
+
+	
+</body>
+
+</html>

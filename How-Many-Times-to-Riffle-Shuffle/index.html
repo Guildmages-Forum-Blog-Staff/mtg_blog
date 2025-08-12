@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="MTG 中文網站, Guildmages Forum, mtg blog, mtg decktech, mtg 近代, mtg 先驅, mtg, mtg pioneer, mtg modern, 魔風集會所">
+    
+    <meta name="author" content="Guildmages&#39; Forum Staff">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    
+    
+    <link rel="canonical" href="https://guildmagesforum.tw/how-many-times-to-riffle-shuffle/">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+    
+        
+        <meta name="description" content="Guildmages’ Forum 魔風集會所是一個繁體中文的部落格，致力於推廣魔法風雲會競技型賽制。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="洗牌次數與隨機性的探索：魔法風雲會玩家該洗幾次牌才夠亂？">
+<meta property="og:url" content="https://guildmagesforum.tw/How-Many-Times-to-Riffle-Shuffle/index.html">
+<meta property="og:site_name" content="Guildmages&#39; Forum 魔風集會所">
+<meta property="og:description" content="Guildmages’ Forum 魔風集會所是一個繁體中文的部落格，致力於推廣魔法風雲會競技型賽制。">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://guildmagesforum.tw/images/logo.webp">
+<meta property="article:published_time" content="2025-02-10T04:04:55.000Z">
+<meta property="article:modified_time" content="2025-08-12T05:56:37.174Z">
+<meta property="article:author" content="在魔風迷路的資料科學家">
+<meta property="article:tag" content="mm">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://guildmagesforum.tw/images/logo.webp">
+    
+    
+        
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-JFWD3SG42T"></script>
+        <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-JFWD3SG42T")</script>
+    
+    
+    <link rel="icon" type="image/png" href="/images/logo.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.jpg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/logo.jpg">
+    
+    
+    <title>
+        
+            洗牌次數與隨機性的探索：魔法風雲會玩家該洗幾次牌才夠亂？ | Guildmages&#39; Forum 魔風集會所
+        
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    
+    
+    
+    
+    
+    
+    
+        
+<script src="/js/build/libs/anime.min.js"></script>
+
+    
+
+    <script id="hexo-configurations">window.config={hostname:"guildmagesforum.tw",root:"/",language:"en",path:"search.xml"},window.theme={articles:{style:{font_size:"18px",line_height:1.5,image_border_radius:"14px",image_alignment:"center",image_caption:!1,link_icon:!1,delete_mask:!1,title_alignment:"left",headings_top_spacing:{h1:"3.2rem",h2:"2.4rem",h3:"1.9rem",h4:"1.6rem",h5:"1.4rem",h6:"1.3rem"}},word_count:{enable:!0,count:!0,min2read:!0},author_label:{enable:!1,auto:!1,list:[]},code_block:{copy:!0,style:"mac",highlight_theme:{light:"github",dark:"vs2015"},font:{enable:!1,family:null,url:null}},toc:{enable:!0,max_depth:6,number:!0,expand:!0,init_open:!0},copyright:{enable:!0,default:"cc_by_nc_sa"},lazyload:!0,pangu_js:!0,recommendation:{enable:!0,title:"或許你會喜歡",limit:6,mobile_limit:4,placeholder:"/images/wallhaven-wqery6-light.webp",skip_dirs:[]}},colors:{primary:"#A31F34",secondary:null,default_mode:"light"},global:{fonts:{chinese:{enable:!1,family:null,url:null},english:{enable:!1,family:null,url:null},title:{enable:!1,family:null,url:null}},content_max_width:"1000px",sidebar_width:"210px",hover:{shadow:!0,scale:!1},scroll_progress:{bar:!0,percentage:!0},website_counter:{url:"https://events.vercount.one/js",enable:!0,site_pv:!0,site_uv:!0,post_pv:!0},single_page:!0,preloader:{enable:!0,custom_message:null},open_graph:{enable:!0,image:"/images/logo.webp",description:null},google_analytics:{enable:!0,id:"G-JFWD3SG42T"}},home_banner:{enable:!0,style:"fixed",image:{light:"/images/wallhaven-wqery6-light.webp",dark:"/images/wallhaven-wqery6-dark.webp"},title:"Welcome to Guildmages' Forum!",subtitle:{text:["各路旅法師的集散地","讓玩家額外有個 +1/+1 指示物","釋放各路玩家的限制","盡情享受遊戲","不瘋魔不成活"],hitokoto:{enable:!1,show_author:!1,api:"https://v1.hitokoto.cn"},typing_speed:100,backing_speed:50,starting_delay:500,backing_delay:1500,loop:!0,smart_backspace:!0},text_color:{light:"#fff",dark:"#d1d1b6"},text_style:{title_size:"2.8rem",subtitle_size:"1.5rem",line_height:1.2},custom_font:{enable:!1,family:null,url:null},social_links:{enable:!1,style:"default",links:{github:null,instagram:null,zhihu:null,twitter:null,email:null},qrs:{weixin:null}}},plugins:{feed:{enable:!0},aplayer:{enable:!1,type:"fixed",audios:[{name:null,artist:null,url:null,cover:null,lrc:null}]},mermaid:{enable:!1,version:"11.4.1"}},version:"2.8.2",navbar:{auto_hide:!0,color:{left:"#f78736",right:"#367df7",transparency:35},width:{home:"1200px",pages:"1000px"},links:{Home:{path:"/",icon:"fa-regular fa-house"},Categories:{path:"/categories",icon:"fa-regular fa-folder"},"About Us":{path:"/about",icon:"fa-regular fa-user"},"Contact Us":{path:"/Contact-Us",icon:"fa-regular fa-mailbox-flag-up"},Links:{icon:"fa-regular fa-link",submenus:{"Guildmages' Forum 粉專":"https://www.facebook.com/guildmagesforumtw","台南猴王的耍猴日常":"https://www.facebook.com/TainanMonkeyKing","豬鼻子的mtg世界":"https://www.facebook.com/Pignosemtgworld","多明納里亞圖書館":"https://dominarialibrary.com","龍尊與荒野騎士的玄境之談":"https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807","塞克斯的MTG日誌":"http://76vezffd.blogspot.com/","約力昂大叔 Uncle Yorion":"https://www.facebook.com/profile.php?id=100068751771443","Kappa The Gathering":"https://www.facebook.com/profile.php?id=61558862427620","Mystic Zone":"http://mysticzonetw.blogspot.com/","Spark Double Podcast":"https://linktr.ee/sparkdouble","勇德大叔的日常":"https://www.facebook.com/UncleJund","鳥不喇基":"https://www.facebook.com/profile.php?id=100063848411689","魔法風雲會粉專":"https://www.facebook.com/MagicTheGathering.ct","下水道鱷魚":"https://facebook.com/profile.php?id=61567687550022","紅的喜氣":"https://www.facebook.com/profile.php?id=100083415367398","貓羽的文字日誌":"https://whitecat2.pixnet.net/blog","寬麵的遊戲頻道":"https://www.facebook.com/profile.php?id=100083345574225"}}},search:{enable:!0,preload:!0}},page_templates:{friends_column:2,tags_style:"blur"},home:{sidebar:{enable:!0,position:"left",first_item:"info",announcement:null,show_on_mobile:!0,links:{Categories:{path:"/categories",icon:"fa-regular fa-folder"},"About Us":{path:"/about",icon:"fa-regular fa-user"},"Contact Us":{path:"/Contact-Us",icon:"fa-regular fa-mailbox-flag-up"}}},article_date_format:"auto",excerpt_length:200,categories:{enable:!0,limit:3},tags:{enable:!0,limit:3}},footerStart:"2023/8/23 00:00:00"},window.lang_ago={second:"%s seconds ago",minute:"%s minutes ago",hour:"%s hours ago",day:"%s days ago",week:"%s weeks ago",month:"%s months ago",year:"%s years ago"},window.data={masonry:!1}</script>
+    
+    
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Guildmages' Forum 魔風集會所" type="application/atom+xml">
+</head>
+
+
+
+<body>
+	<div class="progress-bar-container">
+	
+	<span class="scroll-progress-bar"></span>
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	
+	
+	
+	
+</div>
+
+<style>:root{--preloader-background-color:#fff;--preloader-text-color:#000}@media (prefers-color-scheme:dark){:root{--preloader-background-color:#202124;--preloader-text-color:#fff}}@media (prefers-color-scheme:light){:root{--preloader-background-color:#fff;--preloader-text-color:#000}}@media (max-width:600px){.ml13{font-size:2.6rem!important}}.preloader{display:flex;flex-direction:column;gap:1rem;align-items:center;justify-content:center;position:fixed;padding:12px;top:0;right:0;bottom:0;left:0;width:100vw;height:100vh;background-color:var(--preloader-background-color);z-index:1100;transition:opacity .2s ease-in-out}.ml13{font-size:3.2rem;color:var(--preloader-text-color);letter-spacing:-1px;font-weight:500;font-family:Chillax-Variable,sans-serif;text-align:center}.ml13 .word{display:inline-flex;flex-wrap:wrap;white-space:nowrap}.ml13 .letter{display:inline-block;line-height:1em}</style>
+
+<div class="preloader">
+    <h2 class="ml13">
+        Guildmages&#39; Forum 魔風集會所
+    </h2>
+    <script>
+        var textWrapper = document.querySelector('.ml13');
+        // Split text into words
+        var words = textWrapper.textContent.trim().split(' ');
+        words = ['Guildmages\'', 'Forum', '魔風集會所']
+
+        // Clear the existing content
+        textWrapper.innerHTML = '';
+
+        // Wrap each word and its letters in spans
+        words.forEach(function(word) {
+            var wordSpan = document.createElement('span');
+            wordSpan.classList.add('word');
+            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
+            textWrapper.appendChild(wordSpan);
+            if ( word === "Forum" ) {
+                textWrapper.appendChild(document.createElement('br'));
+            }
+            else {
+                textWrapper.appendChild(document.createTextNode(' '));
+            }
+        });
+
+        var animation = anime.timeline({ loop: true })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [20, 0],
+                translateZ: 0,
+                opacity: [0, 1],
+                filter: ['blur(5px)', 'blur(0px)'],
+                easing: "easeOutExpo",
+                duration: 1200,
+                delay: (el, i) => 300 + 20 * i,
+            })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [0, -20],
+                opacity: [1, 0],
+                filter: ['blur(0px)', 'blur(5px)'],
+                easing: "easeInExpo",
+                duration: 1000,
+                delay: (el, i) => 15 * i,
+                complete: function() {
+                    hidePreloader();
+                }
+            }, '-=700');
+
+
+        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
+
+        // If the theme status is not found in local storage, check the preferred color scheme
+        if (themeStatus === undefined || themeStatus === null) {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                themeStatus = 'dark';
+            } else {
+                themeStatus = 'light';
+            }
+        }
+
+        // Now you can use the themeStatus variable in your code
+        if (themeStatus) {
+            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
+            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
+        } else {
+            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
+            document.documentElement.style.setProperty('--preloader-text-color', '#000');
+        }
+
+        window.addEventListener('load', function () {
+            setTimeout(hidePreloader, 5000); // Call hidePreloader after 5000 milliseconds if not already called by animation
+        });
+
+        function hidePreloader() {
+            var preloader = document.querySelector('.preloader');
+            preloader.style.opacity = '0';
+            setTimeout(function () {
+                preloader.style.display = 'none';
+            }, 200);
+        }
+    </script>
+</div>
+
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <style>.centered-text{text-align:center;margin:0;line-height:1.5}</style>
+    <div class="navbar-content transition-navbar">
+        <div class="left">
+            
+            <a class="logo-title centered-text" href="/">
+                
+                Guildmages&#39; Forum<br>
+                魔風集會所
+                
+            </a>
+        </div>
+
+        <div class="right">
+            
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/">
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    HOME
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/categories">
+                                    <i class="fa-regular fa-folder fa-fw"></i>
+                                    CATEGORIES
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/about">
+                                    <i class="fa-regular fa-user fa-fw"></i>
+                                    ABOUT US
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a href="/Contact-Us">
+                                    <i class="fa-regular fa-mailbox-flag-up fa-fw"></i>
+                                    CONTACT US
+                                    
+                                </a>
+
+                                
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                
+                                <a class="has-dropdown" href="#" onclick="&#34;return" false;&#34;>
+                                    <i class="fa-regular fa-link fa-fw"></i>
+                                    LINKS
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/guildmagesforumtw">
+                                                    GUILDMAGES&#39; FORUM 粉專
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/TainanMonkeyKing">
+                                                    台南猴王的耍猴日常
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/Pignosemtgworld">
+                                                    豬鼻子的MTG世界
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://dominarialibrary.com">
+                                                    多明納里亞圖書館
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807">
+                                                    龍尊與荒野騎士的玄境之談
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="http://76vezffd.blogspot.com/">
+                                                    塞克斯的MTG日誌
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100068751771443">
+                                                    約力昂大叔 UNCLE YORION
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=61558862427620">
+                                                    KAPPA THE GATHERING
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="http://mysticzonetw.blogspot.com/">
+                                                    MYSTIC ZONE
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://linktr.ee/sparkdouble">
+                                                    SPARK DOUBLE PODCAST
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/UncleJund">
+                                                    勇德大叔的日常
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100063848411689">
+                                                    鳥不喇基
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/MagicTheGathering.ct">
+                                                    魔法風雲會粉專
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://facebook.com/profile.php?id=61567687550022">
+                                                    下水道鱷魚
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083415367398">
+                                                    紅的喜氣
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://whitecat2.pixnet.net/blog">
+                                                    貓羽的文字日誌
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083345574225">
+                                                    寬麵的遊戲頻道
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/">
+                            <span>
+                                HOME
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/categories">
+                            <span>
+                                CATEGORIES
+                            </span>
+                            
+                                <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/about">
+                            <span>
+                                ABOUT US
+                            </span>
+                            
+                                <i class="fa-regular fa-user fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" href="/Contact-Us">
+                            <span>
+                                CONTACT US
+                            </span>
+                            
+                                <i class="fa-regular fa-mailbox-flag-up fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full" navbar-data-toggle="submenu-Links">
+                            <span>
+                                LINKS
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-Links">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/guildmagesforumtw">GUILDMAGES&#39; FORUM 粉專</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/TainanMonkeyKing">台南猴王的耍猴日常</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/Pignosemtgworld">豬鼻子的MTG世界</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://dominarialibrary.com">多明納里亞圖書館</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://podcasts.apple.com/tw/podcast/%E9%BE%8D%E5%B0%8A%E8%88%87%E8%8D%92%E9%87%8E%E9%A8%8E%E5%A3%AB%E7%9A%84%E7%8E%84%E5%A2%83%E4%B9%8B%E8%AB%87/id1680452807">龍尊與荒野騎士的玄境之談</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="http://76vezffd.blogspot.com/">塞克斯的MTG日誌</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100068751771443">約力昂大叔 UNCLE YORION</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=61558862427620">KAPPA THE GATHERING</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="http://mysticzonetw.blogspot.com/">MYSTIC ZONE</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://linktr.ee/sparkdouble">SPARK DOUBLE PODCAST</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/UncleJund">勇德大叔的日常</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100063848411689">鳥不喇基</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/MagicTheGathering.ct">魔法風雲會粉專</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://facebook.com/profile.php?id=61567687550022">下水道鱷魚</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083415367398">紅的喜氣</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://whitecat2.pixnet.net/blog">貓羽的文字日誌</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class="text-third-text-color text-xl" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.facebook.com/profile.php?id=100083345574225">寬麵的遊戲頻道</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    
+                    
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">38</div>
+        <div class="label text-third-text-color text-sm">Tags</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">30</div>
+        <div class="label text-third-text-color text-sm">Categories</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">275</div>
+        <div class="label text-third-text-color text-sm">Posts</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
+
+		<div class="article-title relative w-full">
+			
+			
+			
+			<img src="https://hackmd.io/_uploads/HJnVhMLFkx.jpg" alt="洗牌次數與隨機性的探索：魔法風雲會玩家該洗幾次牌才夠亂？" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75">
+			
+			<div class="w-full flex items-center absolute bottom-0 justify-start">
+				<h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color">洗牌次數與隨機性的探索：魔法風雲會玩家該洗幾次牌才夠亂？</h1>
+			</div>
+			
+		</div>
+
+		
+			
+			
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			
+				<a href="/tags/mm/" class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+					<img src="https://hackmd.io/_uploads/B1egMNKO1g.png">
+				</a>
+			
+			<div class="info flex flex-col justify-between">
+				
+					
+					<ul class="name text-default-text-color text-lg font-semibold flex">
+						
+							&nbsp;&nbsp;
+							<a href="/tags/mm/" class="author flex items-center">
+								在魔風迷路的資料科學家
+							</a>
+							
+						</ul>
+					
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2025-02-10 12:04:55</span>
+        <span class="mobile">2025-02-10 12:04:55</span>
+        <span class="hover-info">Created</span>
+    </span>
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/deep-dive/">Deep Dive</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-keyboard"></i>&nbsp;<span>2.5k Words</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>9 Mins</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<h2 id="1-前言：為什麼要研究「洗幾次才亂」？"><a href="#1-前言：為什麼要研究「洗幾次才亂」？" class="headerlink" title="1. 前言：為什麼要研究「洗幾次才亂」？"></a>1. 前言：為什麼要研究「洗幾次才亂」？</h2><p>在卡牌遊戲──不論是撲克牌或 <strong>魔法風雲會</strong> （Magic: The Gathering，以下簡稱 <strong>MTG</strong>）中，洗牌都是常見動作。然而，究竟要洗幾次才能確保「牌序混淆到近乎隨機」呢？而這對遊戲的平衡至關重要。 </p>
+<ul>
+<li><strong>撲克牌</strong>常見52張，一般研究發現洗到7~8次就相當隨機。 </li>
+<li><strong>MTG</strong>通常一套套牌有60張（不含 Sideboard）。在這種情況下，洗牌次數也可能需要稍做調整，以確保「初始手牌」、「抽牌順序」等都不會被任何可預測的規律影響。</li>
+</ul>
+<p>尤其對MTG玩家而言，不只在意單純的「公平」，還要避免因為洗牌不當而出現「地牌集中或缺乏」等極端情況（俗稱 <strong>卡地</strong> 或 <strong>爆地</strong>）。本篇文章將帶大家簡單了解：在60張MTG套牌的前提下，若要洗得足夠隨機，我們該怎麼考慮洗牌次數，並探討數學上怎麼衡量隨機性。</p>
+<h2 id="2-簡單結論與實務建議"><a href="#2-簡單結論與實務建議" class="headerlink" title="2. 簡單結論與實務建議"></a>2. 簡單結論與實務建議</h2><ul>
+<li><strong>給MTG玩家的建議</strong>：想避免起手不公平或魔法力地牌分布被猜到，建議 <strong>至少洗6次</strong>。如果洗法隨興，最好到 <strong>9次以上</strong> 更保險。</li>
+</ul>
+<h2 id="3-為什麼MTG玩家要在意洗牌隨機性？"><a href="#3-為什麼MTG玩家要在意洗牌隨機性？" class="headerlink" title="3. 為什麼MTG玩家要在意洗牌隨機性？"></a>3. 為什麼MTG玩家要在意洗牌隨機性？</h2><p>許多MTG玩家可能都曾想過：「我洗個三、五次就夠了吧？」；但當套牌架構講究曲線、魔法力配置，以及在比賽對局中的牌序不可預測時，就必須確保洗牌的<strong>真正隨機</strong>。這裡有幾個原因： </p>
+<ol>
+<li><strong>確保「起手7張」的公平</strong><br>不希望因為牌可能被「部分疊在一起」而造成某些關鍵卡過度集中。 </li>
+<li><strong>參考撲克牌文獻</strong><br>Bayer &amp; Diaconis（1992）在研究52張牌時提到「7次riffle shuffle」幾乎足夠。那MTG的60張牌，會不會是洗個7~9次就行了？</li>
+</ol>
+<p>洗牌若不夠隨機，就可能有心人去「記牌」、「操縱牌堆」；洗牌過多又浪費寶貴的比賽或休閒時間，於是「最佳洗牌次數」就是重要的研究議題。</p>
+<h2 id="4-背景理論：如何衡量「隨機性」？"><a href="#4-背景理論：如何衡量「隨機性」？" class="headerlink" title="4. 背景理論：如何衡量「隨機性」？"></a>4. 背景理論：如何衡量「隨機性」？</h2><p>判斷「是不是夠隨機」，得先有個量化指標。研究中常見兩種方式：</p>
+<ol>
+<li><strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://zh.wikipedia.org/zh-tw/%E5%85%A8%E5%8F%98%E5%B7%AE%E8%B7%9D%E7%A6%BB">變異距 （Variation Distance）</a></strong><br>令 Q(pi) 表示洗牌後每種牌序 pi 出現的機率，U(pi) 為「完全均勻」的理想機率（即 1 &#x2F; (n!)）。則定義：</li>
+</ol>
+<p><img lazyload src="/images/loading.svg" data-src="https://hackmd.io/_uploads/HkL_5N5vJg.png" alt="image"></p>
+<p>   其中 n &#x3D; 60 （對MTG而言），S_n 代表所有可能的排列 （共有 n! 種)。若此距離夠小，就可說「跟理想隨機幾乎一樣」。可惜變異距的數學難度比較高，撰寫程式很麻煩，因此可以用另外一個方式替代。</p>
+<ol start="2">
+<li><strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://zh.wikipedia.org/zh-tw/%E5%8D%A1%E6%96%B9%E6%A3%80%E9%AA%8C">卡方檢定 （Chi-square Test）</a></strong><br>透過模擬大量洗牌結果，與「完全隨機」分布比較，以卡方統計量：</li>
+</ol>
+<p><img lazyload src="/images/loading.svg" data-src="https://hackmd.io/_uploads/ByMK94cPyg.png" alt="image"></p>
+<p>   觀察是否接近理想分布。 f_i 是實驗中觀測落在第 i 類的次數， e_i 是理論期望次數。若 X^2 小於臨界值，表示洗完的牌序「夠隨機」。</p>
+<p>   本文核心聚焦在<font color="#FF0000">卡方檢定</font>的方式，方便我們以模擬的角度去找到洗牌次數的關鍵。</p>
+<h2 id="5-核心想法：洗牌次數-vs-隨機性"><a href="#5-核心想法：洗牌次數-vs-隨機性" class="headerlink" title="5. 核心想法：洗牌次數 vs. 隨機性"></a>5. 核心想法：洗牌次數 vs. 隨機性</h2><p>不論是52張、或60張，關鍵就在「<strong>洗幾次</strong>」才能接近理想分布。 </p>
+<ul>
+<li>洗1~2次：通常都會留下明顯的偏差，對手若敏銳就能抓到洗牌不澈底的蛛絲馬跡。 </li>
+<li>洗7~8次左右：對於52張牌的撲克牌，理論模型顯示幾乎足夠隨機。對60張MTG套牌，可能需要多洗幾次。 </li>
+<li>洗到10~11次以上：再多洗效果增益有限，因為「隨機性」在這之後曲線已經趨於飽和。</li>
+</ul>
+<h2 id="6-研究結果與結論"><a href="#6-研究結果與結論" class="headerlink" title="6. 研究結果與結論"></a>6. 研究結果與結論</h2><p>在針對52張撲克牌的洗牌研究中，Bayer與Diaconis所提出的結論指出，連續進行 <strong>7 次</strong> 隨機洗牌後，便能讓撲克牌的排列幾乎達到「與完全隨機無顯著差異」的程度。這也呼應先前 <strong>Bayer &amp; Diaconis (1992)</strong> 的推論：<strong>洗牌次數大約與 <code>(3/2(logN/log2)</code> 近似</strong>。若以 (n &#x3D; 52\）代入，計算值約略為8.8次，與實際實驗結果（7次即足夠）相去不遠。</p>
+<p>本研究以同樣的理論基礎，將 <strong>撲克牌改為60張的MTG套牌</strong>（多數基本套牌設計約為60張），並執行大規模的電腦模擬與卡方檢定，探討「從初始狀態洗至接近完全隨機」所需的洗牌次數。理論上，由Aldous與Bayer &amp; Diaconis的公式推得9次 <code>(3/2(logN/log2), N=60)</code> ，意味著洗9次左右應能達到接近最大隨機性。然而，實際模擬結果顯示，隨機洗牌次數約在 <strong>6～7次</strong> 就已經能使 <strong>「整副60張牌的重新排列」和「理想的完全隨機排列」間無顯著差異</strong>。</p>
+<h3 id="一、模擬與檢定方法"><a href="#一、模擬與檢定方法" class="headerlink" title="一、模擬與檢定方法"></a>一、模擬與檢定方法</h3><ol>
+<li><p><strong>程式模擬</strong> </p>
+<ul>
+<li>為了準確估計洗牌次數的影響，本研究針對「隨機切入點洗牌（riffle shuffle）」進行共20萬次的模擬。</li>
+<li>每次皆從「固定的初始排法」開始洗牌，連續進行 (k) 次洗牌後，記錄最終牌序與初始排法的「距離」（total_distance）。</li>
+<li>洗牌方法模型建立：<ol>
+<li><p><strong>切牌</strong>   </p>
+<ul>
+<li>設定切牌位置「大約」在正中央切開。接著設定切牌位置「偏離」中心位置的幅度，使用標準差0.3(整體30%)。   最後確保每半邊至少有幾張牌（程式中預設最少5張）</li>
+</ul>
+</li>
+<li><p><strong>交疊（riffle）</strong>   </p>
+<ul>
+<li>決定一次「從左邊放幾張」或「從右邊放幾張」的機率分布。  <ul>
+<li>有60%的機會只放1張  </li>
+<li>25%的機會一次放2張  </li>
+<li>15%的機會一次放3張</li>
+</ul>
+</li>
+<li>程式會先從左堆拿1～3張放到新牌堆，再從右堆拿1～3張放到新牌堆，如此交錯進行，直到兩堆牌都放完。</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>重複上述程序，藉由大量抽樣（萬次級）穩定估計各種洗牌次數下的牌序分布。</li>
+</ul>
+</li>
+<li><p><strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://zh.wikipedia.org/zh-tw/%E5%8D%A1%E6%96%B9%E6%A3%80%E9%AA%8C">卡方檢定 （Chi-square Test）</a></strong> </p>
+<ul>
+<li>以各次洗牌後的 total_distance 為指標，分組後與「完全隨機之下的距離分布」進行卡方檢定。</li>
+<li><strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://zh.wikipedia.org/wiki/%E9%9B%B6%E5%81%87%E8%AE%BE">虛無假設（H0）</a></strong>：該洗牌次數的分布與完全隨機的分布無顯著差異。</li>
+<li><strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://zh.wikipedia.org/zh-tw/%E6%98%BE%E8%91%97%E6%80%A7%E5%B7%AE%E5%BC%82">顯著水準 (α)</a></strong>：0.05。</li>
+<li>若檢定結果 <strong><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://zh.wikipedia.org/zh-tw/P%E5%80%BC">p-value</a> &gt; 0.05</strong>，即「<strong>不拒絕 H0</strong>」，表示該洗牌次數足以讓牌序達到與完全隨機無顯著差異的程度。</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p><strong>註一</strong>、 Riffle Shuffle 的概念：</p>
+<ol>
+<li>分牌：想像你手中有一副牌，將它分成兩疊。這個動作就像是用大拇指和其他手指將牌分成兩部分。</li>
+<li>交錯插入：接著，從這兩疊牌中交替地隨機抽出一~三張牌，將它們重新組合成一副牌。這個過程就像是將兩疊牌的邊緣對齊，然後用手指輕輕地讓牌交錯地掉落。<blockquote>
+<p><img lazyload src="/images/loading.svg" data-src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Riffle_shuffle_1.jpg"></p>
+</blockquote>
+</li>
+</ol>
+</blockquote>
+<h3 id="二、模擬分析結果"><a href="#二、模擬分析結果" class="headerlink" title="二、模擬分析結果"></a>二、模擬分析結果</h3><p><img lazyload src="/images/loading.svg" data-src="https://hackmd.io/_uploads/SJE1n7FOJl.png" alt="chi_square_trend"></p>
+<p>以下表格整合了從洗牌0次到20次之卡方檢定統計量（Chi2_stat）、自由度 (DOF)、p-value，以及模擬得到的分布敘述統計量 (Mean、Std、Q1、Median、Q3、Min、Max）。</p>
+<blockquote>
+<p><strong>註二</strong>：此處 X^2 檢定之<a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E5%BA%A6_(%E7%BB%9F%E8%AE%A1%E5%AD%A6)">自由度（DOF）</a>預設為 49，完全隨機的情況則不適用。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Shuffles</th>
+<th>X^2_stat</th>
+<th>p_value</th>
+<th>拒絕H0</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>355.9</td>
+<td>0.00</td>
+<td>是</td>
+</tr>
+<tr>
+<td>2</td>
+<td>234.9</td>
+<td>0.00</td>
+<td>是</td>
+</tr>
+<tr>
+<td>3</td>
+<td>152.5</td>
+<td>0.00</td>
+<td>是</td>
+</tr>
+<tr>
+<td>4</td>
+<td>100.6</td>
+<td>0.00</td>
+<td>是</td>
+</tr>
+<tr>
+<td>5</td>
+<td>67.5</td>
+<td>0.04</td>
+<td>是</td>
+</tr>
+<tr>
+<td><strong>6</strong></td>
+<td><strong>49.2</strong></td>
+<td><strong>0.47</strong></td>
+<td><strong>否</strong></td>
+</tr>
+<tr>
+<td>7</td>
+<td>42.6</td>
+<td>0.73</td>
+<td>否</td>
+</tr>
+<tr>
+<td>8</td>
+<td>36.0</td>
+<td>0.92</td>
+<td>否</td>
+</tr>
+<tr>
+<td>9</td>
+<td>33.2</td>
+<td>0.96</td>
+<td>否</td>
+</tr>
+<tr>
+<td>10</td>
+<td>31.9</td>
+<td>0.97</td>
+<td>否</td>
+</tr>
+<tr>
+<td>11</td>
+<td>32.0</td>
+<td>0.97</td>
+<td>否</td>
+</tr>
+<tr>
+<td>12</td>
+<td>31.9</td>
+<td>0.97</td>
+<td>否</td>
+</tr>
+<tr>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr>
+<td>20</td>
+<td>30.9</td>
+<td>0.98</td>
+<td>否</td>
+</tr>
+</tbody></table>
+<p>根據表格可知：</p>
+<ul>
+<li>洗牌1~5次，其p-value皆小於0.05，表示此時「與完全隨機有顯著差異」。</li>
+<li>從洗牌 <strong>6次</strong> 開始，p-value上升到0.4663且大於0.05，代表「與完全隨機無顯著差異」。</li>
+<li>此後洗牌次數再增長，p-value多維持在高於0.05的範圍，顯示排列分布已趨於與「理想完全隨機」相近。</li>
+</ul>
+<h3 id="三、最終建議"><a href="#三、最終建議" class="headerlink" title="三、最終建議"></a>三、最終建議</h3><ol>
+<li><p><strong>模擬結果</strong>： </p>
+<ul>
+<li>本實驗顯示，對 <strong>60張MTG套牌</strong> 而言，從初始排法連續洗至 <strong>6次</strong> 以上，即可達到卡方檢定中「不拒絕與完全隨機分布相同」的水準。</li>
+</ul>
+</li>
+<li><p><strong>建議與限制</strong>： </p>
+<ul>
+<li><strong>若是一般與朋友的對局、或較隨意的賽事</strong>，洗 <strong>5~6次</strong> 就能有不錯的隨機性。 </li>
+<li><strong>若是正式比賽或希望最大程度消弭「記憶、預測」等影響</strong>，則可考慮遵循理論上建議的 <strong>8~9次</strong>甚至更多。 </li>
+<li>以上結論仍依賴於「隨機切入點洗牌（riffle shuffle）」的假設，根據研究切牌、印度式洗牌、大洗都幾乎無法達成隨機的目標，可能導致實際隨機程度不足。</li>
+</ul>
+</li>
+</ol>
+<h2 id="7-參考文獻"><a href="#7-參考文獻" class="headerlink" title="7. 參考文獻"></a>7. 參考文獻</h2><ol>
+<li><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://projecteuclid.org/journals/annals-of-applied-probability/volume-2/issue-2/Trailing-the-Dovetail-Shuffle-to-its-Lair/10.1214/aoap/1177005705.full">Bayer, D. and Diaconis, P. (1992). Trailing the dovetail shuffle to its lair. Annals of Applied Probability 2(2) 294-313.</a> </li>
+<li><a class="link" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.stat.berkeley.edu/~aldous/Papers/shuffling.pdf">Aldous, D. and Diaconis, P. (1986). Shuffling cards and stopping times. American Mathematical Monthly 93 333-348.</a></li>
+</ol>
+
+    <style>.tooltip span{display:none;color:#000}.mtgcard{max-width:300px!important}.tooltip span img{float:left;margin:0}.tooltip:hover span{display:block;position:absolute;top:0;left:0;z-index:1000;margin-top:12px;margin-left:32px;overflow:hidden;padding:8px}.tooltip{text-decoration:none;position:relative;display:inline;opacity:1;z-index:unset}</style>
+  <style>.mtable{padding:16px 16px 32px 16px;border:1px solid #000;box-shadow:7px 5px 5px rgba(0,0,0,.2);min-width:240px;background:unset}.crow{display:flex;width:100%;align-items:baseline}.ccount{width:2em;min-width:1rem}.cname{width:100%;min-width:160px}.ccost{width:5em;min-width:3rem}.tooltip span{display:none;color:#000}.mtgcard{max-width:300px!important}.tooltip span img{float:left;margin:0}.tooltip:hover span{display:block;position:absolute;top:0;left:0;z-index:1000;margin-top:12px;margin-left:32px;overflow:hidden;padding:8px}@media (min-width:900px){.mtable{display:flex;max-width:900px}.mblock{margin-right:30px}.mdeck,.msideboard{width:50%}}.tooltip{text-decoration:none;position:relative;display:inline;opacity:1;z-index:unset}</style>
+		</div>
+
+		
+			
+			
+			
+			
+			<div class="article-footer flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+				<div class="info flex flex-col justify-between">
+					
+						
+
+						
+							<div class="author-container">
+								<div class="item">
+									<div class="avatar-column">
+										<a href="/tags/mm/" class="author flex items-center name text-default-text-color text-lg font-semibold flex">
+											<div class="avatar flex-shrink-0p-[1px]">
+												<img src="https://hackmd.io/_uploads/B1egMNKO1g.png">
+											</div>
+										</a>
+									</div>
+									<div class="author-intro items-center">
+										<div class="author-name">
+											<a href="/tags/mm/" class="text-default-text-color font-semibold p-10px">
+												在魔風迷路的資料科學家
+											</a>
+										</div>
+										
+										<div>
+											
+												<div class="page-template-content markdown-body">
+													在卡牌遊戲中遊走，想要讓最多的朋友一起玩，常常覺得單純開卡包很浪費，沉迷於限制賽與牌組數學運算的快攻玩家。
+												</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						
+					
+				</div>
+			</div>
+		
+
+		
+		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+			<div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> 洗牌次數與隨機性的探索：魔法風雲會玩家該洗幾次牌才夠亂？</li>
+        <li><strong>Author:</strong> 在魔風迷路的資料科學家</li>
+        <li><strong>Created at
+                :</strong> 2025-02-10 12:04:55</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2025-08-12 13:56:37
+            </li>
+        
+        <li>
+            <strong>Link:</strong> https://guildmagesforum.tw/How-Many-Times-to-Riffle-Shuffle/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+
+            
+                This work is licensed under <a class="license" target="_blank" rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a>.
+            
+        </li>
+    </ul>
+</div>
+
+		</div>
+		
+
+		
+  <div class="recommended-article px-2 sm:px-6 md:px-8">
+   <div class="recommended-desktop">
+    <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>或許你會喜歡</span>
+    </div>
+    <div class="recommended-article-group"><a class="recommended-article-item" href="/Beginners-Guide/" title="MTG新手入坑指南" rel="bookmark">
+  <img src="https://i.meee.com.tw/jMNOt22.jpg" alt="MTG新手入坑指南" class="!max-w-none">
+  <span class="title">MTG新手入坑指南</span>
+</a><a class="recommended-article-item" href="/Tiny-Thing-ep-1/" title="那些影響對局的小事情 EP 1 找地篇" rel="bookmark">
+  <img src="https://guildmagesforum.tw/images/cultivate.jpg" alt="那些影響對局的小事情 EP 1 找地篇" class="!max-w-none">
+  <span class="title">那些影響對局的小事情 EP 1 找地篇</span>
+</a><a class="recommended-article-item" href="/How-does-Storm-Work/" title="風暴是如何運作的？" rel="bookmark">
+  <img src="https://i.meee.com.tw/gzrQiC9.png" alt="風暴是如何運作的？" class="!max-w-none">
+  <span class="title">風暴是如何運作的？</span>
+</a><a class="recommended-article-item" href="/MIT-8-Review/" title="哩哩扣扣的賽前準備和MIT#8隨想" rel="bookmark">
+  <img src="https://i.meee.com.tw/ceYbXI5.webp" alt="哩哩扣扣的賽前準備和MIT#8隨想" class="!max-w-none">
+  <span class="title">哩哩扣扣的賽前準備和MIT#8隨想</span>
+</a><a class="recommended-article-item" href="/MIT-9-Review-sertyple/" title="老曹的MIT#9參賽誌" rel="bookmark">
+  <img src="https://i.meee.com.tw/WC6Mr65.jpg" alt="老曹的MIT#9參賽誌" class="!max-w-none">
+  <span class="title">老曹的MIT#9參賽誌</span>
+</a><a class="recommended-article-item" href="/MIT1-Champion-Interview/" title="世界賽選手訪談－MIT第一輪冠軍 李俊廷" rel="bookmark">
+  <img src="https://i.meee.com.tw/PvB1laq.jpg" alt="世界賽選手訪談－MIT第一輪冠軍 李俊廷" class="!max-w-none">
+  <span class="title">世界賽選手訪談－MIT第一輪冠軍 李俊廷</span>
+</a></div>
+   </div>
+   <div class="recommended-mobile">
+   <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>或許你會喜歡</span>
+   </div>
+   <div class="recommended-article-group"><a class="recommended-article-item" href="/Beginners-Guide/" title="MTG新手入坑指南" rel="bookmark">
+  <img src="https://i.meee.com.tw/jMNOt22.jpg" alt="MTG新手入坑指南" class="!max-w-none">
+  <span class="title">MTG新手入坑指南</span>
+</a><a class="recommended-article-item" href="/Tiny-Thing-ep-1/" title="那些影響對局的小事情 EP 1 找地篇" rel="bookmark">
+  <img src="https://guildmagesforum.tw/images/cultivate.jpg" alt="那些影響對局的小事情 EP 1 找地篇" class="!max-w-none">
+  <span class="title">那些影響對局的小事情 EP 1 找地篇</span>
+</a><a class="recommended-article-item" href="/How-does-Storm-Work/" title="風暴是如何運作的？" rel="bookmark">
+  <img src="https://i.meee.com.tw/gzrQiC9.png" alt="風暴是如何運作的？" class="!max-w-none">
+  <span class="title">風暴是如何運作的？</span>
+</a><a class="recommended-article-item" href="/MIT-8-Review/" title="哩哩扣扣的賽前準備和MIT#8隨想" rel="bookmark">
+  <img src="https://i.meee.com.tw/ceYbXI5.webp" alt="哩哩扣扣的賽前準備和MIT#8隨想" class="!max-w-none">
+  <span class="title">哩哩扣扣的賽前準備和MIT#8隨想</span>
+</a></div>
+   </div>
+  </div>
+
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="prev" rel="prev" href="/DFT-Standard-Preliminary/">
+					<span class="left arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-left"></i>
+					</span>
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">乙太飄移標準初探</span>
+						<span class="post-nav-item">Prev posts</span>
+					</span>
+				</a>
+			</div>
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/DFT-Colorless/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">乙太飄移（DFT）限制賽介紹 — 無色、地、特別來賓</span>
+						<span class="post-nav-item">Next posts</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+
+
+		
+		<div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+			<div class="comments-container mt-10 w-full">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        Comments
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>import{init}from"/js/libs/waline.mjs";function loadWaline(){init({el:"#waline",serverURL:"https://mtg-blog-comment.vercel.app/",lang:"zh-TW",dark:'body[class~="dark-mode"]',reaction:!1,requiredMeta:["nick","mail"],emoji:[]})}"undefined"!=typeof swup?loadWaline():window.addEventListener("DOMContentLoaded",loadWaline)</script>
+
+
+
+        
+    
+</div>
+
+		</div>
+		
+	</div>
+
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">On this page</div>
+		<div class="page-title">洗牌次數與隨機性的探索：魔法風雲會玩家該洗幾次牌才夠亂？</div>
+		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E5%89%8D%E8%A8%80%EF%BC%9A%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E7%A0%94%E7%A9%B6%E3%80%8C%E6%B4%97%E5%B9%BE%E6%AC%A1%E6%89%8D%E4%BA%82%E3%80%8D%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">1. 前言：為什麼要研究「洗幾次才亂」？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E7%B0%A1%E5%96%AE%E7%B5%90%E8%AB%96%E8%88%87%E5%AF%A6%E5%8B%99%E5%BB%BA%E8%AD%B0"><span class="nav-number">2.</span> <span class="nav-text">2. 簡單結論與實務建議</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E7%82%BA%E4%BB%80%E9%BA%BCMTG%E7%8E%A9%E5%AE%B6%E8%A6%81%E5%9C%A8%E6%84%8F%E6%B4%97%E7%89%8C%E9%9A%A8%E6%A9%9F%E6%80%A7%EF%BC%9F"><span class="nav-number">3.</span> <span class="nav-text">3. 為什麼MTG玩家要在意洗牌隨機性？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E8%83%8C%E6%99%AF%E7%90%86%E8%AB%96%EF%BC%9A%E5%A6%82%E4%BD%95%E8%A1%A1%E9%87%8F%E3%80%8C%E9%9A%A8%E6%A9%9F%E6%80%A7%E3%80%8D%EF%BC%9F"><span class="nav-number">4.</span> <span class="nav-text">4. 背景理論：如何衡量「隨機性」？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E6%A0%B8%E5%BF%83%E6%83%B3%E6%B3%95%EF%BC%9A%E6%B4%97%E7%89%8C%E6%AC%A1%E6%95%B8-vs-%E9%9A%A8%E6%A9%9F%E6%80%A7"><span class="nav-number">5.</span> <span class="nav-text">5. 核心想法：洗牌次數 vs. 隨機性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-%E7%A0%94%E7%A9%B6%E7%B5%90%E6%9E%9C%E8%88%87%E7%B5%90%E8%AB%96"><span class="nav-number">6.</span> <span class="nav-text">6. 研究結果與結論</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E6%A8%A1%E6%93%AC%E8%88%87%E6%AA%A2%E5%AE%9A%E6%96%B9%E6%B3%95"><span class="nav-number">6.1.</span> <span class="nav-text">一、模擬與檢定方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%A8%A1%E6%93%AC%E5%88%86%E6%9E%90%E7%B5%90%E6%9E%9C"><span class="nav-number">6.2.</span> <span class="nav-text">二、模擬分析結果</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E6%9C%80%E7%B5%82%E5%BB%BA%E8%AD%B0"><span class="nav-number">6.3.</span> <span class="nav-text">三、最終建議</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-%E5%8F%83%E8%80%83%E6%96%87%E7%8D%BB"><span class="nav-number">7.</span> <span class="nav-text">7. 參考文獻</span></a></li></ol>
+
+	</div>
+</div>
+	</div>
+	
+</div>
+
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+            <div class="customize-info my-1">Guildmages' Forum 魔風集會所的部分內容是威世智 (Wizards of the Coast) 同好內容政策允許的非官方同好內容。 <br> 本網站所提供之魔法風雲會 (Magic the Gathering, MTG) 文字和圖形資訊，包括卡片圖像、魔法力符號和部分卡片資訊的中文翻譯，版權均為孩之寶集團的子公司威世智所有。 <br> Guildmages' Forum 魔風集會所並不由威世智製作、背書、支持，亦不隸屬於該公司。 <br> 上述聲明以外的所有內容均屬於 2023 © Guildmages' Forum 魔風集會所以及其協力創作者們。</div>
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2023</span>
+              -
+            
+            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration:0.5s;color:#f54545"></i>&nbsp;&nbsp;<a href="/">Guildmages&#39; Forum Staff</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        275 posts in total
+                    </span>
+                    
+                        <span>
+                            1097.4k words in total
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://events.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">VISITOR COUNT</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">TOTAL PAGE VIEWS</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">POWERED BY <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewbox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io" rel="external nofollow noopener noreferrer">Hexo</a></span>
+            <span class="text-sm lg:block">THEME&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine" rel="external nofollow noopener noreferrer">Redefine v2.8.2</a></span>
+        </div>
+        
+        
+            <div>
+                Blog up for <span class="odometer" id="runtime_days"></span> days <span class="odometer" id="runtime_hours"></span> hrs <span class="odometer" id="runtime_minutes"></span> Min <span class="odometer" id="runtime_seconds"></span> Sec
+            </div>
+        
+        
+            <script data-swup-reload-script>try{function odometer_init(){document.querySelectorAll(".odometer").forEach(e=>{new Odometer({el:e,format:"( ddd).dd",duration:200})})}odometer_init()}catch(e){}</script>
+        
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
+
+		
+		
+		<li class="go-comment">
+			<i class="fa-regular fa-comments"></i>
+		</li>
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		
+		
+		<li class="right-bottom-tools rss flex justify-center items-center">
+			<a class="flex justify-center items-center" href="/atom.xml" target="_blank">
+				<i class="fa-regular fa-rss"></i>
+			</a>
+		</li>
+		
+
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="arrow-up fas fa-arrow-up"></i>
+			<span class="percent"></span>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container">
+	<img src>
+</div>
+
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Search..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+</main>
+
+
+
+<script src="/js/build/libs/Swup.min.js"></script>
+
+<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>const swup=new Swup({plugins:[new SwupScriptsPlugin({optin:!0}),new SwupProgressPlugin,new SwupScrollPlugin({offset:80}),new SwupSlideTheme({mainElement:".main-content-body"}),new SwupPreloadPlugin],containers:["#swup"]})</script>
+
+
+
+
+	
+<script src="/js/build/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/build/utils.js" type="module"></script>
+
+<script src="/js/build/main.js" type="module"></script>
+
+<script src="/js/build/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/build/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/build/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/build/layouts/categoryList.js" type="module"></script>
+
+
+
+    
+<script src="/js/build/tools/localSearch.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/runtime.js"></script>
+
+    
+<script src="/js/build/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/build/libs/Typed.min.js"></script>
+
+  
+<script src="/js/build/plugins/typed.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+    
+<script src="/js/build/tools/tocToggle.js" type="module" data-swup-reload-script></script>
+
+<script src="/js/build/layouts/toc.js" type="module" data-swup-reload-script></script>
+
+<script src="/js/build/plugins/tabs.js" type="module" data-swup-reload-script></script>
+
+
+
+
+<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script></script>
+
+
+<script src="/js/build/layouts/essays.js" type="module" data-swup-reload-script></script>
+
+
+
+    
+<script src="/js/build/libs/pangu.min.js"></script>
+
+<script src="/js/build/plugins/pangu.js"></script>
+
+
+
+
+	
+</body>
+
+</html>
